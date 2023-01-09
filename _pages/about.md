@@ -22,7 +22,7 @@ In 2015 I joined Salesforce to kick off this new project called [Trailhead](http
 - Part of the initial Work.com team providing integrations for Trailhead via a series of Lightning Web Components.
 
 
-After 7 years on Team Trailhead, I moved over the to [MuleSoft](https://www.mulesoft.com) side of the house in early 2022 to focus on APIs and Salesoforce integration.
+After 7 years on Team Trailhead, I moved over to the [MuleSoft](https://www.mulesoft.com) side of the house in early 2022 to focus on APIs and Salesforce integration.
 
 In 2015 my wife, son and myself founded a 200 seat restaurant and brewery producing 500+ BBLs of beer and cider annually. We owned and operated [3 Keys Brewing & Eatery](https://www.3keysbrewing.com) for 4 years before selling it right before the pandemic hit.
 
