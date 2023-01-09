@@ -30,7 +30,7 @@
       </h2>
 
       {% if post.description %}
-      <p class="article__excerpt">{{ post.description }}</p>
+      <p class="article__excerpt">{{ post.description | slice: 0, 75 }}...</p>
       {% endif %}
 
     </div>

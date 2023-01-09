@@ -1,0 +1,24 @@
+---
+layout: post
+title:  SQLForce - Command Line ANSI SQL for Salesforce
+description: There are tons of great community contributed projects on Force.com Code Share ! I was browsing last week and ran across  SQLForce , a command line scriptable tool that provides ANSI like SOQL DELETE, INSERT, UPDATE, SELECT/DISTINCT, and SELECT/UNION commands. The project has been out for a year but Ive never heard anyone talk about it so I decided to give it a whirl. Here are some sample SQL statements that you can run-  SELECT Id, Name FROM Account Limit 10; SELECT Id, Name FROM Account Limit 
+date: 2011-06-07 07:50:54 +0300
+image:  '/images/slugs/sqlforce.jpg'
+tags:   ["2011", "public"]
+---
+<p>There are tons of great community contributed projects on <a href="http://developer.force.com/codeshare">Force.com Code Share</a>! I was browsing last week and ran across <a href="http://developer.force.com/codeshare/projectpage?id=a0630000005SmxQAAS">SQLForce</a>, a command line scriptable tool that provides ANSI like SOQL DELETE, INSERT, UPDATE, SELECT/DISTINCT, and SELECT/UNION commands. The project has been out for a year but I've never heard anyone talk about it so I decided to give it a whirl.</p>
+<p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327786/sqlforce_dhscw8.png" alt="" ></p>
+<p>Here are some sample SQL statements that you can run:</p>
+{% highlight js %}SELECT Id, Name FROM Account Limit 10;
+{% endhighlight %}
+{% highlight js %}SELECT Id, Name FROM Account Limit 10 Output '/Users/Jeff/Accounts.txt';
+{% endhighlight %}
+{% highlight js %}INSERT INTO Contact (AccountId, FirstName, LastName) SELECT Acct, N1, N2 FROM CustomObject__c;
+{% endhighlight %}
+{% highlight js %}UPDATE Contact SET MailingCountry='USA'
+WHERE MailingCountry IN ('United States', 'US', 'United States of America', 'America');
+{% endhighlight %}
+{% highlight js %}DELETE From Account WHERE Name = 'My Account';
+{% endhighlight %}
+<p>After using SQLForce for about week now I'm in love with it. Here's a brief video of it's features. The install is absolutely painless so give it a try.</p>
+<figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/AQTT4j5PIVI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>

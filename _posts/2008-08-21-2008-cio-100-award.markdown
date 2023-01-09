@@ -1,0 +1,11 @@
+---
+layout: post
+title:  2008 CIO 100 Award
+description: Now in its 21st year, the CIO 100 Award is known worldwide as the most prestigious honor in the IT user community and is awarded to 100 companies and their CIOs for leadership in business, technology and innovation. For the third consecutive year, we have been honored by CIO Magazine with the coveted distinction . This year we were recognized for applications developed to support operations and management of its biomedical technologies training and educational programs. See our Press Release and
+date: 2008-08-21 09:26:04 +0300
+image:  '/images/slugs/2008-cio-100-award.jpg'
+tags:   ["2008", "public"]
+---
+<p><img class="alignleft size-full wp-image-424" style="margin-left:10px;margin-right:10px;" title="cio-2008-cover" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399678/cio-2008-cover_b9zvxc.jpg" alt="cio-2008-cover" width="125" height="164" />Now in its 21st year, the CIO 100 Award is known worldwide as the most prestigious honor in the IT user community and is awarded to 100 companies and their CIOs for leadership in business, technology and innovation. For the third consecutive year, we have been honored by CIO Magazine with the coveted distinction . This year we were recognized for applications developed to support operations and management of its biomedical technologies training and educational programs.</p>
+<p>See our <a href="http://www.medisend.org/2008-cio-100-award.html" target="_blank">Press Release</a> and our <a href="http://www.cio.com/cio100/detail/1848" target="_blank">Profile at CIO Magazine</a>.</p>
+

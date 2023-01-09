@@ -7,11 +7,24 @@ image: '/images/original-trailhead-team.jpg'
 
 I've been married for 25+ years and we have four biological kids and three adopted. We had 95+ foster children over 15 years. Raising kids was sooo much fun the first time we thought we'd do it again with other people's offspring. In my spare time I like to take large pieces of wood, cut them into smaller pieces of wood and then glue them back together into things that people can use.
 
-I was one of the first [Force.com MVPs](http://developer.force.com/mvp_profile_jeff) (inaugural class of 10 developers in 2010) and the co-author of two books, the Salesforce Handbook and Beginning Google App Engine for Java.
+I've been writing softare since high school. I possess a strong business and technology background with 25+ years of experience with cloud computing, application development and community building. I've been working on the Salesforce platform since 2007. I was one of the first [Force.com MVPs](http://developer.force.com/mvp_profile_jeff) (inaugural class of 10 developers in 2010) and the co-author of two books, the Salesforce Handbook and Beginning Google App Engine for Java. 
 
-![](https://blog.jeffdouglas.com/content/images/2015/09/trailhead-logo-img.png)
+In 2015 I joined Salesforce to kick off this new project called [Trailhead](http://trailhead.salesforce.com) as a Principal Member of the Technical Staff (PMTS).  As one of the first three full-time resource on Trailhead, I was responsible for developing and managing developer focused content on Trailhead, building platform tools and applications, speaking at events and interacting with the Salesforce developer community.
 
-I'm a Software Engineering PMTS on Team Trailhead at Salesforce working on the team to make [Trailhead](http://trailhead.salesforce.com) **the best place** to learn Salesforce and more!
+- Led a team of developers to write, test, debug and deploy "hands on challenge" assessment code for all Trailhead badges.
+- Part of the team tasked to write the first four Trailhead Superbadges including content, logic, specifications and hands on challenge assessment code for Apex Integration Specialist, Security Specialist, Reports & Dashboards Specialist and Lightning Experience Specialist superbadges.
+- Developed, wrote content and coded hands on challenges for Build a Battle Station project, Apex Integration Services module and Asynchronous Apex module.
+- Architected and built the Trailhead Release App, a managed package for the Engineering Salesforce org to manage Trailhead Badges, Trails, release planning, bugs and testing. 
+- Architected, built and deployed Trailboss, an internal application to maintain multiple choice quizzes and write/test hands on challenge code for Trailhead badges including integration with multiple Salesforce orgs and Trailhead service.
+- Part of "Team Sriracha" that develops and maintains assessment based services including the Assessments Engine, Assessments API and Trailboss.
+- Worked daily on numerous backend and frontend services of the Trailhead platform.
+- Architected and built Trailhead Trail Tracker, a managed package allowing companies to guide their employees through their Salesforce learning adventure on Trailhead. Integration with the Trailhead API allows companies to assign, track and report on earned and assigned badges.
+- Part of the initial Work.com team providing integrations for Trailhead via a series of Lightning Web Components.
+
+
+After 7 years on Team Trailhead, I moved over the to [MuleSoft](https://www.mulesoft.com) side of the house in early 2022 to focus on APIs and Salesoforce integration.
+
+In 2015 my wife, son and myself founded a 200 seat restaurant and brewery producing 500+ BBLs of beer and cider annually. We owned and operated [3 Keys Brewing & Eatery](https://www.3keysbrewing.com) for 4 years before selling it right before the pandemic hit.
 
 For over 6 years I was a Senior Technical Consultant at <a href="http://www.appirio.com">Appirio</a> & Developer Evangelist Architect at [topcoder](http://www.topcoder.com) specializing in cloud, APIs & mobile apps. I worked on every type of Salesforce project available including Sales Cloud, Service Cloud, Custom Cloud and Chatter. I'm a certified Service Cloud consultant, administrator and developer. I ran Appirio's Heroku Center of Excellence and worked with the platform every day.
 

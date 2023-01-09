@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Salesforce.com with Flex and BlazeDS Tutorial
-description: It’s fairly common these days to see Flex applications running insideSal...
+description:   It’s fairly common these days to see Flex applications running inside Salesforce.com. We use Apex and Visualforce for a large majority of our custom UIs but there are some instances that just work better with Flex (drag and drop, trees, tabbed interfaces, etc.). But what if you have a shiny, new Flex application running on your corporate website and your CEO decides he wants to display some data stored in Salesforce.com? Better yet, he wants a mashup using Salesforce.com, Google Maps, Flickr a
 date: 2009-03-26 18:08:45 +0300
-image:  '/images/stock/1.jpg'
+image:  '/images/slugs/tutorial-salesforcecom-with-flex-and-blazeds.jpg'
 tags:   ["2009", "public"]
 ---
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399674/blaze-app_sxcicv.png" alt="" ></p>
@@ -35,16 +35,16 @@ You will also need a Free Developer Edition of Salesforce.com. There is a link i
 <p>Unzip the file and place the war file into your <strong>webapps</strong> directory in Tomcat. If the war doesn't automatically explode then you will need to restart Tomcat. Your <strong>WEB-INF</strong> directory should look like the following:</p>
 <img class="alignnone size-full wp-image-576" title="blaze-tutorial-1" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399673/blaze-tutorial-11_dkwsvs.png" alt="blaze-tutorial-1" width="544" height="297" />
 <h2 style="padding-top:20px;">Create Your Java Server Project</h2>
-<p>You will need to a Java project to develop the server-side components of this tutorial. Create a new Java project in Eclipse (File -&gt; New -&gt; Java Project. On the next screen enter your Project name as &quot;sfdc-blaze-server&quot;. Your screen should look like the following. After you confirm the settings, click Next.</p>
+<p>You will need to a Java project to develop the server-side components of this tutorial. Create a new Java project in Eclipse (File -> New -> Java Project. On the next screen enter your Project name as "sfdc-blaze-server". Your screen should look like the following. After you confirm the settings, click Next.</p>
 <img class="alignnone size-full wp-image-580" title="blaze-tutorial-31" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399671/blaze-tutorial-31_hom4s9.png" alt="blaze-tutorial-31" width="544" height="609" />
-<p>On the next screen make sure the Default output folder is &quot;sfdc-blaze-server/bin&quot; and click Finish.</p>
-<p>To make life a little easier we’ll create a new folder in the project and link it to the Tomcat <strong>classes</strong> directory. Right click on your Eclipse project and select New -&gt; Folder. Name the folder &quot;classes&quot;, click the Advanced button and link it to the <strong>classes</strong> folder in the Tomcat application. Your screen should look like the following:</p>
+<p>On the next screen make sure the Default output folder is "sfdc-blaze-server/bin" and click Finish.</p>
+<p>To make life a little easier we’ll create a new folder in the project and link it to the Tomcat <strong>classes</strong> directory. Right click on your Eclipse project and select New -> Folder. Name the folder "classes", click the Advanced button and link it to the <strong>classes</strong> folder in the Tomcat application. Your screen should look like the following:</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399670/blaze-tutorial-5_jujlpl.png" alt="" ></p>
-<p>Now from the Eclipse menu, select Project -&gt; Properties and change your Java Build Path to &quot;sfdc-blaze-server/classes&quot;. This will compile your classes directly into your <strong>WEB-INF/classes</strong> directory for you. Your screen should look like the following:</p>
+<p>Now from the Eclipse menu, select Project -> Properties and change your Java Build Path to "sfdc-blaze-server/classes". This will compile your classes directly into your <strong>WEB-INF/classes</strong> directory for you. Your screen should look like the following:</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399669/blaze-tutorial-6_pjza6o.png" alt="" ></p>
 <h2 style="padding-top:20px;">Import the Salesforce.com WSDL</h2>
-<p>For your Java application to connect with  SFDC we need to download the Salesforce.com WDSL. Log into your Developer org and go to Setup -&gt; Develop -&gt; API. You can download either the Enterprise or Developer WSDL but for this tutorial we’ll use the Enterprise WDSL as it makes life a little easier. Save this file in your Eclipse project as &quot;enterprise.wsdl&quot;.</p>
-<p>To create the Java code, right click on enterprise.wsdl and choose Web Services -&gt; Generate Client. Select the defaults on the screen and click Finish. This runs WSDL2Java and generates the source for Salesforce.com and compiles it into your <strong>classes</strong> directory underneath Tomcat. Your Eclipse project should look like the image below:</p>
+<p>For your Java application to connect with  SFDC we need to download the Salesforce.com WDSL. Log into your Developer org and go to Setup -> Develop -> API. You can download either the Enterprise or Developer WSDL but for this tutorial we’ll use the Enterprise WDSL as it makes life a little easier. Save this file in your Eclipse project as "enterprise.wsdl".</p>
+<p>To create the Java code, right click on enterprise.wsdl and choose Web Services -> Generate Client. Select the defaults on the screen and click Finish. This runs WSDL2Java and generates the source for Salesforce.com and compiles it into your <strong>classes</strong> directory underneath Tomcat. Your Eclipse project should look like the image below:</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399638/blaze-tutorial-7_ynyax4.png" alt="" ></p>
 <h2 style="padding-top:20px;">Add Additional Jars for Web Services</h2>
 <p>For the web services integration with Salesforce.com, you will need to add the following jar files to your <strong>sfdc-blazeds/WEB-INF/lib</strong> directory in Tomcat. These jars are all contained in the code for this tutorial.</p>
@@ -65,8 +65,8 @@ You will also need a Free Developer Edition of Salesforce.com. There is a link i
 	<li>Company – a simple POJO that is transferred between the server and client.</li>
 </ul>
 <h2 style="padding-top:20px;">Create your Service Object</h2>
-<p>Click on File -&gt; New -&gt; Class, enter your package name (com.jeffdouglas.flex), class name (SfdcService) and click Finish. Add the following code for the class. Be sure to add your Salesforce.com Developer username and password (and security token if needed) into your code.</p>
-<pre><code>package com.jeffdouglas.flex;
+<p>Click on File -> New -> Class, enter your package name (com.jeffdouglas.flex), class name (SfdcService) and click Finish. Add the following code for the class. Be sure to add your Salesforce.com Developer username and password (and security token if needed) into your code.</p>
+{% highlight js %}package com.jeffdouglas.flex;
 
 import com.sforce.soap.enterprise.*;
 import com.sforce.soap.enterprise.SessionHeader;
@@ -82,22 +82,22 @@ public class SfdcService {
     private SoapBindingStub binding;
     private LoginResult loginRes = null;
 
-    private final String SFDC_USERNAME = &quot;YOUR_USERNAME&quot;;
-    private final String SFDC_PASSWORD = &quot;YOUR_PASSWORD&quot;; // may need your security token
+    private final String SFDC_USERNAME = "YOUR_USERNAME";
+    private final String SFDC_PASSWORD = "YOUR_PASSWORD"; // may need your security token
 
     // fetch 10 accounts and return as a vector of Companies
-    public Vector&lt;company&gt; getAccounts() {
+    public Vector<company> getAccounts() {
 
-        Vector&lt;company&gt; v = new Vector&lt;company&gt;();
+        Vector<company> v = new Vector<company>();
         QueryResult qr = null;
 
         // log into Salesforce.com
         if (login()) {
 
             try {
-                qr = binding.query(&quot;Select Id, Name From Account Limit 10&quot;);
-                if (qr.getSize() &gt; 0){
-                    for (int i=0;i&lt;qr.getRecords().length;i++) {
+                qr = binding.query("Select Id, Name From Account Limit 10");
+                if (qr.getSize() > 0){
+                    for (int i=0;i<qr.getRecords().length;i++) {
                         Account a = (Account)qr.getRecords(i);
                         Company c = new Company();
                         c.setId(a.getId());
@@ -110,7 +110,7 @@ public class SfdcService {
             }
 
         } else {
-            System.out.println(&quot;Not logged into Salesforce.com&quot;);
+            System.out.println("Not logged into Salesforce.com");
         }
 
         return v;
@@ -119,7 +119,7 @@ public class SfdcService {
 
     // helper method to test the remoting
     public String sayHello() {
-        return &quot;Hello World!&quot;;
+        return "Hello World!";
     }
 
     // log into Salesforce.com
@@ -127,7 +127,7 @@ public class SfdcService {
         try {
 
             //Provide feed back while we create the web service binding
-            System.out.println(&quot;Creating the binding to the web service...&quot;);
+            System.out.println("Creating the binding to the web service...");
 
             //Create the binding to the sforce service
             binding = (SoapBindingStub) new SforceServiceLocator().getSoap();
@@ -137,18 +137,18 @@ public class SfdcService {
 
             try {
                 //Attempt the login giving the user feedback
-                System.out.println(&quot;LOGGING IN NOW....&quot;);
+                System.out.println("LOGGING IN NOW....");
                 loginRes = binding.login(SFDC_USERNAME, SFDC_PASSWORD);
             } catch (LoginFault ex2) {
-                System.out.println(&quot;Login failure: &quot;+ex2.getExceptionMessage());
+                System.out.println("Login failure: "+ex2.getExceptionMessage());
                 return false;
             } catch (RemoteException ex2) {
-                System.out.println(&quot;Remote Login failure: &quot;+ex2.getMessage());
+                System.out.println("Remote Login failure: "+ex2.getMessage());
                 return false;
             }
 
-            System.out.println(&quot;The session id is:&quot; + loginRes.getSessionId());
-            System.out.println(&quot;The new server url is:&quot; + loginRes.getServerUrl());
+            System.out.println("The session id is:" + loginRes.getSessionId());
+            System.out.println("The new server url is:" + loginRes.getServerUrl());
 
             binding._setProperty(SoapBindingStub.ENDPOINT_ADDRESS_PROPERTY, loginRes.getServerUrl());
             // Create a new session header object
@@ -156,7 +156,7 @@ public class SfdcService {
             // add the session ID returned from the login
             sh.setSessionId(loginRes.getSessionId());
             //.Set the session header for subsequent call authentication
-            binding.setHeader(new SforceServiceLocator().getServiceName().getNamespaceURI(),&quot;SessionHeader&quot;, sh); 
+            binding.setHeader(new SforceServiceLocator().getServiceName().getNamespaceURI(),"SessionHeader", sh); 
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -166,10 +166,10 @@ public class SfdcService {
 
 }
 
-</code></pre>
+{% endhighlight %}
 <h2 style="padding-top:20px;">Create your Value Object</h2>
-<p>Create your Value Object to hold the Account’s id and name. Click on File -&gt; New -&gt; Class, enter your package name (com.jeffdouglas.flex), class name (Company) and click Finish. Add the following code for the class:</p>
-<pre><code>package com.jeffdouglas.flex;
+<p>Create your Value Object to hold the Account’s id and name. Click on File -> New -> Class, enter your package name (com.jeffdouglas.flex), class name (Company) and click Finish. Add the following code for the class:</p>
+{% highlight js %}package com.jeffdouglas.flex;
 
 public class Company {
 
@@ -191,19 +191,19 @@ public class Company {
 
 }
 
-</code></pre>
+{% endhighlight %}
 <h2 style="padding-top:20px;">Create your Remoting Destination</h2>
 <p>A Remoting destination exposes a Java class that your Flex application can invoke remotely. The destination id is a logical name that your Flex application uses to refer to the remote class, which eliminates the need to hardcode a reference to the fully qualified Java class name. This logical name is mapped to the Java class name as part of the destination configuration in remoting-config.xml. Open the remoting-config.xml file in your WEB-INF/flex directory and add the following destination:</p>
-<pre><code>&lt;destination id=&quot;sfdcService&quot;&gt;
-&lt;properties&gt;
-        &lt;source&gt;com.jeffdouglas.flex.SfdcService&lt;/source&gt;
-    &lt;/properties&gt;
-&lt;/destination&gt;
-</code></pre>
+{% highlight js %}<destination id="sfdcService">
+<properties>
+        <source>com.jeffdouglas.flex.SfdcService</source>
+    </properties>
+</destination>
+{% endhighlight %}
 <p>Your remoting-config.xml file should look like:</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399637/blaze-tutorial-21_c0y8r4.png" alt="" ></p>
 <h2 style="padding-top:20px;">Create your Flex Project</h2>
-<p>Create your Flex application by selecting File -&gt; New -&gt; Flex Project in the Eclipse menu. Enter “sfdc-client” as the project name and configure it based upon the images below. Click Next.</p>
+<p>Create your Flex application by selecting File -> New -> Flex Project in the Eclipse menu. Enter “sfdc-client” as the project name and configure it based upon the images below. Click Next.</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399636/blaze-tutorial-8_yb6wjv.png" alt="" ></p>
 <p>Make sure the root folder for LiveCycle Data Services matches the root folder of your BlazeDS web application. The settings should look similar to these:</p>
 <p>Root Folder: /Applications/apache-tomcat-5.5.25/webapps/blazeds<br>
@@ -212,19 +212,19 @@ Context Root: /blazeds</p>
 <p>Click Validate Configuration and then Finish. Your screen should look similar to the one below:</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399635/blaze-tutorial-9_cwovim.png" alt="" ></p>
 <p>Once your project has been created, open main.mxml and add the following code:</p>
-<pre><code class="language-javascript">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;mx:Application xmlns:mx=&quot;http://www.adobe.com/2006/mxml&quot;
-	layout=&quot;absolute&quot; width=&quot;600&quot; height=&quot;400&quot;&gt;
+{% highlight js %}<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+	layout="absolute" width="600" height="400">
 
-	&lt;mx:RemoteObject id=&quot;sfdc&quot;
-		destination=&quot;sfdcService&quot;
-		showBusyCursor=&quot;true&quot;&gt;
-		&lt;mx:method name=&quot;sayHello&quot; result=&quot;helloHandler(event)&quot; fault=&quot;faultHandler(event)&quot; /&gt;
-		&lt;mx:method name=&quot;getAccounts&quot; result=&quot;accountsHandler(event)&quot; fault=&quot;faultHandler(event)&quot; /&gt;
-	&lt;/mx:RemoteObject&gt;
+	<mx:RemoteObject id="sfdc"
+		destination="sfdcService"
+		showBusyCursor="true">
+		<mx:method name="sayHello" result="helloHandler(event)" fault="faultHandler(event)" />
+		<mx:method name="getAccounts" result="accountsHandler(event)" fault="faultHandler(event)" />
+	</mx:RemoteObject>
 
-	&lt;mx:Script&gt;
-		&lt;![CDATA[
+	<mx:Script>
+		<![CDATA[
 		import mx.controls.Alert;
 		import mx.collections.ArrayCollection;
 		import mx.rpc.events.FaultEvent;
@@ -244,27 +244,27 @@ Context Root: /blazeds</p>
 		private function faultHandler(event:FaultEvent):void {
 			Alert.show(event.fault.faultString);
 		}
-		]]&gt;
-	&lt;/mx:Script&gt;
+		]]>
+	</mx:Script>
 
-	&lt;mx:Label x=&quot;10&quot; y=&quot;10&quot; text=&quot;Salesforce.com / BlazeDS Account Demo&quot; color=&quot;#FFFFFF&quot; fontSize=&quot;25&quot;/&gt;
-	&lt;mx:Button x=&quot;10&quot; y=&quot;70&quot; label=&quot;Fetch Accounts from Salesforce.com&quot; click=&quot;sfdc.getAccounts()&quot;/&gt;
-	&lt;mx:Button x=&quot;482&quot; y=&quot;70&quot; label=&quot;Say Hello&quot; click=&quot;sfdc.sayHello()&quot;/&gt;
-	&lt;mx:DataGrid id=&quot;dg&quot; dataProvider=&quot;{companies}&quot; left=&quot;10&quot; right=&quot;10&quot; bottom=&quot;10&quot; top=&quot;100&quot;&gt;
-		&lt;mx:columns&gt;
-			&lt;mx:DataGridColumn headerText=&quot;Id&quot; dataField=&quot;id&quot;/&gt;
-			&lt;mx:DataGridColumn headerText=&quot;Name&quot; dataField=&quot;name&quot;/&gt;
-		&lt;/mx:columns&gt;
-	&lt;/mx:DataGrid&gt;
-&lt;/mx:Application&gt;
+	<mx:Label x="10" y="10" text="Salesforce.com / BlazeDS Account Demo" color="#FFFFFF" fontSize="25"/>
+	<mx:Button x="10" y="70" label="Fetch Accounts from Salesforce.com" click="sfdc.getAccounts()"/>
+	<mx:Button x="482" y="70" label="Say Hello" click="sfdc.sayHello()"/>
+	<mx:DataGrid id="dg" dataProvider="{companies}" left="10" right="10" bottom="10" top="100">
+		<mx:columns>
+			<mx:DataGridColumn headerText="Id" dataField="id"/>
+			<mx:DataGridColumn headerText="Name" dataField="name"/>
+		</mx:columns>
+	</mx:DataGrid>
+</mx:Application>
 
-</code></pre>
+{% endhighlight %}
 <h2 style="padding-top:20px;">Create your ActionScript Value Object</h2>
-<p>Right-click the src folder in the sfdc-client project and select New -&gt; ActionScript Class. Enter the class name as “Company” and click Finish. Add the following code:</p>
-<pre><code class="language-javascript">package
+<p>Right-click the src folder in the sfdc-client project and select New -> ActionScript Class. Enter the class name as “Company” and click Finish. Add the following code:</p>
+{% highlight js %}package
 {
     [Bindable]
-    [RemoteClass(alias=&quot;com.jeffdouglas.flex.Company&quot;)]
+    [RemoteClass(alias="com.jeffdouglas.flex.Company")]
     public class Company
     {
 
@@ -274,8 +274,8 @@ Context Root: /blazeds</p>
     }
 }
 
-</code></pre>
-<p>Notice that the code uses the [RemoteClass(alias=&quot; com.jeffdouglas.flex.Company&quot;)] annotation to map the ActionScript version of the Company class (Company.as) to the Java version (Company.java). As a result, Company objects returned by the getAccounts() method of the service layer are deserialized into instances of the ActionScript Company classes automatically for you.</p>
+{% endhighlight %}
+<p>Notice that the code uses the [RemoteClass(alias=" com.jeffdouglas.flex.Company")] annotation to map the ActionScript version of the Company class (Company.as) to the Java version (Company.java). As a result, Company objects returned by the getAccounts() method of the service layer are deserialized into instances of the ActionScript Company classes automatically for you.</p>
 <h2 style="padding-top:20px;">Run the Application</h2>
 <p>Now compile, run and test your application.</p>
 

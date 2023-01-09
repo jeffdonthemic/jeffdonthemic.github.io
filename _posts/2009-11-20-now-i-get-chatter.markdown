@@ -1,0 +1,14 @@
+---
+layout: post
+title:  NOW I Get Chatter!!
+description: As part of Appirio  I was exposed to Chatter  before the public announcement. I have to admit that when I originally first saw it I wasnt really impressed. I understand that people, applications, documents, etc. can Chatter but to me it seemed just like another social network that I would have to check in addition to Twitter, LinkedIn and Facebook. Even when Marc Benioff publically unveiled Chatter I was still luke warm to the technology. The light bulb finally clicked when our CMO and Head of R
+date: 2009-11-20 22:08:33 +0300
+image:  '/images/slugs/now-i-get-chatter.jpg'
+tags:   ["2009", "public"]
+---
+<img class="alignleft size-full wp-image-1717" style="padding-right:10px;" title="chatter-logo" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399406/chatter-logo_wlucjd.png" />
+<p>As part of <a href="http://www.appirio.com" target="_blank">Appirio</a> I was exposed to <a href="http://www.salesforce.com/chatter" target="_blank">Chatter</a> before the public announcement. I have to admit that when I originally first saw it I wasn't really impressed. I understand that people, applications, documents, etc. can Chatter but to me it seemed just like another social network that I would have to check in addition to Twitter, LinkedIn and Facebook. Even when Marc Benioff publically unveiled Chatter I was still luke warm to the technology.</p>
+<p>The light bulb finally clicked when our CMO and Head of R&D, Narinder Singh, demoed our Social PS Enterprise in the Day 2 Keynote. It was by far the best demo at <a href="http://dreamforce.appirio.com" target="_blank">Dreamforce 09</a> and I had a number of non-Appirio people tell me so. In the demo Narinder showed how he could enter a new timecard and the project would Chatter that its status had gone from green to yellow. That's awesome in itself but the real magic was when he updated a spreadsheet in Google Docs and the project Chattered that it was now back on schedule. A number of people mentioned to me that there was a audible gasp when he pulled this off.</p>
+<p>We have a really <a href="http://www.appirio.com/products/SvcsResource_PSEsocial.php" target="_blank">great demo of Social PS Enterprise</a> on the Appirio site if you are interested in taking another look.</p>
+<p>I'm really interested to see how they implement role and record based security to the Chatter that is broadcast. I'm also hoping that someone like <a href="http://www.kyleroche.com/" target="_blank">Kyle Roche</a> writes a client app that combines Chatter, Twitter and Facebook. Perhaps TweetDeck or Tweetie can be persuaded.</p>
+<figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/Xu-2ZgrmBhs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>

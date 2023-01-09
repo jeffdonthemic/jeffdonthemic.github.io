@@ -1,0 +1,17 @@
+---
+layout: post
+title:  Ghost CLI
+description: Since the Ghost blogging platform does not currently include a CLI (as of 0.4.2), I decided to build one with some simple admin functionality. I needed a number of these functions when I ported this blog from WordPress to Ghost. With almost 500 posts, I had a number things that needed to be corrected and cleaned up. I had bad HTML, images that didnt properly migrate to Cloudinary and a number of other issues. You can install the CLI from this repo.  The CLI operates from the export of your blogs
+date: 2014-06-02 09:57:16 +0300
+image:  '/images/slugs/ghost-cli.jpg'
+tags:   ["2014", "public"]
+---
+<p>Since the Ghost blogging platform does not currently include a CLI (as of 0.4.2), I decided to build one with some simple admin functionality. I needed a number of these functions when I ported this blog from WordPress to Ghost. With almost 500 posts, I had a number things that needed to be corrected and cleaned up. I had bad HTML, images that didn't properly migrate to Cloudinary and a number of other issues.</p>
+<p><strong><a href="https://github.com/jeffdonthemic/ghost-cli">You can install the CLI from this repo.</a></strong></p>
+<p><img src="images/ghost-cli.png" alt="" ></p>
+<p>The CLI operates from the export of your blog's settings and data. Any changes made using the CLI are not reflected in your blog. You must manually update your blog.</p>
+<p>Ghost is expected to release a CLI with an upcoming version so this may become obselete shortly. In the meantime, I hope you find it useful.</p>
+<p>This video covers installation and an overview of the CLI's functionality.</p>
+<div class="flex-video"><iframe width="640" height="480" src="//www.youtube.com/embed/LzG_EJ14g3Q" frameborder="0" allowfullscreen></iframe></div>
+<p>There's also a bonus command called <code>waybackit</code>. This command will search a file for images by a root (let's say youf WordPress content URL), look for the image in the Wayback Machine and if found, update that file with the new URL.</p>
+

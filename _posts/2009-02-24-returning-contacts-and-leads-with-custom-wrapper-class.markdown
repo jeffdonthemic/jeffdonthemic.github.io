@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Returning Contacts and Leads with Custom Wrapper Class
-description: Unfortunately alot of companies use Leads and Contacts interchangeably. Her...
+description: Unfortunately alot of companies use Leads and Contacts interchangeably. Here is a small Apex class that performs a SOSL search across Contacts and Leads by email address. The method then wraps each Contact and Lead as a generic Person object and returns them to the caller as a List. public class PersonService {      public class Person {          String id;         String firstName;         String lastName;         String company;         String email;         String phone;         String sObjec
 date: 2009-02-24 18:00:00 +0300
-image:  '/images/stock/3.jpg'
+image:  '/images/slugs/returning-contacts-and-leads-with-custom-wrapper-class.jpg'
 tags:   ["2009", "public"]
 ---
 <p>Unfortunately alot of companies use Leads and Contacts interchangeably. Here is a small Apex class that performs a SOSL search across Contacts and Leads by email address. The method then wraps each Contact and Lead as a generic Person object and returns them to the caller as a List.</p>
-<pre><code class="language-javascript">public class PersonService {
+{% highlight js %}public class PersonService {
 
     public class Person {
 
@@ -27,7 +27,7 @@ tags:   ["2009", "public"]
         List people = new List();
 
         // issue the sosl search
-        List&lt;list&gt; searchResults = [FIND :email IN EMAIL FIELDS RETURNING
+        List<list> searchResults = [FIND :email IN EMAIL FIELDS RETURNING
             Contact (Id, Account.Name, Email, Phone, FirstName, LastName),
             Lead (Id, Company, FirstName, LastName, Email, Phone)];
 
@@ -36,7 +36,7 @@ tags:   ["2009", "public"]
         List leads = ((List)searchResults[1]);
 
         // a each contact found as a Person
-        for (Integer i=0;i&lt;contacts.size();i++) {
+        for (Integer i=0;i<contacts.size();i++) {
             Person p = new Person();
             p.id = contacts[i].Id;
             p.firstName = contacts[i].FirstName;
@@ -49,7 +49,7 @@ tags:   ["2009", "public"]
         }
 
         // a each lead found as a Person
-        for (Integer i=0;i&lt;leads.size();i++) {
+        for (Integer i=0;i<leads.size();i++) {
             Person p = new Person();
             p.id = leads[i].Id;
             p.firstName = leads[i].FirstName;
@@ -68,5 +68,5 @@ tags:   ["2009", "public"]
     }
 }
 
-</code></pre>
+{% endhighlight %}
 

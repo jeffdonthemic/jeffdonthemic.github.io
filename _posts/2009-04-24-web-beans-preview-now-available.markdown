@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Web Beans Preview Now Available
-description: Jboss just announced  thefirst preview release of Web beans, their depend...
+description: Jboss just announced the first preview release of Web beans, their dependency injection and contextual lifecycle management framework. Web beans is an implementation of JSR-299 which defines a set of services for the Java EE environment that makes applications much easier to develop. JSR-299 layers an enhanced lifecycle and interaction model over existing Java component types including JavaBeans and Enterprise Java Beans. As a complement to the traditional Java EE programming model, the services
 date: 2009-04-24 13:48:57 +0300
-image:  '/images/stock/4.jpg'
+image:  '/images/slugs/web-beans-preview-now-available.jpg'
 tags:   ["2009", "public"]
 ---
 <p><a href="http://www.jboss.org/feeds/post/first_preview_of_web_beans_available" target="_blank"><img class="alignleft size-thumbnail wp-image-798" title="jbossorg_logo_black" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/c_crop,h_309,w_309,x_30,y_0/h_150,w_150/v1400399624/jbossorg_logo_black_jjsubf.png" alt="jbossorg_logo_black" width="150" height="125" />Jboss just announced</a> the first preview release of Web beans, their dependency injection and contextual lifecycle management framework.</p>

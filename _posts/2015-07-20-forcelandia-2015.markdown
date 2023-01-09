@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Join me at Forcelandia for Salesforce & Beer!
+description: Forcelandia is arguably the best Salesforce and beer themed conference in the Universe! - Jeff Douglas If you are in the Portland, OR area this week try to catch my hop-infused ramblings on Heorku at the Forcelandia  conference sponsored by the Portland Salesforce DUG . The event is taking place at Widmer Brothers Brewing  this Thursday during Oregon BrewFest .
+date: 2015-07-20 13:00:39 +0300
+image:  'https://farm1.staticflickr.com/148/372401149_34bd0bd974_o.jpg'
+tags:   ["2015", "public"]
+---
+<h3 id="forcelandiaisarguablythebestsalesforceandbeerthemedconferenceintheuniversejeffdouglas">"Forcelandia is arguably the best Salesforce and beer themed conference in the Universe!" - Jeff Douglas</h3>
+<p><img src="http://forcelandia.herokuapp.com/img/logo@2x.png" alt="" ></p>
+<p>If you are in the Portland, OR area this week try to catch my hop-infused ramblings on Heorku at the <a href="http://www.forcelandia.com">Forcelandia</a> conference sponsored by the <a href="http://www.meetup.com/Portland-Salesforce-Developer-Group/">Portland Salesforce DUG</a>. The event is taking place at <a href="http://widmerbrothers.com/">Widmer Brothers Brewing</a> this Thursday during <a href="http://www.oregonbrewfest.com/">Oregon BrewFest</a>.</p>
+<p><img src="images/heroku-pliny.jpg" alt="" ></p>
+<p><img src="images/joshua-hoskins.png" alt="" ></p>
+

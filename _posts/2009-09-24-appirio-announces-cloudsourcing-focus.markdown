@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Appirio Announces Cloudsourcing Focus
+description:  The Appirio CIO Blog has a great new post called, Cloudsourcing- Where Cloud Computing Meets Outsourcing. Some organizational changes have been to focus on this emerging segment of the cloud market. How do CIO move their IT assets to clouds like Salesforce, Amazon, and Google? Whats the roadmap look like? What are the risks? What are the benefits? The article helps to kickoff this conversation. This is my favorite part of the announcement-  Why are we so confident in the cloudsourcing approach?
+date: 2009-09-24 11:52:13 +0300
+image:  '/images/slugs/appirio-announces-cloudsourcing-focus.jpg'
+tags:   ["2009", "public"]
+---
+<p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399535/appiriologo_gvt1cp.png"><img class="alignleft size-thumbnail wp-image-962" style="padding-right:10px;" title="appirioLogo" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/c_crop,h_704,w_704,x_106,y_0/h_150,w_150/v1400399535/appiriologo_gvt1cp.png" alt="appirioLogo" width="105" height="81" /></a>The Appirio CIO Blog has a <a href="http://blog.appirio.com/2009/09/cloudsourcing-where-cloud-computing.html" target="_blank">great new post</a> called, "Cloudsourcing: Where Cloud Computing Meets Outsourcing". <a href="http://www.appirio.com/company/press/2009_0923leadership.php" target="_blank">Some organizational changes</a> have been to focus on this emerging segment of the cloud market. How do CIO move their IT assets to clouds like Salesforce, Amazon, and Google? What's the roadmap look like? What are the risks? What are the benefits? The article helps to kickoff this conversation.</p>
+<p>This is my favorite part of the announcement:</p>
+<blockquote>"Why are we so confident in the cloudsourcing approach? Because this is how we've run our own business from the beginning--as a serverless enterprise. We grew our business 400% last year, spent less than 2% of our revenue on IT, and have no capital tied up in IT infrastructure. We've experienced the benefits of running our entire business in the cloud, and work with customers every day who are taking steps in that same direction."</blockquote>
+<strong>You can read the rest of the announcement </strong><a href="http://blog.appirio.com/2009/09/cloudsourcing-where-cloud-computing.html" target="_blank"><strong>here</strong></a><strong>.</strong>

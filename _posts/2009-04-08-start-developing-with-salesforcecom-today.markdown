@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Start Developing with Salesforce.com -- Today!
-description: You have to admit that the Salesforce.com market is hot right now. I see al...
+description: You have to admit that the Salesforce.com market is hot right now. I see alot of new job openings and a number of unfilled positions. I also see alot of people being let go in the industry and looking for work. This begs the question, How do we get more developers on the Force.com platform?  Someone sent me a tweet the other day and asked, How much does it cost for a dev license to get started? The great thing is that you can get started today  with no out of pocket expenses; everything (e.g. de
 date: 2009-04-08 16:10:10 +0300
-image:  '/images/stock/3.jpg'
+image:  '/images/slugs/start-developing-with-salesforcecom-today.jpg'
 tags:   ["2009", "public"]
 ---
-<p>You have to admit that the Salesforce.com market is hot right now. I see alot of new job openings and a number of unfilled positions. I also see alot of people being &quot;let go&quot; in the industry and looking for work. This begs the question, &quot;How do we get more developers on the Force.com platform&quot;?</p>
-<p>Someone sent me a tweet the other day and asked, &quot;How much does it cost for a dev license to get started&quot;? The great thing is that you can get started <strong>today</strong> with <strong>no out of pocket expenses</strong>; everything (e.g. developer license, IDE, documentation, code examples) is free! If you are not familiar with cloud computing, <a href="/2009/03/11/what-is-cloud-computing/" target="_blank">here's a good video</a> explaining it in layman's terms.</p>
+<p>You have to admit that the Salesforce.com market is hot right now. I see alot of new job openings and a number of unfilled positions. I also see alot of people being "let go" in the industry and looking for work. This begs the question, "How do we get more developers on the Force.com platform"?</p>
+<p>Someone sent me a tweet the other day and asked, "How much does it cost for a dev license to get started"? The great thing is that you can get started <strong>today</strong> with <strong>no out of pocket expenses</strong>; everything (e.g. developer license, IDE, documentation, code examples) is free! If you are not familiar with cloud computing, <a href="/2009/03/11/what-is-cloud-computing/" target="_blank">here's a good video</a> explaining it in layman's terms.</p>
 <p>Here's what you need to get started:</p>
 <ol>
 	<li><a href="http://www.developerforce.com/events/regular/registration.php" target="_blank">Salesforce.com Developer Edition</a> - This is fully functioning, non-expiring developer account that you can use for virtually any type of development. There are some limitations (e.g. storage, licenses) but nothing that should get in the way of platform, appexchange or integration apps. Plus Developer accounts have access to pre-release functionality. What more could you want out of life?</li>
@@ -19,7 +19,7 @@ tags:   ["2009", "public"]
 	<li><a href="http://en.wikipedia.org/wiki/Open_mind" target="_blank">Open Mind</a> - Be open to new ways of doing things. Programming in a multi-tenant environment has it's advantages as well as its disadvantages. Fortunately, the advantages well out weight the disadvantages. It takes some getting used to but it's not rocket science.</li>
 </ol>
 <strong>Other languages and APIs</strong>
-<p>There are a number of <a href="http://wiki.developerforce.com/index.php/Web_Services_API" target="_blank">toolkits &amp; APIs</a> for other languages and technologies including RoR, Flex, PHP, Cocoa, Google, Facebook and many more. .NET developers can build natively in Visual Studion and Salesforce.com has even <a href="http://wiki.developerforce.com/index.php/Force.com_for_ASP.NET_Developers" target="_blank">written an article</a> aimed at getting .NET developers up to speed quickly.</p>
+<p>There are a number of <a href="http://wiki.developerforce.com/index.php/Web_Services_API" target="_blank">toolkits & APIs</a> for other languages and technologies including RoR, Flex, PHP, Cocoa, Google, Facebook and many more. .NET developers can build natively in Visual Studion and Salesforce.com has even <a href="http://wiki.developerforce.com/index.php/Force.com_for_ASP.NET_Developers" target="_blank">written an article</a> aimed at getting .NET developers up to speed quickly.</p>
 <p>Java developers should have no problem groking the language as it is very similar to Java but very much watered-down.</p>
 <p><strong>Don't wait... get started developing today!!</strong></p>
 

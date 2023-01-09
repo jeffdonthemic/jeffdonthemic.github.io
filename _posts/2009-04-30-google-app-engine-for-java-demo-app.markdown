@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Google App Engine for Java Demo Application
-description: Google App Engine for Java was released a couple of weeks ago and I finally...
+description: Google App Engine for Java was released a couple of weeks ago and I finally found some time to finish up my first demo application. My original idea was to do a Java version of the Salesforce.com demo that I did in Python on Google App Engine , but I quickly found out that Google App Engine for Java does not support Web services. Hopefully there will be a workaround from Salesforce.com sometime in the near future to make this possible. This demo has the same functionality as the Python version e
 date: 2009-04-30 14:40:04 +0300
-image:  '/images/stock/6.jpg'
+image:  '/images/slugs/google-app-engine-for-java-demo-app.jpg'
 tags:   ["2009", "public"]
 ---
 <p>Google App Engine for Java was released a couple of weeks ago and I finally found some time to finish up my first demo application. My original idea was to do a Java version of the <a href="/2009/04/14/forcecom-google-app-engine-python/" target="_blank">Salesforce.com demo that I did in Python on Google App Engine</a>, but I quickly found out that Google App Engine for Java does not support Web services. Hopefully there will be a workaround from Salesforce.com sometime in the near future to make this possible.</p>
@@ -24,7 +24,7 @@ The Google App Engine Dashboard is very feature-rich and intuitive. I think it g
 <p>The Google Plugin for Eclipse makes deploying the application to Google's servers simple-stupid. If you've ever had to configure Tomcat, JBoss or Websphere, you'll really enjoy the simplicity of the process. However, when creating a new application, make sure you do so through the Dashboard first before deploying it.</p>
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399621/ishot-1_sczgq8.png"><img class="alignnone size-medium wp-image-823" title="Eclipse Plugin" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399621/ishot-1_sczgq8.png?w=300" alt="Eclipse Plugin" width="300" height="196" /></a></p>
 <p>You can download the source for the application <a href="http://jeffdouglas-java1.appspot.com/Telesales.zip" target="_blank">here</a>, but here is the real meat of the application, the Servlet:</p>
-<pre><code>package com.jeffdouglas;
+{% highlight js %}package com.jeffdouglas;
 
 import java.io.IOException;
 import javax.servlet.http.*;
@@ -39,7 +39,7 @@ import com.jeffdouglas.entity.*;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 
-@SuppressWarnings(&quot;serial&quot;)
+@SuppressWarnings("serial")
 public class TelesalesServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -49,32 +49,32 @@ public class TelesalesServlet extends HttpServlet {
         PersistenceManager pm = PMF.get().getPersistenceManager();
 
         // display the lookup form
-        if(request.getParameter(&quot;action&quot;).equals(&quot;accountLookup&quot;)) {
+        if(request.getParameter("action").equals("accountLookup")) {
 
             // query for the entities by name
-            String query = &quot;select from &quot; + Account.class.getName() + &quot; where name == '&quot;+request.getParameter(&quot;accountName&quot;)+&quot;'&quot;;
+            String query = "select from " + Account.class.getName() + " where name == '"+request.getParameter("accountName")+"'";
             List accounts = (List) pm.newQuery(query).execute();   
 
             // pass the list to the jsp
-            request.setAttribute(&quot;accounts&quot;, accounts);
+            request.setAttribute("accounts", accounts);
             // forward the request to the jsp
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(&quot;/accountLookup.jsp&quot;);
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/accountLookup.jsp");
             dispatcher.forward(request, response);   
 
         // display the create new account form   
-        } else if(request.getParameter(&quot;action&quot;).equals(&quot;accountCreate&quot;)) {
-            response.sendRedirect(&quot;/accountCreate.jsp&quot;);
+        } else if(request.getParameter("action").equals("accountCreate")) {
+            response.sendRedirect("/accountCreate.jsp");
 
         // process the new account creation and send them to the account display page   
-        } else if(request.getParameter(&quot;action&quot;).equals(&quot;accountCreateDo&quot;)) {
+        } else if(request.getParameter("action").equals("accountCreateDo")) {
 
             // create the new account
             Account a = new Account(
-                    request.getParameter(&quot;name&quot;),
-                    request.getParameter(&quot;billingCity&quot;),
-                    request.getParameter(&quot;billingState&quot;),
-                    request.getParameter(&quot;phone&quot;),
-                    request.getParameter(&quot;website&quot;)
+                    request.getParameter("name"),
+                    request.getParameter("billingCity"),
+                    request.getParameter("billingState"),
+                    request.getParameter("phone"),
+                    request.getParameter("website")
                 );
 
             // persist the entity
@@ -84,62 +84,62 @@ public class TelesalesServlet extends HttpServlet {
                 pm.close();
             }
 
-            response.sendRedirect(&quot;telesales?action=accountDisplay&amp;accountId=&quot;+a.getId());
+            response.sendRedirect("telesales?action=accountDisplay&accountId="+a.getId());
 
         // display the account details and opportunities   
-        } else if(request.getParameter(&quot;action&quot;).equals(&quot;accountDisplay&quot;)) {
+        } else if(request.getParameter("action").equals("accountDisplay")) {
 
             // fetch the account
-            Key k = KeyFactory.createKey(Account.class.getSimpleName(), new Integer(request.getParameter(&quot;accountId&quot;)).intValue());
+            Key k = KeyFactory.createKey(Account.class.getSimpleName(), new Integer(request.getParameter("accountId")).intValue());
             Account a = pm.getObjectById(Account.class, k);
 
             // query for the opportunities
-            String query = &quot;select from &quot; + Opportunity.class.getName() + &quot; where accountId == &quot;+request.getParameter(&quot;accountId&quot;);
+            String query = "select from " + Opportunity.class.getName() + " where accountId == "+request.getParameter("accountId");
             List opportunities = (List) pm.newQuery(query).execute();   
 
             // pass the list to the jsp
-            request.setAttribute(&quot;account&quot;, a);
+            request.setAttribute("account", a);
             // pass the list to the jsp
-            request.setAttribute(&quot;opportunities&quot;, opportunities);
+            request.setAttribute("opportunities", opportunities);
 
             // forward the request to the jsp
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(&quot;/accountDisplay.jsp&quot;);
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/accountDisplay.jsp");
             dispatcher.forward(request, response);   
 
         // display the create new opportunity form   
-        } else if(request.getParameter(&quot;action&quot;).equals(&quot;opportunityCreate&quot;)) {
+        } else if(request.getParameter("action").equals("opportunityCreate")) {
 
-            Key k = KeyFactory.createKey(Account.class.getSimpleName(), new Integer(request.getParameter(&quot;accountId&quot;)).intValue());
+            Key k = KeyFactory.createKey(Account.class.getSimpleName(), new Integer(request.getParameter("accountId")).intValue());
             Account a = pm.getObjectById(Account.class, k);
 
             // pass the account name to the jsp
-            request.setAttribute(&quot;accountName&quot;, a.getName());
+            request.setAttribute("accountName", a.getName());
             // forward the request to the jsp
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(&quot;/opportunityCreate.jsp&quot;);
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/opportunityCreate.jsp");
             dispatcher.forward(request, response);
 
         // process the new opportunity creation and send them to the account display page 
-        } else if(request.getParameter(&quot;action&quot;).equals(&quot;opportunityCreateDo&quot;)) {
+        } else if(request.getParameter("action").equals("opportunityCreateDo")) {
 
             Date closeDate = new Date();
 
             // try and parse the date
             try {
                 DateFormat df = DateFormat.getDateInstance(3);
-                closeDate = df.parse(request.getParameter(&quot;closeDate&quot;));
+                closeDate = df.parse(request.getParameter("closeDate"));
             } catch(java.text.ParseException pe) {
-                System.out.println(&quot;Exception &quot; + pe);
+                System.out.println("Exception " + pe);
             }
 
             // create the new opportunity
             Opportunity opp = new Opportunity(
-                request.getParameter(&quot;name&quot;),
-                new Double(request.getParameter(&quot;amount&quot;)).doubleValue(),
-                request.getParameter(&quot;stageName&quot;),
-                new Integer(request.getParameter(&quot;probability&quot;)).intValue(),
+                request.getParameter("name"),
+                new Double(request.getParameter("amount")).doubleValue(),
+                request.getParameter("stageName"),
+                new Integer(request.getParameter("probability")).intValue(),
                 closeDate,
-                new Integer(request.getParameter(&quot;orderNumber&quot;)).intValue(),
-                new Long(request.getParameter(&quot;accountId&quot;))
+                new Integer(request.getParameter("orderNumber")).intValue(),
+                new Long(request.getParameter("accountId"))
             );
 
             // persist the entity
@@ -149,7 +149,7 @@ public class TelesalesServlet extends HttpServlet {
                 pm.close();
             }
 
-            response.sendRedirect(&quot;telesales?action=accountDisplay&amp;accountId=&quot;+request.getParameter(&quot;accountId&quot;));
+            response.sendRedirect("telesales?action=accountDisplay&accountId="+request.getParameter("accountId"));
 
         }
 
@@ -161,5 +161,5 @@ public class TelesalesServlet extends HttpServlet {
     }
 
 }
-</code></pre>
+{% endhighlight %}
 

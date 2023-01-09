@@ -1,0 +1,23 @@
+---
+layout: post
+title:  Book Review - Development with the Force.com Platform
+description: I spent a good part of the weekend going over the newly released book, Development with the Force.com Platform by Jason Ouellette from Appirio . The book covers a surprisingly large number of topics in under 400 pages and is a great reference for both Salesforce.com administrators and developers. In the effort of full disclosure, I must declare that I work at Appirio with Jason but unfortunately I have only met him a couple of times in passing. He will not pay me any money for this post but perh
+date: 2009-10-26 13:06:21 +0300
+image:  '/images/slugs/book-review-development-with-the-force-com-platform.jpg'
+tags:   ["2009", "public"]
+---
+<p><a href="http://www.amazon.com/gp/product/0321647734"><img class="alignleft size-full wp-image-1160" title="force-book-cover" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399510/force-book-cover_hysop8.jpg" alt="force-book-cover" width="240" height="240" /></a>I spent a good part of the weekend going over the newly released book, <a href="http://www.amazon.com/gp/product/0321647734" target="_blank">Development with the Force.com Platform</a> by Jason Ouellette from <a href="http://www.appirio.com" target="_blank">Appirio</a>. The book covers a surprisingly large number of topics in under 400 pages and is a great reference for both Salesforce.com administrators and developers.</p>
+<p>In the effort of full disclosure, I must declare that I work at Appirio with Jason but unfortunately I have only met him a couple of times in passing. He will not pay me any money for this post but perhaps I'll get a free beer at Dreamforce.</p>
+<p>If you are like me, when you are looking for a technical resource to help you make money, you don't want pages and pages of someone spouting theory and documentation. You want a book written by someone down in the trenches that has lived the topic and can reveal some hidden gems. If this is the case then this is the book for you. Jason architected our <a href="http://www.appirio.com/products/SvcsResource_PSE.php" target="_blank">PS Enterprise</a> product which is reported to have 30,000-40,000 lines of Apex code. I've seen the source code and it's tight. This guy really knows what he's taking about when it comes to the Force.com platform.</p>
+<p>You won't find any secret features or undocumented functionality in this book. What you will find is business, functional and technical information packaged in a coherent and logical fashion. The book starts out with the basics and gradually dives deeper and deeper into advanced topics with detailed code. <em><strong>Alot of detailed code.</strong></em> If you look through the code carefully you'll find a number of neat tricks and tips that I haven't seen elsewhere.</p>
+<p>Some of my favorite parts of the book include:</p>
+<ul>
+	<li>Chapter #3 is a detailed look at security on the Force.com platform. Jason combines database, profile, field-level and record-level security into a cool little chapter that really outlines how different parts of the security framework fit together.</li>
+	<li>Chapter #5 is, in my opinion, the heart of the book as he outlines the business logic encapsulated in the framework. Not only do you look at the basics of Apex and database integration, be he also takes a dive into some neat concepts of object-oriented Apex.</li>
+	<li>I saw some really interesting SOQL and SOSL techniques in Chapter #6 along with some cool stuff on Dynamic Apex. I know that our PS Enterprise product really leverages Dynamic Apex so this comes from a good source.</li>
+	<li>Chapter #8 really caught my attention for building advanced user interfaces. I haven't done alot with third-party libraries in Visualforce and there's some really cool stuff in this chapter.</li>
+	<li>The last couple of chapters have to do with advanced integration using web services, outbound messaging and rolling your own web services for Force.com. If you need some good code examples in different languages you will find them here.</li>
+</ul>
+In all this is a very handy reference for the Force.com platform and would be great on your shelf when you need a quick reference or when you are studying for one of the developer certification exams. It fits in quite nicely with the other reference books on the Force.com platform. I'm just hoping that my book with Kyle Roche, <a href="http://links.jeffdouglas.com/book" target="_blank">Beginning Java Google App Engine</a>, turns out as nicely as Jason's.
+<p>You can <a href="http://www.amazon.com/gp/product/0321647734" target="_blank">order the book on Amazon.com</a> or pick it up at Dreamforce I believe.</p>
+

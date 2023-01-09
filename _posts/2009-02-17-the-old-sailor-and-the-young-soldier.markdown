@@ -1,0 +1,14 @@
+---
+layout: post
+title:  The Old Sailor and the Young Soldier
+description: My son, Tyler, leaves for the Army  in a couple of months so I decided to take him down to Texas to see his great grandparents. He hadnt seen them since he was quite small and his great grandmothers health is getting a little shaky. My grandfather is a WWII Veteran and has 8 Bronze Stars while serving on the  USS DuPage  (1942-1945). He and Tyler hit it off quickly. We talked about politics, current events, old war stories and guns. Mostly guns. My grandfather was a avid target shooter after WWI
+date: 2009-02-17 18:58:02 +0300
+image:  '/images/slugs/the-old-sailor-and-the-young-soldier.jpg'
+tags:   ["2009", "public"]
+---
+<p>[caption id="attachment_471" align="alignleft" width="348" caption="Billy Marcus & Tyler Douglas"]<a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399676/grandpa-tyler_oslbz1.jpg"><img class="size-full wp-image-471" title="grandpa-tyler" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399676/grandpa-tyler_oslbz1.jpg" alt="grandpa-tyler" width="348" height="261" /></a>[/caption]</p>
+<p>My son, Tyler, <a href="/2008/12/03/my-son-joined-the-army/" target="_blank">leaves for the Army</a> in a couple of months so I decided to take him down to Texas to see his great grandparents. He hadn't seen them since he was quite small and his great grandmother's health is getting a little shaky.</p>
+<p>My grandfather is a WWII Veteran and has 8 Bronze Stars while serving on the <a href="http://www.ussdupage.org/" target="_blank">USS DuPage</a> (1942-1945). He and Tyler hit it off quickly. We talked about politics, current events, old war stories and guns. Mostly guns. My grandfather was a avid target shooter after WWII and competed regularly for about 20 years. Tyler is just facinated with guns and their craftsmanship and we shoot nearly every weekend with our pistols (.22 & .32) and Ruger mini-14. My grandfather is getting up in age and doesn't shoot as often as he'd like to so we took a couple of his guns and headed to the range. We had a great time and Tyler and he spent a hour or so cleaning his weapons together when we got back. Talk about quality time!</p>
+<p>My grandfather has a lot of guns but is no longer able to shoot much. Since Tyler is essentially the only one in the family that shares his passion, my grandfather gave him his Kimber .45 ACP as a present. You wouldn't believe how excited Tyler was!! We shipped it down and it should arrive so that we can head out to the range this weekend. Now I'll have to take a loan out to buy enough ammo for him.</p>
+<p>We left after a couple of days but hopefully we see them again soon. I told my grandparents that I'd fly them to Tyler's Basic Training graduation in mid-August. Hopefully their health holds up.</p>
+

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Chromium - Chrome for Mac
+description: I started running Chromium (the Chrome browser for Mac) yesterday and its pretty nifty. Its fast and functions alot like the Windows version. The only issue Ive run into so far is its lack of support for Flash. For more info you can checkout the Chromium blog or  download the latest build . TechCrunch also has a pretty good article  with a number of screenshots. 
+date: 2009-07-16 12:23:09 +0300
+image:  '/images/slugs/chromium.jpg'
+tags:   ["2009", "public"]
+---
+<p>I started running Chromium (the Chrome browser for Mac) yesterday and it's pretty nifty. It's fast and functions alot like the Windows version. The only issue I've run into so far is its lack of support for Flash.</p>
+<p>For more info you can checkout the <a href="http://blog.chromium.org/" target="_blank">Chromium blog</a> or <a href="http://build.chromium.org/buildbot/snapshots/chromium-rel-mac/" target="_blank">download the latest build</a>. TechCrunch also has a <a href="http://www.techcrunch.com/2009/07/16/chrome-for-mac-starting-to-look-polished/?awesm=tcrn.ch_60A&utm_campaign=techcrunch&utm_content=techcrunch-autopost&utm_medium=tcrn.ch-twitter&utm_source=direct-tcrn.ch" target="_blank">pretty good article</a> with a number of screenshots.</p>
+<p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399531/chromium-screenshot_zgrcqe.png"><img class="alignnone size-full wp-image-1034" title="chromium-screenshot" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399531/chromium-screenshot_zgrcqe.png" alt="chromium-screenshot" width="544" height="410" /></a></p>
+

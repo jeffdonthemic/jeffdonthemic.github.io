@@ -16,11 +16,6 @@ author:
   author__avatar: '/images/jeffdouglas-1.png'
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-youtube", link: "https://youtube.com"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -29,8 +24,8 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Jeff Douglas
-  hero__description: I like to make things with 1's and 0's and I actively try to work the word "chartreuse" into everyday technical conversations. I work at Salesforce on the MuleSoft team.
+  hero__title: Hey, I'm Jeff Douglas
+  hero__description: I like to make things with 1's and 0's and occassionally wodd and metal. I've been a deverloper since... as long as I can remember. I currently work at Salesforce on the MuleSoft team but before that I spent 7 years building Trailhead as one of the three initial members.
   hero__image: '/images/jeffdouglas-2.jpg'
 
 
@@ -48,24 +43,24 @@ gallery:
   gallery__title: Gallery
   gallery__columns: 3
   gallery__images:
-    - alt: 'Rest'
+    - alt: 'Fancy Alpaca Ranch'
       url: '/images/fancy-alpaca-ranch2.jpg'
-    - alt: 'Lifestyle'
-      url: '/images/101.jpg'
+    - alt: 'Trailhead Offsite'
+      url: '/images/trailhead-offsite.png'
+    - alt: 'Trailhead is Bananas'
+      url: '/images/trailhead-offsite-bananas.png'
+    - alt: '3 Keys Brewing Company'
+      url: '/images/3keys.png'
+    - alt: 'Noogler'
+      url: '/images/noogler.png'
     - alt: 'Hobby'
-      url: '/images/102.jpg'
-    - alt: 'Notes'
-      url: '/images/103.jpg'
-    - alt: 'Rest'
-      url: '/images/104.jpg'
-    - alt: 'Hobby'
-      url: '/images/105.jpg'
-    - alt: 'Fashion'
-      url: '/images/106.jpg'
-    - alt: 'Notes'
-      url: '/images/107.jpg'
-    - alt: 'Rest'
-      url: '/images/108.jpg'
+      url: '/images/cio-award.jpg'
+    - alt: 'Alaska!'
+      url: '/images/alaska.png'
+    - alt: 'Maine'
+      url: '/images/maine.jpg'
+    - alt: 'Keeneland'
+      url: '/images/keeneland.jpg'
 
 
 #-------------------------------
@@ -95,8 +90,12 @@ permalink: /:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
 
-paginate: 9
+paginate: 15
 paginate_path: "/page/:num"
 
 # Pages Path
