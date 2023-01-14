@@ -4,7 +4,7 @@ title:  Attach a PDF to a Record in Salesforce
 description: Salesforce.com makes it extremely easy to generate PDF documents on the fly by simply using the renderAs=pdf attribute for the  component. Its also a snap to attach these PDFs to records as Attachments. Below is a small Visualforce page and Controller that generates a PDF and saves it to an Account. Note- there is a small issue when it comes to testing the Controller. Salesforce currently throws an error (Salesforce.com Error Unable to retrieve object) when getContent or getContentAsPDF is calle
 date: 2010-07-14 12:57:33 +0300
 image:  '/images/slugs/attach-a-pdf-to-a-record-in-salesforce.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>Salesforce.com makes it extremely easy to generate PDF documents on the fly by simply using the renderAs="pdf" attribute for the <apex:page> component. It's also a snap to attach these PDFs to records as Attachments. Below is a small Visualforce page and Controller that generates a PDF and saves it to an Account.</p>
 <p><strong>Note:</strong> there is a small issue when it comes to testing the Controller. Salesforce currently throws an error (Salesforce.com Error "Unable to retrieve object") when getContent or getContentAsPDF is called from a test method. There's an <a href="http://sites.force.com/ideaexchange/ideaView?c=09a30000000D9xt&id=08730000000HzknAAC" target="_blank">Idea to make this work</a> properly. I encourage everyone to vote for this.</p>

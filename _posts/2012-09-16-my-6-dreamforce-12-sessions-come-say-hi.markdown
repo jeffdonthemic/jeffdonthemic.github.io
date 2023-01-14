@@ -4,7 +4,7 @@ title:  My 6 Dreamforce 12 Sessions - Come Say 'Hi!'
 description: Im speaking in 6 sessions this year at Dreamforce 12 so if any of the below sessions interest you, please attend and say hello! when you are done. Would love to meet you!  Rapid Development- Using Node.js for Mocking Apex Web Services Tuesday, September 18 - 1-00 p.m. - 1-30 p.m. Moscone Center West, Developer Theater Discover how to develop Apex web service callouts in the absence of a real endpoint. We will build out a mock Node.js endpoint app and show how to handle Get, Post, Put and Delete 
 date: 2012-09-16 16:00:00 +0300
 image:  '/images/slugs/my-6-dreamforce-12-sessions-come-say-hi.jpg'
-tags:   ["2012", "public"]
+tags:   ["heroku", "salesforce"]
 ---
 <p>I'm speaking in 6 sessions this year at Dreamforce 12 so if any of the below sessions interest you, please attend and say "hello!" when you are done. Would love to meet you!</p>
 <p><strong>Rapid Development: Using Node.js for Mocking Apex Web Services</strong><br>

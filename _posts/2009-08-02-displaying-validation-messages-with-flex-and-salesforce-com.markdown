@@ -4,7 +4,7 @@ title:  Displaying Validation Messages with Flex and Salesforce.com
 description: I created a small Flex application that outlines how you can return messages (required fields, validation errors, etc) from Salesforce.com. The code is fairly basic and checks the return objects success flag and display error message depending on the value of the flag. You can run this demo  on my Developer Site.  	  	 	 	 		 			 		 		 			 		 		 			 		 		 			 		 	  
 date: 2009-08-02 16:00:00 +0300
 image:  '/images/slugs/displaying-validation-messages-with-flex-and-salesforce-com.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "flex"]
 ---
 <p>I created a small Flex application that outlines how you can return messages (required fields, validation errors, etc) from Salesforce.com. The code is fairly basic and checks the return object's success flag and display error message depending on the value of the flag.</p>
 <p><strong>You can </strong><a style="color:#80ae14;text-decoration:underline;margin:0;padding:0;" href="http://jeffdouglas-developer-edition.na5.force.com/examples/FlexValidation" target="_blank"><strong>run this demo</strong></a><strong> on my Developer Site.</strong></p>

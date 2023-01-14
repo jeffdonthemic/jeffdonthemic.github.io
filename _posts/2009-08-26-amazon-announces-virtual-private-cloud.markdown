@@ -4,7 +4,7 @@ title:  Amazon Announces Virtual Private Cloud
 description: This morning Amazon announced the support for a Virtual Private Cloud-  We are excited to announce the limited beta of Amazon Virtual Private Cloud (Amazon VPC), a secure and seamless bridge between your existing IT infrastructure and the AWS cloud. Amazon VPC enables you to connect your existing infrastructure to a set of isolated AWS compute resources via a Virtual Private Network (VPN) connection, and to extend your existing management capabilities such as security services, firewalls, and in
 date: 2009-08-26 08:31:39 +0300
 image:  '/images/slugs/amazon-announces-virtual-private-cloud.jpg'
-tags:   ["2009", "public"]
+tags:   ["cloud computing", "amazon ec2"]
 ---
 <p>This morning Amazon <a href="http://aws.amazon.com/vpc/" target="_blank">announced</a> the support for a Virtual Private Cloud:</p>
 <blockquote>"We are excited to announce the limited beta of Amazon Virtual Private Cloud (Amazon VPC), a secure and seamless bridge between your existing IT infrastructure and the AWS cloud. Amazon VPC enables you to connect your existing infrastructure to a set of isolated AWS compute resources via a Virtual Private Network (VPN) connection, and to extend your existing management capabilities such as security services, firewalls, and intrusion detection systems to include your AWS resources. Amazon VPC integrates today with Amazon EC2 compute resources, and we will integrate Amazon VPC with other AWS services in the future."</blockquote>

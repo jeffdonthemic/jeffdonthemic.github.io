@@ -4,7 +4,7 @@ title:  Alexa for Salesforce with Amazon Echo
 description: Amazon Echo  is a voice command device with functions including question answering, playing music and controlling smart devices. Echo connects to Alexa, a cloud-based voice service, to provide information, answer questions, play music, read the news, check sports scores or the weather, and more—instantly. All you have to do is ask. Echo begins working as soon as it detects the wake word. The Verge has a really good overview of it. A couple of weeks ago Amazon announced the Alexa Skills Kit for A
 date: 2015-08-12 13:46:36 +0300
 image:  '/images/alexa-salesforce-lead.jpg'
-tags:   ["2015", "public"]
+tags:   []
 ---
 <p><a href="http://www.amazon.com/echo">Amazon Echo</a> is a voice command device with functions including question answering, playing music and controlling smart devices. Echo connects to Alexa, a cloud-based voice service, to provide information, answer questions, play music, read the news, check sports scores or the weather, and more—instantly. All you have to do is ask. Echo begins working as soon as it detects the wake word. The Verge has a <a href="http://www.theverge.com/2015/7/8/8913739/amazon-echo-re-review-in-the-real-world">really good overview</a> of it.</p>
 <p><img src="images/amazon-echo-alexa-salesforce.jpg" alt="" ></p>

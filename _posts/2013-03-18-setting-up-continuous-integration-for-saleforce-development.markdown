@@ -4,7 +4,7 @@ title:  Setting Up Continuous Integration for Saleforce Development
 description: Continuous Integration (CI) for Force.com projects has been a popular topic lately. There are a number of blog post that describe the benefits and how you should go about doing it. However, after we discussed it on our #DifferentSpokes podcast last week, we received a number of emails asking for help on getting CI up and running. So I put together a short video on the process using Jenkins. Here are the links that I reference in the video-  Force.com Migration Tool  Cloudbees  Sample Github repo
 date: 2013-03-18 16:38:29 +0300
 image:  '/images/slugs/setting-up-continuous-integration-for-saleforce-development.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>Continuous Integration (CI) for Force.com projects has been a popular topic lately. There are a number of blog post that describe the benefits and how you should go about doing it. However, after we discussed it on our #DifferentSpokes podcast last week, we received a number of emails asking for help on getting CI up and running. So I put together a short video on the process using Jenkins.</p>
 <iframe width="640" height="480" src="//www.youtube.com/embed/2OHtUfhkuA0" frameborder="0" allowfullscreen></iframe>

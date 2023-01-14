@@ -4,7 +4,7 @@ title:  Dynamically Group & Display Query Results
 description: I was working on a Visualforce page that displays the results of a query in separate PageBlock sections based upon a value in the query results. I ran into a small issue which took about an hour or so to solve, so I thought it might make descent blog fodder.  The requirement for the page was to query for records and then display them grouped in sections in a Visualforce page based upon whatever values (in this case BillingState) are returned in the results. If additional states were added, then 
 date: 2011-03-02 10:55:14 +0300
 image:  '/images/slugs/dynamically-group-display-query-results.jpg'
-tags:   ["2011", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>I was working on a Visualforce page that displays the results of a query in separate PageBlock sections based upon a value in the query results. I ran into a small issue which took about an hour or so to solve, so I thought it might make descent blog fodder. </p>
 <p>The requirement for the page was to query for records and then display them grouped in sections in a Visualforce page based upon whatever values (in this case BillingState) are returned in the results. If additional states were added, then the Visualforce page should be able to add those new sections without changes to the code. Here's a screenshot of the sample solution that I came up with but you can also<a href="http://jeffdouglas-developer-edition.na5.force.com/examples/DisplaySections" target="_blank"> run this sample on my Developer Site</a>:</p>

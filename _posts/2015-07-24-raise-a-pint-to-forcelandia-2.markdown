@@ -4,7 +4,7 @@ title:  Raise a pint to Forcelandia!
 description:   Yesterday I spoke at the first annual Forcelandia conference in Portland, OR sponsored by the Portland Salesforce Developer User Group . Angela Mahoney and Larry Latimer put on a great event that will sure to be back next year. Keep your eyes out for it. Not only was the event hosted by Widmer Brothers Brewing  but it was coincidently (I think not!) during  Oregon BeerFest . The food was great and beer was flowing throughout much of the day. Eventhough they weren’t scheduled to start serving b
 date: 2015-07-24 16:54:25 +0300
 image:  'https://farm1.staticflickr.com/148/372401149_34bd0bd974_o.jpg'
-tags:   ["2015", "public"]
+tags:   []
 ---
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/forcelandia-logo.jpg" alt="forcelandia-logo" ></p>
 <p>Yesterday I spoke at the first annual <a href="http://www.forcelandia.com">Forcelandia</a> conference in Portland, OR sponsored by the <a href="http://www.meetup.com/Portland-Salesforce-Developer-Group/">Portland Salesforce Developer User Group</a>. Angela Mahoney and Larry Latimer put on a great event that will sure to be back next year. Keep your eyes out for it.</p>

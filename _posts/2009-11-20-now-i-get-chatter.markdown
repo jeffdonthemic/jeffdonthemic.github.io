@@ -4,7 +4,7 @@ title:  NOW I Get Chatter!!
 description: As part of Appirio  I was exposed to Chatter  before the public announcement. I have to admit that when I originally first saw it I wasnt really impressed. I understand that people, applications, documents, etc. can Chatter but to me it seemed just like another social network that I would have to check in addition to Twitter, LinkedIn and Facebook. Even when Marc Benioff publically unveiled Chatter I was still luke warm to the technology. The light bulb finally clicked when our CMO and Head of R
 date: 2009-11-20 22:08:33 +0300
 image:  '/images/slugs/now-i-get-chatter.jpg'
-tags:   ["2009", "public"]
+tags:   ["appirio", "salesforce"]
 ---
 <img class="alignleft size-full wp-image-1717" style="padding-right:10px;" title="chatter-logo" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399406/chatter-logo_wlucjd.png" />
 <p>As part of <a href="http://www.appirio.com" target="_blank">Appirio</a> I was exposed to <a href="http://www.salesforce.com/chatter" target="_blank">Chatter</a> before the public announcement. I have to admit that when I originally first saw it I wasn't really impressed. I understand that people, applications, documents, etc. can Chatter but to me it seemed just like another social network that I would have to check in addition to Twitter, LinkedIn and Facebook. Even when Marc Benioff publically unveiled Chatter I was still luke warm to the technology.</p>

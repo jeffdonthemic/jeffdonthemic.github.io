@@ -4,7 +4,7 @@ title:  Tutorial - Build Your First Lightning Component
 description: I was fortunate enough to be on the Lightning beta and have spent a considerable amount of time building Lightning components over the past weeks. If you are familiar with JavaScript and possibly frameworks such as AngularJS and Backbone, then building Lightning components should be a snap. > Topcoder  has teamed up with salesforce.com to help drive the development of Lightning components. We are currently running a number of development challenges at lightning.topcoder.com  and have over $20,00
 date: 2014-10-14 21:55:55 +0300
 image:  '/images/pexels-flash-dantz-7759446.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce", "lightning"]
 ---
 <p>I was fortunate enough to be on the Lightning beta and have spent a considerable amount of time building Lightning components over the past weeks. If you are familiar with JavaScript and possibly frameworks such as AngularJS and Backbone, then building Lightning components should be a snap.</p>
 <blockquote>

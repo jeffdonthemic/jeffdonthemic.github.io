@@ -4,7 +4,7 @@ title:  Apex Search with Checkbox Results
 description: This demo is a single Apex custom controller, two Visualforce pages and a wrapper class allowing the user to search an object by keyword (via Dynamic SOQL) and return the results in a page block table with corresponding checkboxes. Selecting one or more checkboxes and clicking the See Results button displays the list of the selected items. This is a very common function as you typically want to search for stuff and then process some selected stuff. You can run this demo  on my developer site. Cu
 date: 2009-01-13 18:00:00 +0300
 image:  '/images/slugs/apex-search-with-checkbox-results.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>This demo is a single Apex custom controller, two Visualforce pages and a wrapper class allowing the user to search an object by keyword (via Dynamic SOQL) and return the results in a page block table with corresponding checkboxes. Selecting one or more checkboxes and clicking the 'See Results' button displays the list of the selected items.</p>
 <p>This is a very common function as you typically want to search for stuff and then process some selected stuff.</p>

@@ -4,7 +4,7 @@ title:  Problems Parsing JSON Responses with Apex
 description: A couple of weeks ago I wrote an article and small demo of a REST web service call returning XML. It was my intention to do the same demo using JSON. However, I ran into a small sang; I couldnt get the Apex JSONObject to work. I worked on the code for most of the week before Christmas but couldnt beat it into submission. I may be a tad dense but I looked through the code, made a couple of changes but couldnt get the thing to work. I was able to parse some simple JSON objects but complex objects 
 date: 2009-12-28 20:52:37 +0300
 image:  '/images/slugs/problems-parsing-json-responses-with-apex.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>A couple of weeks ago I wrote an <a href="/2009/12/04/calling-a-rest-web-service-with-apex/" target="_blank">article and small demo</a> of a REST web service call returning XML. It was my intention to do the same demo using JSON. However, I ran into a small sang; I couldn't get the Apex JSONObject to work. I worked on the code for most of the week before Christmas but couldn't beat it into submission. I may be a tad dense but I looked through the code, made a couple of changes but couldn't get the thing to work.</p>
 <p>I was able to parse some simple JSON objects but complex objects did not want to cooperate. I received a couple of responses from Twitter and not many people have had much luck using the JSONObject with complex responses.</p>

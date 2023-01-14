@@ -4,7 +4,7 @@ title:  Salesforce.com Licenses
 description: Ive seen alot of questions lately regarding Salesforce.com licenses and what they can and cannot do. There have been a number of AppExchange installations that have failed because of wrong user licenses or features. Salesforce.com doesnt seem to publish detailed info about the underlying accessibility of licenses but here is a good list of licenses based upon parts of the user help and other sources. This situation is also complicated further by custom licenses that can be purchased from Salesfo
 date: 2009-08-25 08:58:40 +0300
 image:  '/images/slugs/salesforce-com-licenses.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p>I've seen alot of questions lately regarding Salesforce.com licenses and what they can and cannot do. There have been a number of AppExchange installations that have failed because of wrong user licenses or features. Salesforce.com doesn't seem to publish detailed info about the underlying accessibility of licenses but here is a good list of licenses based upon parts of the user help and other sources. This situation is also complicated further by custom licenses that can be purchased from Salesforce.com.</p>
 <h2>Salesforce.com Users</h2>

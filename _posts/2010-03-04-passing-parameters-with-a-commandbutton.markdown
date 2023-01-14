@@ -4,7 +4,7 @@ title:  Passing Parameters with a CommandButton
 description: This post is a slight tweak of yesterdays post, Passing Parameters with a CommandLink  . In theory you should just be able to switch out the CommandLink component with a CommandButton component and be golden. However, not so fast. There seem to  still be a bug with the CommandButton component. Here is the Visualforce page with the CommandButton instead of the CommandLink-     As with the CommandLink, when the user clicks the button the setters should fire and then call the processButtonClick() m
 date: 2010-03-04 11:13:24 +0300
 image:  '/images/slugs/passing-parameters-with-a-commandbutton.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p style="clear: both">This post is a slight tweak of yesterday's post, <a href="/2010/03/03/passing-parameters-with-a-commandlink/" target="_blank">Passing Parameters with a CommandLink</a>. In theory you should just be able to switch out the CommandLink component with a CommandButton component and be golden. However, not so fast. There seem to <em><strong>still</strong></em> be a bug with the CommandButton component.</p><p style="clear: both">Here is the Visualforce page with the CommandButton instead of the CommandLink:</p><p style="clear: both">
 {% highlight js %}<apex:page standardController="Contact" extensions="CommandButtonParamController">

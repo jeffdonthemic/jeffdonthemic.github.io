@@ -4,7 +4,7 @@ title:  Developing Flex Applications for Force.com Sites
 description: Developing Flex applications for a Force.com Site is a little different than developing Flex applications that run inside the standard Salesforce.com UI. Since visitors are not required to log in to your Force.com Site there is no concept of an actual user. All visitors simply run as a specific profile under the Guest license. Since there is no named user for Sites, there is no associated session to pass to your Flex application. Therefore, you need to explicitly code a username and password to 
 date: 2009-09-07 15:19:14 +0300
 image:  '/images/slugs/developing-flex-applications-for-focescom-sites.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "flex"]
 ---
 <p>Developing Flex applications for a Force.com Site is a little different than developing Flex applications that run inside the standard Salesforce.com UI. Since visitors are not required to log in to your Force.com Site there is no concept of an actual user. All visitors simply run as a specific profile under the Guest license.</p>
 <p>Since there is no named user for Sites, there is no associated session to pass to your Flex application. Therefore, you need to explicitly code a username and password to log into Salesforce.com in your Flex application. This is a similar concept to authenticating via web services to Salesforce.com.</p>

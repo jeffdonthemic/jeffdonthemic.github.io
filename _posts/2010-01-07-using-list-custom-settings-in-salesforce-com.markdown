@@ -4,7 +4,7 @@ title:  Using List Custom Settings in Salesforce.com
 description: Salesforce.com recently introduced Custom Settings in Winter 10 which allows you to store custom data sets and associate them on an org-wide, profile or user basis. Custom Settings are essentially custom objects that are exposed in the applications cache and are accessible via their own API. You can certainly build your own custom objects to store settings but using custom settings is much quicker (again they are stored in the application cache) and do not count against SOQL limits when fetched.
 date: 2010-01-07 14:04:10 +0300
 image:  '/images/slugs/using-list-custom-settings-in-salesforce-com.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>Salesforce.com recently introduced Custom Settings in Winter '10 which allows you to store custom data sets and associate them on an org-wide, profile or user basis. Custom Settings are essentially custom objects that are exposed in the applications cache and are accessible via their own API.</p>
 <p>You can certainly build your own custom objects to store settings but using custom settings is much quicker (again they are stored in the application cache) and do not count against SOQL limits when fetched. You can also use custom settings in formula fields, validation rules, Apex code and the Web Services API.</p>

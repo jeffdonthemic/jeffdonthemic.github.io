@@ -4,7 +4,7 @@ title:  RunTests Async with nforce-tooling
 description: What do you get when you mix a long holiday weekend with a guy afflicted with ADSO (attention deficit...oh! shiny object)? You get new code for the  Salesforce Tooling API ! Thats right, I added the following functionality over the weekend to the  nforce-tooling plugin for  nforce . So now you can run the following from your node.js code- 1. ApexOrgWideCoverage - returns code coverage test results for an entire org. 2. ApexCodeCoverage - returns code coverage test results for an Apex class or   
 date: 2014-09-02 18:47:42 +0300
 image:  '/images/slugs/runtests-async-with-nforce-tooling.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce", "nforce-tooling"]
 ---
 <p>What do you get when you mix a long holiday weekend with a guy afflicted with ADSO (attention deficit...oh! shiny object)? You get new code for the <a href="http://www.salesforce.com/us/developer/docs/api_toolingpre/api_tooling.pdf">Salesforce Tooling API</a>! That's right, I added the following functionality over the weekend to the <a href="https://github.com/jeffdonthemic/nforce-tooling">nforce-tooling</a> plugin for <a href="https://github.com/kevinohara80/nforce">nforce</a>. So now you can run the following from your node.js code:</p>
 <ol>

@@ -4,7 +4,7 @@ title:  It’s Official. I’m a Serial Adopter!
 description: Last Monday (June 9th) my wife and I added two children to our family making the running total- 3 bio kids and 3 adopted. Raising our first three was sooo much fun we thought wed do it again with other peoples offspring. Hopefully this blog post will encourage someone to inquire about becoming a foster or adoptive parent. Our eldest son recently finished up his Navy service and the other two are currently in the Army (the son on the left will be starting his third Afghanistan rotation shortly an
 date: 2014-06-11 13:49:59 +0300
 image:  '/images/slugs/its-official-im-a-serial-adopter.jpg'
-tags:   ["2014", "public"]
+tags:   ["personal"]
 ---
 <p>Last Monday (June 9th) my wife and I added two children to our family making the running total: 3 bio kids and 3 adopted. Raising our first three was sooo much fun we thought we'd do it again with other people's offspring.</p>
 <p>Hopefully this blog post will encourage someone to inquire about becoming a foster or adoptive parent.</p>

@@ -4,7 +4,7 @@ title:  Getting Salesforce Field Metadata the Easy Way
 description: Im working on some of the Apex REST services for our CloudSpokes  org and needed some code to fetch field level metadata using Apex Describe. I poked around and realized that there isnt really much out there. So I decided to write something up and hopefully people find it useful or instructional. Perhaps it should be part of apex-lang ?  If youve ever worked with Apex Describe before youll quickly realize that its not the easiest thing to work with. Youll want to take a peek at the docs  . Dont 
 date: 2011-10-20 17:38:01 +0300
 image:  '/images/slugs/getting-salesforce-field-metadata-the-easy-way.jpg'
-tags:   ["2011", "public"]
+tags:   ["code sample", "salesforce"]
 ---
 <p>I'm working on some of the Apex REST services for our <a href="http://www.cloudspokes.com">CloudSpokes</a> org and needed some code to fetch field level metadata using Apex Describe. I poked around and realized that there isn't really much out there. So I decided to write something up and hopefully people find it useful or instructional. Perhaps it should be part of <a href="http://code.google.com/p/apex-lang/">apex-lang</a>?</p>
 <p>If you've ever worked with Apex Describe before you'll quickly realize that it's not the easiest thing to work with. You'll want to <a href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_methods_system_fields_describe.htm">take a peek at the docs</a>. Don't get me wrong, it's power, fast and very handy. But it is rather confusing and cumbersome to work with at first. So I wanted some code that returns the metadata for specific fields in an object so that I could look at field types and lengths and perform "stuff" accordingly.</p>

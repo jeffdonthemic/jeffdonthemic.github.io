@@ -4,7 +4,7 @@ title:  I Passed the Salesforce.com Certified Advanced Developer Exam - So Can Y
 description: I passed the Salesforce.com Certified Advanced Developer exam yesterday but it was not easy test. The questions were very tricky and some of the answers I knew only because of experience. You can read all of the suggested course material and take the DEV-501 class, but I think people that dont develop in Apex every day are going to be at a disadvantage. You really need to dig into the language and get your hands dirty in the real world.From what Ive heard there appears to be a number of differen
 date: 2009-07-13 12:07:24 +0300
 image:  '/images/slugs/i-passed-the-salesforce-com-certified-advanced-developer-exam-so-can-you.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "visualforce", "apex"]
 ---
 <div id="_mcePaste" style="position:absolute;left:-10000px;top:0;width:1px;height:1px;">I passed the Salesforce.com Certified Advanced Developer exam yesterday but it was not easy test. The questions were very tricky and some of the answers I knew only because of experience. You can read all of the suggested course material and take the DEV-501 class, but I think people that don't develop in Apex every day are going to be at a disadvantage. You really need to dig into the language and get your hands dirty in the real world.</div>
 <div id="_mcePaste" style="position:absolute;left:-10000px;top:0;width:1px;height:1px;">From what I've heard there appears to be a number of different test versions but hit roughly the same material. My exam consisted of some high level questions (eg "What are the advantages of...."), comparisons of method and class signatures and specific code examples.</div>

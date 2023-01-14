@@ -4,7 +4,7 @@ title:  JDO/JPA Persistence with Google App Engine
 description:  I ran across Max Ross blog today (hes a App Engine Engineer working on persistence) and was surprised to find a wealth of articles, code and tips on persistence using JDO and JPA on Google App Engine. Creating A Bidrectional Owned One-To-Many  - Code and demo of an owned, bidirectional, one-to-many relationship showing how you can can persist child objects simply by associating them with their parent objects  Executing Batch Gets - Use batch gets to super-efficiently querying for objects using 
 date: 2009-12-24 15:19:06 +0300
 image:  '/images/slugs/jdojpa-persistence-with-google-app-engine.jpg'
-tags:   ["2009", "public"]
+tags:   ["google app engine"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399627/google_appengine_dwcy7t.png"><img class="alignleft size-full wp-image-743" style="padding-right:10px;" title="google_appengine" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399627/google_appengine_dwcy7t.png" alt="" width="175" height="175" /></a>I ran across <a href="http://gae-java-persistence.blogspot.com" target="_blank">Max Ross' blog</a> today (he's a App Engine Engineer working on persistence) and was surprised to find a wealth of articles, code and tips on persistence using JDO and JPA on Google App Engine.</p>
 <p><a href="http://gae-java-persistence.blogspot.com/2009/10/creating-bidrectional-owned-one-to-many.html" target="_blank">Creating A Bidrectional Owned One-To-Many</a> - Code and demo of an owned, bidirectional, one-to-many relationship showing how you can can persist child objects simply by associating them with their parent objects</p>

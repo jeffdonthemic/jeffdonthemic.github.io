@@ -4,7 +4,7 @@ title:  Learning Ruby for Force.com Developers - Part 1
 description:   With salesforce.coms recent purchase of Heroku  , Ruby just got more interesting. Ive never dabbled in Ruby (although Ive wanted to!) so this is an excellent reason to dig into the language and see what its all about. Since Im learning Ruby I thought some people might also benefit from the experience and make the learning curve a little less steep. So today Im kicking off a multi-part series on getting started with Ruby and Heroku. Im not sure how many posts there will be but I hope to post so
 date: 2010-12-30 13:34:24 +0300
 image:  '/images/slugs/learning-ruby-for-force-com-developers-part-1.jpg'
-tags:   ["2010", "public"]
+tags:   ["heroku", "ruby", "salesforce"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327875/ruby-lang_qvmr4g.png"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/h_97,w_300/v1400327875/ruby-lang_qvmr4g.png" alt="" title="ruby-lang" width="250" class="alignleft size-medium wp-image-3452" /></a></p>
 <p>With salesforce.com's <a href="http://www.zdnet.com/blog/btl/salesforce-buy-heroku-for-212-million-eyes-ruby-developers/42495">recent purchase of Heroku</a>, Ruby just got more interesting. I've never dabbled in Ruby (although I've wanted to!) so this is an excellent reason to dig into the language and see what it's all about. Since I'm learning Ruby I thought some people might also benefit from the experience and make the learning curve a little less steep.</p>

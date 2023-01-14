@@ -4,7 +4,7 @@ title:  Example Apps for nforce-tooling Plugin
 description: Yesterday I released the nforce-tooling plugin for nforce so today I thought I would follow up with some sample demos and a video walking through the process of using the plugin. The video walks through two demos. The first is for standard functions like describe, querying tooling objects and creating/deleting records. The second demo show how to deploy a new Apex class to your org. You can find the code for these demos in the examples directory for the plugin. To give you something to look at, 
 date: 2014-01-29 15:52:03 +0300
 image:  '/images/slugs/example-apps-for-nforce-tooling-plugin.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce", "node.js"]
 ---
 <p>Yesterday I released the <a href="https://github.com/jeffdonthemic/nforce-tooling">nforce-tooling plugin</a> for <a href="https://github.com/kevinohara80/nforce">nforce</a> so today I thought I would follow up with some sample demos and a video walking through the process of using the plugin.</p>
 <p>The video walks through two demos. The first is for standard functions like describe, querying tooling objects and creating/deleting records. The second demo show how to deploy a new Apex class to your org. You can find the code for these demos in the <a href="https://github.com/jeffdonthemic/nforce-tooling/tree/master/examples">examples directory</a> for the plugin.</p>

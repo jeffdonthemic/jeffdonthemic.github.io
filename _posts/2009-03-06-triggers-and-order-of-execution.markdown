@@ -4,7 +4,7 @@ title:  Triggers and Order of Execution
 description: This topic came up again today in reference to a trigger to modify lead assignments. Its always important to keep the order of these events in mind when developing as it can cause unintended consequences and a debugging nightmare. When a record is saved with an insert, update, or upsert statement, the following events occur in order- 1. The original record is loaded from the database (or initialized for an  insert statement)  2. The new record field values are loaded from the request and overwri
 date: 2009-03-06 19:36:24 +0300
 image:  '/images/slugs/triggers-and-order-of-execution.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "apex"]
 ---
 <p>This topic came up again today in reference to a trigger to modify lead assignments. It's always important to keep the order of these events in mind when developing as it can cause unintended consequences and a debugging nightmare.</p>
 <p>When a record is saved with an insert, update, or upsert statement, the following events occur in order:</p>

@@ -4,7 +4,7 @@ title:  Salesforce REST API Demo from Cloudstock
 description: This is the demo that I put together for the Cloudstock Hackathon  and I tried to throw in as many partner services as possible. I finally ended up with five so it was dubbed the Kitchen Sink demo. I thought some people may find it useful as it shows how to use the Force.com REST API in conjunction with OAuth2 using the Spring MVC framework. Pat Patterson put together a greatGetting Started with the Force.com REST API article but my app is slightly different and IMHO easier, since it uses the Sp
 date: 2010-12-17 17:18:16 +0300
 image:  '/images/slugs/salesforce-rest-api-demo-from-cloudstock.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "java"]
 ---
 <p>This is the demo that I put together for the <a href="http://www.cloudstockevent.com/cloudstockhackathon">Cloudstock Hackathon</a> and I tried to throw in as many partner services as possible. I finally ended up with five so it was dubbed the "Kitchen Sink" demo. I thought some people may find it useful as it shows how to use the Force.com REST API in conjunction with OAuth2 using the Spring MVC framework. Pat Patterson put together a great <a href="http://wiki.developerforce.com/index.php/Getting_Started_with_the_Force.com_REST_API">Getting Started with the Force.com REST API article</a> but my app is slightly different and IMHO easier, since it uses the Spring Framework.</p>
 <p>The app is a external-facing recruiting site that advertises the open <a href="http://www.appirio.com/careers">Appirio positions</a>. Please remember that this is a demo and I put most of the code into a couple of controllers to make it easier to show. The code can definitely be refactored in certain places. </p>

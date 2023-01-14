@@ -4,7 +4,7 @@ title:  Generate a Visualforce Page from an Existing Page Layout
 description: We have a rather large Org with 600+ Page Layouts. When Visualforce came out we had a number of requests from our business units for customized layouts. After about 3 weeks of hand-coding Visualforce pages I soon realized I needed a better way to communicate these change as well as manage the code modifications. Being that I am relatively lazy by nature, I decided that I needed to develop a way to make my computer do the work that I didnt want to do. The C# code that I wrote utilizes the Metadat
 date: 2009-02-09 18:00:00 +0300
 image:  '/images/slugs/generate-a-visualforce-page-from-an-existing-page-layout.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", ".net"]
 ---
 <p>We have a rather large Org with 600+ Page Layouts. When Visualforce came out we had a number of requests from our business units for customized layouts. After about 3 weeks of hand-coding Visualforce pages I soon realized I needed a better way to communicate these change as well as manage the code modifications. Being that I am relatively lazy by nature, I decided that I needed to develop a way to make my computer do the work that I didn't want to do.</p>
 <img class="alignnone size-full wp-image-446" title="Generate Visualforce Pages" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399677/scaffolding_gczj3k.png" alt="Generate Visualforce Pages" width="544" height="561" />

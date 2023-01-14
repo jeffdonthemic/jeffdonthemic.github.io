@@ -4,7 +4,7 @@ title:  17 Sites Every Force.com Developer Should Bookmark
 description: The Salesforce developer ecosystem is expanding nearly as fast as my waistline and its hard to keep up with all of the new developments. There are three releases per year that unleash a flood of new features and upgrades plus the push for Salesforce1 Lightning is in full swing. How do you stay informed? Ive put together a number of resources that you should bookmark and check often for the latest and greatest info, tutorials and thought leadership articles. Developer Community Its no coincidence
 date: 2015-03-18 14:33:53 +0300
 image:  '/images/pexels-elina-krima-3317038.jpg'
-tags:   ["2015", "public"]
+tags:   ["salesforce"]
 ---
 <p>The Salesforce developer ecosystem is expanding nearly as fast as my waistline and it's hard to keep up with all of the new developments. There are three releases per year that unleash a flood of new features and upgrades plus the push for Salesforce1 Lightning is in full swing. How do you stay informed? I've put together a number of resources that you should bookmark and check often for the latest and greatest info, tutorials and thought leadership articles.</p>
 <h2 id="developercommunity">Developer Community</h2>

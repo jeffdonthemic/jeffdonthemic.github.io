@@ -4,7 +4,7 @@ title:  ActionSupport Example using Facets and JavaScript
 description: You can make your UI much easier on your users by giving them clues on what is taking place when they click buttons, enter text or choose items in a picklist. This example shows how you can notify a user that something is taking place in the background when you are performing actions asynchronously. For the sake of example, it uses both facets and JavaScript. You can run this example on my Developer Site. In this example the user simply enters their name in the text box. In the code below weve a
 date: 2009-11-06 17:35:22 +0300
 image:  '/images/slugs/actionsupport-example-using-facets-and-javascript.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>You can make your UI much easier on your users by giving them clues on what is taking place when they click buttons, enter text or choose items in a picklist. This example shows how you can notify a user that something is taking place in the background when you are performing actions asynchronously. For the sake of example, it uses both facets and JavaScript.</p>
 <p><strong>You can </strong><a href="http://jeffdouglas-developer-edition.na5.force.com/examples/ActionSupportExample" target="_blank"><strong>run this example</strong></a><strong> on my Developer Site.</strong></p>

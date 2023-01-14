@@ -4,7 +4,7 @@ title:  Ruby 1.9.2 Install Errors with Mac OS X Lion and RVM
 description: I got my shiny new MBP on Friday and spent a good part of the weekend installing software. I ran into a installation issue with RVM and Ruby and just want to post a fix in case anyone runs across it. Just to be clear, the issue seems to be with Lion and not Ruby in general. I successfully installed RVM (Ruby Version Manager) but received a nasty error when installing Ruby 1.9.2. My error log looked like- ./configure --prefix=/Users/Jeff/.rvm/usr checking for a BSD-compatible install... /usr/bin/
 date: 2011-08-01 12:21:23 +0300
 image:  '/images/slugs/ruby-1-9-2-install-errors-with-mac-os-x-lion-and-rvm.jpg'
-tags:   ["2011", "public"]
+tags:   ["ruby"]
 ---
 <p>I got my shiny new MBP on Friday and spent a good part of the weekend installing software. I ran into a installation issue with RVM and Ruby and just want to post a fix in case anyone runs across it. Just to be clear, the issue seems to be with Lion and not Ruby in general.</p>
 <p>I successfully installed <a href="https://rvm.beginrescueend.com/">RVM</a> (Ruby Version Manager) but received a nasty error when installing Ruby 1.9.2. My error log looked like:</p>

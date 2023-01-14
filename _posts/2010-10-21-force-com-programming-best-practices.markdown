@@ -4,7 +4,7 @@ title:  Force.com Programming Best Practices
 description: Wes and I are adding a few more topics to our Salesforce Handbook before we put it to bed and I thought a great topic would be programming best practices. Ive never seen a complete list of best practices so I thought I would put something together based upon my experiences. I know Ive left some out, so if you have any to add, please chime in and we may include them in the book. Apex * Since Apex is case insensitive you can write it however youd like. However,  to increase readability, follow Jav
 date: 2010-10-21 10:56:18 +0300
 image:  '/images/slugs/force-com-programming-best-practices.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "salesforce handbook", "visualforce", "apex"]
 ---
 <p> </p>
 <p>﻿Wes and I are adding a few more topics to our <a href="http://salesforcehandbook.wordpress.com/">Salesforce Handbook</a> before we put it to bed and I thought a great topic would be programming best practices. I've never seen a "complete" list of best practices so I thought I would put something together based upon my experiences. I know I've left some out, so if you have any to add, please chime in and we may include them in the book.</p>

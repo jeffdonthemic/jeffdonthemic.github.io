@@ -4,7 +4,7 @@ title:  BPM - Business Performance Management
 description: A number of clients have been asking me to clarify BPM for them. There is some confusion in the acronym as it refers to two different types of software and technologies- 1. Business Performance Management (aka corporate performance management) is a   suite of applications that typically provides analysis, monitoring and   reporting of key performance indicators (KPI) linked to an organizations   strategy. 2. Business Process Management is an approach to model, improve and automate an   organizat
 date: 2007-03-22 14:06:46 +0300
 image:  '/images/slugs/bpm-business-performance-management.jpg'
-tags:   ["2007", "public"]
+tags:   ["the internet business"]
 ---
 <p>A number of clients have been asking me to clarify BPM for them. There is some confusion in the acronym as it refers to two different types of software and technologies:</p>
 <ol>

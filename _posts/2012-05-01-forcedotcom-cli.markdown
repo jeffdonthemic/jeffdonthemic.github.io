@@ -4,7 +4,7 @@ title:  Build a Command Line App for Force.com with Ruby & Thor
 description: Over at CloudSpokes  we write a lot of ruby code (CloudSpokes.com runs on Heroku in Ruby with Database.com  as the backend) for debugging, data migration, utilities and more. We typically just write a quick ruby class and run it from the command line to execute the script. However, I thought it might be cooler to write a cli for Force.com that I could distribute to the team. So if you know a little ruby, the process isnt that difficult. All you need is the databasedoctom gem  and thor , a simple
 date: 2012-05-01 12:17:33 +0300
 image:  '/images/slugs/forcedotcom-cli.jpg'
-tags:   ["2012", "public"]
+tags:   ["ruby", "salesforce"]
 ---
 <p>Over at <a href="http://www.cloudspokes.com">CloudSpokes</a> we write a lot of ruby code (CloudSpokes.com runs on Heroku in Ruby with <a href="http://www.database.com">Database.com</a> as the backend) for debugging, data migration, utilities and more. We typically just write a quick ruby class and run it from the command line to execute the script. However, I thought it might be cooler to write a cli for Force.com that I could distribute to the team.</p>
 <p>So if you know a little ruby, the process isn't that difficult. All you need is the <a href="https://github.com/heroku/databasedotcom">databasedoctom gem</a> and <a href="https://github.com/wycats/thor">thor</a>, a simple tool for building self-documenting command line utilities in ruby. You then write your ruby code in the .thor file and execute if from the command line as you would any other cli.</p>

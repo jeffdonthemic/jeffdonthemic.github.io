@@ -4,7 +4,7 @@ title:  Node-RED for Salesforce
 description: I happened across Node-RED  last week while prepping for a topcoder  challenge and became obsessed with it. If you are not familiar with it, Node-RED is an open source IBM technology for wiring together hardware devices, APIs and online services in new and interesting ways. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud. There are even a couple of Heroku Buttons  to get you 
 date: 2015-07-29 15:58:39 +0300
 image:  '/images/node-red-salesforce-hero.jpg'
-tags:   ["2015", "public"]
+tags:   ["node-red"]
 ---
 <p>I happened across <a href="http://www.nodered.org">Node-RED</a> last week while prepping for a <a href="http://www.topcoder.com">topcoder</a> challenge and became obsessed with it. If you are not familiar with it, Node-RED is an open source IBM technology for “wiring together hardware devices, APIs and online services in new and interesting ways”. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud. There are even a couple of <a href="https://buttons.heroku.com/">Heroku Buttons</a> to get you started however local installation is a snap.</p>
 <blockquote>

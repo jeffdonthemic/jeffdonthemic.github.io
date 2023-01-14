@@ -4,7 +4,7 @@ title:  My Favorite Salesforce.com Summer ’11 Features
 description:  The salesforce.com Summer ’11 release is due to hit an org near you in the next 30 days. Are you ready? As usual, I’ve scoured through all 71 pages of the release notes and pulled out my favorite features. I didn’t hit all of the items in the release notes so make sure you pull up the PDF and check out all of #superfrickinawesomeness in this release. Also remember to visit the Summer ’11 Force.com Platform Release Preview page for any last minute info. Jigsaw is GA! * Everyone using supported S
 date: 2011-05-13 19:48:58 +0300
 image:  '/images/slugs/my-favorite-salesforce-com-summer-11-features.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327803/logo-summer11_xo64at.png"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/h_180,w_300/v1400327803/logo-summer11_xo64at.png" alt="" title="logo-summer11" width="300" height="180" class="alignleft size-medium wp-image-3888" /></a>The salesforce.com Summer ’11 release is due to hit an org near you in the next 30 days. Are you ready? As usual, I’ve scoured through all 71 pages of the release notes and pulled out my favorite features. I didn’t hit all of the items in the release notes so make sure you <a href="http://na1.salesforce.com/help/doc/en/salesforce_summer11_release_notes.pdf" target="_blank">pull up the PDF</a> and check out all of #superfrickinawesomeness in this release. Also remember to visit the <a href="http://www.salesforce.com/customer-resources/releases/" target="_blank">Summer ’11 Force.com Platform Release Preview page</a> for any last minute info.</p>
 <p><strong>Jigsaw is GA!</strong></p>

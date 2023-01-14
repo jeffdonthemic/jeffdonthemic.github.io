@@ -4,7 +4,7 @@ title:  Real World Release Management with Salesforce.com
 description: Weve been working with Salesforce.com on and off for about a year on their release and change management best practices. Weve had a number of calls with them discussing the Metadata APIs functionality (or lack of functionality) and best practices for release management for large, complex orgs. It looks like theyve taken of our suggestions and experiences to heart as they recently  released their Development Lifecycle Guide  . First let me state that we have a complex org and development environm
 date: 2009-06-19 21:14:37 +0300
 image:  '/images/slugs/real-world-release-management-with-salesforce-com.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p>We've been working with Salesforce.com on and off for about a year on their release and change management best practices. We've had a number of calls with them discussing the Metadata API's functionality (or lack of functionality) and best practices for release management for large, complex orgs. It looks like they've taken of our suggestions and experiences to heart as they recently <a href="http://blog.sforce.com/sforce/2009/06/new-book-the-forcecom-development-lifecycle-guide.html" target="_blank">released their Development Lifecycle Guide</a>.</p>
 <p>First let me state that we have a complex org and development environment. We have a global Saleforce.com project team with multiple projects running concurrently in all continents. We have 15 development sandboxes, 5 test sandboxes, 1 full-copy UAT sandbox and 1 Production box. Our production org consists of 40+ distinct and separately functioning companies with over 500 recordtypes to manage access to data.</p>

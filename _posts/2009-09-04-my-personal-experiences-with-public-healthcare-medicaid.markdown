@@ -4,7 +4,7 @@ title:  My Personal Experiences with Public Healthcare (Medicaid)
 description: My wife and I have been foster parents for over 11 years and have taken care of 75+ children for varying amounts of time. Roughly 5 years ago my wife quit her job and started doing full-time medical foster care. In addition to our own 3 biological children, at any point in time we could have 1-3 infants or toddlers with cerebral palsy, brittle bone disease, down syndrome, autism, feeding tubes, colostomy bags, prescription medications, etc. BTW, my wife is a saint and has the patience of Job. As
 date: 2009-09-04 11:11:38 +0300
 image:  '/images/slugs/my-personal-experiences-with-public-healthcare-medicaid.jpg'
-tags:   ["2009", "public"]
+tags:   ["personal"]
 ---
 <p>My wife and I have been foster parents for over 11 years and have taken care of 75+ children for varying amounts of time. Roughly 5 years ago my wife quit her job and started doing full-time medical foster care. In addition to our own 3 biological children, at any point in time we could have 1-3 infants or toddlers with cerebral palsy, brittle bone disease, down syndrome, autism, feeding tubes, colostomy bags, prescription medications, etc. BTW, my wife is a saint and has the patience of Job.</p>
 <p>As part of the foster case system, all of these children are covered under Medicaid. I want to state that my wife and I are both <strong>for</strong> medical insurance reform. We live with the medical system every day and see the massive amounts of problems. I'm not a doctor, economist or politician (God help me!), but parts of the reform bills in Congress, in my opinion, are not feasible. With all the debate regarding the "public option", here are our experiences working daily with Medicaid.</p>

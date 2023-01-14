@@ -4,7 +4,7 @@ title:  Some DEV-501 Assignments/Essays Cancelations Reported
 description: A few people (mostly NE US and UK) have emailed me that they received the following notification from Salesforce.com Training and Certification sometime around Christmas-  You recently registered for the Salesforce.com Certified Force.com Advanced Developer Programming Assignment and Essay. Due to seasonably high demand for the Force.com experts who will be evaluating your assignments, we are postponing the January/February assignment window until further notice.I emailed Theresa at Salesforce.c
 date: 2010-01-06 10:37:06 +0300
 image:  '/images/slugs/some-dev-501-assignmentsessays-cancelations-reported.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce"]
 ---
 <p>A few people (mostly NE US and UK) have emailed me that they received the following notification from Salesforce.com Training and Certification sometime around Christmas:</p>
 <blockquote>You recently registered for the Salesforce.com Certified Force.com Advanced Developer Programming Assignment and Essay. Due to seasonably high demand for the Force.com experts who will be evaluating your assignments, we are postponing the January/February assignment window until further notice.</blockquote>

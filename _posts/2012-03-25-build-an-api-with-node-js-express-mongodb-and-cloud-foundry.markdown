@@ -4,7 +4,7 @@ title:  Build an API with Node.js, Express, MongoDB and Cloud Foundry
 description: I was finalist in the LinkedIn Hackday hackathon  last November with my Mobile Chow Finder app using jQuery Mobile, Database.com and Ruby on Rails on Heroku. I really liked the Chow Finder use case but wanted to make it more of a finished application; not just something I threw together in a matter of hours. So I decided to start off by writing an API with Node.js and MongoDB and host it on Cloud Foundry. Im going to build a website running off that API with something like Sinatra or Rails. I al
 date: 2012-03-25 16:00:00 +0300
 image:  '/images/slugs/build-an-api-with-node-js-express-mongodb-and-cloud-foundry.jpg'
-tags:   ["2012", "public"]
+tags:   ["cloud foundry", "mongodb", "node.js"]
 ---
 <p>I was <a href="http://veterans2011.linkedin.com/#gallery">finalist in the LinkedIn Hackday hackathon</a> last November with my "Mobile Chow Finder" app using jQuery Mobile, Database.com and Ruby on Rails on Heroku. I really liked the Chow Finder use case but wanted to make it more of a finished application; not just something I threw together in a matter of hours. So I decided to start off by writing an API with Node.js and MongoDB and host it on Cloud Foundry. I'm going to build a website running off that API with something like Sinatra or Rails. I also want to eventually build HTML5, Android and iOS applications running off this API too.</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327750/chow-finder1_etamho.png" alt="" ></p>

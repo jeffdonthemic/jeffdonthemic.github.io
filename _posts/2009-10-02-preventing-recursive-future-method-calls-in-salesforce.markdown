@@ -4,7 +4,7 @@ title:  Preventing Recursive Future Method Calls in Salesforce
 description: Governor limits are runtime limits enforced by the Force.com platform to ensure that your code doesnt, among other things, hog memory resources, lock up the database with an excessive amount of calls or create infinite code loops. Working within governor limits requires you to sometimes become creative when writing Apex. One way to work within Force.com platform limits as to use asynchronous Apex methods with the future annotation. Calls to these methods execute asynchronously when the server ha
 date: 2009-10-02 12:56:48 +0300
 image:  '/images/pexels-godisable-jacob-944762.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>Governor limits are runtime limits enforced by the Force.com platform to ensure that your code doesn't, among other things, hog memory resources, lock up the database with an excessive amount of calls or create infinite code loops. Working within governor limits requires you to sometimes become creative when writing Apex.</p>
 <p>One way to work within Force.com platform limits as to use asynchronous Apex methods with the future annotation. Calls to these methods execute asynchronously when the server has available resources and are subject to their own additional limits:</p>

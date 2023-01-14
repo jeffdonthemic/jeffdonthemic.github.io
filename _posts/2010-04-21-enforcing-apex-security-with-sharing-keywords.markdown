@@ -4,7 +4,7 @@ title:  Enforcing Apex Security With Sharing Keywords
 description: Security is a major foundation of the Force.com platform. Not only is security available declaratively but it is also baked into the Apex language itself. Most Apex scripts run in system context without respect to the current users permissions, sharing rules and field level security. This ensures that triggers and web services have access to all records in the org which is usually a good thing. However, to ensure that you dont expose sensitive data to unauthorized users, you can specify that an 
 date: 2010-04-21 16:00:00 +0300
 image:  '/images/pexels-cottonbro-3951901.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "apex"]
 ---
 <p>Security is a major foundation of the Force.com platform. Not only is security available declaratively but it is also baked into the Apex language itself. Most Apex scripts run in system context without respect to the current users permissions, sharing rules and field level security. This ensures that triggers and web services have access to all records in the org which is usually a good thing.</p>
 <p>However, to ensure that you don't expose sensitive data to unauthorized users, you can specify that an Apex script <strong>does enforce</strong> the running user's row-level security by using the <code>with sharing</code> keywords when declaring your class. This doesn’t enforce the user's permissions and field-level security. Apex code always has access to all fields and objects in an organization, ensuring that code won’t fail to run because of hidden fields or objects for a user. The <code>with sharing</code> keywords can affect SOQL and SOSL queries as well as DML operations so be careful.</p>

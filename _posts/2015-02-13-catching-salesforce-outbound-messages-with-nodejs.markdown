@@ -4,7 +4,7 @@ title:  Catching Salesforce Outbound Messages with NodeJS
 description: When building applications that are integrated with Salesforce  , one of the choices you have to make is how you get data out of Salesforce and into your app. You can use one of the many ETL tools  on the market, you can poll for changed records, use the Force.com Streaming API  , use Apex HTTP Callouts from Salesforce or Outbound Messages . Ive covered most of these approaches in the past but have purposefully overlooked Outbound Messages. Why? Because, in general, I hate working with XML. Perh
 date: 2015-02-13 18:37:17 +0300
 image:  '/images/pexels-quang-nguyen-vinh-6875132.jpg'
-tags:   ["2015", "public"]
+tags:   ["salesforce", "node.js"]
 ---
 <p>When <a href="https://www.topcoder.com/blog/strategies-for-building-customer-facing-apps-with-salesforce-com/">building applications that are integrated with Salesforce</a>, one of the choices you have to make is <strong>how</strong> you get data out of Salesforce and into your app. You can use <a href="http://suyati.com/top-10-etl-tools-salesforce-data-migration/">one of the many ETL tools</a> on the market, you can poll for changed records, use the <a href="http://appirio.com/category/tech-blog/2013/07/the-salesforce-streaming-api-with-example/">Force.com Streaming API</a>, use <a href="https://developer.salesforce.com/page/Apex_Callouts">Apex HTTP Callouts</a> from Salesforce or <a href="https://developer.salesforce.com/page/Outbound_Messaging">Outbound Messages</a>.</p>
 <p>I've covered most of these approaches in the past but have purposefully<br>

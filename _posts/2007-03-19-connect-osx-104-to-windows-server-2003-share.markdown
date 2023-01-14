@@ -4,7 +4,7 @@ title:  Connect OSX 10.4 to Windows Server 2003 Share
 description: We run a Windows network at work with mostly XP clients. We have a few OSX users that need to connect to the shares on the Windows Server 2003 Domain Controler/File Server. I was unable to connect via smb-//IP_ADDRESS until I made a few modifications on the server. This affects how Windows encrypts information sent to and from it. Run regedit (Start > Run > Regedit {return}) and type the following-  HKEY_LOCAL_MACHINE System CurrentControlSet Services LanManServer Parameter  Then double click on
 date: 2007-03-19 14:08:15 +0300
 image:  '/images/slugs/connect-osx-104-to-windows-server-2003-share.jpg'
-tags:   ["2007", "public"]
+tags:   ["apple"]
 ---
 <p>We run a Windows network at work with mostly XP clients. We have a few OSX users that need to connect to the shares on the Windows Server 2003 Domain Controler/File Server. I was unable to connect via smb://IP_ADDRESS until I made a few modifications on the server. This affects how Windows encrypts information sent to and from it.</p>
 <p>Run "regedit" (Start > Run > "Regedit" {return}) and type the following:</p>

@@ -4,7 +4,7 @@ title:  Publishing with the Force.com Toolkit for Facebook
 description: When Sandeep and I demoed the Force.com Toolkit for Facebook at Dreamforce 2010 last December the Toolkit only contained the functionality to fetch data from Facebook using the Graph API . Fortunately a number of the Force.com toolkits are available on github so if you want to fork a project and add functionality or fix a bug, you are more that welcome to! Its actually encouraged.   Ive been working on a Facebook app for CloudSpokes  and wanted to have the ability to publish info to Facebook. So
 date: 2011-03-25 14:43:56 +0300
 image:  '/images/slugs/publishing-with-the-force-com-toolkit-for-facebook.jpg'
-tags:   ["2011", "public"]
+tags:   ["facebook", "salesforce"]
 ---
 <p>When Sandeep and I <a href="http://www.youtube.com/watch?v=1fd5UUmCHNo&hd=1">demoed the Force.com Toolkit for Facebook</a> at Dreamforce 2010 last December the Toolkit only contained the functionality to fetch data from Facebook using the <a href="http://developers.facebook.com/docs/reference/api/">Graph API</a>. Fortunately a number of the Force.com toolkits are available on <a href="https://github.com">github</a> so if you want to fork a project and add functionality or fix a bug, you are more that welcome to! It's actually encouraged.</p>
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327809/cloudspokes-fb_ikuxnp.png"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327809/cloudspokes-fb_ikuxnp.png" alt="" title="cloudspokes-fb" width="350" class="alignleft size-full wp-image-3812" /></a></p>

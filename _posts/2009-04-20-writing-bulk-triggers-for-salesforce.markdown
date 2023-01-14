@@ -4,7 +4,7 @@ title:  Writing Bulk Triggers for Salesforce.com
 description: Its exciting to see all of the new members on the Salesforce.com message board that are just getting into cloud computing. Some of the most common questions revolve around how to write, test and debug bulk triggers. Programming for a multi-tenant environment is different than developing for a dedicated server and its understandable that developers coming from a Java or .NET background will have some sort of ramp up time. This article does not go over all aspects of triggers or bulk processing, s
 date: 2009-04-20 15:20:16 +0300
 image:  '/images/slugs/writing-bulk-triggers-for-salesforce.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>It's exciting to see all of the new members on the Salesforce.com message board that are just getting into cloud computing. Some of the most common questions revolve around how to write, test and debug bulk triggers. Programming for a multi-tenant environment is different than developing for a dedicated server and it's understandable that developers coming from a Java or .NET background will have some sort of ramp up time.</p>
 <p>This article does not go over all aspects of triggers or bulk processing, so please see the <a href="http://www.salesforce.com/us/developer/docs/apexcode/index.htm" target="_blank">Apex docs</a> for more info. There is some really good documentation and tutorials on writing Apex triggers and unit testing but it seems to be spread out over different documents and wiki pages. My goal is to pull together all of this disparate info together into one tutorial and demonstrate how to write, and not write, triggers for Salesforce.com.</p>

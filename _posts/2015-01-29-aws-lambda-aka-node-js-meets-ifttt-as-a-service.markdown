@@ -4,7 +4,7 @@ title:  AWS Lambda aka Node.js meets IFTTT as a service!
 description:   Amazon Lambda  was announced last November at re-Invent and billed as an event-driven computing service for dynamic applications. What does that mean? AWS will run a chunk of JavaScript (i.e., Lambda function) whenever one of the following events occurs- * a table is updated in Amazon DynamoDB  * an object in an Amazon S3 bucket is modified  * a message arrives in an Amazon Kinesis stream  * a custom event is received from another app or service  This is Amazons way of delivering a microservic
 date: 2015-01-29 22:49:26 +0300
 image:  '/images/slugs/aws-lambda-aka-node-js-meets-ifttt-as-a-service.jpg'
-tags:   ["2015", "public"]
+tags:   ["aws", "node.js", "aws"]
 ---
 <p><a href="http://aws.amazon.com/lambda/">Amazon Lambda</a> was announced last November at re:Invent and billed as “an event-driven computing service for dynamic applications”. What does that mean? AWS will run a chunk of JavaScript (i.e., Lambda function) whenever one of the following events occurs:</p>
 <ul>

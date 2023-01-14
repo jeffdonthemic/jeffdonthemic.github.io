@@ -4,7 +4,7 @@ title:  Appirio Tough Mudder - RIP Clint Ruiz
 description:  On May 19th some of us from Appirio are doing Tough Mudder in Jacksonville as part of Team Ruiz to raise money for a couple of reasons. Ive given a lot to the Salesforce developer community so Im hoping in turn I can persuade some people step up and pay it forward after hearing this story. So thats my son on the left. Hes an arabic-speaking Army Special Operations sergeant heading back for his second deployment to Afghanistan in the next couple of days (literally). The tattoo on his chest is fo
 date: 2013-05-10 13:48:10 +0300
 image:  '/images/slugs/tough-mudder-team-ruiz.jpg'
-tags:   ["2013", "public"]
+tags:   ["personal"]
 ---
 <p><a href="images/IMG_20130426_142926_ajcsvp.jpg"><img src="images/IMG_20130426_142926_ajcsvp.jpg" alt="My Son, SGT Douglas" title="Team Ruiz" width="225" height="300" align="left" style="padding-right:15px" /></a>On May 19th some of us from Appirio are doing <a href="http://toughmudder.com/events/florida-jacksonville-sat-may-18-sun-may-19-2013/">Tough Mudder in Jacksonville</a> as part of "Team Ruiz" to raise money for a couple of reasons. I've given a lot to the Salesforce developer community so I'm hoping in turn I can persuade some people step up and pay it forward after hearing this story.</p>
 <p>So that's my son on the left. He's an arabic-speaking Army Special Operations sergeant heading back for his second deployment to Afghanistan in the next couple of days (literally). The tattoo on his chest is for his good friend, 22 year old Sergeant Clint Ruiz, that was killed Afghanistan on October 25, 2012 in <a href="http://www.cnn.com/2013/03/11/world/asia/afghanistan-insider-attack">this blue on green incident</a>. He's survived by a wife and small son.</p>

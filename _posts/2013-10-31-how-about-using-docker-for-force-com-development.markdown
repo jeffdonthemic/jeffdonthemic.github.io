@@ -4,7 +4,7 @@ title:  How about using Docker for Force.com Development?
 description: Docker is an open-source engine that automates the deployment of any application as a lightweight, portable, self-sufficient container that will run virtually anywhere. The great thing about these containers is that they encapsulate any payload and runtime dependencies, and will run consistently on and between virtually any server.   Id heard about Docker a couple of months ago (their github repo is on fire!) and actually met up with a couple of their guys at Monktoberfest. Weve been playing aro
 date: 2013-10-31 13:15:30 +0300
 image:  '/images/slugs/how-about-using-docker-for-force-com-development.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p><a href="http://www.docker.io/">Docker</a> is an open-source engine that automates the deployment of any application as a lightweight, portable, self-sufficient container that will run virtually anywhere. The great thing about these containers is that they encapsulate any payload and runtime dependencies, and will run consistently on and between virtually any server.</p>
 <p><a href="http://www.docker.io/"><img alt="" src="https://www.docker.io/static/img/homepage-docker-logo.png" class="aligncenter" width="400" height="331" /></a></p>

@@ -4,7 +4,7 @@ title:  Fun with Salesforce Collections
 description: The Apex language provides developers with three classes (Set, List and Map) that make it easier to handle collections of objects. In a sense these collections work somewhat like arrays, except their size can change dynamically, and they have more advanced behaviors and easier access methods than arrays. If you are familiar with the Java Collections API then these should feel very warm and cozy. Each collection has characteristics that make it applicable in certain situations and well cover thes
 date: 2011-01-06 15:51:08 +0300
 image:  '/images/pexels-peng-louis-1643456.jpg'
-tags:   ["2011", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>The Apex language provides developers with three classes (Set, List and Map) that make it easier to handle collections of objects. In a sense these collections work somewhat like arrays, except their size can change dynamically, and they have more advanced behaviors and easier access methods than arrays. If you are familiar with the Java Collections API then these should feel very warm and cozy. Each collection has characteristics that make it applicable in certain situations and we'll cover these in detail. We'll talk about each of the collections, their features, how they are typically used and show some sample code that you can execute in your org.</p>
 <p><strong>Note:</strong> Salesforce.com recently made an important change to collections. There is no longer a limit on the number of items a collection can hold. However, there is a general limit on <a href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_gov_limits.htm#total_heap_size_limit_desc" target="_blank">heap size</a>.</p>

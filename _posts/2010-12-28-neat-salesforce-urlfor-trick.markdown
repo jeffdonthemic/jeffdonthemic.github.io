@@ -4,7 +4,7 @@ title:  Neat Salesforce URLFOR Trick
 description: I was working on an app the other day and had written a custom screen allowing the user to add/edit multiple records on the same page. So in the process I wrote a Visualforce page that Overrides the standard New and Edit functions and redirects the user to this new screen. Heres my code that I thought should have worked perfectly.  The code above worked great for the New function but I was receiving the following error for the Edit function-  SObject row was retrieved via SOQL without querying t
 date: 2010-12-28 21:39:27 +0300
 image:  '/images/slugs/neat-salesforce-urlfor-trick.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "visualforce"]
 ---
 <p>I was working on an app the other day and had written a custom screen allowing the user to add/edit multiple records on the same page. So in the process I wrote a Visualforce page that Overrides the standard New and Edit functions and redirects the user to this new screen. Here's my code that I thought should have worked perfectly.</p>
 {% highlight js %}<apex:page standardController=”MyCustomObject__c”

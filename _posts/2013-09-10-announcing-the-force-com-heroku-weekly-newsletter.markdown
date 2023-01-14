@@ -4,7 +4,7 @@ title:  Announcing the Force.com & Heroku Weekly Newsletter
 description: Im been a fan of the Ruby , JavaScript , Node.js and Postres weekly newsletters and just realized that there is not one for Force.com and Heroku. So I decided to blatantly rip off the idea and start one! The goal is to curate articles that I think might be interesting to Force.com and Heroku developers and deliver it every Thursday for your reading enjoyment.   Go ahead and sign up while you are thinking about it.  Ill start sending out issues the first week of October to give people time to sub
 date: 2013-09-10 09:59:30 +0300
 image:  '/images/slugs/announcing-the-force-com-heroku-weekly-newsletter.jpg'
-tags:   ["2013", "public"]
+tags:   ["heroku", "salesforce"]
 ---
 <p>I'm been a fan of the <a href="http://rubyweekly.com/" target="_blank">Ruby</a>, <a href="http://javascriptweekly.com/" target="_blank">JavaScript</a>, <a href="http://nodeweekly.com/" target="_blank">Node.js</a> and <a href="http://postgresweekly.com/" target="_blank">Postres</a> weekly newsletters and just realized that there is not one for Force.com and Heroku. So I decided to blatantly rip off the idea and start one! The goal is to curate articles that I think might be interesting to Force.com and Heroku developers and deliver it every Thursday for your reading enjoyment.</p>
 <p><a href="http://forcedotcomweekly.com/2013/09/07/hello-world/"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327700/forcedtocomweekly_mhcf24.png" alt="" title="Force.com Weekly Newsletter" width="500" height="394" class="aligncenter size-full wp-image-5000" /></a></p>

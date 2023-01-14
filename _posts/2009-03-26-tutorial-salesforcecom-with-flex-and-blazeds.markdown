@@ -4,7 +4,7 @@ title:  Salesforce.com with Flex and BlazeDS Tutorial
 description:   It’s fairly common these days to see Flex applications running inside Salesforce.com. We use Apex and Visualforce for a large majority of our custom UIs but there are some instances that just work better with Flex (drag and drop, trees, tabbed interfaces, etc.). But what if you have a shiny, new Flex application running on your corporate website and your CEO decides he wants to display some data stored in Salesforce.com? Better yet, he wants a mashup using Salesforce.com, Google Maps, Flickr a
 date: 2009-03-26 18:08:45 +0300
 image:  '/images/slugs/tutorial-salesforcecom-with-flex-and-blazeds.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "flex", "java"]
 ---
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399674/blaze-app_sxcicv.png" alt="" ></p>
 <p>It’s fairly common these days to see Flex applications running inside Salesforce.com. We use Apex and Visualforce for a large majority of our custom UIs but there are some instances that just work better with Flex (drag and drop, trees, tabbed interfaces, etc.).</p>

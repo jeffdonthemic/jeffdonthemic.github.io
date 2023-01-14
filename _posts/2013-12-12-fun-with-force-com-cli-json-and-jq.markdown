@@ -4,7 +4,7 @@ title:  Fun with Force.com CLI, JSON and .jq
 description: We are terminal junkies at CloudSpokes so we were really excited when the  Force.com CLI was announced. One of our favorite command line tools is .jq , a lightweight and flexible command-line JSON processor. My buddy and terminal Yoda, Kyle Bowerman , turned me on to this utility. jq is like sed for JSON data – you can use it to slice and filter and map and transform structured data with the same ease as sed, awk, grep. So how does this work with Salesforce you ask? You can make virtually any ca
 date: 2013-12-12 20:49:55 +0300
 image:  '/images/slugs/fun-with-force-com-cli-json-and-jq.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>We are terminal junkies at CloudSpokes so we were really excited when the <a href="https://force-cli.heroku.com/">Force.com CLI</a> was announced. One of our favorite command line tools is <a href="http://stedolan.github.io/jq/">.jq</a>, a lightweight and flexible command-line JSON processor. My buddy and terminal Yoda, <a href="https://twitter.com/kylebowerman">Kyle Bowerman</a>, turned me on to this utility. jq is like sed for JSON data – you can use it to slice and filter and map and transform structured data with the same ease as sed, awk, grep.</p>
 <p>So how does this work with Salesforce you ask? You can make virtually any call that returns JSON (let's say a REST API query), search through the JSON, pipe the results into a shell script and then run that with the Force.com CLI.</p>

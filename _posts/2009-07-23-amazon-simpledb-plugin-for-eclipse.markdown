@@ -4,7 +4,7 @@ title:  Amazon SimpleDB Plugin for Eclipse
 description:  Amazon once again is again stepping up its game in the IaaS space. This morning they announced support for SimpleDB in their Eclipse plugin. You can now administer your SimpleDB data without writing a single line of code. With each release, Amazon is pushing into the space of companies like Rightscale and forcing these types of vendors reevaluate their offerings. The installation/update is pretty painless and you can get started working against your domains after a quick little setup. The video
 date: 2009-07-23 13:10:21 +0300
 image:  '/images/slugs/amazon-simpledb-plugin-for-eclipse.jpg'
-tags:   ["2009", "public"]
+tags:   ["cloud computing", "amazon ec2"]
 ---
 <p><a href="http://media.amazonwebservices.com/videos/eclipse-sdb-management-video.html"><img style="padding-right:10px;" src="http://media.amazonwebservices.com/eclipse-video-sdb.png" alt="" align="left" /></a>Amazon once again is again stepping up its game in the IaaS space. This morning they announced support for SimpleDB in their Eclipse plugin. You can now administer your SimpleDB data without writing a single line of code.</p>
 <p>With each release, Amazon is pushing into the space of companies like <a href="http://www.rightscale.com/" target="_blank">Rightscale</a> and forcing these types of vendors reevaluate their offerings.</p>

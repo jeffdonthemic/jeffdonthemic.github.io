@@ -4,7 +4,7 @@ title:  Dependent Multilevel Selectlists
 description: Ive had a number of follow-up emails regarding the code I used for my  Displaying the Required Red Bar for a Control post. We assign a number of values to an Opportunity based upon a hierarchy modeled by 3 objects (you could also use just one object with a level indicator). Visualforce Page-                                                                                                                                                                                                                
 date: 2008-11-25 19:28:43 +0300
 image:  '/images/slugs/dependent-multilevel-selectlists.jpg'
-tags:   ["2008", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>I've had a number of follow-up emails regarding the code I used for my <a href="/2008/11/16/displaying-the-required-red-bar-for-a-control/" target="_blank">Displaying the Required Red Bar for a Control</a> post. We assign a number of values to an Opportunity based upon a hierarchy modeled by 3 objects (you could also use just one object with a level indicator).</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399704/red-bar_fxu0ng.png" alt="" ></p>

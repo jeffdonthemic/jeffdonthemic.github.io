@@ -4,7 +4,7 @@ title:  Salesforce Lightning Design System Node Demo
 description: Last weekend I started playing around with the new Lightning Design System  and before I knew it, I had an entire app written!! It was as simple as using Bootstrap!  I have a confession to make... I suck at front-end design. I typically stumble over spans and divs and inject all sorts of silly stuff into the DOM when it shouldnt be there. In turn, my Visualforce pages also look terrible. > Disclaimer- the Design System is not completely baked but I found most of the standard elements were dev re
 date: 2015-09-03 18:26:16 +0300
 image:  '/images/node-nforce-demo.jpg'
-tags:   ["2015", "public"]
+tags:   ["salesforce", "nforce", "slds"]
 ---
 <p>Last weekend I started playing around with the new <a href="https://www.lightningdesignsystem.com">Lightning Design System</a> and before I knew it, I had an entire app written!! It was as simple as using Bootstrap!</p>
 <p>I have a confession to make... I suck at front-end design. I typically stumble over spans and divs and inject all sorts of silly stuff into the DOM when it shouldn't be there. In turn, my Visualforce pages also look terrible.</p>

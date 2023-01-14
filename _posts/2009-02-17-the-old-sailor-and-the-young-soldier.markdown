@@ -4,7 +4,7 @@ title:  The Old Sailor and the Young Soldier
 description: My son, Tyler, leaves for the Army  in a couple of months so I decided to take him down to Texas to see his great grandparents. He hadnt seen them since he was quite small and his great grandmothers health is getting a little shaky. My grandfather is a WWII Veteran and has 8 Bronze Stars while serving on the  USS DuPage  (1942-1945). He and Tyler hit it off quickly. We talked about politics, current events, old war stories and guns. Mostly guns. My grandfather was a avid target shooter after WWI
 date: 2009-02-17 18:58:02 +0300
 image:  '/images/slugs/the-old-sailor-and-the-young-soldier.jpg'
-tags:   ["2009", "public"]
+tags:   ["personal"]
 ---
 <p>[caption id="attachment_471" align="alignleft" width="348" caption="Billy Marcus & Tyler Douglas"]<a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399676/grandpa-tyler_oslbz1.jpg"><img class="size-full wp-image-471" title="grandpa-tyler" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399676/grandpa-tyler_oslbz1.jpg" alt="grandpa-tyler" width="348" height="261" /></a>[/caption]</p>
 <p>My son, Tyler, <a href="/2008/12/03/my-son-joined-the-army/" target="_blank">leaves for the Army</a> in a couple of months so I decided to take him down to Texas to see his great grandparents. He hadn't seen them since he was quite small and his great grandmother's health is getting a little shaky.</p>

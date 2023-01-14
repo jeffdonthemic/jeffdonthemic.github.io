@@ -4,7 +4,7 @@ title:  Managing the Heap in Salesforce.com
 description:   With the Spring 10 release, Salesforce.com removed the limit on the number of items a collection can hold. So now, instead of ensuring that your collections contain no more than 1000 items, you have to monitor your heap size. Here are some strategies on how to write Apex scripts that run within these limits. First of all, what is the heap? Dynamic memory allocation (also known as heap-based memory allocation) is the allocation of memory storage for use in a computer program during the runtime 
 date: 2010-08-16 10:42:50 +0300
 image:  '/images/slugs/managing-the-heap-in-salesforce-com.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "apex"]
 ---
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327948/heap1_equdvf.jpg" alt="" ></p>
 <p>With the <a href="/2010/01/12/my-favorite-salesforce-com-spring-10-features/" target="_blank">Spring '10</a> release, Salesforce.com removed the limit on the number of items a collection can hold. So now, instead of ensuring that your collections contain no more than 1000 items, you have to monitor your heap size. Here are some strategies on how to write Apex scripts that run within these limits.</p>

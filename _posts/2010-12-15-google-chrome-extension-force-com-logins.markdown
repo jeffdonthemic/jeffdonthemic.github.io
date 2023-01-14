@@ -4,7 +4,7 @@ title:  Google Chrome Extension - Force.com Logins
 description: One of our brilliant guys in our Appirio Japan office, Toshihiro Takasu, wrote  this really slick Google Chrome Extension  for managing your salesforce.com logins in Chrome- * Keeps your salesforce.com account information (usrename, password, security  token, and description). * Lets you log into the account you selected with new tab. * Lets you log into the account you selected with new window (separate  session). * Groups your account for easy management. * Searches accounts by username for yo
 date: 2010-12-15 13:49:57 +0300
 image:  '/images/slugs/google-chrome-extension-force-com-logins.jpg'
-tags:   ["2010", "public"]
+tags:   ["google", "salesforce"]
 ---
 <p>One of our brilliant guys in our Appirio Japan office, Toshihiro Takasu, wrote <a href="https://chrome.google.com/extensions/detail/ldjbglicecgnpkpdhpbogkednmmbebec#">this really slick Google Chrome Extension</a> for managing your salesforce.com logins in Chrome:</p>
 <ul>

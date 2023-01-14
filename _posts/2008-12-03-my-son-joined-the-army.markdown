@@ -4,7 +4,7 @@ title:  My Son Joined the Army
 description:   37F - Psychological Operations Specialist (Psyop)  My son Tyler joined the Army yesterday so everyone can relax now as the world will soon be a safer place. He decided he was done with school for right now and wanted something different. Luckily I talked him out of the Marines but couldnt get him interested in the Air Force. He didnt want to sit behind a desk he said. We talked with the recruiter a number of times and he really wanted to go into Special Forces. We soon found out that you have 
 date: 2008-12-03 11:03:10 +0300
 image:  '/images/slugs/my-son-joined-the-army.jpg'
-tags:   ["2008", "public"]
+tags:   ["personal"]
 ---
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/h_225,w_300/v1400399687/img_0336_zqjwz3.jpg" alt="" ></p>
 <p><strong>37F - Psychological Operations Specialist (Psyop)</strong></p>

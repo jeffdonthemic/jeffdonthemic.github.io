@@ -4,7 +4,7 @@ title:  Why the Force.com @future Annotation Should Die!
 description: First of all I love asynchronously processing in Salesfoce. We use it all  the time at CloudSpokes. I dont actually mean that the @future annotation should die, per se, but I think there is a better approach. I see the annotation rising from the ashes like a phoenix!!! If you agree please take some time and vote for my idea below. The @future annotation is typically used in one of two ways- 1. Create a better user experience - Lets say you have a process that whenever   an Opportunity is created
 date: 2013-04-04 12:53:59 +0300
 image:  '/images/slugs/why-the-force-com-future-annotation-should-die.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>First of all I love asynchronously processing in Salesfoce. We use it <strong>all</strong> the time at CloudSpokes. I don't actually mean that the @future annotation should die, per se, but I think there is a better approach. I see the annotation rising from the ashes like a phoenix!!! If you agree please take some time and vote for my idea below.</p>
 <p>The @future annotation is typically used in one of two ways:</p>

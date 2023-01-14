@@ -4,7 +4,7 @@ title:  Developing Salesforce.com Applications with Flex and Visualforce
 description: I receive a number of inquiries as to the best way to develop Flex apps for multiple Salesforce.com orgs. My methodology might not be the best but it certainly gets the job done by allowing me to easiy develop locally, test on one of our 10+ sandboxes and deploy to production. Since the code never lies, here is the skeleton that I essentially use for each new project.                          To call this SWF from your Visualforce page, you will need to upload it to your org as a Static Resource
 date: 2008-11-12 22:59:57 +0300
 image:  '/images/slugs/developing-salesforcecom-applications-with-flex-and-visualforce.jpg'
-tags:   ["2008", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "flex"]
 ---
 <p>I receive a number of inquiries as to the best way to develop Flex apps for multiple Salesforce.com orgs. My methodology might not be the best but it certainly gets the job done by allowing me to easiy develop locally, test on one of our 10+ sandboxes and deploy to production.</p>
 <p>Since the code never lies, here is the skeleton that I essentially use for each new project.</p>

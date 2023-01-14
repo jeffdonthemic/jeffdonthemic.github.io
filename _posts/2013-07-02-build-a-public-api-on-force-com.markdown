@@ -4,7 +4,7 @@ title:  Build a Public API on Force.com
 description: Roughly two years ago we wrote our CloudSpokes API on the Force.com platform. It’s evolved of course and the current version is a Ruby application that proxies calls to Force.com via Apex REST Services. Recently we’ve had a number of companies and ISVs come to us asking for advice on how to build a public API for their own Force.com org. Most of the use cases we’ve seen involve one of the following- 1. A company has a large development shop and doesn’t want to give everyone   direct access to th
 date: 2013-07-02 19:34:22 +0300
 image:  '/images/slugs/build-a-public-api-on-force-com.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>Roughly two years ago we wrote our CloudSpokes API on the Force.com platform. It’s evolved of course and the current version is a Ruby application that proxies calls to Force.com via Apex REST Services. Recently we’ve had a number of companies and ISVs come to us asking for advice on how to build a public API for their own Force.com org.</p>
 <p>Most of the use cases we’ve seen involve one of the following:</p>

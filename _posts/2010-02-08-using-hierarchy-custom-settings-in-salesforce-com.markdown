@@ -4,7 +4,7 @@ title:  Using Hierarchy Custom Settings in Salesforce.com
 description: Last month I posted on the new List Custom Settings feature released in Winter ‘10. Ill finally round out the topic with the other flavor of custom settings- Hierarchy. In Winter ‘10, Salesforce.com introduced Custom Settings which allow you to store custom data sets and associate them on an org-wide, profile or user basis. Custom settings are essentially custom objects that are exposed in the applications cache and are accessible via their own API. Using custom settings is much easier than roll
 date: 2010-02-08 10:00:51 +0300
 image:  '/images/slugs/using-hierarchy-custom-settings-in-salesforce-com.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce"]
 ---
 <p>Last month <a href="/2010/01/07/using-list-custom-settings-in-salesforce-com/" target="_blank">I posted on the new List Custom Settings feature</a> released in Winter '10. I'll finally round out the topic with the other flavor of custom settings: Hierarchy.</p>
 <p>In Winter '10, Salesforce.com introduced Custom Settings which allow you to store custom data sets and associate them on an org-wide, profile or user basis. Custom settings are essentially custom objects that are exposed in the applications cache and are accessible via their own API. Using custom settings is much easier than rolling your own solution as they are much faster and easier to access (cached at the application level and accessible via their own interface) and do not count against SOQL limits.</p>

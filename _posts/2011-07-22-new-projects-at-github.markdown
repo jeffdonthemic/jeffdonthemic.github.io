@@ -4,7 +4,7 @@ title:  My Open Source Projects at GitHub
 description:  Yesterday at CloudSpokes we pushed 30+ projects to GitHub (check out this Open Source Sweetness )! While I was at it I thought I might as well push a bunch of my code to GitHub account to make my life easier. So if you are looking for some code that I referenced in a blog post, most likely its now on GitHub. If theres something that Ive forgotten or something youd like to see, drop me a line and Ill see if I can dig it up. I expect to put all of my new code on GitHub as well.  1. Telesales-Rail
 date: 2011-07-22 12:10:43 +0300
 image:  '/images/slugs/new-projects-at-github.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327779/github_isovmj.png"><img class="alignleft size-full wp-image-4027" title="github" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327779/github_isovmj.png" alt="" width="77" height="100" /></a>Yesterday at <a href="http://www.cloudspokes.com" target="_blank">CloudSpokes</a> we pushed 30+ projects to GitHub (check out this <a href="http://blog.cloudspokes.com/2011/07/cloudspokes-open-source-sweetness.html">Open Source Sweetness</a>)! While I was at it I thought I might as well push a bunch of my code to <a href="https://github.com/jeffdonthemic" target="_blank">GitHub account</a> to make my life easier. So if you are looking for some code that I referenced in a blog post, most likely its now on GitHub.</p>
 <p>If there's something that I've forgotten or something you'd like to see, drop me a line and I'll see if I can dig it up. I expect to put all of my new code on GitHub as well.</p>

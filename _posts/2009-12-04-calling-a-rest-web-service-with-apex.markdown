@@ -4,7 +4,7 @@ title:  Calling a REST Web Service (XML) with Apex
 description: This is a cool little example of calling a REST web service with Apex. You enter your address and the Apex code fetches the geo coordinates from Yahoo! Maps. The service returns the data as XML. If you want to run this demo in your own org, you will need to do the following- 1. Add a Remote Site (Setup -> Security Controls -> Remote Site Setting) with   the URL- http-//local.yahooapis.com  2. Add the XML DOM parser class to your org. It may already be present but if   not you can download it fro
 date: 2009-12-04 21:27:13 +0300
 image:  '/images/slugs/calling-a-rest-web-service-with-apex.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>This is a cool little example of calling a REST web service with Apex. You enter your address and the Apex code fetches the geo coordinates from Yahoo! Maps. The service returns the data as XML.</p>
 <p>If you want to run this demo in your own org, you will need to do the following:</p>

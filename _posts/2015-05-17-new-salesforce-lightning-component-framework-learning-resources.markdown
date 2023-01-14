@@ -4,7 +4,7 @@ title:  New Salesforce Lightning Component Framework Learning Resources
 description: We ran our Salesforce1 Lightning series of challenges at topcoder last fall after the announcement at Dreamforce with much success! Since the framework was beta we knew that we were writing code on the bleeding edge. There was a lot of trial and error involved but you came through in the end by building a large number of awesome components . It’s been roughly six months since the release so we are starting to see more and more Lightning resources for developers. Features and functionality are co
 date: 2015-05-17 21:27:25 +0300
 image:  '/images/pexels-andre-furtado-1162251.jpg'
-tags:   ["2015", "public"]
+tags:   []
 ---
 <p>We ran our <a href="http://lightning.topcoder.com">Salesforce1 Lightning series of challenges</a> at <a href="http://www.topcoder.com">topcoder</a> last fall after the announcement at Dreamforce with much success! Since the framework was beta we knew that we were writing code on the bleeding edge. There was a lot of trial and error involved but you came through in the end by building a <a href="https://www.topcoder.com/blog/salesforce1-lightning-challenge-showcase/">large number of awesome components</a>.</p>
 <p>It’s been roughly six months since the release so we are starting to see more and more Lightning resources for developers. Features and functionality are coming fast and furious but if you’d like to keep up with development or get started building Lighting components, here are some new resources for you!</p>

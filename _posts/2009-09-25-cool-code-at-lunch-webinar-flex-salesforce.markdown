@@ -4,7 +4,7 @@ title:  Cool Code at Lunch Webinar – Flex & Salesforce
 description: I was the guest speaker on our Cool Code at Lunch webinar yesterday where I showed the basics of developing, upload and running a Flex application on Salesforce with the Force.com Toolkit for Adobe AIR and Flex. The example app was a simple DataGrid populated with Contacts.   The application turned out to be a really good starting point for most Flex applications so I thought Id post it and see if it helps anyone out. I has methods for querying, creating and deleting data. Youll need to download
 date: 2009-09-25 18:57:31 +0300
 image:  '/images/slugs/cool-code-at-lunch-webinar-flex-salesforce.jpg'
-tags:   ["2009", "public"]
+tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
 ---
 <p>I was the guest speaker on our "Cool Code at Lunch" webinar yesterday where I showed the basics of developing, upload and running a Flex application on Salesforce with the Force.com Toolkit for Adobe AIR and Flex. The example app was a simple DataGrid populated with Contacts.</p>
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399500/coolcode-flex_nvzdtm.png"><img class="alignnone size-full wp-image-1372" title="CoolCode-Flex" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399500/coolcode-flex_nvzdtm.png" alt="CoolCode-Flex" width="544" height="290" /></a></p>

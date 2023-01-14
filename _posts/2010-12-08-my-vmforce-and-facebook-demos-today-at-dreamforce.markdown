@@ -4,7 +4,7 @@ title:  My VMforce and Facebook Demos Today at Dreamforce
 description: If you are at Dreamforce today here are the sessions that I am speaking in. Im really excited to be part of both of them as the topics (VMforce and the new Facebook toolkit) are really cool. Leveraging Public Social Networks - West 2005 @ 12-15 Well be showing off the new Facebook toolkit and building a few applications. VMforce- The Trusted Enterprise Platform as a Service - Force.com Theater @ 1-45 Ill be demoing an app built using Spring STS, Spring Roo and Spring MVC connecting to the Force.
 date: 2010-12-08 15:28:40 +0300
 image:  '/images/slugs/my-vmforce-and-facebook-demos-today-at-dreamforce.jpg'
-tags:   ["2010", "public"]
+tags:   ["appirio", "innovation", "salesforce", "technology", "vmforce", "java"]
 ---
 <p>If you are at Dreamforce today here are the sessions that I am speaking in. I'm really excited to be part of both of them as the topics (VMforce and the new Facebook toolkit) are really cool.</p>
 <p><h3>Leveraging Public Social Networks - West 2005 @ 12:15</h3></p>

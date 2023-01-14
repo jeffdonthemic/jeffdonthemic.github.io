@@ -4,7 +4,7 @@ title:  Calling a REST Web Service (JSON) with Apex
 description: Cross-posted at the Appirio Tech Blog  . Using JSON RESTful Web Services with Salesforce.com opens up your org to a number third-party integration opportunities (Google, Yahoo!, Flickr, bespoke, etc.). JSON  support isnt baked into the Force.com platform but Ron Hess  at Salesforce.com has created a JSON parser  which will do the heavy lifting for you. Last month I wrote a blog post and example of how to call a REST Web Service with Apex that returns and consumes XML. It was my intention to do t
 date: 2010-01-06 12:22:38 +0300
 image:  '/images/slugs/calling-a-json-rest-web-service-with-apex.jpg'
-tags:   ["2010", "public"]
+tags:   ["appirio", "code sample", "google", "salesforce", "visualforce", "apex"]
 ---
 <p>Cross-posted at the <a href="http://techblog.appirio.com/2010/01/calling-rest-web-service-json-with-apex.html" target="_blank">Appirio Tech Blog</a>.</p>
 <p>Using JSON RESTful Web Services with Salesforce.com opens up your org to a number third-party integration opportunities (Google, Yahoo!, Flickr, bespoke, etc.). <a href="http://json.org" target="_blank">JSON</a> support isn't baked into the Force.com platform but <a href="http://twitter.com/vnehess">Ron Hess</a> at Salesforce.com has created a <a href="http://code.google.com/p/apex-library/">JSON parser</a> which will do the heavy lifting for you.</p>

@@ -4,7 +4,7 @@ title:  My VMforce Demo at DF10
 description: My blog has been rather quiet over the past couple of months and for good reason. Im working on a project on the east coast and a project on the west coast, Wes and I are finishing up our Salesforce Handbook (we are currently having printing issues with the publisher) and Ive been working with one of my favorite new Salesforce.com Developer Evangelists, Sandeep Bhanot, on my Facebook Toolkit app and preso for our Dreamforce 10 session Leveraging Public Social Networks  (Wed 12/8 @ 12-15pm). I fi
 date: 2010-12-01 12:12:30 +0300
 image:  '/images/slugs/my-vmforce-demo-at-df10.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "the internet business", "vmforce"]
 ---
 <p>My blog has been rather quiet over the past couple of months and for good reason. I'm working on a project on the east coast and a project on the west coast, Wes and I are finishing up our <a href="http://salesforcehandbook.wordpress.com/">Salesforce Handbook</a> (we are currently having printing issues with the publisher) and I've been working with one of my favorite new Salesforce.com Developer Evangelists, Sandeep Bhanot, on my Facebook Toolkit app and preso for our Dreamforce 10 session <strong>"Leveraging Public Social Networks"</strong> (Wed 12/8 @ 12:15pm).</p>
 <p>I finally got the approval yesterday to make the announcement that I'll also be presenting a <a href="http://www.vmforce.com/" target="_blank">VMforce app</a> in the session <strong>"VMforce: The Trusted Enterprise Platform as a Service"</strong> (Wed 12/8 @ 1:45pm). I've been working with Salesforce.com and VMware for the last couple of months trying to put together a cool demo of an existing on-premise Java app to show how easy it is to move apps to the cloud.</p>

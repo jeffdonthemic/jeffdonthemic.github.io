@@ -4,7 +4,7 @@ title:  My Favorite Salesforce.com Winter '11 Features
 description:  The Winter 11 release is just around the corner and Ive scoured through the  release notes and picked out some of my favorite new features and enhancements. I didn’t hit all of the items in the release notes so make sure you pull up the PDF and check out all of the goodies for this release. Also check out the Winter 11 Force.com Platform Release Preview page .  User Interface   * A new Global search with advanced search functionality and content. From the  header search box you can search more 
 date: 2010-09-22 13:43:22 +0300
 image:  '/images/slugs/my-favorite-salesforce-com-winter-11-features.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327906/winter-11-logo_lyx5oj.png"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327906/winter-11-logo_lyx5oj.png" alt="" title="winter-11-logo" width="195" height="200" class="alignleft size-full wp-image-3270" /></a>The Winter 11 release is just around the corner and I've scoured through the <a href="http://na1.salesforce.com/help/doc/en/salesforce_winter11_release_notes.pdf">release notes</a> and picked out some of my favorite new features and enhancements. I didn&rsquo;t hit all of the items in the release notes so make sure you pull up the PDF and check out all of the goodies for this release. Also check out the <a href="http://developer.force.com/releases/release/Winter11">Winter '11 Force.com Platform Release Preview page</a>.<br clear="all">
 <p><strong>User Interface</strong></p>

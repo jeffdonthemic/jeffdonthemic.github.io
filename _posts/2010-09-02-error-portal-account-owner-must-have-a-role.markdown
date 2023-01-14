@@ -4,7 +4,7 @@ title:  Error - Portal account owner must have a role??
 description: I wrote the following test class for a PRM deployment and received this crazy error when running the test-  System.DmlException- Insert failed. First exception on row 0; first error- UNKNOWN_EXCEPTION, portal account owner must have a role- .id; user.EmailEncodingKey = ISO-8859-1; user.LanguageLocaleKey = en_US; user.TimeZoneSidKey = America/New_York; user.LocaleSidKey = en_US; user.FirstName = first; user.LastName = last; user.Username = test@appirio.com;  user.CommunityNickname = testUser123; 
 date: 2010-09-02 13:05:08 +0300
 image:  '/images/slugs/error-portal-account-owner-must-have-a-role.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "apex"]
 ---
 <p>I wrote the following test class for a PRM deployment and received this crazy error when running the test:</p>
 <p><em><strong>System.DmlException: Insert failed. First exception on row 0; first error: UNKNOWN_EXCEPTION, portal account owner must have a role: []</strong></em></p>

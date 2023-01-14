@@ -4,7 +4,7 @@ title:  Salesforce.com's Flex Toolkit Operational Again
 description: Adobe released the new Flash 10 player about a month ago and it seems to have wreaked havoc at Salesforce.com. It looks like the main bug with the Flex Toolkit has been resolved but there are still a few lingering issues to be dealt with. On 10/24 it looks like Salesforce.com applied an update that seems to have affected the crossdomain policy. We reported it on the message boards, Salesforce.com escalated it and fixed the issue that afternoon. About a week later I saw a vague post on the discus
 date: 2008-11-22 11:23:28 +0300
 image:  '/images/slugs/salesforcecoms-flex-toolkit-operational-again.jpg'
-tags:   ["2008", "public"]
+tags:   ["salesforce", "flex"]
 ---
 <p>Adobe released the new Flash 10 player about a month ago and it seems to have wreaked havoc at Salesforce.com. It looks like the main bug with the Flex Toolkit has been resolved but there are still a few lingering issues to be dealt with.</p>
 <p>On 10/24 it looks like Salesforce.com applied an update that seems to have affected the crossdomain policy. We reported it on the message boards, Salesforce.com escalated it and fixed the issue that afternoon. About a week later I saw a vague post on the discussion boards about a month before Dreamforce but there seemed to be no activity on the thread.</p>

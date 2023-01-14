@@ -4,7 +4,7 @@ title:  Returning Contacts and Leads with Custom Wrapper Class
 description: Unfortunately alot of companies use Leads and Contacts interchangeably. Here is a small Apex class that performs a SOSL search across Contacts and Leads by email address. The method then wraps each Contact and Lead as a generic Person object and returns them to the caller as a List. public class PersonService {      public class Person {          String id;         String firstName;         String lastName;         String company;         String email;         String phone;         String sObjec
 date: 2009-02-24 18:00:00 +0300
 image:  '/images/slugs/returning-contacts-and-leads-with-custom-wrapper-class.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>Unfortunately alot of companies use Leads and Contacts interchangeably. Here is a small Apex class that performs a SOSL search across Contacts and Leads by email address. The method then wraps each Contact and Lead as a generic Person object and returns them to the caller as a List.</p>
 {% highlight js %}public class PersonService {

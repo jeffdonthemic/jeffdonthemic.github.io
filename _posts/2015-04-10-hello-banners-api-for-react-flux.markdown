@@ -4,7 +4,7 @@ title:  Hello Banners API for React & Flux
 description: Welcome to part three of our Building with React & Flux series. Check out the  Getting Started  and Hello React Banners  posts to get up to speed on React  and Flux  if you are new to it. To recap, we are going to build a simple app to manage banner ads using React and RefluxJS , one of the many implementations of Flux. My goal is to make this application as simple as possible while demonstrating the basics of React and Reflux. Last week we built a simple app that looks like the following- 1. Th
 date: 2015-04-10 21:39:40 +0300
 image:  '/images/react-api.jpg'
-tags:   ["2015", "public"]
+tags:   ["react", "flux", "javascript"]
 ---
 <p>Welcome to part three of our Building with React & Flux series. Check out the <a href="/2015/03/12/building-with-react-flux-getting-started/">Getting Started</a> and <a href="/2015/03/24/building-with-react-flux-hello-react-banners/">Hello React Banners</a> posts to get up to speed on <a href="http://facebook.github.io/react/">React</a> and <a href="http://facebook.github.io/flux/docs/overview.html">Flux</a> if you are new to it.</p>
 <p>To recap, we are going to build a simple app to manage banner ads using React and <a href="https://github.com/spoike/refluxjs">RefluxJS</a>, one of the many implementations of Flux. My goal is to make this application as simple as possible while demonstrating the basics of React and Reflux. Last week we built a simple app that looks like the following:</p>

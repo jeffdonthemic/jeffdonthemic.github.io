@@ -4,7 +4,7 @@ title:  AngularJS and Salesforce.com Tutorial
 description: A couple of weeks ago I attend the Building Enterprise Apps Rapidly with Salesforce Mobile Packs  webinar with Pat Patterson and Raja Rao. While I think it was a good introduction to AngularJS in general it seemed to lack any specific Force.com integration (probably by design). So for anyone looking to get started with AngularJS and Force.com I put together a small demo application that creates, updates and displays Account records from a Salesforce.com org. Feel free to clone the repo for your 
 date: 2013-06-10 12:00:06 +0300
 image:  '/images/slugs/angularjs-and-salesforce-com-tutorial.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce", "angularjs"]
 ---
 <p>A couple of weeks ago I attend the <a href="http://wiki.developerforce.com/page/Webinar:_Building_Enterprise_Apps_Rapidly_with_Salesforce_Mobile_Packs_(2013-May)">Building Enterprise Apps Rapidly with Salesforce Mobile Packs</a> webinar with Pat Patterson and Raja Rao. While I think it was a good introduction to AngularJS in general it seemed to lack any specific Force.com integration (probably by design). So for anyone looking to get started with AngularJS and Force.com I put together a small demo application that creates, updates and displays Account records from a Salesforce.com org. Feel free to clone the repo for your own use, learn from the code or pick it apart to make it better.</p>
 <p><a href="http://angularjs-salesforce.herokuapp.com/"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327713/angular-screenshot_wc8tsg.png" alt="" title="angular-screenshot" width="500" class="alignnone size-full wp-image-4807" /></a></p>

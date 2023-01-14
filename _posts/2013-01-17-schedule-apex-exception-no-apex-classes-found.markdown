@@ -4,7 +4,7 @@ title:  Schedule Apex Exception - No Apex Classes Found?
 description: So I ran across this issue a couple of months ago and forgot to blog about it for my reference and anyone else that runs across this problem. So heres the issue, I have an Apex class scheduled in production that runs another Apex class. Ive made some changes to this second class and need to deploy it to production. Before you do that, for Force.com platform requires you to delete the scheduled job for that class since they are related. No problem. So I deleted the scheduled class, pushed my new 
 date: 2013-01-17 20:59:12 +0300
 image:  '/images/slugs/schedule-apex-exception-no-apex-classes-found.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>So I ran across this issue a couple of months ago and forgot to blog about it for my reference and anyone else that runs across this problem. So here's the issue, I have an Apex class scheduled in production that runs another Apex class. I've made some changes to this second class and need to deploy it to production. Before you do that, for Force.com platform requires you to delete the scheduled job for that class since they are related.</p>
 <p>No problem. So I deleted the scheduled class, pushed my new code to production (passes all tests! w00t!) and went back to schedule this class to run and saw this error:</p>

@@ -4,7 +4,7 @@ title:  Programmatically Creating Sharing Rules with Apex
 description: Heres a small Apex Trigger that demonstrates how to programmatically create sharing rules for objects with a private sharing model. It came in handy on a project about a year ago so I thought Id post it. So the scenario is that the object has a private sharing model (Contacts in this case) so that only the record owner and users higher in the role hierarchy have access to it. I added a checkbox to the Contact object called Make Public that when set to TRUE, creates a sharing record for a specifi
 date: 2009-11-25 11:00:19 +0300
 image:  '/images/slugs/programmatically-creating-sharing-rules-with-apex.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>Here's a small Apex Trigger that demonstrates how to programmatically create sharing rules for objects with a private sharing model. It came in handy on a project about a year ago so I thought I'd post it.</p>
 <p>So the scenario is that the object has a private sharing model (Contacts in this case) so that only the record owner and users higher in the role hierarchy have access to it. I added a checkbox to the Contact object called "Make Public" that when set to TRUE, creates a sharing record for a specific group (e.g., All Internal Users). When set to FALSE, it deletes all manual sharing rules for the record. You can modify this to add multiple groups or even make it operate on the reverse (public by default and then remove the sharing rules).</p>

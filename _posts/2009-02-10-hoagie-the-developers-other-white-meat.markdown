@@ -4,7 +4,7 @@ title:  Hoagie - The Developer's Other White Meat
 description: Joe Rinehart is proposing  a new development stack for rapid, RIA development that includes some of my favorite and most used technologies- * Business layer written in Groovy (Java)  * JPA and Hibernate for database persistence  * Spring for the service layer  * Coldspring / Model-Glue / ColdFusion for the presentation layer  * JMS and Swiz for a nice RIA client push  So other ideas floating around include- * An ANT based installer to get  everything configured and setup properly  * Addition of 
 date: 2009-02-10 15:43:17 +0300
 image:  '/images/slugs/hoagie-the-developers-other-white-meat.jpg'
-tags:   ["2009", "public"]
+tags:   ["coldfusion", "flex", "java"]
 ---
 <p><a href="http://www.firemoss.com/post.cfm/spring-hibernate-groovy-cfml-flex-swiz-hoagie">Joe Rinehart is proposing</a> a new development stack for rapid, RIA development that includes some of my favorite and most used technologies:</p>
 <ul>

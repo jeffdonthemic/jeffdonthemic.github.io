@@ -4,7 +4,7 @@ title:  Why is this so DOM Hard?
 description: Let me start out right away by saying I am not a DOM or CSS master. Ive typically had employees or co-workers to perform these functions for my so Ive (unfortunately) let me skills wane. However, Im not totally clueless. I was trying to build the following Visualforce page a couple of days ago and working with the DOM and Visualforce components seems to be much harder than what it should be. Perhaps Im doing something wrong? Luckily Wes Nolte  and Joel Dietz  are  experts and they both have a nu
 date: 2010-08-11 11:27:01 +0300
 image:  '/images/slugs/why-is-this-so-dom-hard.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "visualforce"]
 ---
 <p>Let me start out right away by saying I am not a DOM or CSS master. I've typically had employees or co-workers to perform these functions for my so I've (unfortunately) let me skills wane. However, I'm not totally clueless. I was trying to build the following Visualforce page a couple of days ago and working with the DOM and Visualforce components seems to be much harder than what it should be. Perhaps I'm doing something wrong? Luckily <a href="http://th3silverlining.com" target="_blank">Wes Nolte</a> and <a href="http://d3developer.com/" target="_blank">Joel Dietz</a> <strong>are</strong> experts and they both have a number of great blog posts on this subject.</p>
 <p>I was trying to create the following Visualforce page that contains a simple SelectList (I've sanitized the code for your protection).</p>

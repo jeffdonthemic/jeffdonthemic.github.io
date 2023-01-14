@@ -4,7 +4,7 @@ title:  Deploying with the Force.com Migration Tool (ANT)
 description: The Force.com Migration Tool is a Java/Ant-based command-line utility for moving metadata between a local directory and a Force.com organization. It runs essentially the same as the Eclipse version  but provides a little more granular control. Setting up Eclipse with Ant. Initially was getting the following error during the build process Problem- failed to create task or type. I had to add the ant-saleforce.jar to the Ant runtime classpath (Window > Preferences > Ant > Runtime). These are instru
 date: 2008-08-06 16:55:53 +0300
 image:  '/images/slugs/deploying-with-the-forcecom-migration-tool-ant.jpg'
-tags:   ["2008", "public"]
+tags:   ["salesforce", "java"]
 ---
 <p>The Force.com Migration Tool is a Java/Ant-based command-line utility for moving metadata between a local directory and a Force.com organization. It runs essentially the same as the <a href="http://jeffdonthemic.wordpress.com/2008/07/15/migrating-salesforcecom-configurations-with-the-metadata-api-forcecom-migration-tool/">Eclipse version</a> but provides a little more granular control.</p>
 <p><strong>Setting up Eclipse with Ant.</strong></p>

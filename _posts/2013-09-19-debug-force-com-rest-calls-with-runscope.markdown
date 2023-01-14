@@ -4,7 +4,7 @@ title:  Debug Force.com REST Calls with Runscope
 description: I love APIs. I love to build them, cURL them, read their source code and talk about them. One of the aspects that I havent loved so much is debugging them. That is until I found Runscope . Weve been using the service for a couple of months and its made debugging, testing and/or inspecting APIs sooo much easier. Of course Runscope works for all languages and essentially any REST API but weve found it especially helpful to build, test and debug Force.com REST calls. Runscope was co-founded by John
 date: 2013-09-19 12:56:11 +0300
 image:  '/images/slugs/debug-force-com-rest-calls-with-runscope.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>I love APIs. I love to build them, cURL them, read their source code and talk about them. One of the aspects that I haven't loved so much is debugging them. That is until I found <a href="http://www.runscope.com" target="_blank">Runscope</a>. We've been using the service for a couple of months and it's made debugging, testing and/or inspecting APIs sooo much easier. Of course Runscope works for all languages and essentially any REST API but we've found it especially helpful to build, test and debug Force.com REST calls.</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/h_300,w_257/v1400327589/keep-calm-and-love-apis-8_brcv2f.png" alt="" ></p>

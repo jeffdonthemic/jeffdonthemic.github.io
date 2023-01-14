@@ -4,7 +4,7 @@ title:  What? Use Force.com to Build an ESB?
 description: I spent the better part of two days early this month hanging out with Pat Patterson at the Monktoberfest  conference talking about beer, technology and kids. If you dont know Pat Patterson, I highly encourage you to find him at Dreamforce this year (you are going right?) and go introduce yourself to him. Its highly improbably that youll ever find a nicer guy.   Anyway, over a glass of spicy South African mead, we professed our love for the  Force.com Streaming API  and threw out examples on how 
 date: 2013-10-17 11:35:41 +0300
 image:  '/images/slugs/what-uses-force-com-to-build-an-esb.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>I spent the better part of two days early this month hanging out with Pat Patterson at the <a href="http://monktoberfest.com/" target="_blank">Monktoberfest</a> conference talking about beer, technology and kids. If you don't know Pat Patterson, I highly encourage you to find him at <a href="http://www.salesforce.com/dreamforce">Dreamforce</a> this year (you are going right?) and go introduce yourself to him. It's highly improbably that you'll ever find a nicer guy.</p>
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327586/2013-10-03-18_17_40_ikjiup.jpg"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327586/2013-10-03-18_17_40_ikjiup.jpg" alt="" title="2013-10-03 18.17.40" width="500" height="283" class="aligncenter size-full wp-image-5061" /></a></p>

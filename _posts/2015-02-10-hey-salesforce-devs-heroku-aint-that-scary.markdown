@@ -4,7 +4,7 @@ title:  Hey Salesforce Devs! Heroku Ain’t that Scary!
 description: I run the Heroku CoE at Appirio  and therefore get pulled into a number of pre-sales calls that involve salesforce.com and Heroku. Typically once a week I’ll get the following reaction when talking to Salesforce developers about Heroku-  Theyll say something like,  > Were really good at Force.com development but that Heroku stuff is scary! Au contraire, I tell them, development on Heroku is easier than you think. If you are already familar with Force.com it’s not that difficult to dip your toes 
 date: 2015-02-10 22:06:02 +0300
 image:  '/images/scary-night.jpg'
-tags:   ["2015", "public"]
+tags:   ["heroku", "salesforce"]
 ---
 <p>I run the Heroku CoE at <a href="http://www.appirio.com">Appirio</a> and therefore get pulled into a number of pre-sales calls that involve salesforce.com and Heroku. Typically once a week I’ll get the following reaction when talking to Salesforce developers about Heroku:</p>
 <p><img src="http://static.fjcdn.com/gifs/Scared_510c77_1821960.gif" alt="" ></p>

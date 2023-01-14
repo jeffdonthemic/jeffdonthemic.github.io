@@ -4,7 +4,7 @@ title:  Relationship Lookup Objects in Triggers are NULL?
 description: I see this question once in awhile on the Salesforce.com message boards  so I thought Id put something together. So in this scenario you have a Sales_Order__c custom object which has a lookup relationship to Opportunity. When processing the  Sales_Order__c records in your trigger, you want to access some fields on the Opportunity via the relationship. Your trigger might look something like this-  trigger SalesOrderUpdate on Sales_Order__c (before update) {   for (Sales_Order__c so - Trigger.new)
 date: 2010-02-23 12:31:37 +0300
 image:  '/images/slugs/relationship-lookup-objects-in-triggers-are-null.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>I see this question once in awhile on the <a href="http://community.salesforce.com/sforce/board?board.id=apex">Salesforce.com message boards</a> so I thought I'd put something together. So in this scenario you have a <code>Sales_Order__c</code> custom object which has a lookup relationship to Opportunity. When processing the <code>Sales_Order__c</code> records in your trigger, you want to access some fields on the Opportunity via the relationship. Your trigger might look something like this:</p>
 {% highlight js %}trigger SalesOrderUpdate on Sales_Order__c (before update) {

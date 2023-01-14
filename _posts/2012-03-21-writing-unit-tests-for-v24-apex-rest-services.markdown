@@ -4,7 +4,7 @@ title:  Writing Unit Tests for v24 Apex REST Services
 description: With the Spring 12 release, salesforce.com made some great enhancements  to Apex REST services (v24)- * Apex REST automatically provides the REST request and response in your Apex  REST methods via a static RestContext object. You no longer need to declare a  RestRequest or RestResponse parameter in your method. * User-defined types are now allowed as Apex REST parameter types. * Apex REST methods are now supported in managed and unmanaged packages. * The order of elements in the JSON or XML res
 date: 2012-03-21 11:42:05 +0300
 image:  '/images/slugs/writing-unit-tests-for-v24-apex-rest-services.jpg'
-tags:   ["2012", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>With the Spring '12 release, salesforce.com made some <a href="http://developer.force.com/releases/release/Spring12/apex+rest+updates">great enhancements</a> to Apex REST services (v24):</p>
 <ul>

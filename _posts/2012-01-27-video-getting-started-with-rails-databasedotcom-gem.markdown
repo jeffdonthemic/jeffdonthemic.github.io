@@ -4,7 +4,7 @@ title:  Video - Getting Started with Rails & Databasedotcom Gem
 description: It the new year again and time for resolutions. I made a resolution about a year ago to learn ruby. If you are looking for something to learn this year I would recommend ruby and heres why- 1. Salesforce.com bought Heroku for $220M  2. Salesforce.com has been pushing Open. Social. Mobile for quite some time. 3. Ruby is great for creating social and mobile apps with open source   technologies. Do you see a correlation here? There are big things ahead for Force.com developers using Heroku. Eventho
 date: 2012-01-27 22:24:50 +0300
 image:  '/images/slugs/video-getting-started-with-rails-databasedotcom-gem.jpg'
-tags:   ["2012", "public"]
+tags:   ["heroku", "ruby", "salesforce"]
 ---
 <p>It the new year again and time for resolutions. I made a resolution about a year ago to learn ruby. If you are looking for something to learn this year I would recommend ruby and here's why:</p>
 <ol>

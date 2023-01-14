@@ -4,7 +4,7 @@ title:  Google Wave and Force.com
 description: Tomorrow is the big day that Google distributes 100,000 previews to people that signed up for early access. Ive been trying to get my hands on an account for awhile and even trying to pay off Scott McMullan  didnt work. Im keeping my fingers crossed; Ive got some really cool robots planned out with Kyle Roche . The Google Wave Developer Blog had a really nice post today about some of the cool stuff that Salesforce is putting together with the Service Cloud. It looks very similar to what Kyle Roc
 date: 2009-09-29 22:03:52 +0300
 image:  '/images/slugs/google-wave-and-force-com.jpg'
-tags:   ["2009", "public"]
+tags:   ["google app engine", "salesforce", "wave"]
 ---
 <img title="wavelogo" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399505/wavelogo_woif44.png" alt="wavelogo" />
 <p>Tomorrow is the big day that Google distributes 100,000 previews to people that signed up for early access. I've been trying to get my hands on an account for awhile and even trying to pay off <a href="http://twitter.com/scottmcmullan" target="_blank">Scott McMullan</a> didn't work. I'm keeping my fingers crossed; I've got some really cool robots planned out with <a href="http://www.kyleroche.com" target="_blank">Kyle Roche</a>.</p>

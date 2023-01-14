@@ -4,7 +4,7 @@ title:  UiBinder with SuggestBox & MultiWordSuggestOracle
 description: Ive been working on a somewhat large and complex GWT  project using UiBinder  over the past couple of weeks. Ive built a number of widgets that use the SuggestBox and MultiWordSuggestOracle but I created a new UiBinder, populated the suggestions but they came up blank in the type-ahead. After about a half hour of scratching my head I looked back at some other code and figured it out. There are very few examples of the SuggestBox with UiBinder so I thought this might help someone out. The UiBinde
 date: 2010-02-11 05:08:07 +0300
 image:  '/images/slugs/uibinder-with-suggestbox-multiwordsuggestoracle.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "gwt"]
 ---
 <p style="clear: both">I've been working on a somewhat large and complex <a href="http://code.google.com/webtoolkit" target="_blank">GWT</a> project using <a href="http://code.google.com/webtoolkit/doc/latest/DevGuideUiBinder.html" target="_blank">UiBinder</a> over the past couple of weeks. I've built a number of widgets that use the SuggestBox and MultiWordSuggestOracle but I created a new UiBinder, populated the suggestions but they came up blank in the type-ahead. After about a half hour of scratching my head I looked back at some other code and figured it out. There are very few examples of the SuggestBox with UiBinder so I thought this might help someone out.</p><p style="clear: both">The UiBinder template (MyWidget.ui.xml) is fairly simple:</p><p style="clear: both">
 {% highlight js %}<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">

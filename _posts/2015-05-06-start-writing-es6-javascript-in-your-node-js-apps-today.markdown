@@ -4,7 +4,7 @@ title:  Start Writing ES6 JavaScript in your Node.js Apps Today!
 description: ECMAScript 6 (the next version of JavaScript) should be rolling out in browsers sometime this year. If you want to start using the awesome features of ES6  now  you have a couple of choices- 1. Use the Node.js Harmony flag ala node --harmony app.js  to enable the new   ES6 features in the language. 2. Run io.js which includes all stable ES6 features by default. 3. Write your code using ES6 and transpile it to ES5 using something like Babel   (formerly 6to5) or Traceur   . If you are like me and 
 date: 2015-05-06 19:55:51 +0300
 image:  '/images/pexels-pixabay-209620.jpg'
-tags:   ["2015", "public"]
+tags:   ["javascript"]
 ---
 <p>ECMAScript 6 (the next version of JavaScript) should be rolling out in browsers sometime this year. If you want to start using <a href="http://es6-features.org/#Constants">the awesome features of ES6</a> <strong>now</strong> you have a couple of choices:</p>
 <ol>

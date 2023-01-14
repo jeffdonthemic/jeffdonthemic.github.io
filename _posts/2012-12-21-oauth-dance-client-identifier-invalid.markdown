@@ -4,7 +4,7 @@ title:  OAuth Dance -- client identifier invalid with Salesforce.com
 description: So over at CloudSpokes we use OAuth for everyone that logs into our Database.com (Salesforce) org. Its been working fine for over a year but the last couple of days the OAuth dance have been failing randomly (5% of the time?) for one our our rails apps with the following error-  client identifier invalid  What made it so strange was that it had been working for quite awhile without any code changes for thousands of logins per day. I Googled around for the answer (couldnt find much at all) and ev
 date: 2012-12-21 14:37:31 +0300
 image:  '/images/slugs/oauth-dance-client-identifier-invalid.jpg'
-tags:   ["2012", "public"]
+tags:   ["ruby", "salesforce"]
 ---
 <p>So over at <a href="http://www.cloudspokes.com">CloudSpokes</a> we use OAuth for everyone that logs into our Database.com (Salesforce) org. It's been working fine for over a year but the last couple of days the OAuth dance have been failing randomly (5% of the time?) for one our our rails apps with the following error:</p>
 <p><em>client identifier invalid</em></p>

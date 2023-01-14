@@ -4,7 +4,7 @@ title:  Developer Preview of the Adobe® Flash® Builder™ for Force.com
 description: Cross-posted at theAppirio Technology Blog Yesterday Salesforce.com released a developer preview of the Adobe® Flash® Builder™ for Force.com allowing developers to create powerful, engaging offline applications running on the Force.com platform. I had a chance to download the software, build a sample application and really go through all of the documentation. The product, codename Stratus, is a jointly developed Eclipse-based IDE that combines the Force.com IDE, Flex 4 Builder beta, Flash 4 beta
 date: 2009-10-27 13:32:53 +0300
 image:  '/images/slugs/developer-preview-adobe-flash-builder-for-force.jpg'
-tags:   ["2009", "public"]
+tags:   ["appirio", "salesforce", "flex"]
 ---
 <p>Cross-posted at the <a href="http://techblog.appirio.com/2009/10/developer-preview-of-adobe-flash.html" target="_blank">Appirio Technology Blog</a></p>
 <p>Yesterday Salesforce.com <a href="http://developer.force.com/flashbuilder">released a developer preview</a> of the Adobe® Flash® Builder™ for Force.com allowing developers to create powerful, engaging offline applications running on the Force.com platform. I had a chance to download the software, build a sample application and really go through all of the documentation.</p>

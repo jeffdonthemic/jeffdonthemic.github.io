@@ -4,7 +4,7 @@ title:  Google Releases Google Web Toolkit 2.0
 description: Google releasedGoogle Web Toolkit 2.0  (GWT) yesterday with some really cool features and improvements. For those of you not familiar with GWT, it is a development toolkit for building and optimizing complex browser-based applications. You write your front-end code in Java and it is auto-magically compiled into cross browser, optimized JavaScript. GWT is used by many products at Google, including Google Wave and Google AdWords. Its open source, completely free, and used by thousands of developer
 date: 2009-12-09 13:12:29 +0300
 image:  '/images/slugs/google-releases-google-web-toolkit-2.jpg'
-tags:   ["2009", "public"]
+tags:   ["google", "gwt"]
 ---
 <p>Google released <a href="http://code.google.com/gwt" target="_blank">Google Web Toolkit 2.0</a> (GWT) yesterday with some really cool features and improvements. For those of you not familiar with GWT, it is a development toolkit for building and optimizing complex browser-based applications. You write your front-end code in Java and it is auto-magically compiled into cross browser, optimized JavaScript.</p>
 <p>GWT is used by many products at Google, including Google Wave and Google AdWords. It's open source, completely free, and used by thousands of developers around the world.</p>

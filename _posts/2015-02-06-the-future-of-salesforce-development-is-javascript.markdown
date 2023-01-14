@@ -4,7 +4,7 @@ title:  The Future of Salesforce Development is… Javascript?
 description: When I started developing with Salesforce back in 2006, s-controls were essentially the only way to customize the application. You’d write a bunch of JavaScript code, upload it to the server and voila… customizations!! Then in 2008 Salesforce released Apex and Visualforce and the platform exploded! It was the Renaissance of SaaS development! Now the pendulum of application development is once again in full motion and what was once old may be new again. But first, let’s go back to the future of S
 date: 2015-02-06 22:27:47 +0300
 image:  '/images/pexels-markus-spiske-2004161.jpg'
-tags:   ["2015", "public"]
+tags:   ["salesforce"]
 ---
 <p>When I started “developing” with Salesforce back in 2006, s-controls were essentially the only way to customize the application. You’d write a bunch of JavaScript code, upload it to the server and voila… customizations!! Then in 2008 Salesforce released Apex and Visualforce and the platform exploded! It was the Renaissance of SaaS development! Now the pendulum of application development is once again in full motion and what was once old may be new again.</p>
 <p>But first, let’s go “back to the future” of Salesforce development for a bit. I remember those halcyon days of pre-framework JavaScript like they were yesterday. I yearn for the time when you could just throw up spaghetti code (that’s all you could write back then) and call it “enterprise software”. But you have to admit, before the advent of Visualforce and Apex, s-controls sounded “magical”:</p>

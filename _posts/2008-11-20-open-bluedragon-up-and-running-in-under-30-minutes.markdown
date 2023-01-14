@@ -4,7 +4,7 @@ title:  Open BlueDragon Up and Running in Under 30 Minutes!
 description: I had a few minutes to spare this morning so I thought I would install Open BlueDragon on one of our dev servers. In case you dont know, Open BlueDragon is an open source version of BlueDragon , an alternative J2EE CFML engine to Adobe ColdFusion. We have the commercial version of BlueDragon installed on a couple of boxes but this was my first experience with the open source version. Installation was quite simple and fast and my application was up and running in under 30 minutes. After installin
 date: 2008-11-20 16:38:14 +0300
 image:  '/images/slugs/open-bluedragon-up-and-running-in-under-30-minutes.jpg'
-tags:   ["2008", "public"]
+tags:   ["technology", "coldfusion", "java"]
 ---
 <p>I had a few minutes to spare this morning so I thought I would install <a href="http://www.openbluedragon.org" target="_blank">Open BlueDragon</a> on one of our dev servers. In case you don't know, Open BlueDragon is an open source version of <a href="http://www.newatlanta.com/products/bluedragon/index.cfm" target="_blank">BlueDragon</a>, an alternative J2EE CFML engine to Adobe ColdFusion. We have the commercial version of BlueDragon installed on a couple of boxes but this was my first experience with the open source version.</p>
 <p>Installation was quite simple and fast and my application was up and running in under 30 minutes. After installing the latest JRE on the server, my biggest decision was which version of Open BlueDragon to install:</p>

@@ -4,7 +4,7 @@ title:  Synchronizing Asynchronous Events in Salesforce.com
 description: So the title is slightly dubious as you really cant synchronize asynchronous events in salesforce.com. However, heres a strategy to make asynchronous events more manageable. Dont get me wrong, asynchronous events (Apex methods with the @future annotation) are awesome. You get higher limits, they fire when the platform has spare cycles and users dont have to wait for processing to finish. However, if you use them liberally in your application, orchestrating them may become difficult. So heres the
 date: 2012-03-20 13:26:56 +0300
 image:  '/images/slugs/synchronizing-asynchronous-events-in-salesforce-com.jpg'
-tags:   ["2012", "public"]
+tags:   ["salesforce"]
 ---
 <p><img alt="" src="http://i2.photobucket.com/albums/y48/risk07/sept05/synchro.jpg" class="alignleft" width="275" />So the title is slightly dubious as you really can't synchronize asynchronous events in salesforce.com. However, here's a strategy to make asynchronous events more manageable.</p>
 <p>Don't get me wrong, asynchronous events (Apex methods with the @future annotation) are awesome. You get higher limits, they fire when the platform has spare cycles and users don't have to wait for processing to finish. However, if you use them liberally in your application, orchestrating them may become difficult.</p>

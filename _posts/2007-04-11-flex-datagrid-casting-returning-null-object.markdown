@@ -4,7 +4,7 @@ title:  Flex DataGrid Casting returning NULL object
 description: I began working today on a new Cairngorm application that I copied from an existing application. The main feature of the application was allowing the user to select a row from a DataGrid and update its values. model.currentObj = evt.currentTarget.selectedItem; I had the remoting working fine with my Gateway and CFCs but selecting the row and assinging the object to the Model was not working. I used Mike Nimers Debug component to examine object after casting it but it was returning a null value. 
 date: 2007-04-11 12:56:03 +0300
 image:  '/images/slugs/flex-datagrid-casting-returning-null-object.jpg'
-tags:   ["2007", "public"]
+tags:   ["flex"]
 ---
 <p>I began working today on a new Cairngorm application that I copied from an existing application. The main feature of the application was allowing the user to select a row from a DataGrid and update its values.</p>
 {% highlight js %}model.currentObj = evt.currentTarget.selectedItem;

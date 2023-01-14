@@ -4,7 +4,7 @@ title:  OutOfMemoryError PermGen Crash with Force.com IDE 15
 description: I upgraded my Windows XP, Windows Vista, Windows 7 (beta VM) and OS X machines with the new Force.com IDE v15 yesterday when it came out. The new IDE runs great on all of my machines except my Mac. It crashed frequenty with the following error-  java.lang.OutOfMemoryError- PermGen space  I poked around the Eclipse.org site and this seems to be a known bug with Eclipse 3.3.x. Here are a couple of links (bug 195897 & bug 203325 ) that outline the issue. Essentially the problem is that the launcher
 date: 2009-02-20 15:04:47 +0300
 image:  '/images/slugs/outofmemoryerror-force-ide-15.jpg'
-tags:   ["2009", "public"]
+tags:   ["apple", "salesforce"]
 ---
 <p>I upgraded my Windows XP, Windows Vista, Windows 7 (beta VM) and OS X machines with the new Force.com IDE v15 yesterday when it came out. The new IDE runs great on all of my machines except my Mac. It crashed frequenty with the following error:</p>
 {% highlight js %}java.lang.OutOfMemoryError: PermGen space

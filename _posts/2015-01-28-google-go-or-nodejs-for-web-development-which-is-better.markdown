@@ -4,7 +4,7 @@ title:  Google Go or Node.js for web development? Which is better?
 description: This post has been sloshing around in my brain for a couple of months now and it’s finally time to let it spill out all over the floor. Last July I started digging into Google Go  for my Topcoder Cribs with Docker blog post , and found it to be surprising straight forward, powerful and easy to work with. Subsequently, the more Node.js that I wrote, the more I realized how much I liked Go and missed its ease of use. Periodically I’ve asked myself, is Go better for web development than Node.js and
 date: 2015-01-28 12:35:33 +0300
 image:  '/images/slugs/google-go-or-nodejs-for-web-development-which-is-better.jpg'
-tags:   ["2015", "public"]
+tags:   ["node.js", "google go"]
 ---
 <p>This post has been sloshing around in my brain for a couple of months now and it’s finally time to let it spill out all over the floor. Last July I started digging into <a href="https://golang.org/">Google Go</a> for my <a href="http://www.topcoder.com/blog/building-go-web-apps/">Topcoder Cribs with Docker blog post</a>, and found it to be surprising straight forward, powerful and easy to work with. Subsequently, the more Node.js that I wrote, the more I realized how much I liked Go and missed its ease of use. Periodically I’ve asked myself, “is Go <em>better</em> for web development than Node.js and JavaScript”? Unfortunately, I’ve yet to respond to myself.</p>
 <p><strong>JavaScript is Dead. Long Live JavaScript.</strong></p>

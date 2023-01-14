@@ -4,7 +4,7 @@ title:  Integrate Chatter & Twitter on Google App Engine using OAuth
 description: Cross-posted at the Appirio Tech Blog  . At Appirio  weve been excited about Salesforce Chatter for quite a while. We firmly believe that Chatter has the potential to bridge the gap between enterprise applications and the way people work. We were luckily enough to receive special prerelease access to Chatter to develop our Social PS Enterprise for the Dreamforce 09 Chatter Keynote and if you missed the demo at Dreamforce 09 you can find it here . Chatter is now in private beta for 100 companies 
 date: 2010-03-17 11:37:01 +0300
 image:  '/images/slugs/integrate-chatter-twitter-on-google-app-engine-using-oauth.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "google app engine", "salesforce", "gae/j", "java"]
 ---
 <p>Cross-posted at the <a href="http://techblog.appirio.com/2010/03/integrate-chatter-twitter-on-google-app.html">Appirio Tech Blog</a>.</p>
 <p>At <a href="http://www.appirio.com" target="_blank">Appirio</a> we've been excited about Salesforce Chatter for quite a while. We firmly believe that Chatter has the potential to bridge the gap between enterprise applications and the way people work. We were luckily enough to receive special prerelease access to Chatter to develop our Social PS Enterprise for the Dreamforce '09 Chatter Keynote and if you missed the demo at Dreamforce '09 you can <a href="http://www.youtube.com/watch?v=Xu-2ZgrmBhs&feature=player_embedded#" target="_blank">find it here</a>.</p>

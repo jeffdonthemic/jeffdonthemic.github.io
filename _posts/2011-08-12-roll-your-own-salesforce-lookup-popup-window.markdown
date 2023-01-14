@@ -4,7 +4,7 @@ title:  Roll Your Own Salesforce Lookup Popup Window
 description: Lets talk about the standard salesforce.com lookup popup window for a few minutes. You know what Im talking about.. this button right here  Its a handy little button that pops up whenever you need to search for related records. It does a pretty good job but it has some serious drawbacks- 1. Its virtually impossible to modify your search criteria. What if you want   your users to do some crazy search based upon custom logic or search a field   that is not typically available? Sorry... you are out
 date: 2011-08-12 11:18:48 +0300
 image:  '/images/slugs/roll-your-own-salesforce-lookup-popup-window.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce", "visualforce", "apex"]
 ---
 <p>Let's talk about the standard salesforce.com "lookup" popup window for a few minutes. You know what I'm talking about.. this button right here</p>
 <p><img src="images/1_roll-1.png" alt="" ></p>

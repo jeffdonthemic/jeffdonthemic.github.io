@@ -4,7 +4,7 @@ title:  Parsing JSON APIs with SwiftyJSON
 description: Parsing JSON using Swift is not a happy task. One of the first things I wanted to do in a Playground was call the topcoder API  and start playing with the returned challenge data. Unfortunately parsing JSON in data is almost akin to chewing glass right now (hopefully it will get better). You would think that since working with JSON is such a fundamental task nowadays, that it would be much easier, but no  . I poked around for awhile and found David Owens blog on JSON parsing  but it was much mor
 date: 2014-08-25 08:51:59 +0300
 image:  '/images/slugs/parsing-json-apis-with-swiftjson.jpg'
-tags:   ["2014", "public"]
+tags:   ["swift"]
 ---
 <p>Parsing JSON using Swift is not a happy task. One of the first things I wanted to do in a Playground was call the <a href="http://api.topcoder.com/v2/develop/challenges?pageSize=2">topcoder API</a> and start playing with the returned challenge data.</p>
 <p><img src="http://www.myextralife.com/wp-content/uploads/2009/04/this-is-hard.jpg" alt="" ></p>

@@ -4,7 +4,7 @@ title:  BlazeDS - ReferenceError- Error #1056
 description: I have been doing Flash Remoting with Flex and ColdFusion for a number of years but wanted to do something with a pure Java solution. I decided to setup BlazeDS (Adobes open source server-based Java remoting and web messaging technology) on my EC2 instance for fun. I found a great tutorial (Getting started with BlazeDS) from Christopher Coenraets that walks you through the entire process. I downloaded the BlazeDS war, dropped it into Tomcat, configured my destinations in the config file and crea
 date: 2008-12-05 14:36:11 +0300
 image:  '/images/slugs/blazeds-referenceerror.jpg'
-tags:   ["2008", "public"]
+tags:   ["flex", "java"]
 ---
 <p>I have been doing Flash Remoting with Flex and ColdFusion for a number of years but wanted to do something with a pure Java solution. I decided to setup <a href="http://opensource.adobe.com/wiki/display/blazeds/BlazeDS/" target="_blank">BlazeDS</a> (Adobe's open source server-based Java remoting and web messaging technology) on my EC2 instance for fun.</p>
 <p>I found a <a href="http://www.adobe.com/devnet/livecycle/articles/blazeds_gettingstarted.html" target="_blank">great tutorial</a> ("Getting started with BlazeDS") from Christopher Coenraets that walks you through the entire process. I downloaded the BlazeDS war, dropped it into Tomcat, configured my destinations in the config file and created my Java DAOs and POJOs. I was up and running in less than an hour and developing a POC application. The Java part went along smoothly but I ran into a small snag with my Flex app.</p>

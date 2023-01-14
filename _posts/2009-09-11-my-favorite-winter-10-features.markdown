@@ -4,7 +4,7 @@ title:  My Favorite Winter '10 Features
 description:  For those that dont have time to weed through all 124 pages of the Winter 10 Release Notes , Ive pulled out a few of my favorites for your viewing pleasure-  Enhanced Profile Management Administrators can create lists of profiles and use them to compare profile settings, print lists of profiles, and make mass updates across multiple profiles. Be still my beating heart! Profile management on large orgs is (was?) such a nightmare. Web to Lead Campaign Member Creation Update Salesforce.com will ev
 date: 2009-09-11 11:45:38 +0300
 image:  '/images/slugs/my-favorite-winter-10-features.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399506/winter10_logo_sxbcom.png"><img class="alignleft size-full wp-image-1242" style="padding-right:10px;" title="winter10_logo" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399506/winter10_logo_sxbcom.png" alt="winter10_logo" width="208" height="159" /></a>For those that don't have time to weed through all 124 pages of the <a href="http://na1.salesforce.com/help/doc/en/salesforce_winter10_release_notes.pdf" target="_blank">Winter '10 Release Notes</a>, I've pulled out a few of my favorites for your viewing pleasure:</p>
 <p><strong>Enhanced Profile Management</strong><br>

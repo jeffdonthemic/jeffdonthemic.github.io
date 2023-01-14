@@ -4,7 +4,7 @@ title:  Webinar - Spring for Force.com Developers
 description: Quinton Wall and Josh Long (SpringSource) conducted this early-morning webinar last Thursday in preparation of VMforce . Even though the webinar was essentially a high-level overview and demo of the Spring framework , there were some interesting VMforce nuggets. In addition to the screenshots below, Quinton did release that  Salesforce will be using JPA to connect to the Salesforce database. You can watch the recording of the webinar in case you missed it. If you are not familiar with Spring, it
 date: 2010-08-30 11:56:37 +0300
 image:  '/images/slugs/webinar-spring-for-force-com-developers.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "vmforce"]
 ---
 <p><img style="float: left;padding-right:10px" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1401028680/tewfhpzm2tsc4tahjmkn.png" alt="" width="225" />Quinton Wall and <a href="http://twitter.com/starbuxman" target="_blank">Josh Long</a> (SpringSource) conducted this early-morning webinar last Thursday in preparation of <a href="http://www.vmforce.com/" target="_blank">VMforce</a>. Even though the webinar was essentially a high-level overview and demo of the <a href="http://www.springsource.com/developer/spring" target="_blank">Spring framework</a>, there were some interesting VMforce nuggets. In addition to the screenshots below, Quinton did release that <strong>Salesforce will be using JPA to connect to the Salesforce database.</strong>
 <p>You can watch the <a href="http://www.youtube.com/watch?v=kB7Z7-x-YEQ&feature=player_embedded" target="_blank">recording of the webinar</a> in case you missed it. If you are not familiar with Spring, it is a really good overview of the their frameworks, APIs and tools.</p>

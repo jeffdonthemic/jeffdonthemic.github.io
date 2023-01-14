@@ -4,7 +4,7 @@ title:  What is Innovation?
 description: Almost every company touts that they are innovative or that they produce innovative products and/or services. But what exactly is innovation? Googling innovation results in the following definitions- * The creation of new products and/or services. * The conversion of knowledge and ideas into a benefit  * PEOPLE implementing new ideas to create value. Innovation is the act of introducing something new or the process of making improvements by introducing something new. The term refers to both radi
 date: 2007-03-21 14:07:34 +0300
 image:  '/images/slugs/what-is-innovation.jpg'
-tags:   ["2007", "public"]
+tags:   ["innovation"]
 ---
 <p>Almost every company touts that they are "innovative" or that they produce "innovative" products and/or services. But what exactly is innovation? Googling innovation results in the following definitions:</p>
 <ul>

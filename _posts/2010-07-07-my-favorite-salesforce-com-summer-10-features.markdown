@@ -4,7 +4,7 @@ title:  My Favorite Salesforce.com Summer '10 Features
 description:  The Summer 10 release was rolled out last month and Im finally getting a chance to go through the entire release notes and pick out some of my favorite new features and enhancements. Sorry for the delay but Ive been busy with stuff. I didn’t hit all of the items in the release notes so make sure you pull up the the PDF and check out all of the goodies in detail. Chatter If you didnt hear that Chatter went GA then you are probably dead. Stop reading this and roll over in your grave. They also re
 date: 2010-07-07 15:38:00 +0300
 image:  '/images/slugs/my-favorite-salesforce-com-summer-10-features.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce"]
 ---
 <p><a href="/2010/07/07/my-favorite-salesforce-com-summer-10-features/"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400328006/summer10-logo_kyerc3.jpg" alt="" title="summer10-logo" width="480" height="108" class="alignnone size-full wp-image-2768" /></a></p>
 <p>The Summer 10 release was rolled out last month and I'm finally getting a chance to go through the entire <a href="http://na1.salesforce.com/help/doc/en/salesforce_summer10_release_notes.pdf" target="_blank">release notes</a> and pick out some of my favorite new features and enhancements. Sorry for the delay but I've been busy with stuff. I didn’t hit all of the items in the release notes so make sure you pull up the the PDF and check out all of the goodies in detail.</p>

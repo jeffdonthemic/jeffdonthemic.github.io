@@ -4,7 +4,7 @@ title:  Some superheroes fly. Some sit and stay.
 description:   A few years ago the Appirio Silver Lining  engagement program performed an  Extreme Cloud Makeover for Can Do Canines . After seeing what the Can Do Canines can do (pun intended) for people, I was so inspired that I wanted to get involved somehow. I found out that an awesome organization called Southeastern Guide Dogs  was located nearby. Our family hasnt had a dog for a couple of years as we are very busy and on the go quite often. However, my 7 year old daughter had been begging for a dog so
 date: 2014-05-23 14:35:00 +0300
 image:  '/images/slugs/some-superheroes-fly-some-sit-and-stay.jpg'
-tags:   ["2014", "public"]
+tags:   []
 ---
 <p><img src="images/vance3.jpg" alt="" ></p>
 <p>A few years ago the <a href="https://www.facebook.com/AppirioSilverLining">Appirio Silver Lining</a> engagement program performed an <a href="http://appirio.com/category/business-blog/2012/01/can-do-canines-wins-extreme-cloud-makeover-nonprofit-edition/">Extreme Cloud Makeover</a> for <a href="http://can-do-canines.org/">Can Do Canines</a>. After seeing what the Can Do Canines can do (pun intended) for people, I was so inspired that I wanted to get involved somehow. I found out that an awesome organization called <a href="http://www.guidedogs.org/">Southeastern Guide Dogs</a> was located nearby.</p>

@@ -4,7 +4,7 @@ title:  Document Apex Code with ApexDoc
 description: My fellow Appirian and resident super-smart guy, Aslam Bari has created a super slick tool to document Apex code. ApexDoc is essentially JavaDocs for Apex. You add comments to your source code in the JavaDoc fashion (@author, @date, @param, etc) and ApexDoc reads these and generates a nice set of HTML files that allows you to browse your class structure. Heres a short video on the entire process. Generating the ApexDocs is fairly simple. Just point to your source code, an option output file, an 
 date: 2011-01-27 15:04:46 +0300
 image:  '/images/slugs/document-apex-code-with-apexdoc.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce", "java"]
 ---
 <p><img style="float: left;padding-right:15px;padding-bottom:10px" title="apex_doc_logo.png" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1401027982/qp8oo9em7wevycjzd8aq.png" border="0" alt="apex_doc_logo.png" width="147" height="80" /></p>
 <p>My fellow Appirian and resident super-smart guy, <a href="http://techsahre.blogspot.com/" target="_blank">Aslam Bari</a> has created a super slick tool to document Apex code. ApexDoc is essentially JavaDocs for Apex. You add comments to your source code in the JavaDoc fashion (@author, @date, @param, etc) and ApexDoc reads these and generates a nice set of HTML files that allows you to browse your class structure. <a href="http://www.aslambari.com/apexdoc.html" target="_blank">Here's a short video</a> on the entire process.</p>

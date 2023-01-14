@@ -4,7 +4,7 @@ title:  SAP's Business ByDesign .... Redesign
 description:  SAP launched their hosted-application, Business ByDesign  in late 2007 with  much fanfare  . SAP positioned the solution as a complete on-demand enterprise resource planning (ERP) suite for the mid-market that includes software for financials, human resources, supply chain management, business analytics and compliance management. Unfortunately over the past couple of years Business ByDesgin has been plagued by some really bad press- * Inside SAPs Idled Business ByDesign Suite  * SAP still tryin
 date: 2009-09-22 09:55:09 +0300
 image:  '/images/slugs/sap-business-bydesign-redesign.jpg'
-tags:   ["2009", "public"]
+tags:   ["cloud computing", "sap"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399502/failwhale-jpg_hbaapd.gif"><img class="alignleft size-thumbnail wp-image-1332" style="padding-right:15px;" title="failwhale.jpg" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/c_crop,h_375,w_375,x_62,y_0/h_150,w_150/v1400399502/failwhale-jpg_hbaapd.gif" alt="failwhale.jpg" width="150" height="112" /></a>SAP launched their hosted-application, <a href="http://www.sap.com/sme/solutions/businessbydesign/index.epx" target="_blank">Business ByDesign</a> in late 2007 with <a href="/2007/09/20/sap-launches-host-applications-solution/" target="_blank">much fanfare</a>. SAP positioned the solution as a complete on-demand enterprise resource planning (ERP) suite for the mid-market that includes software for financials, human resources, supply chain management, business analytics and compliance management.</p>
 <p>Unfortunately over the past couple of years Business ByDesgin has been plagued by some really bad press:</p>

@@ -4,7 +4,7 @@ title:  Google App Engine for Java Demo Application
 description: Google App Engine for Java was released a couple of weeks ago and I finally found some time to finish up my first demo application. My original idea was to do a Java version of the Salesforce.com demo that I did in Python on Google App Engine , but I quickly found out that Google App Engine for Java does not support Web services. Hopefully there will be a workaround from Salesforce.com sometime in the near future to make this possible. This demo has the same functionality as the Python version e
 date: 2009-04-30 14:40:04 +0300
 image:  '/images/slugs/google-app-engine-for-java-demo-app.jpg'
-tags:   ["2009", "public"]
+tags:   ["google app engine", "salesforce", "java"]
 ---
 <p>Google App Engine for Java was released a couple of weeks ago and I finally found some time to finish up my first demo application. My original idea was to do a Java version of the <a href="/2009/04/14/forcecom-google-app-engine-python/" target="_blank">Salesforce.com demo that I did in Python on Google App Engine</a>, but I quickly found out that Google App Engine for Java does not support Web services. Hopefully there will be a workaround from Salesforce.com sometime in the near future to make this possible.</p>
 <p>This demo has the same functionality as the Python version except that it uses BigTable as the datastore instead of Salesforce.com. <strong></strong></p>

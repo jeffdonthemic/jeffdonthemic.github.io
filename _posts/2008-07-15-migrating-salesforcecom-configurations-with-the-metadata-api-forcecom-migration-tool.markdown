@@ -4,7 +4,7 @@ title:  Migrating Salesforce.com Configurations  with the Metadata API & Force.c
 description: With the release of the Metadata API v13 you can now interact with the Salesforce.com configuration as XML metadata files and migrate configuration changes between environments without using the SFDC UI. The metadata API contains a set of objects that manage setup and customization information (metadata) for your organizations, and the SOAP calls that manipulate those objects. With them, you can- * Work with setup configuration as XML metadata files  * Migrate configuration changes between organ
 date: 2008-07-15 09:11:03 +0300
 image:  '/images/slugs/migrating-salesforcecom-configurations-with-the-metadata-api-forcecom-migration-tool.jpg'
-tags:   ["2008", "public"]
+tags:   ["salesforce"]
 ---
 <p>With the release of the Metadata API v13 you can now interact with the Salesforce.com configuration as XML metadata files and migrate configuration changes between environments without using the SFDC UI. The metadata API contains a set of objects that manage setup and customization information (metadata) for your organizations, and the SOAP calls that manipulate those objects. With them, you can:</p>
 <ul>

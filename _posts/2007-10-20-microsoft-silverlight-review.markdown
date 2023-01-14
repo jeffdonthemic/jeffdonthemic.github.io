@@ -4,7 +4,7 @@ title:  Microsoft Silverlight Review
 description: InfoWorld has a really good review of Silverlight  , the RIA competitor to Flash/Flex. I think Silverlight may make a big splash as most .NET developers are probably graphically challenged and Silverlight will allow them to create slick RIAs in a familiar environment (Visual Studio) and language (C#, Visual Basic .Net, IronPython, and eventually IronRuby). Microsoft also released a beta of Popfly , their hosted mashup builder. The UI has been cleaned up quite a bit and they now offer integration
 date: 2007-10-20 10:12:35 +0300
 image:  '/images/slugs/microsoft-silverlight-review.jpg'
-tags:   ["2007", "public"]
+tags:   ["flex"]
 ---
 <p>InfoWorld has a <a href="http://www.infoworld.com/article/07/10/01/40TC-microsoft-silverlight_1.html?source=NLC-WS&cgd=2007-10-03" target="_blank">really good review of Silverlight</a>, the RIA competitor to Flash/Flex.</p>
 <p>I think Silverlight may make a big splash as most .NET developers are probably "graphically challenged" and Silverlight will allow them to create slick RIA's in a familiar environment (Visual Studio) and language (C#, Visual Basic .Net, IronPython, and eventually IronRuby).</p>

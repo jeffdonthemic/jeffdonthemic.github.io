@@ -4,7 +4,7 @@ title:  Grails 1.1 Released
 description: I just saw the release notes on Grails  and man am I excited! I recently started with Groovy and am just now getting my head wrapped around Grails. A perfect time for a new release. In case you are not familiar with Grails-  Grails is a dynamic web application framework built on Java and Groovy, leveraging best of breed APIs from the Java EE sphere including Spring, Hibernate and SiteMesh. Grails brings to Java and Groovy developers the joys of convention-based rapid development while allowing t
 date: 2009-03-10 21:27:20 +0300
 image:  '/images/slugs/grails-11-released.jpg'
-tags:   ["2009", "public"]
+tags:   ["technology", "groovy", "java"]
 ---
 <p>I just saw the <a href="http://www.grails.org/1.1+Release+Notes" target="_blank">release notes on Grails</a> and man am I excited! I recently started with Groovy and am just now getting my head wrapped around Grails. A perfect time for a new release. In case you are not familiar with Grails:</p>
 <p>"Grails is a dynamic web application framework built on Java and Groovy, leveraging best of breed APIs from the Java EE sphere including Spring, Hibernate and SiteMesh. Grails brings to Java and Groovy developers the joys of convention-based rapid development while allowing them to leverage their existing knowledge and capitalize on the proven and performant APIs Java developers have been using for years."</p>

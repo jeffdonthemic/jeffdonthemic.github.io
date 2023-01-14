@@ -4,7 +4,7 @@ title:  Chow Finder - My Veterans Hackday 2011 App
 description: This is my submission for the LinkedIn Veterans Hackday 2011 . CloudSpokes threw in an extra $100 for any member that submitted as an extra incentive. Our members created some pretty cool apps and Ill be highlighting them shortly. Chow Finder is a mobile application for services members to easily locate dining facilities, aka chow halls, on any military installation. It was inspired by my sons in the Army and Navy who are always looking for their next meal. The application was written using jQue
 date: 2011-11-15 11:53:16 +0300
 image:  '/images/chow.png'
-tags:   ["2011", "public"]
+tags:   ["cloudspokes", "code sample", "heroku", "ruby", "salesforce"]
 ---
 <p>This is my submission for the <a href="http://veterans2011.linkedin.com/">LinkedIn Veterans Hackday 2011</a>. <a href="http://blog.cloudspokes.com/2011/11/veterans-hackday-2011-get-involved.html">CloudSpokes threw in an extra $100</a> for any member that submitted as an extra incentive. Our members created some pretty cool apps and I'll be highlighting them shortly.</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327750/chow-finder1_etamho.png" alt="" ></p>

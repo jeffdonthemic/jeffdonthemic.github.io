@@ -4,7 +4,7 @@ title:  Dreamforce 2014... I miss you already!
 description: As Im flying home from Dreamforce (Im currently in Pittsburgh as part of my  ginormous RV palooza ) I wanted to jot down some of my highlights of Dreamforce 2014  in no particular order. My favorite part of Dreamforce is always catching up with old friends. Plenty of bro hugging going on. This was my 7th Dreamforce and its always great to hang out with people I interact with everyday on Twitter and Facebook. There are MVP parties (thanks Erica & Matt!!), meetups and late night gatherings that pr
 date: 2014-10-24 19:32:06 +0300
 image:  '/images/slugs/dreamforce-2014-recap.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce", "dreamforce"]
 ---
 <p>As I'm flying home from Dreamforce (I'm currently in Pittsburgh as part of my <a href="http://whereintheworldis.jeffdouglas.com">ginormous RV palooza</a>) I wanted to jot down some of my highlights of <a href="http://www.salesforce.com/dreamforce/DF14/">Dreamforce 2014</a> in no particular order.</p>
 <p><img src="images/2014-10-13-17-59-49.jpg" alt="" ></p>

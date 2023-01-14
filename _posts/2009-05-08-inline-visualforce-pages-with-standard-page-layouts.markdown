@@ -4,7 +4,7 @@ title:  Use an Inline Visualforce Page with Standard Page Layouts
 description: Lets face it, using standard page layouts is easy. Throw some field on the page, arrange some related lists and then essentially forget about the page. However, if you really need to customize the user experience you are almost always forced to write a custom Visualforce page that may require maintenance in the future. But what if you just want to tweak the page layout and give it a little Visualforce bling? Perhaps a custom related list from multiple objects, a Flickr mashup or a Google map of 
 date: 2009-05-08 16:00:00 +0300
 image:  '/images/slugs/inline-visualforce-pages-with-standard-page-layouts.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>Let's face it, using standard page layouts is easy. Throw some field on the page, arrange some related lists and then essentially forget about the page. However, if you really need to customize the user experience you are almost always forced to write a custom Visualforce page that may require maintenance in the future. But what if you just want to tweak the page layout and give it a little Visualforce bling? Perhaps a custom related list from multiple objects, a Flickr mashup or a Google map of your canary's current location?</p>
 <p>You can now add Visualforce pages to stardard page layouts basically in the same way you can S-Controls. The use case is that you have accounts with hundreds of opportunities each and users are getting tired of scrolling through pages and pages of records to find the ones that they need. Let's develop a Visualforce page and controller extension that provides them with a opportunity search interface on the account details page.</p>

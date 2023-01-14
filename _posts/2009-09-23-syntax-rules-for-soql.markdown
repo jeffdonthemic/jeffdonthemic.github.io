@@ -4,7 +4,7 @@ title:  Syntax Rules for SOQL
 description: One of my fellow Appirian added the following BNF notation for the syntax rules of SOQL to the Salesforce wiki. I hadnt seen this before so its really going to come in handy. You can use it to debug syntax errors or more fully understand what syntax is valid in SOQL. Thought it might make for some interesting Evernote fodder. QUERY --= SELECT (COUNT() | (FIELD ( , FIELD)*)) FROM UNQUALIFIEDNAME (AS ? UNQUALIFIEDNAME)? (USING UNQUALIFIEDNAME)?  (PARENT_ALIAS_EXPR)* (WHERE CONDITIONEXPR )? (ORDER 
 date: 2009-09-23 08:18:59 +0300
 image:  '/images/slugs/syntax-rules-for-soql.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p>One of my fellow Appirian added the following BNF notation for the syntax rules of SOQL to the Salesforce wiki. I hadn't seen this before so it's really going to come in handy. You can use it to debug syntax errors or more fully understand what syntax is valid in SOQL. Thought it might make for some interesting Evernote fodder.</p>
 <pre>QUERY ::= 'SELECT' ('COUNT()' | (FIELD ( ',' FIELD)*))

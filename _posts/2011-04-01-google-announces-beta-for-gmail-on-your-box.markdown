@@ -4,7 +4,7 @@ title:  Google Announces Beta for Gmail on Your Box
 description: Google is set to announce a major strategy switch with respect to cloud computing later today. As a trusted tester Appirio is privy to certain information but we were placed on embargo until 8am EST this morning. According to our CMO, Narinder Singh, Google will shortly announce that they are launching a new beta called, Gmail on Your Box. This will allow large enterprises to install Gmail on servers in their own data centers and create a private cloud called Securely Hosted Internal Transmissio
 date: 2011-04-01 11:00:54 +0300
 image:  '/images/slugs/google-announces-beta-for-gmail-on-your-box.jpg'
-tags:   ["2011", "public"]
+tags:   ["google"]
 ---
 <p>Google is set to announce a major strategy switch with respect to cloud computing later today. As a “trusted tester” Appirio is privy to certain information but we were placed on embargo until 8am EST this morning.</p>
 <p>According to our CMO, Narinder Singh, Google will shortly announce that they are launching a new beta called, “Gmail on Your Box”. This will allow large enterprises to install Gmail on servers in their own data centers and create a private cloud called “<em>S</em>ecurely <em>H</em>osted <em>I</em>nternal <em>T</em>ransmission“.</p>

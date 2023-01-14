@@ -4,7 +4,7 @@ title:  Passing Values to JavaScript from Apex Controller Method
 description: Im working on a port of an existing Java app to Salesforce.com and I ran into a Visualforce page that gave me some problems. The current JSP page allows the user to fill out a form, submit a new record to the database and then pop-up a new window to show some results while keeping the users on the same page with the form. This is actually somewhat difficult to do with Apex and Visualforce. I searched the message boards but couldnt find anything comparable. LuckilyWes Nolte  came to the rescue wi
 date: 2011-01-17 18:00:00 +0300
 image:  '/images/slugs/passing-values-to-javascript-from-apex-controller-method.jpg'
-tags:   ["2011", "public"]
+tags:   ["code sample", "salesforce"]
 ---
 <p>I'm working on a port of an existing Java app to Salesforce.com and I ran into a Visualforce page that gave me some problems. The current JSP page allows the user to fill out a form, submit a new record to the database and then pop-up a new window to show some results while keeping the users on the same page with the form.</p>
 <p>This is actually somewhat difficult to do with Apex and Visualforce. I searched the message boards but couldn't find anything comparable. Luckily <a href="http://th3silverlining.com">Wes Nolte</a> came to the rescue with his mad JavaScript skillz to point me in the right direction.</p>

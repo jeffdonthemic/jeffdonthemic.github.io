@@ -4,7 +4,7 @@ title:  Node.js Demo with Force.com REST API, OAuth & Express
 description: Weve been working with Node.js quite a bit at CloudSpokes  but I hadnt done anything with Force.com and Node.js using their REST API; weve mostly been using our own API. So I thought I would give it a spin and see what it would take to write a small demo app using Node.js, the Force.com REST API, OAuth, Express and Jade for templating. As it turns out it wasnt that difficult. Salesforce.com has done most of the work writing the REST and OAuth pieces. So initially I started woking from Josh Birk 
 date: 2012-04-27 14:00:49 +0300
 image:  '/images/slugs/node-js-demo-with-force-com-rest-api-oauth-express.jpg'
-tags:   ["2012", "public"]
+tags:   ["salesforce", "node.js"]
 ---
 <p>We've been working with Node.js quite a bit at <a href="http://www.cloudspokes.com">CloudSpokes</a> but I hadn't done anything with Force.com and Node.js using their REST API; we've mostly been using our own API. So I thought I would give it a spin and see what it would take to write a small demo app using Node.js, the Force.com REST API, OAuth, Express and Jade for templating.</p>
 <p>As it turns out it wasn't that difficult. Salesforce.com has done most of the work writing the REST and OAuth pieces.</p>

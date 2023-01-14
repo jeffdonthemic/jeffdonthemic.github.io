@@ -4,7 +4,7 @@ title:  Force.com Toolkit for Google Wave Demo at Google I/O
 description: I attended this demo at Google I/O and am glad that the video is finally available. Ive wanted to post it for awhile but Google put the video up about a week ago and then promptly took it down. Not sure why...?  I think Quinton Wall  and Kris Muller did an awesome job with this demo. Quinton spent most of his time at Google I/O working the Developer Sandbox so it was good to see that Salesforce had such great representation at the event. Even Dave Carroll graced the event with his presence. Ever
 date: 2010-06-10 10:47:42 +0300
 image:  '/images/slugs/force-com-toolkit-for-google-wave-demo-at-google-io.jpg'
-tags:   ["2010", "public"]
+tags:   ["cloud computing", "google", "salesforce", "wave"]
 ---
 <p>I attended this demo at Google I/O and am glad that the video is finally available. I've wanted to post it for awhile but Google put the video up about a week ago and then promptly took it down. Not sure why...?</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/c_crop,h_256,w_256,x_0,y_0/h_150,w_150/v1400328230/wavelogo_f93jkr.png" alt="" title="wavelogo.png" ></p>

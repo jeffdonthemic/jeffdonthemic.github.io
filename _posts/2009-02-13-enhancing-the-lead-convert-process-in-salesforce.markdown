@@ -4,7 +4,7 @@ title:  Enhancing the Lead Conversion Process in Salesforce.com
 description: During the Salesforce.com lead conversion process, you can create an account, contact and opportunity for the lead that is being converted. The process is pretty straightforward and Salesforce.com provides some tools for customizing it- 1. Salesforce.com allows you to automatically map standard and custom lead   fields to account, contact, and opportunity fields. 2. Apex triggers are fired and universally required custom fields and   validation rules are enforced only if validation and triggers 
 date: 2009-02-13 21:34:34 +0300
 image:  '/images/slugs/enhancing-the-lead-convert-process-in-salesforce.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>During the Salesforce.com lead conversion process, you can create an account, contact and opportunity for the lead that is being converted. The process is pretty straightforward and Salesforce.com provides some tools for customizing it:</p>
 <ol>

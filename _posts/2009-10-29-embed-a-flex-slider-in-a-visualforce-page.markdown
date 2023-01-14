@@ -4,7 +4,7 @@ title:  Embed a Flex Slider in a Visualforce Page
 description: I did a simple Flex callback with JavaScript about a year ago and I always wanted to follow up with this topic. Somehow I never quite found the time. This is an example of how you can create a Flex component (a horizontal slider in this case), wrap it up as a Visualforce component and then make it reusable in your Visualforce pages. This technique provides you with some great ways to add eye candy to your Visualforce pages without breaking the UI model. You can run this example on my Developer S
 date: 2009-10-29 17:45:41 +0300
 image:  '/images/slugs/embed-a-flex-slider-in-a-visualforce-page.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "flex"]
 ---
 <p>I did a simple <a href="/2008/12/09/flex-callback-example-with-visualforce/" target="_blank">Flex callback with JavaScript</a> about a year ago and I always wanted to follow up with this topic. Somehow I never quite found the time. This is an example of how you can create a Flex component (a horizontal slider in this case), wrap it up as a Visualforce component and then make it reusable in your Visualforce pages. This technique provides you with some great ways to add "eye candy" to your Visualforce pages without breaking the UI model.</p>
 <p><strong>You can </strong><a href="http://jeffdouglas-developer-edition.na5.force.com/examples/flex_slider_example?id=a0H70000002Klmx" target="_blank"><strong>run this example</strong></a><strong> on my Developer Site.</strong></p>

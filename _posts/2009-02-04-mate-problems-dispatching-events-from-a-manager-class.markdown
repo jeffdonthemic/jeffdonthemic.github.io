@@ -4,7 +4,7 @@ title:  Mate - Problems Dispatching Events from a Manager Class
 description: I switched to Mate framework for Flex a few months ago and really love its simplicity in respect to Cairngorm and other frameworks. Mate is a tag-based, event-driven Flex framework that provides a mechanism for dependency injection to make it easy for the different parts of an application to get the data and objects they need. If you know Spring then youll love Mate. In this project Im using BlazeDS for remoting and messaging with Salesforce.com and SQL Server 2005. With Mate, you typically have
 date: 2009-02-04 12:28:29 +0300
 image:  '/images/slugs/mate-problems-dispatching-events-from-a-manager-class.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "flex"]
 ---
 <p>I switched to <a href="http://mate.asfusion.com/" target="_blank">Mate framework for Flex</a> a few months ago and really love its simplicity in respect to Cairngorm and other frameworks. Mate is a tag-based, event-driven Flex framework that provides a mechanism for dependency injection to make it easy for the different parts of an application to get the data and objects they need. If you know Spring then you'll love Mate.</p>
 <p>In this project I'm using <a href="http://opensource.adobe.com/wiki/display/blazeds/BlazeDS/" target="_blank">BlazeDS</a> for remoting and messaging with Salesforce.com and SQL Server 2005.</p>

@@ -4,7 +4,7 @@ title:  Google App Engine Now Supports Java
 description: It only took a year (not bad) but now in addition to Python, Google App Engine now supports Java. This will be a huge boost to App Engine as it opens the service to a wider range of developer. Ive played around with a few apps but I lacked the Python language knowledge to really create anything of substance. I received my confirmation for the Java version yesterday and have just begun to poke around. Some of my favorite features include-  Eclipse Plugin for App Engine * Create applications for b
 date: 2009-04-10 16:15:30 +0300
 image:  '/images/slugs/google-appengine-now-supports-java.jpg'
-tags:   ["2009", "public"]
+tags:   ["google app engine", "salesforce", "technology", "java"]
 ---
 <p><img class="alignleft size-full wp-image-689" title="ae_gwt_java" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399628/ae_gwt_java_zesdmz.png" alt="ae_gwt_java" width="175" height="110" />It only took a year (not bad) but now in addition to Python, Google App Engine now supports Java. This will be a huge boost to App Engine as it opens the service to a wider range of developer. I've played around with a few apps but I lacked the Python language knowledge to really create anything of substance.</p>
 <p>I received my confirmation for the Java version yesterday and have just begun to poke around. Some of my favorite features include:</p>

@@ -4,7 +4,7 @@ title:  How we Built the 'Build a Battle Station' Trailhead Project
 description: Its official. Based upon the tweets , everyone seems to love our Trailhead  project, Build a Battle Station App ! We are thrilled it has been received so well. The Trailhead way is to do crazy, fun stuff  and the hype surrounding Star Wars was the perfect opportunity for us to do something fun for the community. Weve done daily fun badges  before but we wanted to do something special for Star Wars. We are all huge fans, of course. Given the buzz, I thought everyone might enjoy a little insight o
 date: 2015-12-21 15:57:38 +0300
 image:  '/images/battle-station-project.png'
-tags:   ["2015", "public"]
+tags:   []
 ---
 <p>It's official. Based upon <a href="https://twitter.com/search?q=trailhead%20battle%20station&src=typd">the tweets</a>, everyone seems to love our <a href="http://trailhead.salesforce.com">Trailhead</a> project, <a href="https://developer.salesforce.com/trailhead/project/workshop-battle-station">Build a Battle Station App</a>! We are thrilled it has been received so well.</p>
 <p><img src="images/2015-12-21_09-33-02.png" alt="" ></p>

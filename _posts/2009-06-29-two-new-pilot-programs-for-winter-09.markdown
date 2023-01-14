@@ -4,7 +4,7 @@ title:  Two New Pilot Programs for Winter '10
 description: Ive learned that the following pilot programs should be available for Winter 10. You should check with your account rep if you are interested in participating in them. Criteria-based Sharing Rules  Have you ever wanted to share records based on the criteria of a record and not just on the ownership of the record? Have you ever needed to dynamically change sharing based on a change of a record rather than the change of ownership of a record?  Criteria-based sharing rules provide a new way to shar
 date: 2009-06-29 11:06:51 +0300
 image:  '/images/slugs/two-new-pilot-programs-for-winter-09.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p>I've learned that the following pilot programs should be available for Winter '10. You should check with your account rep if you are interested in participating in them.</p>
 <p><strong>Criteria-based Sharing Rules</strong></p>

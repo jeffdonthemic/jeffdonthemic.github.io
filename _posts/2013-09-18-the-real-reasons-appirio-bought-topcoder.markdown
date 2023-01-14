@@ -4,7 +4,7 @@ title:  The 'Real' Reasons Appirio Bought TopCoder
 description:   Yesterday, we announced that Appirio has acquired TopCoder , which, when combined with CloudSpokes , will become the worlds largest professional development and design community with nearly 600,000 members! That’s more developers than Accenture, Deloitte and Infosys combined!  Now, if you want to read the corporate-speak on the acquisition, you can check out our official press release or Narinder has a great post on the Appirio blog  . However, I don’t work with marketing any longer (apparentl
 date: 2013-09-18 16:15:12 +0300
 image:  '/images/slugs/the-real-reasons-appirio-bought-topcoder.jpg'
-tags:   ["2013", "public"]
+tags:   ["appirio", "cloudspokes"]
 ---
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327590/CS_TC_ncfs8z.png" alt="" ></p>
 <p>Yesterday, <a href="http://www.cloudspokes.com/press/september-17-2013">we announced</a> that Appirio has acquired <a href="http://www.topcoder.com">TopCoder</a>, which, when combined with <a href="http://www.cloudspokes.com">CloudSpokes</a>, will become the world's largest professional development and design community with nearly 600,000 members! That’s more developers than Accenture, Deloitte and Infosys combined!</p>

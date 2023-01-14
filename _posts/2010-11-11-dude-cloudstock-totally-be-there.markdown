@@ -4,7 +4,7 @@ title:  Dude! Cloudstock... totally be there!!
 description: If youre attending Dreamforce 10 next month then you totally need to register for Cloudstock on Monday December, 6th. Even though it takes place during Dreamforce, it isnt just  a Force.com event. Its for cloud developers, dude! They have some awesome sessions already lined up. Have you seen the list of partners that will be there! Its all the cool kids in the cloud space. Where else are you going to have the opportunity to talk to the following companies, pick their brains, get to scoop on thei
 date: 2010-11-11 18:30:02 +0300
 image:  '/images/slugs/dude-cloudstock-totally-be-there.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce"]
 ---
 <p><img style="float: left;padding-right: 15px" title="cloudstock.png" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1401029482/evbsc3ttaj8yhw92wyqh.png" border="0" alt="cloudstock.png" width="200" height="69" /></p>
 <p>If you're attending <a href="http://www.salesforce.com/dreamforce/DF10/home/">Dreamforce 10</a> next month then you "totally" need to <a href="http://www.cloudstockevent.com/">register for Cloudstock</a> on Monday December, 6th. Even though it takes place during Dreamforce, it isn't <em><strong>just</strong></em> a Force.com event. It's for cloud developers, dude! They have some <a href="http://www.cloudstockevent.com/sessions">awesome sessions</a> already lined up.</p>

@@ -4,7 +4,7 @@ title:  EnhancedList Visualforce Component
 description: The enhancedList  Visualforce component is an awesome little tag that allows you to display a list view on a Visualforce page. One of the cool features is that you create a custom list view, e.g., Super Special Contacts, and just show those records in the list view by specifying the ID of the list view listId  attribute. That way you can setup a tab that just displays this specific list view and not allow the user to select other list views from the picklist (it doesnt display). The only problem
 date: 2014-12-12 15:23:48 +0300
 image:  '/images/slugs/enhancedlist-visualforce-component.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce"]
 ---
 <p>The <a href="http://www.salesforce.com/us/developer/docs/pages/Content/pages_compref_enhancedList.htm">enhancedList</a> Visualforce component is an awesome little tag that allows you to display a list view on a Visualforce page. One of the cool features is that you create a custom list view, e.g., "Super Special Contacts", and just show those records in the list view by specifying the ID of the list view <code>listId</code> attribute. That way you can setup a tab that just displays this specific list view and not allow the user to select other list views from the picklist (it doesn't display).</p>
 <p>The only problem with this approach is that the <code>id</code> for the custom list view that you enter in the <code>listId</code> will most likely change during deployments or in a managed pacakge.</p>

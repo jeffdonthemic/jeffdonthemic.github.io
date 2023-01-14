@@ -4,7 +4,7 @@ title:  Upsize to Force.com
 description: I remember back in the day there use to be a utility that would allow you to upsize your Access database to SQL Server. It was such a great tool that saved hours and hours of time. Reid Carlberg has just released a new application on Code Share that allows you to migrate your local databases and data to Salesforce.com-  Cloud Converter is a Java application that inspects dirt bound database table metadata and then uses the Salesforce.com metadata API to create that object in the clouds. It creat
 date: 2009-01-10 20:00:43 +0300
 image:  '/images/slugs/upsize-to-forcecom.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "java"]
 ---
 <p>I remember back in the day there use to be a utility that would allow you to upsize your Access database to SQL Server. It was such a great tool that saved hours and hours of time.</p>
 <p><a href="http://developer.force.com/codeshare/MemberProfilePage?id=a0930000002U3SUAA0">Reid Carlberg</a> has just <a href="http://developer.force.com/codeshare/apex/projectpage?id=a0630000003LD3HAAW">released a new application</a> on Code Share that allows you to migrate your local databases and data to Salesforce.com:</p>

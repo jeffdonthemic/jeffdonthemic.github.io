@@ -4,7 +4,7 @@ title:  Salesforce.com ActionSupport Component Not Calling Setters
 description: I ran into what I thought was a bug yesterday with the actionSupport Visualforce component but it turned out to be the intended functionality, according to Salesforce.com. Im not sure if I agree as I can envision a number of use cases where it prohibits functionality. The actionSupport component adds AJAX support to another component, allowing the component to be refreshed asynchronously by the server when a particular event occurs, such as a button click or mouseover.   So lets say we build the
 date: 2009-09-03 15:18:32 +0300
 image:  '/images/slugs/salesforce-com-actionsupport-component-not-calling-setters.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>I ran into what I thought was a bug yesterday with the actionSupport Visualforce component but it turned out to be the intended functionality, according to Salesforce.com. I'm not sure if I agree as I can envision a number of use cases where it prohibits functionality.</p>
 <p>The <a href="http://www.salesforce.com/us/developer/docs/pages/Content/pages_compref_actionSupport.htm" target="_blank">actionSupport component</a> adds AJAX support to another component, allowing the component to be refreshed asynchronously by the server when a particular event occurs, such as a button click or mouseover.</p>

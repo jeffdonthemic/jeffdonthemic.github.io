@@ -4,7 +4,7 @@ title:  Fun with PHP, MySQL and Drupal
 description: I ran into a few more issues getting Drupal up and running and I thought I would share my solutions in case anyone is running into the same problems. I finally got PHP running on one of our Production IIS boxes but was having some more issues getting Drupal to install. Going to the initial install page, I was receiving the following error-  Your web server does not appear to support any common database types. Check with your hosting provider to see if they offer any databases that Drupal support
 date: 2007-09-16 11:51:05 +0300
 image:  '/images/slugs/fun-with-php-mysql-and-drupal.jpg'
-tags:   ["2007", "public"]
+tags:   ["technology"]
 ---
 <p>I ran into a few more issues getting Drupal up and running and I thought I would share my solutions in case anyone is running into the same problems.</p>
 <p>I finally got PHP running on one of our Production IIS boxes but was having some more issues getting Drupal to install. Going to the initial install page, I was receiving the following error:</p>

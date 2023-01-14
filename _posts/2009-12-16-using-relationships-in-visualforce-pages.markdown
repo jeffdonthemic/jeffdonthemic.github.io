@@ -4,7 +4,7 @@ title:  Using Relationships in Visualforce Pages
 description: The topic of relationships in Visualforce pages came up on the Salesforce developer discussion boards the other day so I thought Id throw something together to expand on the topic. Lets say you want to print off a Sales Order or Purchase Order as a PDF. You can use the parent and child relationships inherent in Salesforce to display this information using the standard Apex Controller. (Its amazing some of the things that you can create in Visualforce without the use of a custom controller or con
 date: 2009-12-16 20:10:11 +0300
 image:  '/images/slugs/using-relationships-in-visualforce-pages.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce"]
 ---
 <p>The topic of relationships in Visualforce pages came up on the Salesforce developer discussion boards the other day so I thought I'd throw something together to expand on the topic.</p>
 <p>Let's say you want to print off a Sales Order or Purchase Order as a PDF. You can use the parent and child relationships inherent in Salesforce to display this information using the standard Apex Controller. (It's amazing some of the things that you can create in Visualforce without the use of a custom controller or controller extension!)</p>

@@ -4,7 +4,7 @@ title:  Roll Your Own Node CLI for Force.com
 description: Id like to start off this post with two admissions- 1) I love the Force.com CLI  2) I dont know Go. Fact #2 makes it hard for me to extend the CLI for my own (selfish) purposes. However, I am fairly handy with JavaScript and Node.js so thats where I mostly work. Ive been using a node CLI for the past couple of months when prototyping new features with different Force.com APIs. Its been extremely useful when prototype/testing with the new Tooling API  (heres the gist  of the module Ive been worki
 date: 2014-01-14 15:00:09 +0300
 image:  '/images/slugs/node-cli-for-force-com.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce", "node.js"]
 ---
 <p>I'd like to start off this post with two admissions: 1) I love the <a href="https://force-cli.heroku.com/">Force.com CLI</a> 2) I don't know Go. Fact #2 makes it hard for me to extend the CLI for my own (selfish) purposes. However, I am fairly handy with JavaScript and Node.js so that's where I mostly work.</p>
 <p>I've been using a node CLI for the past couple of months when prototyping new features with different Force.com APIs. It's been extremely useful when prototype/testing with the new <a href="http://wiki.developerforce.com/page/Tooling_API">Tooling API</a> (<a href="https://gist.github.com/jeffdonthemic/8290347">here's the gist</a> of the module I've been working on if you want to add the code). What's makes it so useful is that you just add your connected apps settings, authenticate using <a href="https://github.com/kevinohara80/nforce">nforce</a> (FTW!) and then go ahead making REST calls to Force.com. Super easy!</p>

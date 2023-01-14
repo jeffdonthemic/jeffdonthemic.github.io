@@ -4,7 +4,7 @@ title:  Stylesheet Bug with Visualforce
 description: I was finishing up our Sites pilot project the other day and was having an issue with the color for the apex-page component not displaying correctly. The following code worked correctly and my page displayed with the correct colors and tab.   However, our Sites project uses its own custom template so I did not want to display the standard Salesforce.com header but wanted to keep the rest of the look and feel. I assumed the following code would work but it rendered the page black instead of the e
 date: 2009-05-21 17:36:02 +0300
 image:  '/images/slugs/stylesheet-bug-with-visualforce.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "visualforce"]
 ---
 <p>I was finishing up our Sites pilot project the other day and was having an issue with the color for the apex:page component not displaying correctly. The following code worked correctly and my page displayed with the correct colors and tab.</p>
 {% highlight js %}<apex:page controller="MyController" showHeader="true" tabStyle="Account"> 

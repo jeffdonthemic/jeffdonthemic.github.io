@@ -4,7 +4,7 @@ title:  Chrome Extension - Force.com Utility Belt for Saleforce.com
 description: I built the Chrome Extension Salesforce.com ID Converter last month and found it quite useful. I consistently need to check out the Salesforce.com developer guides (especially Apex and Visualforce) so I started on another extension to make my development tasks easier, the Force.com Utility Belt. The extension quickly grew in functionality so I thought I would ask other developers and admins for suggestions on how to make it more useful. It currently has the following features- * Quick reference 
 date: 2010-08-26 11:40:33 +0300
 image:  '/images/slugs/chrome-extension-force-com-utility-belt-for-saleforce-com.jpg'
-tags:   ["2010", "public"]
+tags:   ["google", "salesforce"]
 ---
 <p>I built the Chrome Extension <a href="/2010/08/01/google-chrome-extension-salesforce-com-id-converter/">Salesforce.com ID Converter</a> last month and found it quite useful. I consistently need to check out the Salesforce.com developer guides (especially Apex and Visualforce) so I started on another extension to make my development tasks easier, the Force.com Utility Belt.</p>
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1401028673/ljigtr3kh9ra3vkxhivg.png" alt="" ></p>

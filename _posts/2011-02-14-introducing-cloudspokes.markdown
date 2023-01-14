@@ -4,7 +4,7 @@ title:  Introducing CloudSpokes
 description:   CloudSpokes brings the crowd to the cloud. It is the industrys first community for crowdsourcing enterprise cloud development that brings together enterprise cloud challenges and cloud developers to earn recognition and (real) cash. CloudSpokes offers a competitive and collaborative environment for challenges, networking, discussions and jobs involving today’s hottest cloud technologies. First and foremost, CloudSpokes will be a neutral community focusing on public cloud platforms and on membe
 date: 2011-02-14 11:11:11 +0300
 image:  '/images/slugs/introducing-cloudspokes.jpg'
-tags:   ["2011", "public"]
+tags:   ["cloud computing", "cloudspokes", "the internet business"]
 ---
 <p><a href="http://www.cloudspokes.com" target="_blank"><img style="float: left;padding-right:10px" title="cloudspokes-logo.png" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1401022460/gfdxszxna48zscjna1cm.png" border="0" alt="Cloudspokes logo" width="200" height="200" /></a></p>
 <p><a href="http://cloudspokes.com/" target="_blank">CloudSpokes</a> brings the crowd to the cloud. It is the industry's first community for crowdsourcing enterprise cloud development that brings together enterprise cloud challenges and cloud developers to earn recognition and (real) cash. CloudSpokes offers a competitive and collaborative environment for challenges, networking, discussions and jobs involving today’s hottest cloud technologies.</p>

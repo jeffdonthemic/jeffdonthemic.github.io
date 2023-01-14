@@ -4,7 +4,7 @@ title:  Force.com Streaming API with Ruby
 description: I must publicly confess my love with the Force.com Streaming API . (Dont tell my wife.) Last September I wrote a blog post entitled, Node.js Demo with Force.com Streaming API & Socket.io that showed how to stream events from Saleforce.com to the browser using Node.js. It was a pretty cool app if you are familiar with Node.js. Then at Dreamforce 12 I did an Un-Conference session called, Log Force.com Events in REALTIME with Papertrail which was a knock-off but showed how to create an external log
 date: 2013-01-16 14:51:39 +0300
 image:  'http://articulate-wom.s3.amazonaws.com/blog/wp-content/uploads/2013/09/elearning-firehose.jpg'
-tags:   ["2013", "public"]
+tags:   ["heroku", "ruby", "salesforce"]
 ---
 <p>I must publicly confess my love with the <a href="http://www.salesforce.com/us/developer/docs/api_streaming/index.htm">Force.com Streaming API</a>. (Don't tell my wife.) Last September I wrote a blog post entitled, <a href="/2012/09/07/node-demo-with-force-com-streaming-api-socket-io/">Node.js Demo with Force.com Streaming API & Socket.io</a> that showed how to stream events from Saleforce.com to the browser using Node.js. It was a pretty cool app if you are familiar with Node.js.</p>
 <p>Then at Dreamforce '12 I did an Un-Conference session called, "Log Force.com Events in REALTIME with Papertrail" which was a knock-off but showed how to create an external logger for Salesforce using the Force.com Streaming API. Pretty slick stuff but again in Node.js.</p>

@@ -4,7 +4,7 @@ title:  Cloud Computing for Java Developers Webinar (VMforce)
 description: I attended the Cloud Computing for Java Developers  webinar yesterday, which was essentially an intro to VMforce and the Force.com platform for (non-Force.com) Java developers. Quinton Wall and Jesper Joergensen did a good job with the overview of the platform but I was really looking for some tidbits on VMforce. You can watch the recording of the webinar but here are some things that I found interesting... 1. For accessing the Force.com Database, developers will be able to use JPA   , the new R
 date: 2010-09-10 08:46:00 +0300
 image:  '/images/slugs/cloud-computing-for-java-developers-webinar-vmforce.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "vmforce", "java"]
 ---
 <p>I attended the <strong>Cloud Computing for Java Developers</strong> webinar yesterday, which was essentially an intro to VMforce and the Force.com platform for (non-Force.com) Java developers. Quinton Wall and Jesper Joergensen did a good job with the overview of the platform but I was really looking for some tidbits on VMforce. You can watch the <a href="http://wiki.developerforce.com/index.php/VMforce_Webinar_Series">recording of the webinar</a> but here are some things that I found interesting...
 <ol>

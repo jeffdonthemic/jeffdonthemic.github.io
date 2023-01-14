@@ -4,7 +4,7 @@ title:  If Programming Languages were Beer...
 description: We were surprised the other day when we realized that If Programming Languages were  didnt have a category for beer. It seemed like such a tragic mistake, so I naturally started a shared doc at Appirio and began to collect ideas. Heres what we came up with. Let us know if we missed anything. Basic is the O’Doul’s  of programming. A premium non-alcoholic beer and you can throw down a lot of this stuff, but no one will notice any results except how often you use the restroom. C is the Ale of progr
 date: 2015-02-27 23:01:11 +0300
 image:  '/images/beer.jpg'
-tags:   ["2015", "public"]
+tags:   ["repost", "topcoder"]
 ---
 <p>We were surprised the other day when we realized that <a href="http://lambda-the-ultimate.org/node/3133">If Programming Languages were <T></a> didn't have a category for beer. It seemed like such a tragic mistake, so I naturally started a shared doc at Appirio and began to collect ideas. Here's what we came up with. Let us know if we missed anything.</p>
 <p><img src="http://www.boozey.com/wp-content/uploads/photo-gallery/signs%205.jpg" alt="" ></p>

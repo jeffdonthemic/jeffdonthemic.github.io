@@ -4,7 +4,7 @@ title:  Visualforce Row Counter for Iteration Components
 description: I have been working on a Visualforce page that displays a list of items from a collection and I want to display the current row number next to each item. I found this post that describes a solution but I think there may be a bug in one of the components so here is proposed work around. I want to display a collection like this-  It seems that there may be a bug in the way method works with the dataTable component. It works correctly with the following components. Repeat Component - DataList Compo
 date: 2010-04-02 13:21:42 +0300
 image:  '/images/slugs/visualforce-row-counter-for-iteration-components.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>I have been working on a Visualforce page that displays a list of items from a collection and I want to display the current row number next to each item. I found <a href="http://community.salesforce.com/t5/Visualforce-Development/find-counter-for-repeat-component/m-p/139123/message-uid/139123" target="_blank">this post</a> that describes a solution but I think there may be a bug in one of the components so here is proposed work around. I want to display a collection like this:</p>
 <p><strong>It seems that there may be a bug in the way method works with the dataTable component.</strong> It works correctly with the following components.</p>

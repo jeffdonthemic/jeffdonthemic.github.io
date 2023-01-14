@@ -4,7 +4,7 @@ title:  Using Related Lists in Visualforce Pages
 description: Lets face it, coding Visualforce pages is sometimes too easy. The tag-based syntax allows you to design effective UIs with very little effort. One of the more powerful components is the relatedList which lets you display a list of related records based upon a lookup or master-detail relationship. One of the major benefits of this tag, as opposed to writing your own with a dataTable, is that you can visually edit the related list with the Salesforce.com page layout editor. Any changes you make to
 date: 2009-05-13 18:14:33 +0300
 image:  '/images/slugs/using-related-lists-in-visualforce-pages.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "visualforce"]
 ---
 <p>Let's face it, coding Visualforce pages is sometimes too easy. The tag-based syntax allows you to design effective UIs with very little effort. One of the more powerful components is the relatedList which lets you display a list of related records based upon a lookup or master-detail relationship. One of the major benefits of this tag, as opposed to writing your own with a dataTable, is that you can visually edit the related list with the Salesforce.com page layout editor. Any changes you make to the related list in the page layout editor (columns, sorting, etc.) will automatically be reflected in your Visualforce page.</p>
 <p>One of the questions that I see often on the message boards is how to find the relationship name of the related list so that it can be coded in the Visualforce page. The related list portion of an Opportunity display Visualforce page may look like this:</p>

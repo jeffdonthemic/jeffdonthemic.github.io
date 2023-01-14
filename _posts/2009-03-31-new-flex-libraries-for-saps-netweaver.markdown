@@ -4,7 +4,7 @@ title:  New Flex Libraries for SAP's NetWeaver
 description: Dust off your SAP logins! SAPs NetWeaver Product Manager Thomas Jung introduces a new section for eLearning, blogs, and other learning materials from both Adobe and SAP regarding development of interfaces with Flex/Flash and SAP. This post discusses the Web Dynpro for ABAP framework in SAP NetWeaver 7.0 EhP1 and how it provides new libraries that make it easy to add rich data visualization to applications using the Flex framework. The Adobe Flash capabilities in Web Dynpro allow a custom-develop
 date: 2009-03-31 12:53:25 +0300
 image:  '/images/slugs/new-flex-libraries-for-saps-netweaver.jpg'
-tags:   ["2009", "public"]
+tags:   ["sap", "the internet business", "flex"]
 ---
 <p><img class="alignleft size-full wp-image-627" title="sap" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399631/sap_e1xny4.png" alt="sap" width="218" height="66" />Dust off your SAP logins! SAP's NetWeaver Product Manager Thomas Jung introduces a new section for eLearning, blogs, and other learning materials from both Adobe and SAP regarding development of interfaces with Flex/Flash and SAP.</p>
 <p><a href="https://www.sdn.sap.com/irj/sdn/adobe-flash-islands" target="_blank">This post discusses</a> the Web Dynpro for ABAP framework in SAP NetWeaver 7.0 EhP1 and how it provides new libraries that make it easy to add rich data visualization to applications using the Flex framework.</p>

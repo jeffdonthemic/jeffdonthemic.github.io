@@ -4,7 +4,7 @@ title:  How to deploy Apex without test coverage
 description: A couple of weeks ago I had written some Apex controllers and Visualforce pages for one of our business units. The new code went through release management and I decided to deploy it Friday night (the business unit is located in the UK) before I left for the weekend. I used Eclipse as usual and my deployment validated successfully and the assets were pushed to production. I logged in and ran the new processes successfully. While running All Test on one of our dev sandboxes on Monday morning, I r
 date: 2009-03-04 19:05:44 +0300
 image:  '/images/slugs/how-to-deploy-apex-without-test-coverage.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "apex"]
 ---
 <p>A couple of weeks ago I had written some Apex controllers and Visualforce pages for one of our business units. The new code went through release management and I decided to deploy it Friday night (the business unit is located in the UK) before I left for the weekend.</p>
 <p>I used Eclipse as usual and my deployment validated successfully and the assets were pushed to production. I logged in and ran the new processes successfully.</p>

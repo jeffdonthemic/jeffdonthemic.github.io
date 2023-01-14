@@ -4,7 +4,7 @@ title:  Loading Salesforce Products into Custom Price Books
 description: This topic has come up frequently on the salesforce.com message boards recently and with good reason. Products, price books and price book entries are somewhat confusing. Products are the actual items that you sell on your opportunities and quotes. Products are associated to one or more price books to create price book entries. Products can exist in multiple price books with many different prices. For example, you may have a North American price book with one set of prices for your products and 
 date: 2011-02-22 15:30:20 +0300
 image:  '/images/slugs/loading-salesforce-products-into-custom-price-books.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce"]
 ---
 <p>This topic has come up frequently on the <a href="http://boards.developerforce.com/sforce/?category.id=developers" target="_blank">salesforce.com message boards</a> recently and with good reason. Products, price books and price book entries are somewhat confusing.</p>
 <p>Products are the actual items that you sell on your opportunities and quotes. Products are associated to one or more price books to create price book entries. Products can exist in multiple price books with many different prices. For example, you may have a "North American" price book with one set of prices for your products and a "South American" price book with a different set of prices.</p>

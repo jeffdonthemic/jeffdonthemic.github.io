@@ -4,7 +4,7 @@ title:  I'm the new Salesforce Trailhead Developer Advocate
 description: After Labor Day Ill be joining the Salesforce Developer Relations team as the new Trailhead Developer Advocate! Is this a dream job? Yes! Am I super-excited?  Yes!  > If you are not familiar with Trailhead  (shame on you!), its simply the best way to learn Salesforce. Period. New to Salesforce or just want to dive deeper? Weve got a learning trail that’s right for you.  Ive always been a huge fan of sites like Codeacademy and Code School that reinforce teaching by letting you code right in your 
 date: 2015-08-27 16:03:00 +0300
 image:  '/images/trailhead-dev-advocate-ak-1.png'
-tags:   ["2015", "public"]
+tags:   ["personal", "salesforce"]
 ---
 <p>After Labor Day I'll be joining the Salesforce Developer Relations team as the new Trailhead Developer Advocate! Is this a dream job? <strong>Yes!</strong> Am I super-excited? <strong>Yes!</strong></p>
 <blockquote>

@@ -4,7 +4,7 @@ title:  Roll-Up Summary Fields with Lookup Relationships – Part 1
 description: Roll-Up summary fields are a great way to perform calculations on a set of detail records in a master-detail relationship. For instance, if you have a sales order you can create a roll-up summary field to display the sum total of all sales order items (related detail records) for the sales order. The one drawback regarding roll-up summary fields is that they only work for master-details relationships. If you have a lookup relationship to your detail records from your sales order, then roll-up su
 date: 2009-07-30 19:48:06 +0300
 image:  '/images/slugs/roll-up-summary-fields-with-lookup-relationships-part-1.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>Roll-Up summary fields are a great way to perform calculations on a set of detail records in a master-detail relationship. For instance, if you have a sales order you can create a roll-up summary field to display the sum total of all sales order items (related detail records) for the sales order. The one drawback regarding roll-up summary fields is that they only work for master-details relationships. If you have a lookup relationship to your detail records from your sales order, then roll-up summary fields are not available.</p>
 <p>So how do you perform this same type of functionality if you only have a lookup relationship? I ran across this same problem while doing some non-profit work for <a href="http://www.medisend.org" target="_blank">Medisend International</a> and the solution (with a caveat) is to write a trigger to perform the roll-up.</p>

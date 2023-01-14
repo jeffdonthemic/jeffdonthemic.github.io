@@ -4,7 +4,7 @@ title:  Find My Salesforce Users by Role Hierarchy
 description: This is a cool little script that finds everyone who works beneath me in the role hierarchy. So you pass the utility class a User ID and it chugs through all of the level beneath that User in the role hierarchy and returns the IDs of all of the users in those roles. Comes in handy if you need to find all of the uses that report to a particular Sales Manager, for instance. public with sharing class RoleUtils { 	 public static Set getRoleSubordinateUsers(Id userId) { 	   // get requested users rol
 date: 2011-02-15 19:28:28 +0300
 image:  '/images/slugs/find-my-salesforce-users-by-role-hierarchy.jpg'
-tags:   ["2011", "public"]
+tags:   ["code sample", "salesforce"]
 ---
 <p>This is a cool little script that finds "everyone who works beneath me in the role hierarchy". So you pass the utility class a User ID and it chugs through all of the level beneath that User in the role hierarchy and returns the IDs of all of the users in those roles. Comes in handy if you need to find all of the uses that report to a particular Sales Manager, for instance.</p>
 {% highlight js %}public with sharing class RoleUtils {

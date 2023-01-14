@@ -4,7 +4,7 @@ title:  Overriding Standard Links with Visualforce Pages
 description: One of my most visited blog entries is Redirecting Users To Different Visualforce Pages which shows how you can override the standard Salesforce.com page layouts with your custom Visualforce pages. Based upon a number of emails, it appears that Ive omitted the process of overriding the standard links with these new Visualforce pages. So you have your shiny, new Opportunity display Visualforce page and now you need to tell Salesforce.com to use this new Visualforce page instead of the standard Op
 date: 2009-06-26 09:19:58 +0300
 image:  '/images/slugs/overriding-standard-links-with-visualforce-pages.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "visualforce"]
 ---
 <p>One of my most visited blog entries is <a href="/2008/11/14/redirecting-users-to-different-visualforce-pages/" target="_blank">Redirecting Users To Different Visualforce Pages</a> which shows how you can override the standard Salesforce.com page layouts with your custom Visualforce pages. Based upon a number of emails, it appears that I've omitted the process of overriding the standard links with these new Visualforce pages.</p>
 <p>So you have your shiny, new Opportunity display Visualforce page and now you need to tell Salesforce.com to use this new Visualforce page instead of the standard Opportunity display page. Salesforce.com provides a handy way to do this so that the platform uses your new Visualforce page whenever someone tries to view an Opportunity.</p>

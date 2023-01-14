@@ -4,7 +4,7 @@ title:  Building the TopBlogger API with LoopBack
 description: Last week I published an article  outling how I rewrote an existing Express API using Loopback, resulting in 75% less code. I described how we initially utilized the topcoder community to design and build the API and the benefits of LoopBack versus simply using Express  and  Mongoose . In this post, Ill walk through the process of building the TopBlogger API with LoopBack and where it saved time and made code obselete. > Ill trying cover the application from the ground up, but you might want to 
 date: 2015-07-09 20:42:55 +0300
 image:  '/images/building-with-loopback.jpg'
-tags:   ["2015", "public"]
+tags:   []
 ---
 <p><a href="/2015/07/07/roll-your-own-api-vs-loopback/">Last week I published an article</a> outling how I <strong>rewrote an existing Express API using Loopback, resulting in 75% less code</strong>. I described how we initially utilized the topcoder community to design and build the API and the benefits of LoopBack versus simply using <a href="http://expressjs.com/">Express</a> and <a href="http://mongoosejs.com/">Mongoose</a>. In this post, I'll walk through the process of building the "TopBlogger" API with LoopBack and where it saved time and made code obselete.</p>
 <blockquote>

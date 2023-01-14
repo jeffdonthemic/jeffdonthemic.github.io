@@ -4,7 +4,7 @@ title:  I'm Joining Appirio!
 description: After almost two year at Informa Im leaving for an opportunity at Appirio that I cannot pass up. Im looking forward to some exciting Salesforce.com projects at Appirio and hopefully I can even dabble in GAE/J and maybe even Google Wave. Ill be heading to San Mateo for training the middle of July. I was a little reluctant to leave Informa as the people are great and the work is very challenging. Ive had the chance to work on some really cool projects- 1. Apex/Visualforce pilot when it originally 
 date: 2009-06-25 17:08:14 +0300
 image:  '/images/slugs/im-joining-appirio.jpg'
-tags:   ["2009", "public"]
+tags:   ["personal", "salesforce"]
 ---
 <p><a href="http://www.appirio.com"><img class="alignleft size-thumbnail wp-image-962" style="padding-right:10px;" title="appirioLogo" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/c_crop,h_704,w_704,x_106,y_0/h_150,w_150/v1400399535/appiriologo_gvt1cp.png" alt="appirioLogo" width="150" height="115" /></a>After almost two year at <a href="http://www.informa.com" target="_blank">Informa</a> I'm leaving for an opportunity at <a href="http://www.appirio.com" target="_blank">Appirio</a> that I cannot pass up. I'm looking forward to some exciting Salesforce.com projects at Appirio and hopefully I can even dabble in GAE/J and maybe even Google Wave. I'll be heading to San Mateo for training the middle of July.</p>
 <p>I was a little reluctant to leave Informa as the people are great and the work is very challenging. I've had the chance to work on some really cool projects:</p>

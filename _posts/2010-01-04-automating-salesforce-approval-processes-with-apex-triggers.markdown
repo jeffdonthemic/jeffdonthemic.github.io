@@ -4,7 +4,7 @@ title:  Automating Salesforce Approval Processes with Apex Triggers
 description: This question came up on LinkedIn asking how to automatically fire off an approval process when an Opportunity reaches 30% probability. This example was on my to do list so I thought I would knock it out quickly. The trigger fires when an Opportunity is updated and is submitted for approval if the Opportunitys probability has moved from less than 30% to greater than or equal to 30%. For the trigger to work you need to have an approval process with matching criteria. Mine is fairly simple and is 
 date: 2010-01-04 10:19:26 +0300
 image:  '/images/slugs/automating-salesforce-approval-processes-with-apex-triggers.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>This question came up on LinkedIn asking how to automatically fire off an approval process when an Opportunity reaches 30% probability. This example was on my to do list so I thought I would knock it out quickly.</p>
 <p>The trigger fires when an Opportunity is updated and is submitted for approval if the Opportunity's probability has moved from less than 30% to greater than or equal to 30%.</p>

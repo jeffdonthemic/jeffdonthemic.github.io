@@ -4,7 +4,7 @@ title:  Roll Your Own API vs. LoopBack
 description: Earlier this year I ran a series of topcoder challenges to build a Node.js API for a potential topcoder blogging platform called TopBlogger. I wanted to see how fast and well the community could design and build an API given only a rough set of requirements. We were very happy with the results but I wanted to do more investigation on how to build and iterate better and faster. > TL;DR We rewrote our Express API using LoopBack in half the time with 75% less code.  Weve been talking with StrongLoo
 date: 2015-07-07 20:43:25 +0300
 image:  '/images/roll-your-own-vs-loopback.jpg'
-tags:   ["2015", "public"]
+tags:   []
 ---
 <p>Earlier this year I ran a series of <a href="http://www.topcoder.com">topcoder</a> challenges to build a Node.js API for a potential topcoder blogging platform called "TopBlogger". I wanted to see how fast and well the community could design and build an API given only a rough set of requirements. We were very happy with the results but I wanted to do more investigation on how to build and iterate better and faster.</p>
 <blockquote>

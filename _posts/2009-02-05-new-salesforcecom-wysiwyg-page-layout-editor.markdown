@@ -4,7 +4,7 @@ title:  New Salesforce.com WYSIWYG Page Layout Editor
 description: Looks like Salesforce.com is busy upgrading sandboxes for the next release. I logged into one of our sandboxes this morning and was presented with the new page layout editor and accompanying video. Talk about cool! This new WYSIWYG, drag-n-drop editor will make designing layouts a breeze. I love cloud updates.
 date: 2009-02-05 14:58:08 +0300
 image:  '/images/slugs/new-salesforcecom-wysiwyg-page-layout-editor.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p>Looks like Salesforce.com is busy upgrading sandboxes for the next release. I logged into one of our sandboxes this morning and was presented with the new page layout editor and accompanying video.</p>
 <p>Talk about cool! This new WYSIWYG, drag-n-drop editor will make designing layouts a breeze.</p>

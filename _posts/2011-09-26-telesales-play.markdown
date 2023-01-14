@@ -4,7 +4,7 @@ title:  Demo App - Salesforce on Heroku (Java) with Play! Framework
 description: At Dreamforce a couple of weeks ago, Heroku announced the public beta for the Play! Framework on their cedar stack. So if you love Java but hate the pain associated with developing web apps, then the Play Framework is for you. Its essentially a Ruby on Rails framework for Java. It makes Java development fun again!  To get started, check out the Play! on Heroku blog post as it has everything you need to get started with a simple Hello World app. Theres also a Getting Started with Play! on Heroku/
 date: 2011-09-26 13:33:23 +0300
 image:  '/images/slugs/telesales-play.jpg'
-tags:   ["2011", "public"]
+tags:   ["heroku", "salesforce"]
 ---
 <p>At Dreamforce a couple of weeks ago, <a href="http://blog.heroku.com/archives/2011/8/29/play/">Heroku announced the public beta</a> for the <a href="http://www.playframework.org/">Play! Framework</a> on their cedar stack. So if you love Java but hate the pain associated with developing web apps, then the Play Framework is for you. It's essentially a Ruby on Rails framework for Java. It makes Java development fun again!</p>
 <p>To get started, check out the <a href="http://blog.heroku.com/archives/2011/8/29/play/">Play! on Heroku blog post</a> as it has everything you need to get started with a simple Hello World app. There's also a <a href="http://devcenter.heroku.com/articles/play">Getting Started with Play! on Heroku/Cedar article</a> for more info.</p>

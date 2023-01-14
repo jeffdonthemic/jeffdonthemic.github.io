@@ -4,7 +4,7 @@ title:  Visualforce Page with Pagination
 description: Salesforce.com introduced the StandardSetController in Winter 09 and Im finally getting a chance to put it into use. The new pagination feature is pretty powerful and easy to use with standard as well as custom objects. Even though Jon Mountjoy has a good blog post here , there appears to be very little documentation or examples for pagination. I threw together a small demo that allows you to page through the query results and select multiple items to process. Instead of simply returning the lis
 date: 2009-07-14 16:00:00 +0300
 image:  '/images/slugs/visualforce-page-with-pagination.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>Salesforce.com introduced the StandardSetController in Winter '09 and I'm finally getting a chance to put it into use. The new pagination feature is pretty powerful and easy to use with standard as well as custom objects. Even though Jon Mountjoy has a <a href="http://blog.sforce.com/sforce/2008/09/visualforce-pag.html" target="_blank">good blog post here</a>, there appears to be very little documentation or examples for pagination.</p>
 <p>I threw together a small demo that allows you to page through the query results and select multiple items to process. Instead of simply returning the list of sObjects from the query locator's current set, a collection of wrapper objects are returned enabling the user to check items for processing.</p>

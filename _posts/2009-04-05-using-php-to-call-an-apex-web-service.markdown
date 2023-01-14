@@ -4,7 +4,7 @@ title:  Using PHP to call an Apex Web Service
 description: I had the pleasure the other day of integrating Drupal with Salesforce.com using PHP. I didnt want to write all of my SOQL queries and business logic in my PHP scripts so I whipped up a quick Apex class and exposed it as a web service. I found a great blog post by Scott Hemmeter that really helped me out calling the service with PHP so I thought I would share the code and other observations. First you will need to download the PHP Toolkit . The toolkit contains all of the PHP code necessary to m
 date: 2009-04-05 16:00:00 +0300
 image:  '/images/slugs/using-php-to-call-an-apex-web-service.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex", "php"]
 ---
 <p>I had the 'pleasure' the other day of integrating Drupal with Salesforce.com using PHP. I didn't want to write all of my SOQL queries and business logic in my PHP scripts so I whipped up a quick Apex class and exposed it as a web service. I found a <a href="http://sfdc.arrowpointe.com/2008/12/05/calling-apex-web-services-from-php/" target="_blank">great blog post by Scott Hemmeter</a> that really helped me out calling the service with PHP so I thought I would share the code and other observations.</p>
 <p>First you will need to download the <a href="http://wiki.developerforce.com/index.php/PHP_Toolkit" target="_blank">PHP Toolkit</a>. The toolkit contains all of the PHP code necessary to make web service calls against your org. Please note that the contained Partner and Enterprise WSDLs are for Production/Developer orgs, so if you are running against a Sandbox, you will need to download the appropriate WSDL from that Sandbox.</p>

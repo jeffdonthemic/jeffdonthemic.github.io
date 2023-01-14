@@ -4,7 +4,7 @@ title:  Salesforce Junction Records to a String of Values
 description:   Salesforce Junction objects  are a convenient way to create a many-to-many relationship in your data model. Accourding to the docs , a many-to-many relationship allows each record of one object to be linked to multiple records from another object and vice versa. For example, you may have a custom object called Bug that relates to the standard case object such that a bug could be related to multiple cases and a case could also be related to multiple bugs. When modeling a many-to-many relationsh
 date: 2013-06-28 12:39:59 +0300
 image:  '/images/slugs/salesforce-junction-records-to-a-string-of-values.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327712/Petticoat_Junction_title_screen_y2ncol.jpg" alt="" ></p>
 <p>Salesforce <a href="http://login.salesforce.com/help/doc/en/relationships_manytomany.htm" target="_blank">Junction objects</a> are a convenient way to create a many-to-many relationship in your data model. Accourding to <a href="http://login.salesforce.com/help/doc/en/relationships_manytomany.htm" target="_blank">the docs</a>, a many-to-many relationship allows each record of one object to be linked to multiple records from another object and vice versa. For example, you may have a custom object called “Bug” that relates to the standard case object such that a bug could be related to multiple cases and a case could also be related to multiple bugs. When modeling a many-to-many relationship, you use a junction object to connect the two objects you want to relate to each other.</p>

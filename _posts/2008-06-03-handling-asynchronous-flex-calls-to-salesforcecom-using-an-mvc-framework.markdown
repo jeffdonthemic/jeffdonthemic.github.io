@@ -4,7 +4,7 @@ title:  Handling asynchronous Flex calls to Salesforce.com using an MVC framewor
 description: Im working on a Flex applications using the Flex Toolkit for Apex and Model-Glue-Flex as the MVC framework. Ive got my main applications, controllers, models and views working well. One on my requirements is to make a call to Salesforce.com, fetch some user settings and then display a specific canvas depending on the returned values. I dispatch an event, the controller makes the request to Salesforce.com and passes it a responder to process the returned results. However due to the asynchronous n
 date: 2008-06-03 08:48:02 +0300
 image:  '/images/slugs/handling-asynchronous-flex-calls-to-salesforcecom-using-an-mvc-framework.jpg'
-tags:   ["2008", "public"]
+tags:   ["code sample", "salesforce", "flex"]
 ---
 <p>I'm working on a Flex applications using the Flex Toolkit for Apex and Model-Glue:Flex as the MVC framework. I've got my main applications, controllers, models and views working well. One on my requirements is to make a call to Salesforce.com, fetch some user settings and then display a specific canvas depending on the returned values.</p>
 <p>I dispatch an event, the controller makes the request to Salesforce.com and passes it a responder to process the returned results. However due to the asynchronous nature of the Flex Toolkit, I don't really know when the results are returned from Salesforce.com. Here's my solutions to notify my application when results are returned by Salesforce.com.</p>

@@ -4,7 +4,7 @@ title:  How to Customize Salesforce Attachments
 description: The title is a little deceiving as you cant really customize standard Salesforce Attachements but Ill show you how you can pull off some declarative and coding magic to make it look like you can. How do we do this? Well, the video walks through the entire process but in a nutshell heres what we do- 1. Create a new custom object with attachments that will replace the standard   attachments related list on the page layout. 2. Create a Visualforce page (code ) and custom Controller (code ) that all
 date: 2014-05-30 18:30:05 +0300
 image:  '/images/slugs/how-to-customize-salesforce-attachments.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce", "phasers on innovate"]
 ---
 <p>The title is a little deceiving as you can't <em>really</em> customize standard Salesforce Attachements but I'll show you how you can pull off some declarative and coding magic to make it look like you can.</p>
 <p><img src="images/custom-attachments.png" alt="" ></p>

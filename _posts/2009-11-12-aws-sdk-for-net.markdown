@@ -4,7 +4,7 @@ title:  AWS SDK for .NET
 description:  It looks like Amazon is marching towards IaaS-domination with the release of an  SDK for .NET . Its interesting that they only support C# and not VB.NET. You would think that since there are more VB developers they could more bang for their buck by offering both languages. Perhaps VB.NET is on the roadmap. The AWS SDK for .NET makes it even easier for Windows developers to build .NET applications that tap into the cost-effective, scalable, and reliable AWS cloud. Using the SDK, developers will 
 date: 2009-11-12 10:44:54 +0300
 image:  '/images/slugs/aws-sdk-for-net.jpg'
-tags:   ["2009", "public"]
+tags:   [".net", "amazon ec2"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399501/logo_aws_ydaev7.gif"><img class="alignleft size-full wp-image-1353" style="padding-right:10px;padding-bottom:5px;" title="logo_aws" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399501/logo_aws_ydaev7.gif" alt="logo_aws" width="164" height="60" /></a>It looks like Amazon is marching towards IaaS-domination with the release of an <a href="http://aws.amazon.com/sdkfornet/" target="_blank">SDK for .NET</a>.</p>
 <p>It's interesting that they only support C# and not VB.NET. You would think that since there are more VB developers they could more bang for their buck by offering both languages. Perhaps VB.NET is on the roadmap.</p>

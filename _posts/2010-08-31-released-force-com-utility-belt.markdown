@@ -4,7 +4,7 @@ title:  Released - Force.com Utility Belt for Salesforce.com
 description: The Force.com Utility Belt is a Google Chrome Extension that I wrote to make my life easier. While developing on the Force.com platform I consistently need access to Salesforce documents, message boards, code snippets, etc. and opening PDFs, searching documentation and looking up Visualforce component signatures becomes tedious. The extension evolved out my necessity to make myself more productive. I hope you find it useful as well. Please send me any ideas for enhancements that you have to make
 date: 2010-08-31 14:41:07 +0300
 image:  '/images/slugs/released-force-com-utility-belt.jpg'
-tags:   ["2010", "public"]
+tags:   ["google", "salesforce", "programming"]
 ---
 <p>The Force.com Utility Belt is a Google Chrome Extension that I wrote to make my life easier. While developing on the Force.com platform I consistently need access to Salesforce documents, message boards, code snippets, etc. and opening PDFs, searching documentation and looking up Visualforce component signatures becomes tedious. The extension evolved out my necessity to make myself more productive. I hope you find it useful as well. Please send me any ideas for enhancements that you have to make the tool better. Virtually anything you can do in Javascript is possible.</p>
 <p><a href="https://chrome.google.com/extensions/detail/bchgkjmjnmekbampjoenadmoekocpbhp?hl=en" target="_blank"><strong>You can install the Force.com Utility Belt from the Google Chrome Extensions Gallery</strong></a></p>

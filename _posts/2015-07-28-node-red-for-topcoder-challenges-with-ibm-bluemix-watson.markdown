@@ -4,7 +4,7 @@ title:  Node-RED for Topcoder Challenges with IBM Bluemix & Watson
 description: For the past week I’ve been obsessed with Node-RED . If you are not familiar with it, Node-RED is an open source IBM technology for wiring together hardware devices, APIs and online services in new and interesting ways. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud. Similar in methodology to Yahoo! Pipes, Node-RED initially started as a visual tool for wiring IoT but has de
 date: 2015-07-28 20:40:18 +0300
 image:  '/images/node-red-bluemix.png'
-tags:   ["2015", "public"]
+tags:   ["node-red"]
 ---
 <p>For the past week I’ve been obsessed with <a href="http://nodered.org">Node-RED</a>. If you are not familiar with it, Node-RED is an open source IBM technology for “wiring together hardware devices, APIs and online services in new and interesting ways”. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud.</p>
 <p>Similar in methodology to Yahoo! Pipes, Node-RED initially started as a visual tool for wiring IoT but has developed into a service that can do all sorts of crazy things. Installation is simple but to make life easier, <a href="https://console.ng.bluemix.net/">IBM Bluemix</a> offers a Node-RED template so you can get a web app up and running in no time.</p>

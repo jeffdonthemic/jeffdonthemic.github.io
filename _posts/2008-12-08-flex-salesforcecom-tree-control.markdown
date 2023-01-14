@@ -4,7 +4,7 @@ title:  Flex Salesforce.com Tree Control
 description: One of the things that Salesforce.com is lacking is a descent tree control to display hierarchical data. I did notice a screenshot on the Winter 09 Developer Screencast of a tree control but according to our Salesforce.com technical reps there are no plans to release this. There is a really good Flex tutorial on developer.force.com concerning this topic, but one of their main takeways is-  > NOTE- You should be very careful when using nested queries as you can easily run into governer limits. We
 date: 2008-12-08 20:51:10 +0300
 image:  '/images/slugs/flex-salesforcecom-tree-control.jpg'
-tags:   ["2008", "public"]
+tags:   ["code sample", "salesforce", "flex"]
 ---
 <p>One of the things that Salesforce.com is lacking is a descent tree control to display hierarchical data. I did notice a screenshot on the Winter '09 Developer Screencast of a tree control but according to our Salesforce.com technical reps there are no plans to release this.</p>
 <p>There is a really <a href="http://wiki.apexdevnet.com/index.php/Using_Browser_Technologies_in_Visualforce_-_Part_3" target="_blank">good Flex tutorial</a> on developer.force.com concerning this topic, but one of their main takeways is:</p>

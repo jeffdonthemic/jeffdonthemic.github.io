@@ -4,7 +4,7 @@ title:  Apex REST Service Not Found?
 description: I just deployed an Apex REST service to production and noticed something strange when trying to access it. When calling the URL with my Rails app, I received the error- Could not find a match for URL /v.9/quickquiz/results/today. Strange because the URL worked in my sandbox and there was no difference in the code. I tried with the Apigee Console with the same results. Hmmm.... I was only able to access the URL after  I Ran All Tests in the org. Check out the debug below. 
 date: 2012-02-28 17:32:55 +0300
 image:  '/images/slugs/apex-rest-service-not-found.jpg'
-tags:   ["2012", "public"]
+tags:   ["salesforce"]
 ---
 <p>I just deployed an Apex REST service to production and noticed something strange when trying to access it. When calling the URL with my Rails app, I received the error: "Could not find a match for URL /v.9/quickquiz/results/today". Strange because the URL worked in my sandbox and there was no difference in the code. I tried with the Apigee Console with the same results. Hmmm....</p>
 <p>I was only able to access the URL <strong><em>after</em></strong> I "Ran All Tests" in the org. Check out the debug below.</p>

@@ -4,7 +4,7 @@ title:  Release Management with Salesforce.com?
 description: This week was all about release management with Salesforce.com. We had people in town from all over the globe and conferences with our Salesforce.com reps to determine the most manageable and efficient way to release code into Production. After four days of meetings our main conclusion is that release management with Salesforce.com is neither a science nor an art. Its a chore. Developers coming from a Windows or Java development backgrounds will probably need some time to work their way into thi
 date: 2009-01-30 13:38:39 +0300
 image:  '/images/slugs/release-management-with-salesforcecom.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p>This week was all about release management with Salesforce.com. We had people in town from all over the globe and conferences with our Salesforce.com reps to determine the most manageable and efficient way to release code into Production.</p>
 <p>After four days of meetings our main conclusion is that release management with Salesforce.com is neither a science nor an art. It's a chore. Developers coming from a Windows or Java development backgrounds will probably need some time to work their way into this "process". The release management process is painful, but to Salesforce.com's credit it is getting better with each API release.</p>

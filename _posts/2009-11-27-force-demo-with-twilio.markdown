@@ -4,7 +4,7 @@ title:  Force.com Demo with Twilio
 description: Cross-posted at the Appirio Tech Blog . During Dreamforce 09 Kyle Roche  and I participated in the Developer Hackathon . We hacked-up an application using Force.com and Twilio  for inbound and outbound calling. We were only allotted two hours so we were not able to finish off the application during the hackathon. Here is the final demo with all of the major working pieces. The application has two major parts- 1. Kyles part (much harder and more glamourous) uses the Twilioforce  toolkit to make o
 date: 2009-11-27 18:00:00 +0300
 image:  '/images/slugs/force-demo-with-twilio.jpg'
-tags:   ["2009", "public"]
+tags:   ["appirio", "salesforce", "visualforce", "apex"]
 ---
 <p>Cross-posted at the <a href="http://techblog.appirio.com/2009/11/forcecom-demo-with-twilio.html" target="_blank">Appirio Tech Blog</a>.</p>
 <p>During Dreamforce 09 <a href="http://www.kyleroche.com" target="_blank">Kyle Roche</a> and I participated in the <a href="http://developer.force.com/hackathon" target="_blank">Developer Hackathon</a>. We hacked-up an application using Force.com and <a href="http://www.twilio.com" target="_blank">Twilio</a> for inbound and outbound calling. We were only allotted two hours so we were not able to finish off the application during the hackathon.</p>

@@ -4,7 +4,7 @@ title:  Apex Deep Clone Controller
 description: I wrote the following code at the Admin To Hero App Building Workshop and it was very popular. I think we used the code on 3 or 4 projects that day so I thought Id post it to help everyone out. Essentially it is a Visualforce page and Apex Controller that allows you to do a deep clone of an object and its line items for a master-detail relationship. So I created a Clone with Items custom button on a page layout that invokes the Visualforce page that clones a purchase order header and its line it
 date: 2009-11-19 21:29:34 +0300
 image:  '/images/slugs/apex-deep-clone-controller.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>I wrote the following code at the <a href="/2009/11/18/admin-to-hero-app-building-workshop/" target="_blank">Admin To Hero App Building Workshop</a> and it was very popular. I think we used the code on 3 or 4 projects that day so I thought I'd post it to help everyone out.</p>
 <p>Essentially it is a Visualforce page and Apex Controller that allows you to do a "deep clone" of an object and it's line items for a master-detail relationship. So I created a "Clone with Items" custom button on a page layout that invokes the Visualforce page that clones a purchase order header and its line items.</p>

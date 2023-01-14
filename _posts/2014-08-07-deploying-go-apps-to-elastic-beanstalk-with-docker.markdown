@@ -4,7 +4,7 @@ title:  Deploying Go Apps to Elastic Beanstalk with Docker
 description: In my last Go Tutorial with MongoDB on Heorku post , we built a simple cribs application using Martini  where  topcoder  members can showcase where they work. If you are just jumping in, you can run the application on Heroku  and find the code on our github repo . Today we are going to take that same application, Dockerize  it and deploy it to AWS Elastic Beanstalk . What about Google App Engine, you ask? Unfortunately, I believe that App Engine only supports Docker in closed preview mode at thi
 date: 2014-08-07 16:22:14 +0300
 image:  '/images/slugs/deploying-go-apps-to-elastic-beanstalk-with-docker.jpg'
-tags:   ["2014", "public"]
+tags:   []
 ---
 <p>In my last <a href="/2014/07/25/go-tutorial-with-mongodb-on-heorku/">'Go Tutorial with MongoDB on Heorku' post</a>, we built a simple 'cribs' application using <a href="http://martini.codegangsta.io/">Martini</a> where <a href="http://www.topcoder.com">topcoder</a> members can showcase where they work. If you are just jumping in, you can <a href="http://tc-cribs.herokuapp.com">run the application on Heroku</a> and <a href="https://github.com/topcoderinc/cribs">find the code on our github repo</a>.</p>
 <p>Today we are going to take that same application, <a href="http://docs.docker.com/userguide/dockerizing/">Dockerize</a> it and deploy it to <a href="http://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk</a>. "What about Google App Engine", you ask? Unfortunately, I believe that App Engine only supports Docker in closed "preview" mode at this time so maybe somewhere down the road we can take look at it.</p>

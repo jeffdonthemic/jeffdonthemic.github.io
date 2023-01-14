@@ -4,7 +4,7 @@ title:  THIS is why I love the cloud...
 description: I blew out the harddrive on my MacBook Pro yesterday during a meeting. Kaput. Dead. Nada. After working with Apple Support for a couple of hours I took it to the Apple store and they sent away for a new harddrive. Ill be up and running this afternoon thanks to Apple and Time Machine. However the best thing about this experience is that it reaffirms my love of the cloud. Besides the time I spent directly working with Apple, I didnt miss a beat. I fired up another laptop running Ubuntu and I was b
 date: 2010-05-14 11:07:39 +0300
 image:  '/images/slugs/this-is-why-i-love-the-cloud.jpg'
-tags:   ["2010", "public"]
+tags:   ["cloud computing"]
 ---
 <p>I blew out the harddrive on my MacBook Pro yesterday during a meeting. Kaput. Dead. Nada. After working with Apple Support for a couple of hours I took it to the Apple store and they sent away for a new harddrive. I'll be up and running this afternoon thanks to Apple and Time Machine.</p>
 <p>However the best thing about this experience is that it reaffirms my love of the cloud. Besides the time I spent directly working with Apple, I didn't miss a beat. I fired up another laptop running Ubuntu and I was back to work in no time.</p>

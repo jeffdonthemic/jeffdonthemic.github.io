@@ -4,7 +4,7 @@ title:  Learning Ruby for Force.com Developers – Part 2
 description: This is part #2 from my adventures of learning Ruby. If you missed part #1 you might want to take a look at it just to get up to speed.  Again, these are my goals for this series- * Learn Ruby  * Develop an app locally using Ruby on Rails and the default SQLite database  * Modify the app to use Database.com and the Force.com Toolkit for Ruby  * Deploy the app to Heroku * Modify the app to use Database.com and the REST API  Ive spent the last week or so digging into the Ruby language and have fou
 date: 2011-01-11 18:26:13 +0300
 image:  '/images/slugs/learning-ruby-for-force-com-developers-e28093-part-2.jpg'
-tags:   ["2011", "public"]
+tags:   ["code sample", "ruby", "salesforce"]
 ---
 <p>This is part #2 from my adventures of learning Ruby. <a href="/2010/12/30/learning-ruby-for-force-com-developers-part-1/">If you missed part #1 you might want to take a look at it just to get up to speed.</a> Again, these are my goals for this series:</p>
 <ul>

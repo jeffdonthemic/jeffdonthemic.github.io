@@ -4,7 +4,7 @@ title:  PubSub Demo with Node.js & WebSockets
 description: I started a new series on the  blog called Phasers on Innovate where I simply talk about cool tech stuff and build things. Late last year Heroku started supporting WebSockets so I thought I would take a stab at rewriting our Corona application which currently uses Socket.io. Corona was a nifty little app we had over at CloudSpokes that popped pins on a map in real-time whenever members would login, ask questions, submit for challenges, etc. The app was mesmerizing in that it would show the activ
 date: 2014-05-27 13:36:47 +0300
 image:  '/images/slugs/pubsub-demo-with-node-js-websockets.jpg'
-tags:   ["2014", "public"]
+tags:   ["heroku", "node.js", "phasers on innovate"]
 ---
 <p>I started a new series on the <a href="http://www.topcoder.com/category/phasers-on-innovate/">[topcoder] blog</a> called "Phasers on Innovate” where I simply talk about cool tech stuff and build things.</p>
 <p>Late last year Heroku started supporting WebSockets so I thought I would take a stab at rewriting our Corona application which currently uses Socket.io. Corona was a nifty little app we had over at CloudSpokes that popped pins on a map in real-time whenever members would login, ask questions, submit for challenges, etc.</p>

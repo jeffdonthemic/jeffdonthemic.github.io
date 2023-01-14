@@ -4,7 +4,7 @@ title:  Using Gmail Notifier with Multiple Accounts
 description: I live and die by Gmail but if you are like me, and have multiple accounts, it can be a challenge to keep track of them. Google has a nifty little Gmail Notifier that runs in your menu bar but it only works for one account. My problem is that I need to track my Appirio account, personal account (Ive used Google App for my jeffdouglas.com domain for years) and then my Gmail account. Luckily theres a way to do this by duplicating the Gmail Notifier app so that multiple copies are running. Heres th
 date: 2009-11-15 15:08:29 +0300
 image:  '/images/slugs/using-gmail-notifier-with-multiple-accounts.jpg'
-tags:   ["2009", "public"]
+tags:   ["google"]
 ---
 <p>I live and die by Gmail but if you are like me, and have multiple accounts, it can be a challenge to keep track of them. Google has a nifty little <a href="http://toolbar.google.com/gmail-helper/notifier_mac.html" target="_blank">Gmail Notifier</a> that runs in your menu bar but it only works for one account. My problem is that I need to track my Appirio account, personal account (I've used Google App for my jeffdouglas.com domain for years) and then my Gmail account.</p>
 <p>Luckily there's a way to do this by duplicating the Gmail Notifier app so that multiple copies are running. Here's the simple process for a Mac:</p>

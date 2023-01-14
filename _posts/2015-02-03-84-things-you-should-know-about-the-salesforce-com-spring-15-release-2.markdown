@@ -4,7 +4,7 @@ title:  84 Things You Should Know about the salesforce.com Spring ’15 Release
 description: The Spring 15 Release  should be hitting boxes soon with 250+ new and improved features! With over 300 page of documentation there are plenty of goodies for everyone. Salesforce continues to give us what we ask for with 5 pages of features implemented from user submissions on the IdeaExchange. Im happy to say that one of them  was mine!  Of course there are a ton in the release notes , but Ive pulled out my favorites in this handy-dandy list. There will be no test afterwards so peruse at your le
 date: 2015-02-03 23:28:17 +0300
 image:  '/images/spring15-logo.png'
-tags:   ["2015", "public"]
+tags:   ["salesforce"]
 ---
 <p>The <a href="http://www.salesforce.com/customer-resources/releases/spring15/">Spring '15 Release</a> should be hitting boxes soon with 250+ new and improved features! With over 300 page of documentation there are plenty of goodies for everyone. Salesforce continues to give us what we ask for with 5 pages of features implemented from user submissions on the IdeaExchange. I'm happy to say that <a href="https://success.salesforce.com/ideaView?id=08730000000kmjRAAQ">one of them</a> was mine!</p>
 <p>Of course there are a ton in the <a href="http://www.salesforce.com/customer-resources/releases/spring15/">release notes</a>, but I've pulled out my favorites in this handy-dandy list. There will be no test afterwards so peruse at your leisure.</p>

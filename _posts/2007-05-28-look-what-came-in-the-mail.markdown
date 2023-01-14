@@ -4,7 +4,7 @@ title:  Look What Came in the Mail!
 description: It arrived today and Im now official!  I took my last exam for my Masters of Science in Technology and Innovation Management program at the University of Tampa on May 2nd. I must have passed since my diploma arrived today! Its truly a magical piece of paper. It feels cool to the touch and sparkles like a spring-time pond on a moonlight night. No one is more excited that I am finished than Cathy. Im lucky that she didnt divorce me during the two year period. I did well on most of my classes but s
 date: 2007-05-28 12:03:24 +0300
 image:  '/images/slugs/look-what-came-in-the-mail.jpg'
-tags:   ["2007", "public"]
+tags:   ["personal"]
 ---
 <p>It arrived today and I'm now official!</p>
 <p>I took my last exam for my Masters of Science in Technology and Innovation Management program at the University of Tampa on May 2nd. I must have passed since my diploma arrived today! Its truly a magical piece of paper. It feels cool to the touch and sparkles like a spring-time pond on a moonlight night.</p>

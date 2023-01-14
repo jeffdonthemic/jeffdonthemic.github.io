@@ -4,7 +4,7 @@ title:  Build a Bulk Emailer for Salesforce with App Engine
 description: Sometimes you just want to send a crapload of email from Salesforce.com. However, like every PaaS platform there are limits baked into the multi-tenant environment so you dont stomp on other tenants resources. Salesforce.com limits you to 2000 emails per day for each Salesforce license. So if you dont have a lot of Salesforce licenses or a different kind of license, you may be out of luck if you want to send out large volumes. There are a few AppExchange products but they seem more targeted towa
 date: 2011-08-25 13:01:19 +0300
 image:  'http://zoomcopy.com/wp-content/uploads/2009/06/bulk_mail-house.jpg'
-tags:   ["2011", "public"]
+tags:   ["code sample", "google app engine", "salesforce"]
 ---
 <p>Sometimes you just want to send a crapload of email from Salesforce.com. However, like every PaaS platform there are limits baked into the multi-tenant environment so you don't stomp on other tenants' resources. Salesforce.com limits you to 2000 emails per day for each Salesforce license. So if you don't have a lot of Salesforce licenses or a different kind of license, you may be out of luck if you want to send out large volumes. There are a few AppExchange products but they seem more targeted towards marketing purposes.</p>
 <p><a href="http://code.google.com/appengine/">Google App Engine</a> may be a good solution in this case. With <a href="http://code.google.com/appengine/docs/quotas.html#Mail">Google App Engine quotas</a> you get 7,000 Mail API calls per day free and can bump that up as high as 1.7M with a paid account.</p>

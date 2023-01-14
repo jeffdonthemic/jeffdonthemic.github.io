@@ -4,7 +4,7 @@ title:  Building a Dynamic Search Page in Visualforce
 description: I brushed this code off and thought it might be useful to someone as a starting point for a dynamic search page. It has some cool functionality including passing search criteria via Javascript to the controller, search as you type, sorting of results by clicking on the column header plus much more. Hope you find it useful. You can run this demo at my developer site.  Some of the interesting features of the Visualforce page and Apex controller include- * Instead of the typical overhead of using g
 date: 2010-07-13 09:31:34 +0300
 image:  '/images/slugs/building-a-dynamic-search-page-in-visualforce.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>I brushed this code off and thought it might be useful to someone as a starting point for a dynamic search page. It has some cool functionality including passing search criteria via Javascript to the controller, search as you type, sorting of results by clicking on the column header plus much more. Hope you find it useful.</p>
 <h3 style="text-decoration:underline"><a href="https://jeffdouglas-developer-edition.na5.force.com/examples/CustomerSearch" target="_blank"><font class="Apple-style-span" color="#000000">You can run this demo at my developer site.</font></a></h3>

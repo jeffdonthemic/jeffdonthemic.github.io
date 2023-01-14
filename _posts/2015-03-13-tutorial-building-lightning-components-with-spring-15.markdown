@@ -4,7 +4,7 @@ title:  Tutorial - Building Lightning Components with Spring 15
 description: This post is an update of Tutorial - Build Your First Lightning Component released last October during DF15 for the Winter ’15 release. A number of things have changed in Spring ’15 so the code has been revised to reflect them.  Salesforce1 Lightning Developer Week  is in full swing in over 100 cities around the world and I had the pleasure of presenting to the San Diego Salesforce Developer Group  a couple of days ago. Naturally we talked about Lightning Connect, Process Builder and App Builder
 date: 2015-03-13 16:25:16 +0300
 image:  '/images/pexels-hitesh-choudhary-879109.jpg'
-tags:   ["2015", "public"]
+tags:   ["salesforce", "lightning"]
 ---
 <blockquote>
 <p>This post is an update of <a href="/2014/10/14/tutorial-build-your-first-lightning-component/">Tutorial - Build Your First Lightning Component</a> released last October during DF15 for the Winter ’15 release. A number of things have changed in Spring ’15 so the code has been revised to reflect them.</p>

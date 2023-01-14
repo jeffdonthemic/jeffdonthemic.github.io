@@ -4,7 +4,7 @@ title:  Easily Search and Edit Records with Visualforce
 description: I tend to over think Visualforce development sometimes and make it harder than it should be. Development with Force.com is surprisingly easy, elegant and quick. For example I recently needed to develop a way for the users to search for records and update specific values. Users should be able to search for records by keyword search, view multiple matching records, update values for multiple records, commit the changes to the database and check for validation errors. Now if I was doing this in Jav
 date: 2010-04-07 10:43:04 +0300
 image:  '/images/slugs/easily-search-and-edit-records-with-visualforce.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>I tend to over think Visualforce development sometimes and make it harder than it should be. Development with Force.com is surprisingly easy, elegant and quick. For example I recently needed to develop a way for the users to search for records and update specific values. Users should be able to search for records by keyword search, view multiple matching records, update values for multiple records, commit the changes to the database and check for validation errors.</p>
 <p>Now if I was doing this in Java I'd need to:</p>

@@ -4,7 +4,7 @@ title:  Strategies for Building Customer Facing Apps with Salesforce.com
 description: There comes a time in almost every Salesforce orgs life when you want to get some data from your org on to the web for customers to interact with. Lets say that you run a non-profit and you want to allow customers to sign up for volunteer sites and times nationwide to donate their time and services. We are going to explore a number of different ways to accomplish this goal but we are going to exclude Communities  from this use case since these donors may not fit the typical customer or partner r
 date: 2015-01-16 20:31:46 +0300
 image:  '/images/pexels-yan-krukov-8612921.jpg'
-tags:   ["2015", "public"]
+tags:   ["heroku", "salesforce"]
 ---
 <p>There comes a time in almost every Salesforce org's life when you want to get some data from your org on to the web for customers to interact with. Let's say that you run a non-profit and you want to allow "customers" to sign up for volunteer sites and times nationwide to donate their time and services.</p>
 <p>We are going to explore a number of different ways to accomplish this goal but we are going to exclude <a href="http://www.salesforce.com/communities/overview/">Communities</a> from this use case since these donors may not fit the typical customer or partner role. You may argue differently but that's for another debate.</p>

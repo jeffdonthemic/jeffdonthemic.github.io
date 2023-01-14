@@ -4,7 +4,7 @@ title:  Rich Internet Applications Using Flex, Salesforce.com and Google App Eng
 description: Cross-posted at the Appirio Technology Blog It’s fairly common these days to see Flex applications running inside Salesforce.com. But what if youd like to run your Flex applications on another SaaS provider like Google App Engine or Amazon EC2. We are going to set up a simple Flex application that fetches Accounts and Opportunities from Salesforce.com using an open source remoting library that runs on Google App Engine. Here a quick peak at the final application-  You can run this demo at-  http
 date: 2009-08-20 14:06:27 +0300
 image:  '/images/slugs/rich-internet-applications-using-flex-salesforce-com-and-google-app-engine.jpg'
-tags:   ["2009", "public"]
+tags:   ["cloud computing", "code sample", "google app engine", "salesforce", "flex", "gae/j"]
 ---
 <p>Cross-posted at the <a href="http://techblog.appirio.com/2009/08/rich-internet-applications-using-flex.html" target="_blank">Appirio Technology Blog</a></p>
 <p>It’s fairly common these days to see Flex applications running inside Salesforce.com. But what if you'd like to run your Flex applications on another SaaS provider like Google App Engine or Amazon EC2. We are going to set up a simple Flex application that fetches Accounts and Opportunities from Salesforce.com using an open source remoting library that runs on Google App Engine. Here a quick peak at the final application:</p>

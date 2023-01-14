@@ -4,7 +4,7 @@ title:  Working with Person Accounts in Salesforce.com
 description: Out of the box (so to speak), Salesforce.com is a B2B product. But what if your company provides home healthcare services or lawn care services or any other type of service for individual consumers. You dont hear alot of talk about it but Salesforce.com can be tweaked for this scenario using Person Accounts. By default, Person Accounts are not enabled. Youll need to call support to have them enabled and they will repeatedly ask you if you really want to do this and if you understand the conseque
 date: 2010-06-22 16:10:47 +0300
 image:  '/images/slugs/working-with-person-accounts-in-salesforce-com.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce"]
 ---
 <p>Out of the box (so to speak), Salesforce.com is a B2B product. But what if your company provides home healthcare services or lawn care services or any other type of service for individual consumers. You don't hear alot of talk about it but Salesforce.com can be tweaked for this scenario using "Person Accounts".</p>
 <p>By default, Person Accounts are not enabled. You'll need to call support to have them enabled and they will repeatedly ask you if you really want to do this and if you understand the consequences. Once enabled, Person Accounts cannot be disabled. I would recommened you enable a Developer Edition first and test out your solution there before enabling your Produciton Org.</p>

@@ -4,7 +4,7 @@ title:  Sample Ruby on Rails Force.com Canvas App
 description: Force.com Canvas apps are a great way to extend the Force.com platform with existing legacy apps or to take advantage of existing packages and libraries on other platforms. Lately Ive been writing a lot of node.js apps but needed to whip up a quick demo using Rails and found it a little more difficult than I would have liked due to the restriction that Canvas apps need to run on https. So I put together a sample Force.com Canvas application using rails 4, restforce  and  tunnels  so you can run 
 date: 2014-03-04 14:43:56 +0300
 image:  '/images/slugs/sample-ruby-on-rails-force-com-canvas-app.jpg'
-tags:   ["2014", "public"]
+tags:   ["ruby", "salesforce"]
 ---
 <p>Force.com Canvas apps are a great way to extend the Force.com platform with existing legacy apps or to take advantage of existing packages and libraries on other platforms. Lately I've been writing a lot of node.js apps but needed to whip up a quick demo using Rails and found it a little more difficult than I would have liked due to the restriction that Canvas apps need to run on https.</p>
 <p>So I put together a sample <a href="http://www.salesforce.com/us/developer/docs/platform_connect/canvas_framework.pdf">Force.com Canvas</a> application using rails 4, <a href="https://github.com/ejholmes/restforce">restforce</a> and <a href="https://github.com/jugyo/tunnels">tunnels</a> so you can run https from localhost. <strong><a href="https://github.com/jeffdonthemic/rails-canvas">You can grab the code here.</a></strong></p>

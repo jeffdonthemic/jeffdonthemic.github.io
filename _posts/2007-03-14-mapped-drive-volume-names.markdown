@@ -4,7 +4,7 @@ title:  Mapped Drive Volume Names
 description: Im new to this whole Mac-thing. I run on a Windows network and have a couple of mapped drives setup on my DEV server where my projets and source code lives for Eclipse. For some reason when I Connect to Server... in Finder and choose my mapped drive, it connects as the wrong Volume name and fries all of my projects. Eclipse complains that it cant find the .project files. Apprently there is a Volume with the same name that already exists (dont know how?) so it appends -1 to the Volume name. For t
 date: 2007-03-14 17:33:10 +0300
 image:  '/images/slugs/mapped-drive-volume-names.jpg'
-tags:   ["2007", "public"]
+tags:   ["apple"]
 ---
 <p>I'm new to this whole Mac-thing. I run on a Windows network and have a couple of mapped drives setup on my DEV server where my projets and source code lives for Eclipse.</p>
 <p>For some reason when I "Connect to Server..." in Finder and choose my mapped drive, it connects as the wrong Volume name and fries all of my projects. Eclipse complains that it can't find the .project files. Apprently there is a Volume with the same name that already exists (don't know how?) so it appends "-1" to the Volume name.</p>

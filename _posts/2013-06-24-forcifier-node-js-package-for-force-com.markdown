@@ -4,7 +4,7 @@ title:  Forcifier Node.js Package for Force.com
 description: I just published a port of my Forcifier Ruby gem to Node.js. You can find the  package on npm and the source on github . So why should you use forcifier for your Node.js application? Well, if you are using the awesome nforce package , forcifier can make your life much easier. Forcifier provides utility functions for dealing with Force.com fields to make them pretty and easier to work with. Since Force.com is case insensitive, REST calls may return JSON with keys such as Country_code_AND_City__c.
 date: 2013-06-24 11:09:08 +0300
 image:  '/images/slugs/forcifier-node-js-package-for-force-com.jpg'
-tags:   ["2013", "public"]
+tags:   ["salesforce"]
 ---
 <p>I just published a port of my <a href="https://github.com/jeffdonthemic/forcifier">Forcifier Ruby gem</a> to Node.js. You can find the <a href="https://npmjs.org/package/forcifier">package on npm</a> and the <a href="https://github.com/jeffdonthemic/forcifier-node">source on github</a>.</p>
 <p>So why should you use forcifier for your Node.js application? Well, if you are using the awesome <a href="https://github.com/kevinohara80/nforce">nforce package</a>, forcifier can make your life much easier.</p>

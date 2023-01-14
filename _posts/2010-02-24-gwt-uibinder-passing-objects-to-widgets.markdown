@@ -4,7 +4,7 @@ title:  GWT UiBinder – Passing Objects to Widgets
 description:  A couple of weeks ago I wrote a GWT 2.0 tutorial for passing simple values to a widget and this is the (promised) follow up on how to pass an object to a widget. For more info on working with the new UiBinder, see Declarative Layout with UiBinder  at the GWT site. The Entry Point class is fairly simple; it creates a new MyPanel object and adds it to the RootPanel. MyEntryPoint.java  package com.jeffdouglas.client;  import com.google.gwt.core.client.EntryPoint; import com.google.gwt.user.client.
 date: 2010-02-24 12:52:45 +0300
 image:  '/images/slugs/gwt-uibinder-passing-objects-to-widgets.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "gwt"]
 ---
 <p style="clear: both"><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399396/gwt-logo_otoxng.png"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399396/gwt-logo_otoxng.png" alt="" title="gwt-logo" width="100" height="100" class="alignleft size-full wp-image-1841" /></a>A couple of weeks ago I wrote a GWT 2.0 tutorial for <a href="/2010/02/05/gwt-uibinder-passing-parameters-to-widgets/" target="_blank">passing simple values to a widget</a> and this is the (promised) follow up on how to pass an object to a widget. For more info on working with the new UiBinder, see <a href="http://code.google.com/webtoolkit/doc/latest/DevGuideUiBinder.html" target="_blank">Declarative Layout with UiBinder</a> at the GWT site.</p><p style="clear: both">The Entry Point class is fairly simple; it creates a new MyPanel object and adds it to the RootPanel.</p><p style="clear: both"><strong>MyEntryPoint.java</strong></p><p style="clear: both">
 {% highlight js %}package com.jeffdouglas.client;

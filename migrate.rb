@@ -1,10 +1,9 @@
-
 require 'json'
 require 'date'
 require "down"
 require "fileutils"
 
-def post_contents(post)
+def post_contents(post, tagger)
   d = DateTime.parse(post['published_at'])
   <<~EOF
   ---
@@ -13,7 +12,7 @@ def post_contents(post)
   description: #{description(post)}
   date: #{d.strftime('%Y-%m-%d %H:%M:%S')} +0300
   image:  '#{image(post)}'
-  tags:   #{tags(post)}
+  tags:   #{tagger.tags_by_post(post['id'])}
   ---
   #{html_content(post)}
   EOF
@@ -41,16 +40,6 @@ def description(post)
   str.gsub!('   ', ' ')
   str.gsub!('    ', ' ')  
   str[0,500]
-end
-
-def tags(post)
-  d = DateTime.parse(post['published_at'])
-  leave_date = Date.new(2014,6,15)
-  
-  tags = ["#{d.strftime('%Y')}"]
-  tags.push(post['visibility']) unless post['visibility'].empty?
-
-  tags
 end
 
 def html_content(post)
@@ -104,18 +93,48 @@ def random_stock_image(slug)
   "/images/slugs/#{slug}.jpg"
 end
 
-def write_post(post)
+def write_post(post, tagger)
   d = DateTime.parse(post['published_at'])
-  File.write("./_posts/#{d.strftime('%Y-%m-%d')}-#{post['slug']}.markdown", post_contents(post))
+  File.write("./_posts/#{d.strftime('%Y-%m-%d')}-#{post['slug']}.markdown", post_contents(post, tagger))
 end
 
 file = File.open("./ghost-conent-export.json").read
 contents = JSON.parse(file)
 posts = contents['db'][0]['data']['posts']
+posts_tags = contents['db'][0]['data']['posts_tags']
+tags = contents['db'][0]['data']['tags']
+
+class Tagger
+  def initialize(tags, post_tags)
+    @tags = tags
+    @post_tags = post_tags
+  end
+
+  def tags_by_post(post_id)
+    tags_records = []
+    tag_names = []
+
+    found = @post_tags.select {|t| t["post_id"].eql?(post_id) }
+    tag_ids = found.collect{|t| t['tag_id']}
+    tag_ids.each do |tag_id|
+      tags_records.push(@tags.select {|t| t["id"].eql?(tag_id) })
+    end
+
+    tags_records.each do |tr|
+      tag_names.push(tr[0]['name'].downcase)
+    end
+
+    tag_names
+  end
+
+end
+
+tagger = Tagger.new(tags, posts_tags)
+
 
 posts.each do |post|
   if post['type'].eql?('post')# && post['slug'].eql?('tutorial-build-your-first-lightning-component')
     puts "--- processing #{post['slug']}"
-    write_post(post) 
+    write_post(post, tagger) 
   end
 end

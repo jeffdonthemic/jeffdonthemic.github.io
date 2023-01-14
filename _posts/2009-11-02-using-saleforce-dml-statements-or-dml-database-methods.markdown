@@ -4,7 +4,7 @@ title:  Using Saleforce DML statements or DML database methods?
 description: Salesforce allows you to perform database transactions (insert, update, delete, etc.) using either DML statments or DML database methods. While they perfrom roughly the same functionality (with a few exceptions), DML database methods provide a little more granular control when bulk processing exceptions occur. The Salesforce documentation  is good and extremely detailed but these two approaches overlap in functinality and are sometimes confusing. Ive tried to boil the docs down and point out whe
 date: 2009-11-02 19:01:52 +0300
 image:  '/images/slugs/using-saleforce-dml-statements-or-dml-database-methods.jpg'
-tags:   ["2009", "public"]
+tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>Salesforce allows you to perform database transactions (insert, update, delete, etc.) using either DML statments or DML database methods. While they perfrom roughly the same functionality (with a few exceptions), DML database methods provide a little more granular control when bulk processing exceptions occur.</p>
 <p>The <a href="http://www.salesforce.com/us/developer/docs/apexcode/index.htm" target="_blank">Salesforce documentation</a> is good and extremely detailed but these two approaches overlap in functinality and are sometimes confusing. I've tried to boil the docs down and point out where DML statements and DML database methods are different and yet the same. The choices you make for your code is mostly based upon personal preference but may be dictated depending on the transactions you are performing.</p>

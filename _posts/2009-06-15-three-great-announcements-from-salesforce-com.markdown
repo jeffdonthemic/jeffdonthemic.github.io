@@ -4,7 +4,7 @@ title:  Three Great Announcements from Salesforce.com
 description: So I returned from my two week vacation in Europe last night and was looking forward to spending today catching up on emails and seeing where my projects stand. Little did I know but Salesforce.com had other plans for me. Throughout the day I was bombarded by tweets with announcements from Salesforce.com!  Force.com Sites goes GA  When Force.com Sites wasnt in the release notes and when it didnt go live with Summer 09 there was some speculation on when it actually would. In early May, the produc
 date: 2009-06-15 16:00:00 +0300
 image:  '/images/slugs/three-great-announcements-from-salesforce-com.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce"]
 ---
 <p>So I returned from my two week vacation in Europe last night and was looking forward to spending today catching up on emails and seeing where my projects stand. Little did I know but Salesforce.com had other plans for me. Throughout the day I was bombarded by tweets with announcements from Salesforce.com!</p>
 <p><strong>Force.com Sites goes GA</strong></p>

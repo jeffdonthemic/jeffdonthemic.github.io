@@ -4,7 +4,7 @@ title:  Passing Parameters with a CommandLink
 description: Heres a small example of how you can pass a value to another method via a command link for Salesforce.com. When the link is clicked, the setter fires for the public member nickName. The button click then calls the processLinkClick method where you can do something like process the variable further with DML statement or running a SOQL query with the value. The Visualforce page that simply displays a link that copies the contacts firstName into the public member nickName via the assignTo attribute
 date: 2010-03-03 18:00:00 +0300
 image:  '/images/slugs/passing-parameters-with-a-commandlink.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "visualforce", "apex"]
 ---
 <p>Here's a small example of how you can pass a value to another method via a command link for Salesforce.com. When the link is clicked, the setter fires for the public member <em>nickName</em>. The button click then calls the processLinkClick method where you can do something like process the variable further with DML statement or running a SOQL query with the value.</p><p style="clear: both">The Visualforce page that simply displays a link that copies the contact's firstName into the public member <em>nickName</em> via the "assignTo" attribute.</p>
 {% highlight js %}<apex:page standardController="Contact" extensions="CommandLinkParamController">

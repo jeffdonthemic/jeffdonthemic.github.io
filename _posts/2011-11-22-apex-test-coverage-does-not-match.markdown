@@ -4,7 +4,7 @@ title:  Apex Test Coverage Does Not Match?
 description: Writing unit test in Salesforce is, in my opinion, a black art. There are so many workarounds and techniques that it makes the process extremely frustrating. The issue below makes me enjoy the process even less based upon the amount of time/money I spent wasting on it. BTW, go vote on my idea  to make Apex testing easier. Youll thank me later. Ive seen a number of people on twitter recently comment that unit test coverage display different percentages when tests run in the browser vs. in Eclipse
 date: 2011-11-22 16:38:49 +0300
 image:  '/images/slugs/apex-test-coverage-does-not-match.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce"]
 ---
 <p>Writing unit test in Salesforce is, in my opinion, a "black art". There are so many workarounds and "techniques" that it makes the process extremely frustrating. The issue below makes me enjoy the process even less based upon the amount of time/money I spent wasting on it.</p>
 <p>BTW, go <a href="http://success.salesforce.com/ideaView?c=09a30000000D9xtAAC&id=08730000000BrPiAAK" target="_blank">vote on my idea</a> to make Apex testing easier. You'll thank me later.</p>

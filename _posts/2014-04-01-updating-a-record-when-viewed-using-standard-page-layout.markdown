@@ -4,7 +4,7 @@ title:  Updating a Record When Viewed using Std Page Layout
 description:   I recently had a scenario where I wanted to track the last time a Lead record was viewed in Salesforce for auditing purposes. I added a simple Last_Viewed__c  date field to the Lead object and then set about updating it every time the record was displayed in the standard page layout. I poked around the interwebs  a bit to see if anyone had any success implementing this but no luck. There was a lot of talk about overriding the entire standard page layout with a new Visualforce page but I really
 date: 2014-04-01 12:11:02 +0300
 image:  '/images/slugs/updating-a-record-when-viewed-using-standard-page-layout.jpg'
-tags:   ["2014", "public"]
+tags:   ["salesforce"]
 ---
 <p><img src="images/forcetk-meme_f2vwlp.jpg" alt="" ></p>
 <p>I recently had a scenario where I wanted to track the last time a Lead record was viewed in Salesforce for auditing purposes. I added a simple <code>Last_Viewed__c</code> date field to the Lead object and then set about updating it every time the record was displayed in the standard page layout.</p>

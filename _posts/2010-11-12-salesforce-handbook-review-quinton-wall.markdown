@@ -4,7 +4,7 @@ title:  Salesforce Handbook Review - Quinton Wall
 description: Cross posted on the Salesforce Handbook When Wes and I were wrapping up the Salesforce Handbook we knew that we wanted to get some level of support from salesforce.com. We were hoping someone might review the book for us and possibly provide us with some sort of quote for credibility. We were hoping the Developer Evangelism team would help out since we have a good relationship with most of them. We would have loved to have reviews and quotes from all of them (actually everyone on the team has he
 date: 2010-11-12 10:55:37 +0300
 image:  '/images/slugs/salesforce-handbook-review-quinton-wall.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce", "salesforce handbook"]
 ---
 <p>Cross posted on the <a href="http://salesforcehandbook.wordpress.com/2010/11/12/salesforce-handbook-review-quinton-wall/">Salesforce Handbook</a></p>
 <p>﻿When Wes and I were wrapping up the <a href="http://salesforcehandbook.wordpress.com">Salesforce Handbook</a> we knew that we wanted to get some level of support from salesforce.com. We were hoping someone might review the book for us and possibly provide us with some sort of quote for credibility. We were hoping the Developer Evangelism team would help out since we have a good relationship with most of them. We would have loved to have reviews and quotes from all of them (actually everyone on the team has helped out in some manner but <a href="http://www.vmforce.com">VMforce</a> and <a href="http://www.salesforce.com/dreamforce/DF10/home/">DF10</a> are coming up fast) but our first thought was to reach out to <a href="http://twitter.com/cloudcoder">Quinton Wall</a> and <a href="http://twitter.com/vnehess">Ron Hess</a> given their backgrounds.</p>

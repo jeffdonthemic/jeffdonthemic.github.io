@@ -4,7 +4,7 @@ title:  My App Mavericks Video Interview with HeyWire
 description: I recently recorded an App Maverick interview for Salesforce with Meredith Flynn-Ripley, CEO and Founder of HeyWire , for a walkthrough of Heywire’s apps, LiveText Agent and Business Messenger. Ive been doing SMS integration for Salesforce for years but HeyWire has some great features that make for a complete SMS conversation in Salesforce.  * HeyWire adds text features to a company’s existing 1-800 or office numbers so  that texts come from a number that customers are familiar with and are more
 date: 2015-08-14 12:27:02 +0300
 image:  '/images/pexels-nubia-navarro--nubikini--386025.jpg'
-tags:   ["2015", "public"]
+tags:   []
 ---
 <p>I <a href="https://www.salesforce.com/blog/2015/08/how-simple-text-app-mavericks.html">recently recorded an App Maverick interview</a> for Salesforce with Meredith Flynn-Ripley, CEO and Founder of <a href="http://www.heywire.com/">HeyWire</a>, for a walkthrough of Heywire’s apps, <a href="http://www.heywire.com/products/business-messenger/#.Vc3rR1NViko">LiveText Agent and Business Messenger</a>.</p>
 <p>I've been doing SMS integration for Salesforce for years but HeyWire has some great features that make for a complete SMS conversation in Salesforce.</p>

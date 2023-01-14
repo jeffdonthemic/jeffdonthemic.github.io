@@ -4,7 +4,7 @@ title:  Colabolo - Collaborative Task Management
 description:  In my never-ending quest for the perfect PPM tool, I downloaded beta 5 of  Colabolo a week or so ago. Ive been running it on a small project and have to say its not bad. Colabolo is an Adobe Air app built for team collaboration. You can use it to assign, track and resolve task assignments, business issues, sales leads, approval requests, document reviews, support requests, defects or any other collaborative task that requires a coordinated team effort. TechCrunch has a pretty good article on Co
 date: 2009-07-03 16:56:16 +0300
 image:  '/images/slugs/colabolo.jpg'
-tags:   ["2009", "public"]
+tags:   ["technology", "the internet business"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399532/screenshot_colabolo_1-630x420_j2vrhe.png"><img class="size-medium wp-image-1005 alignleft" title="screenshot_colabolo" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/h_200,w_300/v1400399532/screenshot_colabolo_1-630x420_j2vrhe.png" alt="screenshot_colabolo" width="270" height="180" /></a>In my never-ending quest for the perfect PPM tool, I downloaded beta 5 of <a href="http://www.colabolo.com/en/index.html" target="_self">Colabolo</a> a week or so ago. I've been running it on a small project and have to say it's not bad.</p>
 <p>Colabolo is an Adobe Air app built for team collaboration. You can use it to assign, track and resolve task assignments, business issues, sales leads, approval requests, document reviews, support requests, defects or any other collaborative task that requires a coordinated team effort.</p>

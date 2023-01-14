@@ -4,7 +4,7 @@ title:  Java Command Line App Using the Salesforce WSC
 description:   Force.com Web Service Connector (WSC) is a high performance web services stack that is much easier to implement than the tried and true Force.com Web Services API . Heres a quick command line app you can use as a starter application. This class simply creates a new Account and then queries for the 5 newest Accounts by created date. To get started, download wsc-18.jar from the WSC projects download page  to your desktop (any location will do). Now log into your Developer org and download the Pa
 date: 2010-05-17 11:42:27 +0300
 image:  '/images/slugs/java-command-line-app-using-the-salesforce-wsc.jpg'
-tags:   ["2010", "public"]
+tags:   ["code sample", "salesforce", "java"]
 ---
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400328494/wsc-logo_yswghf.png" alt="" ></p>
 <p>Force.com Web Service Connector</a> (WSC) is a high performance web services stack that is much easier to implement than the "tried and true" <a href="http://www.salesforce.com/us/developer/docs/api/index.htm" target="_blank">Force.com Web Services API</a>. Here's a quick command line app you can use as a starter application. This class simply creates a new Account and then queries for the 5 newest Accounts by created date.</p>

@@ -4,7 +4,7 @@ title:  5 Skills Salesforce Devs Need for 2015
 description: The Spring releases of Salesforce are my favorite. They are always packed with awesome new features and people actually have the time to explore them. Everyone is refreshed from the previous years Dreamforce and not yet too concerned about the next one. So what do we have to look forward to this year? Im glad you asked. Looking at the state of Salesforce and what is coming down the pike, here are 5 broad skills that Salesforce developers should be familiar with for 2015. It should be noted that 
 date: 2015-02-24 21:57:25 +0300
 image:  '/images/5-skills-banner.jpg'
-tags:   ["2015", "public"]
+tags:   ["heroku", "salesforce"]
 ---
 <p>The Spring releases of Salesforce are my favorite. They are always packed with awesome new features and people actually have the time to explore them. Everyone is refreshed from the previous year's Dreamforce and not yet <em>too</em> concerned about the next one. So what do we have to look forward to this year? I'm glad you asked.</p>
 <p>Looking at the state of Salesforce and what is coming down the pike, here are 5 broad "skills" that Salesforce developers should be familiar with for 2015. It should be noted that <a href="http://www.salesforce.com/platform/services/lightning/">Salesforce1 Lightning</a> is interspersed between all of these. We are going to hear about Lightning in the same way we did Chatter a couple of years ago. Great marketers know, "Tell your audience what you're going to tell them. Tell them. Then tell them what you just told them." Brace yourself for the Lightning fire hose.</p>

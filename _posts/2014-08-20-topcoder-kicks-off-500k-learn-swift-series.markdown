@@ -4,7 +4,7 @@ title:  Topcoder Kicks Off $500K Learn Swift Series
 description: Yesterday at topcoder  we launched a new series to help developer learn Apples new development language, Swift . We are extremely optimistic about this language, as are others , and we are making a huge investment in it at topcoder. Over the next 12 weeks or so, we are offering up to $500,000 in development cash and prizes as an incentive to get you started. Now is the time to start learning Swift and weve develop a series to help you #getswifter. To get the ball rolling, we are going to give th
 date: 2014-08-20 10:21:01 +0300
 image:  '/images/slugs/topcoder-kicks-off-500k-learn-swift-series.jpg'
-tags:   ["2014", "public"]
+tags:   ["swift"]
 ---
 <img src="images/Apple_Swift_Logo.png" align="left" style="padding-right:10px">
 <p>Yesterday at <a href="http://swift.topcoder.com">topcoder</a> we launched a new series to help developer learn Apple's new development language, <a href="https://developer.apple.com/swift/">Swift</a>. We are extremely optimistic about this language, <a href="http://www.wired.com/2014/07/apple-swift/">as are others</a>, and we are making a huge investment in it at topcoder.</p>

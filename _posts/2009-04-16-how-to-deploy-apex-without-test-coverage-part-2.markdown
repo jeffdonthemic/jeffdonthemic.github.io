@@ -4,7 +4,7 @@ title:  How to deploy Apex without test coverage (part 2)
 description: Ive spent the better part of the last two days deploying a custom lead assignment application to Production. Deployment is always an adventure due to circular code dependencies, code coverage requirements  and the actual amount of time involved in the process. One of the things that I always find interesting is that if you Run Tests from Eclipse and from the Salesforce.com Builder, you sometimes get different code coverage results?  Last month I blogged about my experience  deploying code to Pro
 date: 2009-04-16 19:44:56 +0300
 image:  '/images/slugs/how-to-deploy-apex-without-test-coverage-part-2.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "apex"]
 ---
 <p>I've spent the better part of the last two days deploying a custom lead assignment application to Production. Deployment is always an adventure due to circular code dependencies, code coverage requirements  and the actual amount of time involved in the process. One of the things that I always find interesting is that if you Run Tests from Eclipse and from the Salesforce.com Builder, you sometimes get different code coverage results?</p>
 <p>Last month <a href="/2009/03/04/how-to-deploy-apex-without-test-coverage/" target="_blank">I blogged about my experience</a> deploying code to Production with 0% test coverage. I think the documentation surrounding code coverage is confusing and sometimes contradictory.</p>

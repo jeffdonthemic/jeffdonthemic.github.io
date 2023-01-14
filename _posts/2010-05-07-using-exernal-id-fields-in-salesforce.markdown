@@ -4,7 +4,7 @@ title:  Using Exernal ID Fields in Salesforce
 description: Salesforce has baked in some magical features into its platform. Two of my favorites are the upsert command and the use of External IDs. If you are new to the platform, youve probably seen the option of making a field an External ID during the new field creation process. The External ID field allows you to store unique record IDs from an external system, typically for integration purposes. So if you have a bespoke marketing system running on SQL Server, it is may be easier to load, update and re
 date: 2010-05-07 11:35:42 +0300
 image:  '/images/slugs/using-exernal-id-fields-in-salesforce.jpg'
-tags:   ["2010", "public"]
+tags:   ["salesforce"]
 ---
 <p>Salesforce has baked in some "magical" features into its platform. Two of my favorites are the upsert command and the use of External IDs. If you are new to the platform, you've probably seen the option of making a field an "External ID" during the new field creation process.</p>
 <p><img src="images/1-tiabpsoxwztqfbzuehc0-1.png" alt="" ></p>

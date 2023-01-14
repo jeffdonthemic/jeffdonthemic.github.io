@@ -4,7 +4,7 @@ title:  Convert a Related List to a Comma Separated List
 description: Sure, picklists and (sometimes) multi-select picklists are a great way to store data for Salesforce.com objects but related list are much more powerful and flexible. Heres a great little trick to keep the power of related objects but still have the ease of use of a quasi-picklist for reporting, creating formulas, displaying values to users, external applications (iterating through a collection to display a comma separated list is tiresome!), etc.   The use case is that Accounts can operate in ma
 date: 2012-04-10 13:49:02 +0300
 image:  '/images/slugs/convert-a-related-list-to-a-comma-separated-list.jpg'
-tags:   ["2012", "public"]
+tags:   ["salesforce"]
 ---
 <p>Sure, picklists and (sometimes) multi-select picklists are a great way to store data for Salesforce.com objects but related list are much more powerful and flexible. Here's a great little trick to keep the power of related objects but still have the ease of use of a quasi-picklist for reporting, creating formulas, displaying values to users, external applications (iterating through a collection to display a comma separated list is tiresome!), etc.</p>
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327741/csv-list_kw31cv.png"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327741/csv-list_kw31cv.png" alt="" title="csv-list" width="500" class="aligncenter size-full wp-image-4467" /></a></p>

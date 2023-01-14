@@ -4,7 +4,7 @@ title:  Busy as a Salesforce Beaver
 description: A couple of people have asked me if Im dead since my blog has been rather light for the last week or so. I actually have a full-time job and unfortunately that is getting in the way of my blogging. Work at Appirio is quite busy as I just wrapped up one of the first rollouts of our newProfessional Services Enterprise  (PS Enterprise) product for a large Salesforce.com customer in Austin last week. We were replacing Open Air and working with a 1.0 release of PS Enterprise so things were new, fresh
 date: 2009-10-22 12:41:50 +0300
 image:  '/images/slugs/busy-as-a-salesforce-beaver.jpg'
-tags:   ["2009", "public"]
+tags:   ["google app engine", "personal", "salesforce"]
 ---
 <p>A couple of people have asked me if I'm dead since my blog has been rather light for the last week or so. I actually have a full-time job and unfortunately that is getting in the way of my blogging.</p>
 <p>Work at Appirio is quite busy as I just wrapped up one of the first rollouts of our new <a href="http://www.appirio.com/products/SvcsResource_PSE.php" target="_blank">Professional Services Enterprise</a> (PS Enterprise) product for a large Salesforce.com customer in Austin last week. We were replacing Open Air and working with a 1.0 release of PS Enterprise so things were new, fresh and exciting. I'm now on a new SFA project for one of the largest non-profits in the world based out of Washington, DC. We just finished a Google Apps conversion with them and now are implementing Salesforce CRM. We got a head-start on the project by using the <a href="http://wiki.developerforce.com/index.php/Nonprofit_Starter_Pack" target="_blank">Nonprofit Starter Pack</a>.</p>

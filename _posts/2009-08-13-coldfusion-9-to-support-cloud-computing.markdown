@@ -4,7 +4,7 @@ title:  ColdFusion 9 to Support Cloud Computing
 description:  At CFUnited yesterday Adobe announced plans to support Cloud Computing in their upcoming version of ColdFusion 9, currently in beta . Not a lot of details were given (including pricing) but the following bullet points are available from Ben Fortas site - * The current CPU based ColdFusion licensing, including no restriction on  instances or virtual servers, remains as is in ColdFusion 9. * ColdFusion will introduce new licensing options for cloud environments, where  there is no per CPU model. 
 date: 2009-08-13 10:32:13 +0300
 image:  '/images/slugs/coldfusion-9-to-support-cloud-computing.jpg'
-tags:   ["2009", "public"]
+tags:   ["cloud computing", "coldfusion"]
 ---
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399512/logo-cf_sqmyzz.png"><img class="alignleft size-thumbnail wp-image-1108" style="padding-right:15px;" title="coldfusion" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/c_crop,h_234,w_234,x_3,y_0/h_150,w_150/v1400399512/logo-cf_sqmyzz.png" alt="coldfusion" width="63" height="61" /></a>At CFUnited yesterday Adobe announced plans to support "Cloud Computing" in their upcoming version of <a href="http://labs.adobe.com/technologies/coldfusion9/" target="_blank">ColdFusion 9, currently in beta</a>.</p>
 <p>Not a lot of details were given (including pricing) but the following bullet points are available from <a href="http://forta.com/blog/index.cfm/2009/8/12/ColdFusion-9-And-Cloud-Computing" target="_blank">Ben Forta's site</a>:</p>

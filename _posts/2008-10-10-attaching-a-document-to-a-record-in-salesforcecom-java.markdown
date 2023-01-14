@@ -4,7 +4,7 @@ title:  Attaching a Document to a Record in Salesforce.com (Java)
 description: The follow code allows you to upload a physical file to Salesforce.com and attach it to a record. /**   * See the following-  * API Docs- http-//www.salesforce.com/us/developer/docs/sforce70/wwhelp/wwhimpl/js/html/wwhelp.htmhref=sforce_API_objects_Attachment.html  * Example- http-//community.salesforce.com/sforce/board/messageboard.id=JAVA_development&message.id=4223  */  try {      File f = new File(c-\java\test.docx);     InputStream is = new FileInputStream(f);     byte;             is.read(i
 date: 2008-10-10 18:37:00 +0300
 image:  '/images/slugs/attaching-a-document-to-a-record-in-salesforcecom-java.jpg'
-tags:   ["2008", "public"]
+tags:   ["code sample", "salesforce", "java"]
 ---
 <p>The follow code allows you to upload a physical file to Salesforce.com and attach it to a record.</p>
 {% highlight js %}/** 

@@ -4,7 +4,7 @@ title:  Google Reader - Offline Mode?
 description: I logged on to Google Reader to catchup on the latest technology news and saw a shiny, New link. Of course since I like anything labeled as new (especially from Google) I decided to click it. Google officially released  Google Gears, a browser plugin that enables offline web applications. Once youve installed Google Gears, you can download your latest 2,000 items so theyre available even when you dont have an internet connection. Google Gears is an open source browser extension that lets develop
 date: 2007-06-03 12:01:45 +0300
 image:  '/images/slugs/google-reader-offline-mode.jpg'
-tags:   ["2007", "public"]
+tags:   ["technology"]
 ---
 <p>I logged on to Google Reader to catchup on the latest technology news and saw a shiny, "New" link. Of course since I like anything labeled as "new" (especially from Google) I decided to click it.</p>
 <p>Google <a href="http://googlereader.blogspot.com/2007/05/oh-sam-i-am-can-i-read-it-on-tram.html" target="_blank">officially released</a> Google Gears, a browser plugin that enables offline web applications. Once you've installed Google Gears, you can download your latest 2,000 items so they're available even when you don't have an internet connection.</p>

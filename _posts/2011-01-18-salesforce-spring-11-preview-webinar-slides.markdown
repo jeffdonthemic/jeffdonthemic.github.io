@@ -4,7 +4,7 @@ title:  Salesforce Spring '11 Preview Webinar Slides
 description: If you missed the Spring 11 Release Preview Webinar today, first... shame on you and second... you are lucky that I took notes. Here are a few slides that I captured for your viewing pleasure. The recording of the webinar should be up in the next couple of days so make sure you visit http-//developer.force.com/releases  often for the latest info and highlight on the upcoming release. Youll also want to sign up for a new Spring 11 Preview org to test out all of the latest goodies in this release.
 date: 2011-01-18 18:00:00 +0300
 image:  '/images/slugs/salesforce-spring-11-preview-webinar-slides.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce"]
 ---
 <p>If you missed the Spring '11 Release Preview Webinar today, first... shame on you and second... you are lucky that I took notes. Here are a few slides that I captured for your viewing pleasure. The recording of the webinar should be up in the next couple of days so make sure you visit <a href="http://developer.force.com/releases">http://developer.force.com/releases</a> often for the latest info and highlight on the upcoming release.</p>
 <p>You'll also want to <a href="https://www.salesforce.com/form/signup/prerelease-spring11.jsp">sign up for a new Spring '11 Preview org</a> to test out all of the latest goodies in this release.</p>

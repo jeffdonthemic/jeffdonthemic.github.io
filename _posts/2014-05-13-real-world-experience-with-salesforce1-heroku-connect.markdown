@@ -4,7 +4,7 @@ title:  Real World Experience with Salesforce1 Heroku Connect
 description: Cross-posted from the Appirio Tech Blog  . Today Heroku announced the general availability of Salesforce1 Heroku Connect . Heroku Connect makes it easy to build customer-facing applications that leverage your existing Salesforce data. Behind the scenes, the Heroku Connect database sync service  and new API tools give developers and IT organizations the best of both worlds. Web application developers can use the tools that they are familiar with, including Ruby, Node.js and Postgres, to create en
 date: 2014-05-13 13:24:12 +0300
 image:  '/images/slugs/real-world-experience-with-salesforce1-heroku-connect.jpg'
-tags:   ["2014", "public"]
+tags:   ["appirio", "heroku", "innovation", "salesforce"]
 ---
 <p>Cross-posted from the <a href="http://appirio.com/category/tech-blog/2014/05/real-world-experience-salesforce1-heroku-connect/" target="_blank">Appirio Tech Blog</a>.</p>
 <p>Today Heroku announced the general availability of <a href="https://blog.heroku.com/archives/2014/5/13/introducing_heroku_connect">Salesforce1 Heroku Connect</a>. Heroku Connect makes it easy to build customer-facing applications that leverage your existing Salesforce data. Behind the scenes, the <a href="https://devcenter.heroku.com/articles/herokuconnect">Heroku Connect database sync service</a> and new API tools give developers and IT organizations the best of both worlds.</p>

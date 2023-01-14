@@ -4,7 +4,7 @@ title:  Book Review - Development with the Force.com Platform
 description: I spent a good part of the weekend going over the newly released book, Development with the Force.com Platform by Jason Ouellette from Appirio . The book covers a surprisingly large number of topics in under 400 pages and is a great reference for both Salesforce.com administrators and developers. In the effort of full disclosure, I must declare that I work at Appirio with Jason but unfortunately I have only met him a couple of times in passing. He will not pay me any money for this post but perh
 date: 2009-10-26 13:06:21 +0300
 image:  '/images/slugs/book-review-development-with-the-force-com-platform.jpg'
-tags:   ["2009", "public"]
+tags:   ["appirio", "salesforce", "visualforce", "apex"]
 ---
 <p><a href="http://www.amazon.com/gp/product/0321647734"><img class="alignleft size-full wp-image-1160" title="force-book-cover" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399510/force-book-cover_hysop8.jpg" alt="force-book-cover" width="240" height="240" /></a>I spent a good part of the weekend going over the newly released book, <a href="http://www.amazon.com/gp/product/0321647734" target="_blank">Development with the Force.com Platform</a> by Jason Ouellette from <a href="http://www.appirio.com" target="_blank">Appirio</a>. The book covers a surprisingly large number of topics in under 400 pages and is a great reference for both Salesforce.com administrators and developers.</p>
 <p>In the effort of full disclosure, I must declare that I work at Appirio with Jason but unfortunately I have only met him a couple of times in passing. He will not pay me any money for this post but perhaps I'll get a free beer at Dreamforce.</p>

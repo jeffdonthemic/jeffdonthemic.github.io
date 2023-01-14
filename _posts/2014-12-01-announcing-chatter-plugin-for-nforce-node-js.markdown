@@ -4,7 +4,7 @@ title:  Announcing a Node.js Chatter Plugin for nforce
 description: After I woke up from my turkey-induced coma on Thanksgiving I wanted to send Chatter to everyone in our Appirio Salesforce org to inform them that I was still alive. Sure, I could have fired up the trusty, ole Chatter app but since I like to work from the command line, I decided to write a Chatter API plugin for my buddy Kevin OHaras #awesome nforce node.js package . Github repo- https-//github.com/jeffdonthemic/nforce-chatter  NPM- https-//www.npmjs.org/package/nforce-chatter  I wrote a nforce-
 date: 2014-12-01 16:01:30 +0300
 image:  '/images/slugs/announcing-chatter-plugin-for-nforce-node-js.jpg'
-tags:   ["2014", "public"]
+tags:   []
 ---
 <p>After I woke up from my turkey-induced coma on Thanksgiving I wanted to send Chatter to everyone in our Appirio Salesforce org to inform them that I was still alive.</p>
 <p>Sure, I could have fired up the trusty, ole Chatter app but since I like to work from the command line, I decided to write a Chatter API plugin for my buddy Kevin O'Hara's #awesome <a href="https://github.com/kevinohara80/nforce">nforce node.js package</a>.</p>

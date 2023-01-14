@@ -4,7 +4,7 @@ title:  How to Pass the Service Cloud Consultant Exam
 description: I took the Service Cloud Consultant exam last week and thought Id post some general pointers on how to pass it. We had a team call with Amy Mattes from Salesforce.com Certification and got some really great insight. There are 60 questions on the exam and you need a 73% to pass. You are allotted 1-45 to take the exam but I think it took me a little over an hour to complete it. First of all, the exam is not a how to configure the service cloud test. Roughly 80% of the exam is based on industry kno
 date: 2011-01-26 22:08:11 +0300
 image:  '/images/slugs/how-to-pass-the-service-cloud-consultant-exam.jpg'
-tags:   ["2011", "public"]
+tags:   ["salesforce"]
 ---
 <p>I took the Service Cloud Consultant exam last week and thought I'd post some general pointers on how to pass it. We had a team call with Amy Mattes from Salesforce.com Certification and got some really great insight. There are 60 questions on the exam and you need a 73% to pass. You are allotted 1:45 to take the exam but I think it took me a little over an hour to complete it.</p>
 <p>First of all, the exam is not a "how to configure the service cloud" test. Roughly 80% of the exam is based on industry knowledge of Service Cloud related topics, call center metrics, KPIs, etc. If you know the call center industry and terminology you'll do really well. A few general pointers:</p>

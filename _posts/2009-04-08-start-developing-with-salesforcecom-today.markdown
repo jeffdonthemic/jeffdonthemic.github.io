@@ -4,7 +4,7 @@ title:  Start Developing with Salesforce.com -- Today!
 description: You have to admit that the Salesforce.com market is hot right now. I see alot of new job openings and a number of unfilled positions. I also see alot of people being let go in the industry and looking for work. This begs the question, How do we get more developers on the Force.com platform?  Someone sent me a tweet the other day and asked, How much does it cost for a dev license to get started? The great thing is that you can get started today  with no out of pocket expenses; everything (e.g. de
 date: 2009-04-08 16:10:10 +0300
 image:  '/images/slugs/start-developing-with-salesforcecom-today.jpg'
-tags:   ["2009", "public"]
+tags:   ["salesforce", "technology"]
 ---
 <p>You have to admit that the Salesforce.com market is hot right now. I see alot of new job openings and a number of unfilled positions. I also see alot of people being "let go" in the industry and looking for work. This begs the question, "How do we get more developers on the Force.com platform"?</p>
 <p>Someone sent me a tweet the other day and asked, "How much does it cost for a dev license to get started"? The great thing is that you can get started <strong>today</strong> with <strong>no out of pocket expenses</strong>; everything (e.g. developer license, IDE, documentation, code examples) is free! If you are not familiar with cloud computing, <a href="/2009/03/11/what-is-cloud-computing/" target="_blank">here's a good video</a> explaining it in layman's terms.</p>

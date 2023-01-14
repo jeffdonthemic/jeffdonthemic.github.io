@@ -4,7 +4,7 @@ title:  Sayonara WordPress. Hola Ghost!
 description: If the DNS has propagated successfully you should be seeing my new Ghost  blog now and Im super excited about it! Ive always hated WordPress (Im not the only one  ) for a number of reasons (expensive, bloated, slow, PITA, etc) but its always been a necessary evil. My main complaint with WordPress is that its trying to be everything for everyone. I dont want an application platform. I want a blog. This is why I love Ghost! Its just a blogging platform and its written in Node.js using Handlebars. 
 date: 2014-05-20 15:59:16 +0300
 image:  '/images/slugs/sayonara-wordpress-hola-ghost.jpg'
-tags:   ["2014", "public"]
+tags:   []
 ---
 <p>If the DNS has propagated successfully you should be seeing my new <a href="http://www.ghost.org">Ghost</a> blog now and I'm super excited about it! I've always hated WordPress (<a href="https://www.google.com/search?q=why+i+hate+wordpress&oq=why+i+hate+wordpress&aqs=chrome..69i57j0.3102j1j7&sourceid=chrome&es_sm=91&ie=UTF-8">I'm not the only one</a>) for a number of reasons (expensive, bloated, slow, PITA, etc) but it's always been a necessary evil. My main complaint with WordPress is that it's trying to be everything for everyone. I don't want an application platform. I want a blog. This is why I love Ghost! It's "just a blogging platform" and it's written in Node.js using Handlebars. FTW!!</p>
 <p><a href="https://ghost.org/jeffdouglas/"><img src="images/ghost-founder.png" alt="" ></a></p>
