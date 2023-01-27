@@ -9,18 +9,18 @@ tags:   ["code sample", "salesforce", "apex"]
 <p>Governor limits are runtime limits enforced by the Force.com platform to ensure that your code doesn't, among other things, hog memory resources, lock up the database with an excessive amount of calls or create infinite code loops. Working within governor limits requires you to sometimes become creative when writing Apex.</p>
 <p>One way to work within Force.com platform limits as to use asynchronous Apex methods with the future annotation. Calls to these methods execute asynchronously when the server has available resources and are subject to their own additional limits:</p>
 <ul>
-	<li>No more than 10 method calls per Apex invocation</li>
-	<li>No more than 200 method calls per Salesforce.com license per 24 hours</li>
-	<li>The parameters specified must be primitive dataypes, arrays of primitive datatypes, or collections of primitive datatypes.</li>
-	<li>Methods with the future annotation cannot take sObjects or objects as arguments.</li>
-	<li>Methods with the future annotation cannot be used in Visualforce controllers in either getMethodName or setMethodName methods, nor in the constructor.</li>
-	<li>You cannot call a method annotated with future from a method that also has the future annotation. Nor can you call a trigger from an annotated method that calls another annotated method.</li>
+ <li>No more than 10 method calls per Apex invocation</li>
+ <li>No more than 200 method calls per Salesforce.com license per 24 hours</li>
+ <li>The parameters specified must be primitive dataypes, arrays of primitive datatypes, or collections of primitive datatypes.</li>
+ <li>Methods with the future annotation cannot take sObjects or objects as arguments.</li>
+ <li>Methods with the future annotation cannot be used in Visualforce controllers in either getMethodName or setMethodName methods, nor in the constructor.</li>
+ <li>You cannot call a method annotated with future from a method that also has the future annotation. Nor can you call a trigger from an annotated method that calls another annotated method.</li>
 </ul>
 One issue that you can run into when using future methods is writing a trigger with a future method that calls itself recursively. Here is a simple scenario. You have a trigger that inserts/updates a record (or a batch of them) and then makes a future method call that performs more processing on the <em>same record(s)</em>. The issue is that this entire process becomes recursive in nature and you receive the error, "System.AsyncException: Future method cannot be called from a future method..." Here is what it looks like:
 <p style="text-align:center;"><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399498/mockup_zzegcj.png"><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399498/mockup_zzegcj.png" alt="" title="mockup" width="550" class="alignnone size-full wp-image-1408" /></a></p>
 There are a couple of ways to prevent this recursive behavior.
 <p><strong>1. Add a new field to the object so the trigger can inspect the record to see if it is being called by the future method.</strong></p>
-<p>The trigger checks the value of IsFutureContext__c in the list of Accounts passed into the trigger. If the IsFutureContext__c value is true then the trigger is being called from the future method and the record shouldn't be processed. If the value of IsFutureContext__c is false, then the  trigger is being called the first time and the future method should be called and passed the Set of unique names.</p>
+<p>The trigger checks the value of IsFutureContext__c in the list of Accounts passed into the trigger. If the IsFutureContext__c value is true then the trigger is being called from the future method and the record shouldn't be processed. If the value of IsFutureContext__c is false, then the trigger is being called the first time and the future method should be called and passed the Set of unique names.</p>
 {% highlight js %}trigger ProcessAccount on Account (before insert, before update) {
  Set&lt;String&gt; uniqueNames = new Set&lt;String&gt;();
  for (Account a : Trigger.new) {
@@ -34,7 +34,7 @@ There are a couple of ways to prevent this recursive behavior.
    AccountProcessor.processAccounts(uniqueNames);
 }
 {% endhighlight %}
-<p>The AccountProcessor class contains the static method with the future annotation that is called by the trigger. The method processes each Account and sets the value of IsFutureContext__c to false before committing. This prevents the trigger from calling the future method once again.</p>
+<p>The AccountProcessor class contains the static method with the future annotation that is called by the trigger.The method processes each Account and sets the value of IsFutureContext__c to false before committing. This prevents the trigger from calling the future method once again.</p>
 {% highlight js %}public class AccountProcessor {
 
  @future
@@ -65,14 +65,14 @@ There are a couple of ways to prevent this recursive behavior.
 {% endhighlight %}
 <p>In this case the trigger inspects the current value of the static variable ProcessorControl.inFutureContext to determine whether to process the records. If the value is false, then the trigger is being called the first time and the future method should be called and passed the Set of unique names. If the value is true then the trigger is being called from the future method and the records should not be processed.</p>
 {% highlight js %}trigger ProcessAccount on Account (before insert, before update) {
-	Set&lt;String&gt; uniqueNames = new Set&lt;String&gt;();
-	if (!ProcessorControl.inFutureContext) {
-		for (Account a : Trigger.new)
-			uniqueNames.add(a.UniqueName__c);
+ Set&lt;String&gt; uniqueNames = new Set&lt;String&gt;();
+ if (!ProcessorControl.inFutureContext) {
+  for (Account a : Trigger.new)
+   uniqueNames.add(a.UniqueName__c);
 
-		if (!uniqueNames.isEmpty())
-			AccountProcessor.processAccounts(uniqueNames);
-	}
+  if (!uniqueNames.isEmpty())
+   AccountProcessor.processAccounts(uniqueNames);
+ }
 }
 {% endhighlight %}
 <p>With this methodology, the method with the future annotation processes each Account and sets the value of the shared static variable to false before committing the records. This prevents the trigger from calling the future method once again.</p>

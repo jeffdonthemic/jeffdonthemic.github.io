@@ -10,7 +10,7 @@ tags:   ["sap", "the internet business"]
 <p>"NetWeaver was available previously only to companies that bought SAP software, but now any individual who joins the SAP developer network can buy a one-year license including software and services to develop and test applications on NetWeaver."</p>
 <p>Here is the catch:</p>
 <ol>
-	<li>For internal development and evaluation only, not production use</li>
-	<li>A one year license is $2,300.</li>
+ <li>For internal development and evaluation only, not production use</li>
+ <li>A one year license is $2,300.</li>
 </ol>
 <a href="http://www.infoworld.com/article/07/10/02/SAP-offers-NetWeaver-subscription-for-developers_1.html?source=NLC-AD&cgd=2007-10-04" target="_blank">Read more</a> at InfoWorld.

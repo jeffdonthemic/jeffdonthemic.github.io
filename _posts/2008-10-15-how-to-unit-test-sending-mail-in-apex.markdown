@@ -11,25 +11,25 @@ tags:   ["code sample", "salesforce", "apex"]
 <p>I contacted our support development rep and he suggested moving the mail functions into their own class and then pass the required parameters to send the mail. This is what I came up with:</p>
 {% highlight js %}public class MailerUtils {
 
-    public static void sendMail(string message) {
+ public static void sendMail(string message) {
 
-        Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
-        String[] toAddresses = new String[] {'me@email1.com','you@email2.com'};
-        mail.setToAddresses(toAddresses);
+  Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
+  String[] toAddresses = new String[] {'me@email1.com','you@email2.com'};
+  mail.setToAddresses(toAddresses);
 
-        mail.setSubject('My Subject');
+  mail.setSubject('My Subject');
 
-        mail.setUseSignature(false);
-        mail.setHtmlBody(message);
+  mail.setUseSignature(false);
+  mail.setHtmlBody(message);
 
-        // Send the email
-        Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
+  // Send the email
+  Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
 
-    }   
+ }
 
-    public static testMethod void testSendMail() {
-        sendMail('This is my email message');
-    }
+ public static testMethod void testSendMail() {
+  sendMail('This is my email message');
+ }
 
 }
 
@@ -38,7 +38,7 @@ tags:   ["code sample", "salesforce", "apex"]
 {% highlight js %}trigger TestEmail on Contact (after insert) {
 
   for (Contact c : Trigger.new) {
-		MailerUtils.sendMail('Welcome ' + c.Name);
+  MailerUtils.sendMail('Welcome ' + c.Name);
   }
 
 }

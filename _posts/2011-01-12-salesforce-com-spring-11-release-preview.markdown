@@ -6,7 +6,7 @@ date: 2011-01-12 16:34:51 +0300
 image:  '/images/slugs/salesforce-com-spring-11-release-preview.jpg'
 tags:   ["salesforce"]
 ---
-<p>The <a href="http://developer.force.com/releases/release/Spring11">Spring '11 Force.com Platform Pre-Release page</a> is now up and ready for dissection! There are a <em><strong>ton</strong></em> of cool features again in this release and some of the major ones have an accompanying video for more info. You can even "Like" and Tweet your favorite features to your heart's content.</p>
+<p>The<a href="http://developer.force.com/releases/release/Spring11">Spring '11 Force.com Platform Pre-Release page</a> is now up and ready for dissection! There are a <em><strong>ton</strong></em> of cool features again in this release and some of the major ones have an accompanying video for more info. You can even "Like" and Tweet your favorite features to your heart's content.</p>
 <p>Some cool features include:</p>
 <ul>
 <li>Chrome support</li>

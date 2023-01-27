@@ -1,20 +1,20 @@
 ---
 layout: post
 title:  Node-RED for Topcoder Challenges with IBM Bluemix & Watson
-description: For the past week I’ve been obsessed with Node-RED . If you are not familiar with it, Node-RED is an open source IBM technology for wiring together hardware devices, APIs and online services in new and interesting ways. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud. Similar in methodology to Yahoo! Pipes, Node-RED initially started as a visual tool for wiring IoT but has de
+description: For the past week Ive been obsessed with Node-RED . If you are not familiar with it, Node-RED is an open source IBM technology for wiring together hardware devices, APIs and online services in new and interesting ways. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud. Similar in methodology to Yahoo! Pipes, Node-RED initially started as a visual tool for wiring IoT but has de
 date: 2015-07-28 20:40:18 +0300
 image:  '/images/node-red-bluemix.png'
 tags:   ["node-red"]
 ---
-<p>For the past week I’ve been obsessed with <a href="http://nodered.org">Node-RED</a>. If you are not familiar with it, Node-RED is an open source IBM technology for “wiring together hardware devices, APIs and online services in new and interesting ways”. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud.</p>
+<p>For the past week Ive been obsessed with <a href="http://nodered.org">Node-RED</a>. If you are not familiar with it, Node-RED is an open source IBM technology for wiring together hardware devices, APIs and online services in new and interesting ways. Since Node-RED is built on Node.js, this makes it ideal to run at the edge of the network on low-cost hardware such as an Arduino or Raspberry Pi as well as in the cloud.</p>
 <p>Similar in methodology to Yahoo! Pipes, Node-RED initially started as a visual tool for wiring IoT but has developed into a service that can do all sorts of crazy things. Installation is simple but to make life easier, <a href="https://console.ng.bluemix.net/">IBM Bluemix</a> offers a Node-RED template so you can get a web app up and running in no time.</p>
-<p>I went through the “create your first flows” <a href="http://nodered.org/docs/getting-started/first-flow.html">tutorials</a> but I wanted to make something more substantial utilizing some of the super sweet <a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/">IBM Watson services</a>. Here’s what I created, and in the end, it was ridiculously simple to build.</p>
+<p>I went through the create your first flows <a href="http://nodered.org/docs/getting-started/first-flow.html">tutorials</a> but I wanted to make something more substantial utilizing some of the super sweet <a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/">IBM Watson services</a>. Heres what I created, and in the end, it was ridiculously simple to build.</p>
 <div class="flex-video"><iframe width="640" height="360" src="https://www.youtube.com/embed/mXdIbHkdQ2E" frameborder="0" allowfullscreen></iframe></div>
 <p>Here's an overview of the Node-RED flow:</p>
 <ul>
 <li>Calls the topcoder RSS feed for JavaScript challenges every hour.</li>
 <li>For each new challenge, call the challenge API to get its details.</li>
-<li>The flow only processes challenges where the type is 'Assembly Competition’ and the total prize money is greater than $1500.</li>
+<li>The flow only processes challenges where the type is 'Assembly Competition and the total prize money is greater than $1500.</li>
 <li>Translate the name of the challenges and its requirements into Spanish using the Watson Machine Translation service.</li>
 <li>Save the Spanish overview of the challenge to MongoDB.</li>
 <li>Tweet the challenge name (in Spanish) and a link to this application so that the Spanish requirements can be viewed.</li>
@@ -28,7 +28,7 @@ tags:   ["node-red"]
 </ul>
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/node-red-rest.png" alt="node-red" ></p>
 <h2 id="ibmbluemixsetup">IBM Bluemix Setup</h2>
-<p>Login to your <a href="https://console.ng.bluemix.net/">IBM Bluemix console</a> and create a new Cloud Foundry App using the <strong>Node-RED Starter</strong> boilerplate. Ensure you add a MongoDB service (I chose MongoLab) and the Watson Language Translation service. You’ll need the credentials from the Language Translation service when building the flow so click the “Show Credentials” link and keep them handy.</p>
+<p>Login to your <a href="https://console.ng.bluemix.net/">IBM Bluemix console</a> and create a new Cloud Foundry App using the <strong>Node-RED Starter</strong> boilerplate. Ensure you add a MongoDB service (I chose MongoLab) and the Watson Language Translation service. Youll need the credentials from the Language Translation service when building the flow so click the Show Credentials link and keep them handy.</p>
 <h2 id="buildingtheflow">Building the Flow</h2>
 <p>Our application is simply built by finding a node in the left panel, dragging it onto the tab and connecting them together.</p>
 <p>To get started, add a Feedparse node for the topcoder RSS feed and enter <a href="https://www.topcoder.com/challenges/feed?list=active&contestType=develop&technologies=JavaScript">this URL</a> for the feed URL.</p>
@@ -37,7 +37,7 @@ tags:   ["node-red"]
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/node-red-2.png" alt="node-red" ></p>
 <p>Make a GET request to the url passed in <code>msg.url</code> (instead of in the URL form field) and pass the response to the next node as a parsed JSON object.</p>
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/node-red-3.png" alt="node-red" ></p>
-<p>Add a Switch node so that we only process flows where the challenge type is 'Assembly Competition’.</p>
+<p>Add a Switch node so that we only process flows where the challenge type is 'Assembly Competition.</p>
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/node-red-4.png" alt="node-red" ></p>
 <p>Add a Function node that calculates the total prize amount and passes it along in the message.</p>
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/node-red-5.png" alt="node-red" ></p>
@@ -57,7 +57,7 @@ tags:   ["node-red"]
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/node-red-12.png" alt="node-red" ></p>
 <p>Lastly, add a twitter out node, connect the bottom output from the previous node to it and then authenticate with your twitter credentials.</p>
 <p><img src="https://www.topcoder.com/wp-content/uploads/2015/07/node-red-13.png" alt="node-red" ></p>
-<p>If you deploy the workspace now it should run the Feedparse and automagically persist data to MongoDB and tweet… assuming everything is setup properly.</p>
+<p>If you deploy the workspace now it should run the Feedparse and automagically persist data to MongoDB and tweet assuming everything is setup properly.</p>
 <h2 id="buildingthewebservice">Building the Web Service</h2>
 <p>Now we need to build our web service so that when people click on the link in the tweet, it displays the challenge information in Spanish in their browser.</p>
 <p>Add a new sheet to your workspace, drag an http input node onto it and setup the method and URL. When the /challenges endpoint receives a request it passes it to the next node.</p>

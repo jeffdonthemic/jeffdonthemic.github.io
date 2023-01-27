@@ -14,8 +14,8 @@ tags:   ["google app engine", "java"]
 {% endhighlight %}
 <p>to</p>
 {% highlight js %}<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee" version="2.4">
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee" version="2.4">
 {% endhighlight %}
 <p>Edit -- Another possible fix can be <a href="http://groups.google.com/group/google-appengine-java/browse_thread/thread/a37b7710568bf54e?pli=1" target="_blank">found here</a>.</p>
 

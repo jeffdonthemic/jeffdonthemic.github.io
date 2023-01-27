@@ -15,7 +15,7 @@ Salesforce.com will evaluate triggers, validation rules, and workflow rules for 
 Wow! A ton of new chart, graph and dashboard enhancements.</p>
 <p><strong>Formula Enhancements</strong><br>
 A ton of these also so see the docs for more info.</p>
-<p><strong>Support for Microsoft® Office 2007 Full-Text Search</strong><br>
+<p><strong>Support for Microsoft Office 2007 Full-Text Search</strong><br>
 The Salesforce CRM Content search engine supports full-text search for all Microsoft Office 2007 Word, Excel, and PowerPoint files.</p>
 <p><strong>New "Community" Application</strong><br>
 This new application replaces the Ideas application in the Force.com app menu and includes both the Ideas and Answers (currently in pilot) tabs.</p>

@@ -14,10 +14,10 @@ tags:   ["code sample", "salesforce", "visualforce", "flex"]
   <apex:sectionHeader title="Required Field and Validation Example"/>
   <apex:pageBlock >
 
-	<apex:flash src="{!$Resource.DisplayValidation}"
-		width="500" height="300"/>
+ <apex:flash src="{!$Resource.DisplayValidation}"
+  width="500" height="300"/>
 
-	</apex:pageBlock>
+ </apex:pageBlock>
 </apex:page>
 
 {% endhighlight %}
@@ -30,7 +30,7 @@ tags:   ["code sample", "salesforce", "visualforce", "flex"]
   layout="vertical"
   height="300" width="500">
 
-	<mx:Script>
+ <mx:Script>
   <![CDATA[
   import com.salesforce.*;
   import com.salesforce.objects.*;
@@ -51,33 +51,33 @@ tags:   ["code sample", "salesforce", "visualforce", "flex"]
 
   }
 
-		private function submitForm():void {
+  private function submitForm():void {
 
-			var aSo:Array = new Array();
-			var so:SObject = new SObject("Contact");
-			so.FirstName = firstName.text;
-			so.LastName = lastName.text;
-			so.Email = email.text;
+   var aSo:Array = new Array();
+   var so:SObject = new SObject("Contact");
+   so.FirstName = firstName.text;
+   so.LastName = lastName.text;
+   so.Email = email.text;
 
-			aSo.push(so);
+   aSo.push(so);
 
-			sfdc.create(aSo,
-				new AsyncResponder(
-					function (obj:Object):void {
-						if (obj[0].success == true) {
-							Alert.show("Created record: "+obj[0].id);
-						} else {
-							Alert.show(obj[0].errors[0].message)
-						}
-					}, sfdcFailure
-				)
-			);
+   sfdc.create(aSo,
+    new AsyncResponder(
+     function (obj:Object):void {
+      if (obj[0].success == true) {
+       Alert.show("Created record: "+obj[0].id);
+      } else {
+       Alert.show(obj[0].errors[0].message)
+      }
+     }, sfdcFailure
+    )
+   );
 
-		}
+  }
 
-		private function loginSuccess(result:Object):void {
-			contactForm.enabled = true;
-		}
+  private function loginSuccess(result:Object):void {
+   contactForm.enabled = true;
+  }
 
   private function sfdcFailure(fault:Object):void {
   Alert.show(fault.faultstring);
@@ -89,22 +89,22 @@ tags:   ["code sample", "salesforce", "visualforce", "flex"]
   }
 
   ]]>
-	</mx:Script>
-	<mx:Text text="To create a new Contact, Last Name is required by Salesforce.com while Email is required via a custom validation rule. &#xd;&#xd;Submit the form with different combinations to view the resulting messages returned from Salesforce.com.&#xd;" width="449"/>
-	<mx:Form id="contactForm" width="100%" height="100%" enabled="false">
-		<mx:FormItem label="First Name">
-			<mx:TextInput id="firstName"/>
-		</mx:FormItem>
-		<mx:FormItem label="Last Name">
-			<mx:TextInput id="lastName"/>
-		</mx:FormItem>
-		<mx:FormItem label="Email">
-			<mx:TextInput id="email"/>
-		</mx:FormItem>
-		<mx:FormItem>
-			<mx:Button label="Submit" click="submitForm()"/>
-		</mx:FormItem>
-	</mx:Form>
+ </mx:Script>
+ <mx:Text text="To create a new Contact, Last Name is required by Salesforce.com while Email is required via a custom validation rule. &#xd;&#xd;Submit the form with different combinations to view the resulting messages returned from Salesforce.com.&#xd;" width="449"/>
+ <mx:Form id="contactForm" width="100%" height="100%" enabled="false">
+  <mx:FormItem label="First Name">
+   <mx:TextInput id="firstName"/>
+  </mx:FormItem>
+  <mx:FormItem label="Last Name">
+   <mx:TextInput id="lastName"/>
+  </mx:FormItem>
+  <mx:FormItem label="Email">
+   <mx:TextInput id="email"/>
+  </mx:FormItem>
+  <mx:FormItem>
+   <mx:Button label="Submit" click="submitForm()"/>
+  </mx:FormItem>
+ </mx:Form>
 
 </mx:Application>
 {% endhighlight %}

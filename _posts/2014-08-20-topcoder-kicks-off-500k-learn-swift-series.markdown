@@ -12,18 +12,18 @@ tags:   ["swift"]
 <blockquote>
 <p>TL;DR <a href="http://swift.topcoder.com">Head over to our Swift site for the complete run-down</a>.</p>
 </blockquote>
-<p>I've been heads-down with Swift for about a month now and I really like the language. I was never a huge fan of Objective-C but I really love the concepts and ease of use of Swift. It’s has all the cool C features with the look and feel of a scripting language. Most of my time is spent in Playgrounds, essentially the "Arnold Schwarzenegger of REPLs". Playgrounds are a great way to learn and we'll be leveraging them to the fullest in a number of our challenges.</p>
+<p>I've been heads-down with Swift for about a month now and I really like the language. I was never a huge fan of Objective-C but I really love the concepts and ease of use of Swift. Its has all the cool C features with the look and feel of a scripting language. Most of my time is spent in Playgrounds, essentially the "Arnold Schwarzenegger of REPLs". Playgrounds are a great way to learn and we'll be leveraging them to the fullest in a number of our challenges.</p>
 <p>I'm running the program from the community side which involves developing the Swift site, writing challenges, interacting with members on the discussion boards and social networks, grading challenges and reaching out to guys that are much smarter than me in the Swift community for help and guidance. Should be an interesting 3 months!</p>
 <p>We've split the #getswifter series up into three stages:</p>
 <ol>
 <li>
-<p><a href="http://swift.topcoder.com/learn-swift/">Learn Swift</a> – I've developed a number of Playground challenges to introduce you to the new Swift concepts and syntax. It's pretty fun and shouldn't take you more than an hour or so to complete.</p>
+<p><a href="http://swift.topcoder.com/learn-swift/">Learn Swift</a>  I've developed a number of Playground challenges to introduce you to the new Swift concepts and syntax. It's pretty fun and shouldn't take you more than an hour or so to complete.</p>
 </li>
 <li>
-<p><a href="http://swift.topcoder.com/fun-challenges/">Fun Challenges</a> – After getting your feet wet in Playground, it's time to jump into some more advanced challenges to build your skills. Compete in algorithm challenges, mashup some APIs on your phone, build a CLI or write a simple physics game. New, exciting challenges start each week. I even launched a "Narinder Pong" challenge to build an 80's style pong game using <a href="http://appirio.com/wp-content/uploads/2013/07/Exec_nsingh.png">Narinder's head</a> as the ball.</p>
+<p><a href="http://swift.topcoder.com/fun-challenges/">Fun Challenges</a>  After getting your feet wet in Playground, it's time to jump into some more advanced challenges to build your skills. Compete in algorithm challenges, mashup some APIs on your phone, build a CLI or write a simple physics game. New, exciting challenges start each week. I even launched a "Narinder Pong" challenge to build an 80's style pong game using <a href="http://appirio.com/wp-content/uploads/2013/07/Exec_nsingh.png">Narinder's head</a> as the ball.</p>
 </li>
 <li>
-<p><a href="http://swift.topcoder.com/real-world-challenges/">Real World Challenges</a> – We've lined up some great sponsors that want to build Swift demos, POCs and production quality apps. There's nothing better than real world experience with real customers!</p>
+<p><a href="http://swift.topcoder.com/real-world-challenges/">Real World Challenges</a>  We've lined up some great sponsors that want to build Swift demos, POCs and production quality apps. There's nothing better than real world experience with real customers!</p>
 </li>
 </ol>
 <p>Head over to <a href="swift.topcoder.com">swift.topcoder.com</a> and get started with Swift!</p>

@@ -10,12 +10,12 @@ tags:   ["salesforce"]
 <p>First of all what is Aura and why is it so significant? Aura is a UI framework for developing dynamic web apps for mobile and desktop devices (with or without Force.com), while providing a scalable long-lived lifecycle to support building apps engineered for growth. Probably one of the most significant factors is that the project is entirely open source. This is a very big accomplishment for Salesforce.com as I believe it's the first time they will accept external contributions and roll them back into a fully supported Salesforce product. They are really reaching out to the developer community for input and support to make this a success for all of us.</p>
 <p>Some key features of aura include:</p>
 <ol>
-	<li>Tag-based layout & component definition</li>
-	<li>Encapsulated UI development with a strongly typed event model</li>
-	<li>Object-oriented programming behaviors (extends, implements, abstract)</li>
-	<li>Encapsulated bundles with models, controllers, CSS, static resources and markup</li>
-	<li>Integrated functional and performance testing (did you expect any less?)</li>
-	<li>Mobile, mobile and mobile-ready</li>
+ <li>Tag-based layout & component definition</li>
+ <li>Encapsulated UI development with a strongly typed event model</li>
+ <li>Object-oriented programming behaviors (extends, implements, abstract)</li>
+ <li>Encapsulated bundles with models, controllers, CSS, static resources and markup</li>
+ <li>Integrated functional and performance testing (did you expect any less?)</li>
+ <li>Mobile, mobile and mobile-ready</li>
 </ol>
 <p>There are two parts of aura, an open-source package and Force.com package. The open-source package is <a href="https://github.com/forcedotcom/aura">available now on github</a> and you can start playing with an early version of it. Right now the core framework is server side Java but there are adapters for essentially any JVM-based language (Heroku FTW!). Languages such as Node.js and .NET will be a little tougher to implement but Doug seems very open to talking about a road map. There is also an Eclipse plugin but I haven't found reference to it yet.</p>
 <p>The Force.com package will have all capabilities of the open source package but will on course be in Apex. Component bundles will saved to the Force.com database and there will be special Salesforce metadata-aware components such as Chatter feeds, inputField and outputFIeld and recordLayout (detail / edit), etc. There will also be some new standard and custom components that can be embedded in standard page layouts, the developer console and even override standard components.</p>

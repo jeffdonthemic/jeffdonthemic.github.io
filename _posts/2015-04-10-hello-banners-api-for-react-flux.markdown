@@ -9,7 +9,7 @@ tags:   ["react", "flux", "javascript"]
 <p>Welcome to part three of our Building with React & Flux series. Check out the <a href="/2015/03/12/building-with-react-flux-getting-started/">Getting Started</a> and <a href="/2015/03/24/building-with-react-flux-hello-react-banners/">Hello React Banners</a> posts to get up to speed on <a href="http://facebook.github.io/react/">React</a> and <a href="http://facebook.github.io/flux/docs/overview.html">Flux</a> if you are new to it.</p>
 <p>To recap, we are going to build a simple app to manage banner ads using React and <a href="https://github.com/spoike/refluxjs">RefluxJS</a>, one of the many implementations of Flux. My goal is to make this application as simple as possible while demonstrating the basics of React and Reflux. Last week we built a simple app that looks like the following:</p>
 <ol>
-<li>The 'home’ page which displays a table of all banners</li>
+<li>The 'home page which displays a table of all banners</li>
 <li>A form to add a new banner</li>
 <li>A view that displays a banner and provides the functionality to toggle the display status of the banner</li>
 </ol>

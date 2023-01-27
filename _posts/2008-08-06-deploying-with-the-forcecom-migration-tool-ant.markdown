@@ -11,10 +11,10 @@ tags:   ["salesforce", "java"]
 <p>Initially was getting the following error during the build process "Problem: failed to create task or type". I had to add the ant-saleforce.jar to the Ant runtime classpath (Window > Preferences > Ant > Runtime).</p>
 <p>These are instructions for setting up a new project for "Sandbox1"</p>
 <ol>
-	<li>Created a new project in Eclipse called "Deploy" for all of the deployment operations.</li>
-	<li>Set the salesforce.com username, password and serverurl in the build.properties file.</li>
-	<li>Created a folder under src for the sandbox (eg Sandbox1, Sun), so the resulting folder was Deploy/src/Sandbox1.</li>
-	<li>In the Sandbox1 folder put package.xml which specifies the components that will be downloaded from the target instance. You can download all or specify the file names for each type. A sample package.xml is below. Objects will be downloaded to src/Sandbox1/src directory.</li>
+ <li>Created a new project in Eclipse called "Deploy" for all of the deployment operations.</li>
+ <li>Set the salesforce.com username, password and serverurl in the build.properties file.</li>
+ <li>Created a folder under src for the sandbox (eg Sandbox1, Sun), so the resulting folder was Deploy/src/Sandbox1.</li>
+ <li>In the Sandbox1 folder put package.xml which specifies the components that will be downloaded from the target instance. You can download all or specify the file names for each type. A sample package.xml is below. Objects will be downloaded to src/Sandbox1/src directory.</li>
 </ol>
 {% highlight js %}<types>
  <members>CreateCampaignStatusesTriggerTest</members>
@@ -34,60 +34,60 @@ tags:   ["salesforce", "java"]
 <p><strong>Sample package.xml file</strong></p>
 {% highlight js %}<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>*</members>
-        <members>Account</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>HomePageComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>HomePageLayout</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Letterhead</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Scontrol</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-    <version>13.0</version>
+ <types>
+ <members>*</members>
+ <name>ApexClass</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>ApexComponent</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>ApexPage</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>ApexTrigger</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>CustomApplication</name>
+ </types>
+ <types>
+ <members>*</members>
+ <members>Account</members>
+ <name>CustomObject</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>CustomTab</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>HomePageComponent</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>HomePageLayout</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>Letterhead</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>Profile</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>Scontrol</name>
+ </types>
+ <types>
+ <members>*</members>
+ <name>StaticResource</name>
+ </types>
+ <version>13.0</version>
 </package>
 {% endhighlight %}
 

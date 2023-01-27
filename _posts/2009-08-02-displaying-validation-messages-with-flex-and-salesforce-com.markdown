@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Displaying Validation Messages with Flex and Salesforce.com
-description: I created a small Flex application that outlines how you can return messages (required fields, validation errors, etc) from Salesforce.com. The code is fairly basic and checks the return objects success flag and display error message depending on the value of the flag. You can run this demo  on my Developer Site.  	  	 	 	 		 			 		 		 			 		 		 			 		 		 			 		 	  
+description: I created a small Flex application that outlines how you can return messages (required fields, validation errors, etc) from Salesforce.com. The code is fairly basic and checks the return objects success flag and display error message depending on the value of the flag. You can run this demo  on my Developer Site.                                                      
 date: 2009-08-02 16:00:00 +0300
 image:  '/images/slugs/displaying-validation-messages-with-flex-and-salesforce-com.jpg'
 tags:   ["code sample", "salesforce", "flex"]
@@ -16,7 +16,7 @@ tags:   ["code sample", "salesforce", "flex"]
   layout="vertical"
   height="300" width="500">
 
-	<mx:Script>
+ <mx:Script>
   <![CDATA[
   import com.salesforce.*;
   import com.salesforce.objects.*;
@@ -37,33 +37,33 @@ tags:   ["code sample", "salesforce", "flex"]
 
   }
 
-		private function submitForm():void {
+  private function submitForm():void {
 
-			var aSo:Array = new Array();
-			var so:SObject = new SObject("Contact");
-			so.FirstName = firstName.text;
-			so.LastName = lastName.text;
-			so.Email = email.text;
+   var aSo:Array = new Array();
+   var so:SObject = new SObject("Contact");
+   so.FirstName = firstName.text;
+   so.LastName = lastName.text;
+   so.Email = email.text;
 
-			aSo.push(so);
+   aSo.push(so);
 
-			sfdc.create(aSo,
-				new AsyncResponder(
-					function (obj:Object):void {
-						if (obj[0].success == true) {
-							Alert.show("Created record: "+obj[0].id);
-						} else {
-							Alert.show(obj[0].errors[0].message)
-						}
-					}, sfdcFailure
-				)
-			);
+   sfdc.create(aSo,
+    new AsyncResponder(
+     function (obj:Object):void {
+      if (obj[0].success == true) {
+       Alert.show("Created record: "+obj[0].id);
+      } else {
+       Alert.show(obj[0].errors[0].message)
+      }
+     }, sfdcFailure
+    )
+   );
 
-		}
+  }
 
-		private function loginSuccess(result:Object):void {
-			contactForm.enabled = true;
-		}
+  private function loginSuccess(result:Object):void {
+   contactForm.enabled = true;
+  }
 
   private function sfdcFailure(fault:Object):void {
   Alert.show(fault.faultstring);
@@ -75,22 +75,22 @@ tags:   ["code sample", "salesforce", "flex"]
   }
 
   ]]>
-	</mx:Script>
-	<mx:Text text="To create a new Contact, Last Name is required by Salesforce.com while Email is required via a custom validation rule. &#xd;&#xd;Submit the form with different combinations to view the resulting messages returned from Salesforce.com.&#xd;" width="449"/>
-	<mx:Form id="contactForm" width="100%" height="100%" enabled="false">
-		<mx:FormItem label="First Name">
-			<mx:TextInput id="firstName"/>
-		</mx:FormItem>
-		<mx:FormItem label="Last Name">
-			<mx:TextInput id="lastName"/>
-		</mx:FormItem>
-		<mx:FormItem label="Email">
-			<mx:TextInput id="email"/>
-		</mx:FormItem>
-		<mx:FormItem>
-			<mx:Button label="Submit" click="submitForm()"/>
-		</mx:FormItem>
-	</mx:Form>
+ </mx:Script>
+ <mx:Text text="To create a new Contact, Last Name is required by Salesforce.com while Email is required via a custom validation rule. &#xd;&#xd;Submit the form with different combinations to view the resulting messages returned from Salesforce.com.&#xd;" width="449"/>
+ <mx:Form id="contactForm" width="100%" height="100%" enabled="false">
+  <mx:FormItem label="First Name">
+   <mx:TextInput id="firstName"/>
+  </mx:FormItem>
+  <mx:FormItem label="Last Name">
+   <mx:TextInput id="lastName"/>
+  </mx:FormItem>
+  <mx:FormItem label="Email">
+   <mx:TextInput id="email"/>
+  </mx:FormItem>
+  <mx:FormItem>
+   <mx:Button label="Submit" click="submitForm()"/>
+  </mx:FormItem>
+ </mx:Form>
 
 </mx:Application>
 {% endhighlight %}

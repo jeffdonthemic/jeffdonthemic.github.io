@@ -1,36 +1,36 @@
 ---
 layout: post
 title:  Rich Internet Applications Using Flex, Salesforce.com and Google App Engine
-description: Cross-posted at the Appirio Technology Blog It’s fairly common these days to see Flex applications running inside Salesforce.com. But what if youd like to run your Flex applications on another SaaS provider like Google App Engine or Amazon EC2. We are going to set up a simple Flex application that fetches Accounts and Opportunities from Salesforce.com using an open source remoting library that runs on Google App Engine. Here a quick peak at the final application-  You can run this demo at-  http
+description: Cross-posted at the Appirio Technology Blog Its fairly common these days to see Flex applications running inside Salesforce.com. But what if youd like to run your Flex applications on another SaaS provider like Google App Engine or Amazon EC2. We are going to set up a simple Flex application that fetches Accounts and Opportunities from Salesforce.com using an open source remoting library that runs on Google App Engine. Here a quick peak at the final application-  You can run this demo at-  http
 date: 2009-08-20 14:06:27 +0300
 image:  '/images/slugs/rich-internet-applications-using-flex-salesforce-com-and-google-app-engine.jpg'
 tags:   ["cloud computing", "code sample", "google app engine", "salesforce", "flex", "gae/j"]
 ---
 <p>Cross-posted at the <a href="http://techblog.appirio.com/2009/08/rich-internet-applications-using-flex.html" target="_blank">Appirio Technology Blog</a></p>
-<p>It’s fairly common these days to see Flex applications running inside Salesforce.com. But what if you'd like to run your Flex applications on another SaaS provider like Google App Engine or Amazon EC2. We are going to set up a simple Flex application that fetches Accounts and Opportunities from Salesforce.com using an open source remoting library that runs on Google App Engine. Here a quick peak at the final application:</p>
+<p>Its fairly common these days to see Flex applications running inside Salesforce.com. But what if you'd like to run your Flex applications on another SaaS provider like Google App Engine or Amazon EC2. We are going to set up a simple Flex application that fetches Accounts and Opportunities from Salesforce.com using an open source remoting library that runs on Google App Engine. Here a quick peak at the final application:</p>
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399511/flex-graniteds-screenshot_d9pepz.png"><img class="alignnone size-medium wp-image-1116" title="flex-graniteDS-screenshot" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/h_211,w_300/v1400399511/flex-graniteds-screenshot_d9pepz.png" alt="flex-graniteDS-screenshot" width="300" height="211" /></a></p>
 <p><strong>You can run this demo at: </strong><a href="http://jeffdouglas-sfdc-graniteds.appspot.com/main.html" target="_blank"><strong>http://jeffdouglas-sfdc-graniteds.appspot.com/main.html</strong></a></p>
-<p>Flex can communicate with a Java backend using HTTP, SOAP-based web services or Adobe’s proprietary AMF format. There are a number of open source AMF implementations including Aodobe BlazeDS, WebORB and GraniteDS. These implementations allow you to communicate via JMS or Flex remoting and are more efficient and exponentially faster than using XML across the wire. For this application we are going to be utilizing <a href="http://sourceforge.net/projects/granite/" target="_blank">GraniteDS</a>. The GraniteDS remoting service is a high performance data transfer service that allows your Flex applications to directly invoke Java object methods on your application and consume the return values natively. The objects returned from the server-side methods are automatically deserialized into either dynamic or typed ActionScript objects.</p>
+<p>Flex can communicate with a Java backend using HTTP, SOAP-based web services or Adobes proprietary AMF format. There are a number of open source AMF implementations including Aodobe BlazeDS, WebORB and GraniteDS. These implementations allow you to communicate via JMS or Flex remoting and are more efficient and exponentially faster than using XML across the wire. For this application we are going to be utilizing <a href="http://sourceforge.net/projects/granite/" target="_blank">GraniteDS</a>. The GraniteDS remoting service is a high performance data transfer service that allows your Flex applications to directly invoke Java object methods on your application and consume the return values natively. The objects returned from the server-side methods are automatically deserialized into either dynamic or typed ActionScript objects.</p>
 <p><strong>Setting Up Your Environment</strong></p>
-<p>To get started you'll need to <a href="http://www.adobe.com/cfusion/entitlement/index.cfm?e=flexbuilder3" target="_blank">download</a> the Adobe Flex 3.0 Builder 3 or Flex 3 Builder Plug-In. There’s a 60 day trial if you don’t already have a license. Installation is pretty straight-forward if you are familiar with the Eclipse installation process. The plug-in is a little easier and quicker to install.</p>
+<p>To get started you'll need to <a href="http://www.adobe.com/cfusion/entitlement/index.cfm?e=flexbuilder3" target="_blank">download</a> the Adobe Flex 3.0 Builder 3 or Flex 3 Builder Plug-In. Theres a 60 day trial if you dont already have a license. Installation is pretty straight-forward if you are familiar with the Eclipse installation process. The plug-in is a little easier and quicker to install.</p>
 <p>If you don't have a Google App Engine account, you can create one <a href="http://appengine.google.com" target="_blank">here</a>. You'll also need to download and install the Google App Engine SDK and Eclipse plug-in. You can find details on this process <a href="http://code.google.com/appengine/downloads.html" target="_blank">here</a>.</p>
 <p><strong>Creating Your Project</strong></p>
-<p>Now that our environment is setup, create a new Web Application Project and uncheck “Use Google Web Toolkit”. Since we are going to be using Flex as the front end for our application you will want to add the Flex Project Nature to your project. Right click on the project name in the left panel and select Flex Project Nature -> Add Flex Project Nature. Choose “Other” as the application server and click Next and then Finish. This will automatically create your Flex main.mxml file for you in the src directory.</p>
-<p>After the file has been created you should see the following error message in the Eclipse Problems tab, "Cannot create HTML wrapper. Right-click here to recreate folder html-template." To fix this simply right click on the error message and select “Recreate HTML Templates”.</p>
+<p>Now that our environment is setup, create a new Web Application Project and uncheck Use Google Web Toolkit. Since we are going to be using Flex as the front end for our application you will want to add the Flex Project Nature to your project. Right click on the project name in the left panel and select Flex Project Nature -> Add Flex Project Nature. Choose Other as the application server and click Next and then Finish. This will automatically create your Flex main.mxml file for you in the src directory.</p>
+<p>After the file has been created you should see the following error message in the Eclipse Problems tab, "Cannot create HTML wrapper. Right-click here to recreate folder html-template." To fix this simply right click on the error message and select Recreate HTML Templates.</p>
 <p><strong>Adding Required Libraries</strong></p>
-<p>There are a number of libraries that we are going to need for Salesforce.com and GraniteDS. Download the latest version of GraniteDS from <a href="http://sourceforge.net/projects/granite/files/" target="_blank">here</a>, unzip the files, find the granite.jar in the graniteds/build/ directory and place it into your project’s /WEB-INF/lib/ directory.</p>
-<p>You’ll also need to get the latest version of Xalan-J from <a href="http://www.apache.org/dyn/closer.cgi/xml/xalan-j" target="_blank">here</a>. Unzip the files and copy serializer.jar and xalan.jar into your project’s /WEB-INF/lib directory.</p>
+<p>There are a number of libraries that we are going to need for Salesforce.com and GraniteDS. Download the latest version of GraniteDS from <a href="http://sourceforge.net/projects/granite/files/" target="_blank">here</a>, unzip the files, find the granite.jar in the graniteds/build/ directory and place it into your projects /WEB-INF/lib/ directory.</p>
+<p>Youll also need to get the latest version of Xalan-J from <a href="http://www.apache.org/dyn/closer.cgi/xml/xalan-j" target="_blank">here</a>. Unzip the files and copy serializer.jar and xalan.jar into your projects /WEB-INF/lib directory.</p>
 <p>There are two jar files you will need for the Salesforce.com integration. Download the Force.com Web Service Connector files from <a href="http://code.google.com/p/sfdc-wsc/downloads/list" target="_blank">here</a> and copy them to your project's /WEB-INF/lib directory:</p>
 <ul>
-	<li>partner-library.jar - the objects and methods from the Force.com partner WSDL</li>
-	<li>wsc-gae-16_0.jar - the Web Service parsing and transport for GAE-Java</li>
+ <li>partner-library.jar - the objects and methods from the Force.com partner WSDL</li>
+ <li>wsc-gae-16_0.jar - the Web Service parsing and transport for GAE-Java</li>
 </ul>
 You'll need to add these new jar files to your Java build path in Eclipse by right clicking on the project name and selecting Properties. Select Java Build Path -> Libraries and add your jars from the lib directory.
 <p><strong>Server Configuration</strong></p>
 <p>So now that we have all of requirements in place we can start configuring our application. Place the following code into your /WEB-INF/web-xml file between the tags to tell App Engine which classes GraniteDS utilizes.</p>
 {% highlight js %}<!-- GraniteDS -->
-	<listener>
-	<listener-class>org.granite.config.GraniteConfigListener</listener-class>
+ <listener>
+ <listener-class>org.granite.config.GraniteConfigListener</listener-class>
 </listener>
 
 <!-- handle AMF requests serialization and deserialization -->
@@ -56,7 +56,7 @@ You'll need to add these new jar files to your Java build path in Eclipse by rig
 
 {% endhighlight %}
 <p>You'll also want to change the welcome-file to specify main.html instead of the generated index.html file.</p>
-<p>GraniteDS communicates with the servlet container via a remoting destination. A Remoting destination exposes a Java class that your Flex application can invoke remotely. The destination id is the logical name that your Flex application uses to refer to the remote class. This eliminates the need to hardcode a reference to the fully qualified Java class name. This logical name is mapped to the Java class name as part of the destination configuration in services-config.xml. Create a new folder under /WEB-INF/ called “flex” and create the following services-config.xml file.</p>
+<p>GraniteDS communicates with the servlet container via a remoting destination. A Remoting destination exposes a Java class that your Flex application can invoke remotely. The destination id is the logical name that your Flex application uses to refer to the remote class. This eliminates the need to hardcode a reference to the fully qualified Java class name. This logical name is mapped to the Java class name as part of the destination configuration in services-config.xml. Create a new folder under /WEB-INF/ called flex and create the following services-config.xml file.</p>
 {% highlight js %}<?xml version="1.0" encoding="UTF-8"?>
 <services-config>
  <services>
@@ -93,8 +93,8 @@ You'll need to add these new jar files to your Java build path in Eclipse by rig
 <p>One of the most important parts of this file is the RemoteObject tag at the top. The id of the tag (gateway) is used by the application to reference the object while the destination (Gateway) is same destination we set up in our services-config.xml file specifying our remoting destination of com.appirio.Gateway.</p>
 <p>The individual methods specified by the RemoteObject tag map directly to methods in the Gateway class that we are about to define.</p>
 {% highlight js %}<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
-	layout="absolute"
-	creationComplete="gateway.getAccounts()">
+ layout="absolute"
+ creationComplete="gateway.getAccounts()">
 
  <mx:RemoteObject id="gateway" destination="Gateway" fault="Alert.show(event.fault.toString());">
    <mx:method name="getAccounts" result="storeAccounts(event)" fault="Alert.show(event.fault.faultString);" />
@@ -102,149 +102,149 @@ You'll need to add these new jar files to your Java build path in Eclipse by rig
    <mx:method name="createOpportunity" result="fetchOpportunities(event)" fault="Alert.show(event.fault.faultString);" />
  </mx:RemoteObject>
 
-	<mx:Script>
-	<![CDATA[
-		import mx.controls.Alert;
-		import mx.collections.ArrayCollection;
-		import mx.rpc.events.ResultEvent;
+ <mx:Script>
+ <![CDATA[
+  import mx.controls.Alert;
+  import mx.collections.ArrayCollection;
+  import mx.rpc.events.ResultEvent;
 
-		[Bindable] private var accounts:ArrayCollection;
-		[Bindable] private var opportunities:ArrayCollection;
-		[Bindable] private var selectedAccount:Account;
+  [Bindable] private var accounts:ArrayCollection;
+  [Bindable] private var opportunities:ArrayCollection;
+  [Bindable] private var selectedAccount:Account;
 
-		// store the accounts returned from Salesforce.com, select the first account as
-		// the currently selected one and then fetch its opportunities from Salesforce.com
-		private function storeAccounts(event:ResultEvent):void {
-			accounts = event.result as ArrayCollection;
-			selectedAccount = accounts.getItemAt(0) as Account;
-			gateway.getOpportunities(selectedAccount.id);
-		}
+  // store the accounts returned from Salesforce.com, select the first account as
+  // the currently selected one and then fetch its opportunities from Salesforce.com
+  private function storeAccounts(event:ResultEvent):void {
+   accounts = event.result as ArrayCollection;
+   selectedAccount = accounts.getItemAt(0) as Account;
+   gateway.getOpportunities(selectedAccount.id);
+  }
 
-		// store the list of opportunities returned from Salesforce.com
-		private function storeOpportunities(event:ResultEvent):void {
-			opportunities = event.result as ArrayCollection;
-		}
+  // store the list of opportunities returned from Salesforce.com
+  private function storeOpportunities(event:ResultEvent):void {
+   opportunities = event.result as ArrayCollection;
+  }
 
-		// fetch the opportunities from Salesforce.com after a new opportunities has been created
-		// and returned from the createOpportunity() remote object method
-		private function fetchOpportunities(event:ResultEvent):void {
-			gateway.getOpportunities(selectedAccount.id);
-		}
+  // fetch the opportunities from Salesforce.com after a new opportunities has been created
+  // and returned from the createOpportunity() remote object method
+  private function fetchOpportunities(event:ResultEvent):void {
+   gateway.getOpportunities(selectedAccount.id);
+  }
 
-		private function changeAccount():void {
-			opportunities = null;
-			selectedAccount = cbxAccount.selectedItem as Account;
-			gateway.getOpportunities(selectedAccount.id);
-		}
+  private function changeAccount():void {
+   opportunities = null;
+   selectedAccount = cbxAccount.selectedItem as Account;
+   gateway.getOpportunities(selectedAccount.id);
+  }
 
-		private function saveOpportunity():void {
+  private function saveOpportunity():void {
 
-			var opp:Opportunity = new Opportunity();
-			opp.accountId = selectedAccount.id;
-			opp.probability = frmProbability.text;
-			opp.stageName = frmStage.text;
-			opp.amount = frmAmount.text;
-			opp.closeDate = dateFormatter.format(frmCloseDate.selectedDate);
-			opp.name = frmName.text;
-			opp.orderNumber = frmOrder.text;
+   var opp:Opportunity = new Opportunity();
+   opp.accountId = selectedAccount.id;
+   opp.probability = frmProbability.text;
+   opp.stageName = frmStage.text;
+   opp.amount = frmAmount.text;
+   opp.closeDate = dateFormatter.format(frmCloseDate.selectedDate);
+   opp.name = frmName.text;
+   opp.orderNumber = frmOrder.text;
 
-			// create the opportunity
-			gateway.createOpportunity(opp);
+   // create the opportunity
+   gateway.createOpportunity(opp);
 
-			// reset the form
-			frmProbability.selectedIndex = 0;
-			frmStage.selectedIndex = 0;
-			frmAmount.text = null;
-			frmCloseDate.selectedDate = null;
-			frmName.text = null;
-			frmOrder.text = null;
+   // reset the form
+   frmProbability.selectedIndex = 0;
+   frmStage.selectedIndex = 0;
+   frmAmount.text = null;
+   frmCloseDate.selectedDate = null;
+   frmName.text = null;
+   frmOrder.text = null;
 
-		}
+  }
 
-	]]>
-	</mx:Script>
+ ]]>
+ </mx:Script>
 
-	<mx:DateFormatter id="dateFormatter" formatString="MM/DD/YYYY"/>
+ <mx:DateFormatter id="dateFormatter" formatString="MM/DD/YYYY"/>
 
-	<mx:Label x="10" y="14" text="Telesales Demo with Salesforce.com, GraniteDS and Google App Engine" fontSize="18" color="#FFFFFF"/>
+ <mx:Label x="10" y="14" text="Telesales Demo with Salesforce.com, GraniteDS and Google App Engine" fontSize="18" color="#FFFFFF"/>
 
-	<mx:VBox top="50" bottom="10" left="10" right="10">
-		<mx:HBox width="100%" height="50%">
-			<mx:Panel width="50%" height="100%" layout="absolute" title="Account Display">
-				<mx:Form width="100%" height="100%">
-					<mx:FormItem label="Account">
-						<mx:ComboBox
-							id="cbxAccount"
-							dataProvider="{accounts}"
-							labelField="name"
-							change="changeAccount()"/>
-					</mx:FormItem>
-					<mx:FormItem label="City">
-						<mx:Text text="{selectedAccount.city}"/>
-					</mx:FormItem>
-					<mx:FormItem label="State">
-						<mx:Text text="{selectedAccount.state}"/>
-					</mx:FormItem>
-					<mx:FormItem label="Phone">
-						<mx:Text text="{selectedAccount.phone}"/>
-					</mx:FormItem>
-					<mx:FormItem label="Website">
-						<mx:Text text="{selectedAccount.website}"/>
-					</mx:FormItem>
-				</mx:Form>
-			</mx:Panel>
-			<mx:Panel width="50%" height="100%" layout="absolute" title="New Opportunity for {selectedAccount.name}">
-				<mx:Form width="100%" height="100%">
-					<mx:FormItem label="Name">
-						<mx:TextInput id="frmName"/>
-					</mx:FormItem>
-					<mx:FormItem label="Amount">
-						<mx:TextInput id="frmAmount"/>
-					</mx:FormItem>
-					<mx:FormItem label="Stage">
-						<mx:ComboBox id="frmStage">
-							<mx:dataProvider>
-								<mx:String>Prospecting</mx:String>
-								<mx:String>Qualifications</mx:String>
-								<mx:String>Value Proposition</mx:String>
-							</mx:dataProvider>
-						</mx:ComboBox>
-					</mx:FormItem>
-					<mx:FormItem label="Probability">
-						<mx:ComboBox id="frmProbability">
-							<mx:dataProvider>
-								<mx:String>10</mx:String>
-								<mx:String>25</mx:String>
-								<mx:String>50</mx:String>
-								<mx:String>75</mx:String>
-							</mx:dataProvider>
-						</mx:ComboBox>
-					</mx:FormItem>
-					<mx:FormItem label="Close Date">
-						<mx:DateField id="frmCloseDate"/>
-					</mx:FormItem>
-					<mx:FormItem label="Order">
-						<mx:TextInput id="frmOrder"/>
-					</mx:FormItem>
-					<mx:FormItem>
-						<mx:Button label="Save Opportunity" click="saveOpportunity()"/>
-					</mx:FormItem>
-				</mx:Form>
-			</mx:Panel>
-		</mx:HBox>
-		<mx:Panel width="100%" height="50%" layout="absolute" title="Opportunities for {selectedAccount.name}">
-			<mx:DataGrid width="100%" height="100%" id="dgOpps" dataProvider="{opportunities}">
-				<mx:columns>
-					<mx:DataGridColumn headerText="Name" dataField="name"/>
-					<mx:DataGridColumn headerText="Amount" dataField="amount"/>
-					<mx:DataGridColumn headerText="Stage" dataField="stageName"/>
-					<mx:DataGridColumn headerText="Probability" dataField="probability"/>
-					<mx:DataGridColumn headerText="Close Date" dataField="closeDate"/>
-					<mx:DataGridColumn headerText="Order" dataField="orderNumber"/>
-				</mx:columns>
-			</mx:DataGrid>
-		</mx:Panel>
-	</mx:VBox>
+ <mx:VBox top="50" bottom="10" left="10" right="10">
+  <mx:HBox width="100%" height="50%">
+   <mx:Panel width="50%" height="100%" layout="absolute" title="Account Display">
+    <mx:Form width="100%" height="100%">
+     <mx:FormItem label="Account">
+      <mx:ComboBox
+       id="cbxAccount"
+       dataProvider="{accounts}"
+       labelField="name"
+       change="changeAccount()"/>
+     </mx:FormItem>
+     <mx:FormItem label="City">
+      <mx:Text text="{selectedAccount.city}"/>
+     </mx:FormItem>
+     <mx:FormItem label="State">
+      <mx:Text text="{selectedAccount.state}"/>
+     </mx:FormItem>
+     <mx:FormItem label="Phone">
+      <mx:Text text="{selectedAccount.phone}"/>
+     </mx:FormItem>
+     <mx:FormItem label="Website">
+      <mx:Text text="{selectedAccount.website}"/>
+     </mx:FormItem>
+    </mx:Form>
+   </mx:Panel>
+   <mx:Panel width="50%" height="100%" layout="absolute" title="New Opportunity for {selectedAccount.name}">
+    <mx:Form width="100%" height="100%">
+     <mx:FormItem label="Name">
+      <mx:TextInput id="frmName"/>
+     </mx:FormItem>
+     <mx:FormItem label="Amount">
+      <mx:TextInput id="frmAmount"/>
+     </mx:FormItem>
+     <mx:FormItem label="Stage">
+      <mx:ComboBox id="frmStage">
+       <mx:dataProvider>
+        <mx:String>Prospecting</mx:String>
+        <mx:String>Qualifications</mx:String>
+        <mx:String>Value Proposition</mx:String>
+       </mx:dataProvider>
+      </mx:ComboBox>
+     </mx:FormItem>
+     <mx:FormItem label="Probability">
+      <mx:ComboBox id="frmProbability">
+       <mx:dataProvider>
+        <mx:String>10</mx:String>
+        <mx:String>25</mx:String>
+        <mx:String>50</mx:String>
+        <mx:String>75</mx:String>
+       </mx:dataProvider>
+      </mx:ComboBox>
+     </mx:FormItem>
+     <mx:FormItem label="Close Date">
+      <mx:DateField id="frmCloseDate"/>
+     </mx:FormItem>
+     <mx:FormItem label="Order">
+      <mx:TextInput id="frmOrder"/>
+     </mx:FormItem>
+     <mx:FormItem>
+      <mx:Button label="Save Opportunity" click="saveOpportunity()"/>
+     </mx:FormItem>
+    </mx:Form>
+   </mx:Panel>
+  </mx:HBox>
+  <mx:Panel width="100%" height="50%" layout="absolute" title="Opportunities for {selectedAccount.name}">
+   <mx:DataGrid width="100%" height="100%" id="dgOpps" dataProvider="{opportunities}">
+    <mx:columns>
+     <mx:DataGridColumn headerText="Name" dataField="name"/>
+     <mx:DataGridColumn headerText="Amount" dataField="amount"/>
+     <mx:DataGridColumn headerText="Stage" dataField="stageName"/>
+     <mx:DataGridColumn headerText="Probability" dataField="probability"/>
+     <mx:DataGridColumn headerText="Close Date" dataField="closeDate"/>
+     <mx:DataGridColumn headerText="Order" dataField="orderNumber"/>
+    </mx:columns>
+   </mx:DataGrid>
+  </mx:Panel>
+ </mx:VBox>
 
 </mx:Application>
 
@@ -252,39 +252,39 @@ You'll need to add these new jar files to your Java build path in Eclipse by rig
 <p>One last thing we need for the front end are Account and Opportunity value objects. Right-click the src folder and select New -> ActionScript Class. Enter the class name as and click Finish. Add the following code to these classes. Notice that the code uses the [RemoteClass(alias=" com.appirio.Account")] annotation to map the ActionScript version of the Account class (Account.as) to the Java version (Account.java). As a result, Account objects returned by methods of the Java object in the service layer that are deserialized into instances of the ActionScript Account class automatically for you.</p>
 {% highlight js %}package
 {
-	[Bindable]
-	[RemoteClass(alias="com.appirio.Account")]
-	public class Account
-	{
+ [Bindable]
+ [RemoteClass(alias="com.appirio.Account")]
+ public class Account
+ {
 
-		public var id:String;
-		public var name:String;
-		public var city:String;
-		public var state:String;
-		public var phone:String;
-		public var website:String;
+  public var id:String;
+  public var name:String;
+  public var city:String;
+  public var state:String;
+  public var phone:String;
+  public var website:String;
 
-	}
+ }
 }
 
 {% endhighlight %}
 {% highlight js %}package
 {
-	[Bindable]
-	[RemoteClass(alias="com.appirio.Opportunity")]
-	public class Opportunity
-	{
+ [Bindable]
+ [RemoteClass(alias="com.appirio.Opportunity")]
+ public class Opportunity
+ {
 
-		public var id:String;
-		public var name:String;
-		public var amount:String;
-		public var stageName:String;
-		public var probability:String;
-		public var closeDate:String;
-		public var orderNumber:String;
-		public var accountId:String;
+  public var id:String;
+  public var name:String;
+  public var amount:String;
+  public var stageName:String;
+  public var probability:String;
+  public var closeDate:String;
+  public var orderNumber:String;
+  public var accountId:String;
 
-	}
+ }
 }
 
 {% endhighlight %}
@@ -294,58 +294,58 @@ You'll need to add these new jar files to your Java build path in Eclipse by rig
 
 public class Account {
 
-	private String id;
-	private String name;
-	private String city;
-	private String state;
-	private String phone;
-	private String website;
+ private String id;
+ private String name;
+ private String city;
+ private String state;
+ private String phone;
+ private String website;
 
-	public Account(String id, String name, String city, String state, String phone, String website) {
-		this.id = id;
-		this.name = name;
-		this.city = city;
-		this.state = state;
-		this.phone = phone;
-		this.website = website;
-	}
+ public Account(String id, String name, String city, String state, String phone, String website) {
+  this.id = id;
+  this.name = name;
+  this.city = city;
+  this.state = state;
+  this.phone = phone;
+  this.website = website;
+ }
 
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getCity() {
-		return city;
-	}
-	public void setCity(String city) {
-		this.city = city;
-	}
-	public String getState() {
-		return state;
-	}
-	public void setState(String state) {
-		this.state = state;
-	}
-	public String getPhone() {
-		return phone;
-	}
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
-	public String getWebsite() {
-		return website;
-	}
-	public void setWebsite(String website) {
-		this.website = website;
-	}
+ public String getId() {
+  return id;
+ }
+ public void setId(String id) {
+  this.id = id;
+ }
+ public String getName() {
+  return name;
+ }
+ public void setName(String name) {
+  this.name = name;
+ }
+ public String getCity() {
+  return city;
+ }
+ public void setCity(String city) {
+  this.city = city;
+ }
+ public String getState() {
+  return state;
+ }
+ public void setState(String state) {
+  this.state = state;
+ }
+ public String getPhone() {
+  return phone;
+ }
+ public void setPhone(String phone) {
+  this.phone = phone;
+ }
+ public String getWebsite() {
+  return website;
+ }
+ public void setWebsite(String website) {
+  this.website = website;
+ }
 }
 
 {% endhighlight %}
@@ -353,88 +353,88 @@ public class Account {
 
 public class Opportunity {
 
-	private String id;
-	private String name;
-	private String amount;
-	private String stageName;
-	private String probability;
-	private String closeDate;
-	private String orderNumber;
-	private String accountId;
+ private String id;
+ private String name;
+ private String amount;
+ private String stageName;
+ private String probability;
+ private String closeDate;
+ private String orderNumber;
+ private String accountId;
 
-	public Opportunity(String id, String name, String amount, String stageName, String probability, String closeDate, String orderNumber) {
-		this.id = id;
-		this.name = name;
-		this.amount = amount;
-		this.stageName = stageName;
-		this.probability = probability;
-		this.closeDate = closeDate;
-		this.orderNumber = orderNumber;
-	}
+ public Opportunity(String id, String name, String amount, String stageName, String probability, String closeDate, String orderNumber) {
+  this.id = id;
+  this.name = name;
+  this.amount = amount;
+  this.stageName = stageName;
+  this.probability = probability;
+  this.closeDate = closeDate;
+  this.orderNumber = orderNumber;
+ }
 
-	public String getId() {
-		return id;
-	}
+ public String getId() {
+  return id;
+ }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+ public void setId(String id) {
+  this.id = id;
+ }
 
-	public String getName() {
-		return name;
-	}
+ public String getName() {
+  return name;
+ }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+ public void setName(String name) {
+  this.name = name;
+ }
 
-	public String getAmount() {
-		return amount;
-	}
+ public String getAmount() {
+  return amount;
+ }
 
-	public void setAmount(String amount) {
-		this.amount = amount;
-	}
+ public void setAmount(String amount) {
+  this.amount = amount;
+ }
 
-	public String getStageName() {
-		return stageName;
-	}
+ public String getStageName() {
+  return stageName;
+ }
 
-	public void setStageName(String stageName) {
-		this.stageName = stageName;
-	}
+ public void setStageName(String stageName) {
+  this.stageName = stageName;
+ }
 
-	public String getProbability() {
-		return probability;
-	}
+ public String getProbability() {
+  return probability;
+ }
 
-	public void setProbability(String probability) {
-		this.probability = probability;
-	}
+ public void setProbability(String probability) {
+  this.probability = probability;
+ }
 
-	public String getCloseDate() {
-		return closeDate;
-	}
+ public String getCloseDate() {
+  return closeDate;
+ }
 
-	public void setCloseDate(String closeDate) {
-		this.closeDate = closeDate;
-	}
+ public void setCloseDate(String closeDate) {
+  this.closeDate = closeDate;
+ }
 
-	public String getOrderNumber() {
-		return orderNumber;
-	}
+ public String getOrderNumber() {
+  return orderNumber;
+ }
 
-	public void setOrderNumber(String orderNumber) {
-		this.orderNumber = orderNumber;
-	}
+ public void setOrderNumber(String orderNumber) {
+  this.orderNumber = orderNumber;
+ }
 
-	public String getAccountId() {
-		return accountId;
-	}
+ public String getAccountId() {
+  return accountId;
+ }
 
-	public void setAccountId(String accountId) {
-		this.accountId = accountId;
-	}
+ public void setAccountId(String accountId) {
+  this.accountId = accountId;
+ }
 
 }
 
@@ -456,100 +456,100 @@ import com.sforce.soap.partner.sobject.SObject;
 
 public class Gateway {
 
-	private static final Logger log = Logger.getLogger(Gateway.class.getName());
-	private String username = "YOUR-SALESFORCE-USERNAME";
-	private String password = "YOUR-SALESFORCE-PASSWORD-AND-TOKEN";
-	private PartnerConnection connection;
+ private static final Logger log = Logger.getLogger(Gateway.class.getName());
+ private String username = "YOUR-SALESFORCE-USERNAME";
+ private String password = "YOUR-SALESFORCE-PASSWORD-AND-TOKEN";
+ private PartnerConnection connection;
 
-	// query for 10 accounts in Salesforce.com
-	public Vector<account> getAccounts() {
+ // query for 10 accounts in Salesforce.com
+ public Vector<account> getAccounts() {
 
-		// get a new connection to Salesforce.com ising the Force.com Web Service Connector (WSC) toolkit
-		getConnection();
+  // get a new connection to Salesforce.com ising the Force.com Web Service Connector (WSC) toolkit
+  getConnection();
 
-		QueryResult result = null;
-		Vector<account> accounts = new Vector<account>();
+  QueryResult result = null;
+  Vector<account> accounts = new Vector<account>();
 
-		try {
-			result = connection.query("Select Id, Name, Phone, BillingCity, BillingState, website from Account LIMIT 10");
-
-			if (result.getSize() > 0) {
-
-				for (SObject account : result.getRecords()) {
-					Account a = new Account(
-							(String)account.getField("Id"),
-							(String)account.getField("Name"),
-							(String)account.getField("BillingCity"),
-							(String)account.getField("BillingState"),
-							(String)account.getField("Phone"),
-							(String)account.getField("website")
-						);
-					accounts.add(a);
-
-				}
-
-			}
-
-		} catch (ConnectionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		return accounts;
-
-	}
-
-	// query for all opportunities for an account
-	public Vector<opportunity> getOpportunities(String accountId) {
-
-		// get a new connection to Salesforce.com ising the Force.com Web Service Connector (WSC) toolkit
-		getConnection();
-
-		QueryResult result = null;
-		Vector<opportunity> opportunities = new Vector<opportunity>();
-
-		try {
-			result = connection.query("Select id, name, stagename, amount, closeDate, probability, ordernumber__c from Opportunity where AccountId = '"+accountId+"'");
-
-			if (result.getSize() > 0) {
-
-				for (SObject opp : result.getRecords()) {
-					Opportunity o = new Opportunity(
-							(String)opp.getField("Id"),
-							(String)opp.getField("Name"),
-							(String)opp.getField("Amount"),
-							(String)opp.getField("StageName"),
-							(String)opp.getField("Probability"),
-							(String)opp.getField("CloseDate"),
-							(String)opp.getField("OrderNumber__c")
-						);
-					opportunities.add(o);
-				}
-
-			}
-
-		} catch (ConnectionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		return opportunities;
-
-	}
-
-	// create a new opportunity in Salesforce.com
-	public Boolean createOpportunity(Opportunity o) {
-
-		// get a new connection to Salesforce.com ising the Force.com Web Service Connector (WSC) toolkit
-		getConnection();
-
-		Boolean success = true;
-		Date closeDate = new Date();
-
-		// try and parse the date
   try {
-  	DateFormat df = DateFormat.getDateInstance(3);
-  	closeDate = df.parse(o.getCloseDate());
+   result = connection.query("Select Id, Name, Phone, BillingCity, BillingState, website from Account LIMIT 10");
+
+   if (result.getSize() > 0) {
+
+    for (SObject account : result.getRecords()) {
+     Account a = new Account(
+       (String)account.getField("Id"),
+       (String)account.getField("Name"),
+       (String)account.getField("BillingCity"),
+       (String)account.getField("BillingState"),
+       (String)account.getField("Phone"),
+       (String)account.getField("website")
+      );
+     accounts.add(a);
+
+    }
+
+   }
+
+  } catch (ConnectionException e) {
+   // TODO Auto-generated catch block
+   e.printStackTrace();
+  }
+
+  return accounts;
+
+ }
+
+ // query for all opportunities for an account
+ public Vector<opportunity> getOpportunities(String accountId) {
+
+  // get a new connection to Salesforce.com ising the Force.com Web Service Connector (WSC) toolkit
+  getConnection();
+
+  QueryResult result = null;
+  Vector<opportunity> opportunities = new Vector<opportunity>();
+
+  try {
+   result = connection.query("Select id, name, stagename, amount, closeDate, probability, ordernumber__c from Opportunity where AccountId = '"+accountId+"'");
+
+   if (result.getSize() > 0) {
+
+    for (SObject opp : result.getRecords()) {
+     Opportunity o = new Opportunity(
+       (String)opp.getField("Id"),
+       (String)opp.getField("Name"),
+       (String)opp.getField("Amount"),
+       (String)opp.getField("StageName"),
+       (String)opp.getField("Probability"),
+       (String)opp.getField("CloseDate"),
+       (String)opp.getField("OrderNumber__c")
+      );
+     opportunities.add(o);
+    }
+
+   }
+
+  } catch (ConnectionException e) {
+   // TODO Auto-generated catch block
+   e.printStackTrace();
+  }
+
+  return opportunities;
+
+ }
+
+ // create a new opportunity in Salesforce.com
+ public Boolean createOpportunity(Opportunity o) {
+
+  // get a new connection to Salesforce.com ising the Force.com Web Service Connector (WSC) toolkit
+  getConnection();
+
+  Boolean success = true;
+  Date closeDate = new Date();
+
+  // try and parse the date
+  try {
+   DateFormat df = DateFormat.getDateInstance(3);
+   closeDate = df.parse(o.getCloseDate());
   } catch(java.text.ParseException pe) {
   System.out.println("Exception " + pe);
   }
@@ -567,35 +567,35 @@ public class Gateway {
 
   SObject[] opportunities = {opp};
 
-		try {
-			connection.create(opportunities);
-		} catch (ConnectionException e) {
-			// TODO Auto-generated catch block
-  	success = false;
-			e.printStackTrace();
-		}
+  try {
+   connection.create(opportunities);
+  } catch (ConnectionException e) {
+   // TODO Auto-generated catch block
+   success = false;
+   e.printStackTrace();
+  }
 
-		return success;
+  return success;
 
-	}
+ }
 
- 	void getConnection() {
-		try {
-		  if ( connection == null ) {
-			  log.info("Fetching new connection....");
-			  // login to salesforce
-			  ConnectorConfig config = new ConnectorConfig();
-			  config.setUsername(username);
-			  config.setPassword(password);
-			  connection = Connector.newConnection(config);
-		  } else {
-			  log.info("Reusing existing connection....");
-		  }
-		} catch ( ConnectionException ce) {
-			log.warning("ConnectionException " +ce.getMessage());
-		}
+  void getConnection() {
+  try {
+    if ( connection == null ) {
+     log.info("Fetching new connection....");
+     // login to salesforce
+     ConnectorConfig config = new ConnectorConfig();
+     config.setUsername(username);
+     config.setPassword(password);
+     connection = Connector.newConnection(config);
+    } else {
+     log.info("Reusing existing connection....");
+    }
+  } catch ( ConnectionException ce) {
+   log.warning("ConnectionException " +ce.getMessage());
+  }
 
-	}
+ }
 
 }
 {% endhighlight %}

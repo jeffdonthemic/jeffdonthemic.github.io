@@ -35,12 +35,12 @@ let task = session.dataTaskWithURL(url, completionHandler: {data, response, erro
   var jsonResult = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as NSDictionary
   if err != nil {
   // If there is an error parsing JSON, print it to the console
-  println("JSON Error \(err!.localizedDescription)")
+  println("JSON Error (err!.localizedDescription)")
   }
   
   let json = JSONValue(jsonResult)
   let count: Int? = json["data"].array?.count
-  println("found \(count!) challenges")
+  println("found (count!) challenges")
   
   if let ct = count {
   for index in 0...ct-1 {

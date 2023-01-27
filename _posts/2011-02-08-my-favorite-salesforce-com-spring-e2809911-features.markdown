@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  My Favorite Salesforce.com Spring ’11 Features
-description:   The salesforce.com Spring 11 release is set to start rolling onto orgs in the next few days. Are you ready? This release is packed with all kinds of platform #superfrickinawesome-ness!! Once again, Ive scoured through all 88 pages of the  release notes and pulled out my favorite features. I didn’t hit all of the items in the release notes so make sure you pull up the PDF and check out all of the goodies for this release. Also check out the Spring ’11 Force.com Platform Release Preview page  fo
+description:   The salesforce.com Spring 11 release is set to start rolling onto orgs in the next few days. Are you ready? This release is packed with all kinds of platform #superfrickinawesome-ness!! Once again, Ive scoured through all 88 pages of the  release notes and pulled out my favorite features.I didnt hit all of the items in the release notes so make sure you pull up the PDF and check out all of the goodies for this release. Also check out the Spring 11 Force.com Platform Release Preview page  fo
 date: 2011-02-08 14:12:58 +0300
 image:  '/images/slugs/my-favorite-salesforce-com-spring-e2809911-features.jpg'
 tags:   ["salesforce"]
 ---
 <p><img style="float: left;" title="spring-11-logo.png" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1401027582/a2zzwwfh7byuxw1ia0rk.png" border="0" alt="Spring 11 logo" width="200" height="245" /></p>
-<p>The salesforce.com Spring '11 release is set to start rolling onto orgs in the next few days. Are you ready? This release is packed with all kinds of platform #superfrickinawesome-ness!! Once again, I've scoured through all 88 pages of the <a href="https://na1.salesforce.com/help/doc/en/salesforce_spring11_release_notes.pdf" target="_blank">release notes</a> and pulled out my favorite features. I didn’t hit all of the items in the release notes so make sure you <a href="https://na1.salesforce.com/help/doc/en/salesforce_spring11_release_notes.pdf" target="_blank">pull up the PDF</a> and check out all of the goodies for this release. Also check out the <a href="http://developer.force.com/releases/release/Spring11" target="_blank">Spring ’11 Force.com Platform Release Preview page</a> for any last minute info. I've tried to link the features below to the appropriate section in the preview site for more info.</p>
+<p>The salesforce.com Spring '11 release is set to start rolling onto orgs in the next few days. Are you ready? This release is packed with all kinds of platform #superfrickinawesome-ness!! Once again, I've scoured through all 88 pages of the <a href="https://na1.salesforce.com/help/doc/en/salesforce_spring11_release_notes.pdf" target="_blank">release notes</a> and pulled out my favorite features.I didnt hit all of the items in the release notes so make sure you <a href="https://na1.salesforce.com/help/doc/en/salesforce_spring11_release_notes.pdf" target="_blank">pull up the PDF</a> and check out all of the goodies for this release. Also check out the <a href="http://developer.force.com/releases/release/Spring11" target="_blank">Spring 11 Force.com Platform Release Preview page</a> for any last minute info. I've tried to link the features below to the appropriate section in the preview site for more info.</p>
 <p>There are a number of new enhancements across the platform but developers really come out ahead with this release. Last fall I named the Winter '11 release, "<em>OMG! We Love Outlook!</em>" due to the heavy emphasis on Salesforce for Outlook. I've aptly named the Spring '11 release "<a href="http://www.youtube.com/watch?v=8To-6VIJZRE" target="_blank">Developers! Developers! Developers!</a>". You'll see why as the article progresses.</p>
 <p><strong>Google Chrome Support</strong></p>
 <ul>
-<li>Hurrah! Salesforce now supports Google Chrome version 8.0.x and Google Chrome Frame plug-in for Microsoft® Internet Explorer.</li>
+<li>Hurrah! Salesforce now supports Google Chrome version 8.0.x and Google Chrome Frame plug-in for Microsoft Internet Explorer.</li>
 <li>Now there's no reason why you shouldn't be using my kick-ass Chrome plugin, the <a href="/force-com-utility-belt/" target="_blank">Force.com Utility Belt</a>. </li>
 </ul>
 <p><strong>Chatter Enhancements</strong></p>
@@ -20,15 +20,15 @@ tags:   ["salesforce"]
 <li><strong>@Mentions</strong> - You can now mention a person's name to ensure that the person sees the update.</li>
 <li><strong>Posting Comments via Email Replies</strong> - You can now reply to Chatter posts and comments by simply replying to the email notification. #Awesome!</li>
 <li><strong>Trending Topics</strong> - The Chatter tab now includes Trending Topics to show what people in your company are talking about.</li>
-<li><strong>Follow Dashboard Components</strong> - Only metrics and gauges with conditional highlighting are eligible.</li>
+<li><strong>Follow Dashboard Components</strong> -Only metrics and gauges with conditional highlighting are eligible.</li>
 <li><strong>Live Updates</strong> - You can now click <em>You have new updates</em> at the top of a feed to see updates added to your Chatter feed since your last refresh.</li>
 <li><strong>Private File Sharing</strong> - Privately share a file with specific Chatter users. There are a bunch of settings around this such as email notifications after sharing, see where a file is shared, view and search for files shared by me, upload a new version, file sharing settings and permission. Check out the docs for more details.</li>
 <li><strong>Private Group Requests by Email</strong> - You can now click a button to automatically send an email to a group's owner and managers requesting permission to join a Chatter group.</li>
-<li><strong>Recommend People and Records</strong> - Chatter now recommends records for you to follow as well as people based on a shared interest in records.</li>
+<li><strong>Recommend People and Records</strong> - Chatter now recommends records for you to follow as well aspeople based on a shared interest in records.</li>
 <li><strong>Searchable Chatter Fields</strong> - The Global Search now includes Chatter feed results.</li>
 <li><strong>Chatter Desktop</strong> - New version of Chatter Desktop for Adobe Air</li>
 <li><strong>Chatter Mobile</strong> - Available for iPhone, iPad and BlackBerry devices. The Chatter mobile app does not have all of the functionality of Chatter in Salesforce.</li>
-<li>Chatter Triggers - You can now write triggers for the FeedComment and FeedItem objects. <a href="http://blog.sforce.com/sforce/2011/01/chatter-triggers-in-spring-11.html" target="_blank">More details here.</a> Thanks Sandeep!</li>
+<li>Chatter Triggers - You can now write triggers for theFeedComment and FeedItem objects. <a href="http://blog.sforce.com/sforce/2011/01/chatter-triggers-in-spring-11.html" target="_blank">More details here.</a> Thanks Sandeep!</li>
 </ul>
 <p><strong>Sales Cloud</strong></p>
 <ul>
@@ -86,7 +86,7 @@ tags:   ["salesforce"]
 <li>A number of Chatter and Metadata API objects have been changed in API version 21.0 so check out the docs for details.</li>
 </ul>
 <p><strong style="font-size:14pt">Pilot and Developer Previews</strong></p>
-<p><strong>Javascript Remoting for Apex Controllers - Developer Preview</strong> - This new feature allows you to integrate Apex and Visualforce pages with JavaScript libraries. It provides support for some methods in Apex controllers to be called via Javascript using the @RemoteAction annotation. <a href="http://developer.force.com/releases/release/Spring11/JavaScript+Remoting" target="_blank">More info here</a>.</p>
-<p><br /><strong>Apex Test Framework - Pilot</strong> - Run just one, a set, or all the tests in your organization. Tests are run asynchronously: start them, then go work on other things. You can then monitor the tests, add more tests to the ones that are running, or abort running tests. Once a test finishes running, you can see additional information about that test run.</p>
-<p><br /><strong>ReadOnly Annotation - Pilot</strong> - The @ReadOnly annotation provides developers the ability to perform unrestricted queries against the Force.com database. The annotation removes the limit of the number of returned rows for a request but also blocks any DML statements within the request. The @ReadOnly annotation is only available for Web services and the schedulable interface.</p>
-<p><br /><strong>Chatter for Mobile Browsers - Pilot</strong> - In addition to the Chatter mobile app for Apple and BlackBerry devices, salesforce.com provides a mobilized Web version of Chatter that you can access from a mobile device browser without installing an app.</p>
+<p><strong>Javascript Remoting for Apex Controllers - Developer Preview</strong> -This new feature allows you to integrate Apex and Visualforce pages with JavaScript libraries. It provides support for some methods in Apex controllers to be called via Javascript using the @RemoteAction annotation. <a href="http://developer.force.com/releases/release/Spring11/JavaScript+Remoting" target="_blank">More info here</a>.</p>
+<p><br /><strong>Apex Test Framework - Pilot</strong> -Run just one, a set, or all the tests in your organization. Tests are run asynchronously: start them, then go work on other things. You can then monitor the tests, add more tests to the ones that are running, or abort running tests. Once a test finishes running, you can see additional information about that test run.</p>
+<p><br /><strong>ReadOnly Annotation - Pilot</strong> -The @ReadOnly annotation provides developers the ability to perform unrestricted queries against the Force.com database. The annotation removes the limit of the number of returned rows for a request but also blocks any DML statements within the request. The @ReadOnly annotation is only available for Web services and the schedulable interface.</p>
+<p><br /><strong>Chatter for Mobile Browsers - Pilot</strong> -In addition to the Chatter mobile app for Apple and BlackBerry devices, salesforce.com provides a mobilized Web version of Chatter that you can access from a mobile device browser without installing an app.</p>

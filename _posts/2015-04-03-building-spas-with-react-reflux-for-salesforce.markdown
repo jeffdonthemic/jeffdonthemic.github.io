@@ -35,7 +35,7 @@ tags:   ["salesforce", "react", "javascript"]
 <h2 id="codewalkthrough">Code Walkthrough</h2>
 <p>Let's take a look at the important files in the application. I won't cover everything but the great thing about React and Reflux is that it's rather straightforward and easy to follow. The SPA consists of a single Visualforce page. That's it. No controller. No Apex code at all. We'll be using <a href="https://www.salesforce.com/us/developer/docs/pages/index_Left.htm#CSHID=pages_remote_objects.htm%7CStartTopic=Content%2Fpages_remote_objects.htm%7CSkinName=webhelp">Visualforce Remote Objects</a> which create proxy objects that enable basic DML operations on sObjects directly from JavaScript. All of our logic and functionality resides in the JavaScript!</p>
 <h3 id="bannerspage">Banners.page</h3>
-<p>Since Visualforce is hosting our SPA, Banners.page is the only page that we'll need. It's mostly bootstrap markup with navigation, a title and a div <code>(id="app")</code> where React will render our application. Notice the script and style tags that reference the <code>banners</code>	 static resource we just uploaded.</p>
+<p>Since Visualforce is hosting our SPA, Banners.page is the only page that we'll need. It's mostly bootstrap markup with navigation, a title and a div <code>(id="app")</code> where React will render our application. Notice the script and style tags that reference the <code>banners</code>  static resource we just uploaded.</p>
 {% highlight js %}<apex:page standardStylesheets="false" sidebar="false"
   showHeader="false" applyBodyTag="false" applyHtmlTag="false"
   docType="html-5.0">

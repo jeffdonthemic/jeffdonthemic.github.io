@@ -33,9 +33,9 @@ tags:   ["salesforce"]
 <li>GoodData</li>
 <li>Scalr</li>
 </ol>
-<p>The "kumbya" message of Cloudstock is totally cool: "To bring the top cloud developers and the top cloud technologies  together under one roof, to learn from each other, collaborate, innovate, and drive the future of cloud computing.  This open, meetup style, free event will feature sessions, demo stations, socializing, and a hackathon, all delivered in a hip,  developer friendly context."</p>
+<p>The "kumbya" message of Cloudstock is totally cool: "To bring the top cloud developers and the top cloud technologies together under one roof, to learn from each other, collaborate, innovate, and drive the future of cloud computing. This open, meetup style, free event will feature sessions, demo stations, socializing, and a hackathon, all delivered in a hip, developer friendly context."</p>
 <p>
-<p>﻿Make sure you attend the event! "The man" is offering the following stuff at Cloudstock:</p>
+<p>Make sure you attend the event! "The man" is offering the following stuff at Cloudstock:</p>
 <ul>
 <li>40+ technical sessions covering everything from cloud telephony to cloud development platforms</li>
 <li>Demo stations where you can see some of the latest cloud technologies in action</li>
@@ -43,6 +43,6 @@ tags:   ["salesforce"]
 <li>Networking and mingling, meeting your peers and the cloud service providers</li>
 <li>Gaming fun in the Gaming Arcade</li>
 </ul>
-<p>﻿Best of all, it's totally free. Totally, dude!</p>
+<p>Best of all, it's totally free. Totally, dude!</p>
 <p><a href="http://www.cloudstockevent.com/">Hop on over to the Cloudstock site and register.</a> It will be totally awesome!</p>
 </p>

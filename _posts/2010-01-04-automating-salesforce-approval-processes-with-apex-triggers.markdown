@@ -11,22 +11,22 @@ tags:   ["code sample", "salesforce", "apex"]
 <p>For the trigger to work you need to have an approval process with matching criteria. Mine is fairly simple and is where the Opportunity owner is the current user (there is only one user in a DE org). The trigger makes no attempt to trap for errors if an approval process doesn't exist as I didn't have time.</p>
 {% highlight js %}trigger OpportunitySubmitForApproval on Opportunity (after update) {
 
-	for (Integer i = 0; i < Trigger.new.size(); i++) {
+ for (Integer i = 0; i < Trigger.new.size(); i++) {
 
-		if (Trigger.old[i].Probability < 30 && Trigger.new[i].Probability >= 30) {
+  if (Trigger.old[i].Probability < 30 && Trigger.new[i].Probability >= 30) {
 
-			// create the new approval request to submit
-			Approval.ProcessSubmitRequest req = new Approval.ProcessSubmitRequest();
-			req.setComments('Submitted for approval. Please approve.');
-			req.setObjectId(Trigger.new[i].Id);
-			// submit the approval request for processing
-			Approval.ProcessResult result = Approval.process(req);
-			// display if the reqeust was successful
-			System.debug('Submitted for approval successfully: '+result.isSuccess());
+   // create the new approval request to submit
+   Approval.ProcessSubmitRequest req = new Approval.ProcessSubmitRequest();
+   req.setComments('Submitted for approval. Please approve.');
+   req.setObjectId(Trigger.new[i].Id);
+   // submit the approval request for processing
+   Approval.ProcessResult result = Approval.process(req);
+   // display if the reqeust was successful
+   System.debug('Submitted for approval successfully: '+result.isSuccess());
 
-		}
+  }
 
-	}
+ }
 
 }
 {% endhighlight %}
@@ -45,13 +45,13 @@ private class TestOpportunitySubmitForApproval {
   // insert the new opp
   insert opp;
   // change the probability of the opp so the trigger submits it for approval
-	opp.Probability = 40;
-	// update the opp which should submit it for approval
-	update opp;
+ opp.Probability = 40;
+ // update the opp which should submit it for approval
+ update opp;
 
   // ensure that the opp was submitted for approval
   List&lt;ProcessInstance&gt; processInstances = [select Id, Status from ProcessInstance where TargetObjectId = :opp.id];
-	System.assertEquals(processInstances.size(),1);
+ System.assertEquals(processInstances.size(),1);
 
   }
 

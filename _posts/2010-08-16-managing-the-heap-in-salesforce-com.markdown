@@ -19,7 +19,7 @@ tags:   ["salesforce", "apex"]
 <p>Use heap limits methods in your Apex code to monitor/manage the heap during execution.</p><ul><li><strong>Limits.getHeapSize()</strong> - Returns the approximate amount of memory (in bytes) that has been used for the heap in the current context.</li><li><strong>Limits.getLimitHeapSize()</strong> - Returns the total amount of memory (in bytes) that can be used for the heap in the current context.</li></ul><p><br>
 // check the heap size at runtime<br>
 if (Limits.getHeapSize > 275000) {<br>
-     // implement logic to reduce<br>
+ // implement logic to reduce<br>
 }</p>
 <p>One strategy to reduce heap size during runtime is to remove items from the collection as you iterate over it.</p>
 <p><strong>Put Your Objects on a Diet</strong></p>

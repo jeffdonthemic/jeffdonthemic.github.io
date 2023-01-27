@@ -11,31 +11,31 @@ tags:   ["code sample", "salesforce", "apex"]
 <p>The <a href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_classes_restful_http_httpresponse.htm" target="_blank">HttpResponse class</a> provides a simple GET example but it was hard to find any examples using POST so I thought I'd throw something together.</p>
 {% highlight js %}public class WebServiceCallout {
 
-    @future (callout=true)
-    public static void sendNotification(String name, String city) {
+ @future (callout=true)
+ public static void sendNotification(String name, String city) {
 
-        HttpRequest req = new HttpRequest();
-        HttpResponse res = new HttpResponse();
-        Http http = new Http();
+ HttpRequest req = new HttpRequest();
+ HttpResponse res = new HttpResponse();
+ Http http = new Http();
 
-        req.setEndpoint('http://my-end-point.com/newCustomer');
-        req.setMethod('POST');
-        req.setBody('name='+EncodingUtil.urlEncode(name, 'UTF-8')+'&city='+EncodingUtil.urlEncode(city, 'UTF-8'));
-        req.setCompressed(true); // otherwise we hit a limit of 32000
+ req.setEndpoint('http://my-end-point.com/newCustomer');
+ req.setMethod('POST');
+ req.setBody('name='+EncodingUtil.urlEncode(name, 'UTF-8')+'&city='+EncodingUtil.urlEncode(city, 'UTF-8'));
+ req.setCompressed(true); // otherwise we hit a limit of 32000
 
-        try {
-            res = http.send(req);
-        } catch(System.CalloutException e) {
-            System.debug('Callout error: '+ e);
-            System.debug(res.toString());
-        }
+ try {
+  res = http.send(req);
+ } catch(System.CalloutException e) {
+   System.debug('Callout error: '+ e);
+   System.debug(res.toString());
+ }
 
-    }
+ }
 
-    // run WebServiceCallout.testMe(); from Execute Anonymous to test
-    public static testMethod void testMe() {
-        WebServiceCallout.sendNotification('My Test Customer','My City');
-    }
+ // run WebServiceCallout.testMe(); from Execute Anonymous to test
+ public static testMethod void testMe() {
+ WebServiceCallout.sendNotification('My Test Customer','My City');
+ }
 
 }
 
@@ -43,19 +43,19 @@ tags:   ["code sample", "salesforce", "apex"]
 <p>You can execute your callout in a trigger with the following example:</p>
 {% highlight js %}trigger AccountCallout on Account (after insert) {
 
-	for (Account a : Trigger.new) {
-		// make the asynchronous web service callout
-		WebServiceCallout.sendNotification(a.Name, a.BillingCity);
-	}
+ for (Account a : Trigger.new) {
+  // make the asynchronous web service callout
+  WebServiceCallout.sendNotification(a.Name, a.BillingCity);
+ }
 
 }
 
 {% endhighlight %}
 <p>A couple of things to remember when using the future annotation:</p>
 <ol>
-	<li>No more than 10 method calls per Apex invocation</li>
-	<li>No more than 200 method calls per Salesforce license per 24 hours</li>
-	<li>The parameters specified must be primitive dataypes, arrays of primitive datatypes, or collections of primitive datatypes.</li>
-	<li>Methods with the future annotation cannot take sObjects or objects as arguments.</li>
-	<li>Methods with the future annotation cannot be used in Visualforce controllers in either getMethodName or setMethodName methods, nor in the constructor.</li>
+ <li>No more than 10 method calls per Apex invocation</li>
+ <li>No more than 200 method calls per Salesforce license per 24 hours</li>
+ <li>The parameters specified must be primitive dataypes, arrays of primitive datatypes, or collections of primitive datatypes.</li>
+ <li>Methods with the future annotation cannot take sObjects or objects as arguments.</li>
+ <li>Methods with the future annotation cannot be used in Visualforce controllers in either getMethodName or setMethodName methods, nor in the constructor.</li>
 </ol>

@@ -15,8 +15,8 @@ tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
 &lt;mx:Application xmlns:mx=&quot;http://www.adobe.com/2006/mxml&quot; layout=&quot;absolute&quot; width=&quot;600&quot; height=&quot;300&quot;
   backgroundGradientAlphas=&quot;[1.0, 1.0]&quot; backgroundGradientColors=&quot;[#FFFFFF, #FFFFFF]&quot; creationComplete=&quot;init()&quot;&gt;
 
-	&lt;mx:Script&gt;
-		&lt;![CDATA[
+ &lt;mx:Script&gt;
+  &lt;![CDATA[
 
   import mx.collections.ArrayCollection;
   import mx.controls.Alert;
@@ -30,12 +30,12 @@ tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
   [Bindable] private var userId:String;
 
   private function init():void {
-			login();
-			if (Application.application.parameters.userId == null) {
-			  userId = &quot;005600000000000&quot;;
-			} else {
-			  userId = Application.application.parameters.userId;
-			}
+   login();
+   if (Application.application.parameters.userId == null) {
+     userId = &quot;005600000000000&quot;;
+   } else {
+     userId = Application.application.parameters.userId;
+   }
   }
 
   private function getContacts():void
@@ -47,14 +47,14 @@ tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
     if (qr.size &gt; 0) {
       for (var i:int=0;i&lt;qr.size;i++) {
 
-      	// create a new object to hold the data
-      	var c:Contact = new Contact();
-      	c.email = qr.records[i].Email;
-      	c.id = qr.records[i].Id;
-      	c.name = qr.records[i].Name;
+       // create a new object to hold the data
+       var c:Contact = new Contact();
+       c.email = qr.records[i].Email;
+       c.id = qr.records[i].Id;
+       c.name = qr.records[i].Name;
 
-      	// add the object to the array collection
-      	contacts.addItem(c);
+       // add the object to the array collection
+       contacts.addItem(c);
 
       }
     }
@@ -64,61 +64,61 @@ tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
 
   }
 
-		private function createContact(c:Contact):void {
+  private function createContact(c:Contact):void {
 
-			// create an array to send to sfdc
-			var aSo:Array = new Array();
+   // create an array to send to sfdc
+   var aSo:Array = new Array();
 
-			// create a new contact sObject to populate with data
-			var so:SObject = new SObject(&quot;Contact&quot;);
-			so.FirstName = c.first;
-			so.LastName = c.last;
-			so.Email = c.email;
+   // create a new contact sObject to populate with data
+   var so:SObject = new SObject(&quot;Contact&quot;);
+   so.FirstName = c.first;
+   so.LastName = c.last;
+   so.Email = c.email;
 
-			// add the sObject to the array
-			aSo.push(so);
+   // add the sObject to the array
+   aSo.push(so);
 
-			sfdc.create(aSo,
-				new AsyncResponder(
-					function createResults(obj:Object):void {
-						if (obj[0].success == false) {
-							Alert.show(obj[0].errors[0].message.toString(),&quot;Error creating new contact&quot;);
-						} else {
-							// do something like update the collection
-						}
-					}, sfdcFailure
-				)
-			);
+   sfdc.create(aSo,
+    new AsyncResponder(
+     function createResults(obj:Object):void {
+      if (obj[0].success == false) {
+       Alert.show(obj[0].errors[0].message.toString(),&quot;Error creating new contact&quot;);
+      } else {
+       // do something like update the collection
+      }
+     }, sfdcFailure
+    )
+   );
 
-		}
+  }
 
-		public function updateContact(c:Contact):void {
+  public function updateContact(c:Contact):void {
 
-			// create an array to send to sfdc
-			var aSo:Array = new Array();
+   // create an array to send to sfdc
+   var aSo:Array = new Array();
 
-			// create a new contact sObject to populate with data
-			var so:SObject = new SObject(&quot;Contact&quot;);
-			so.Id = c.id;
-			so.FirstName = c.first;
-			so.LastName = c.last;
-			so.Email = c.email;
+   // create a new contact sObject to populate with data
+   var so:SObject = new SObject(&quot;Contact&quot;);
+   so.Id = c.id;
+   so.FirstName = c.first;
+   so.LastName = c.last;
+   so.Email = c.email;
 
-			// add the sObject to the array
-			aSo.push(so);
+   // add the sObject to the array
+   aSo.push(so);
 
-			sfdc.update(aSo,
-				new AsyncResponder(
-					function updateResults(obj:Object):void {
-						if (obj[0].success == false) {
-							mx.controls.Alert.show(obj[0].errors[0].message.toString(),&quot;Error updating contact&quot;);
-						} else {
-							// do something like update the collection
-						}
-					}, sfdcFailure
-				)
-			);
-		}
+   sfdc.update(aSo,
+    new AsyncResponder(
+     function updateResults(obj:Object):void {
+      if (obj[0].success == false) {
+       mx.controls.Alert.show(obj[0].errors[0].message.toString(),&quot;Error updating contact&quot;);
+      } else {
+       // do something like update the collection
+      }
+     }, sfdcFailure
+    )
+   );
+  }
 
   private function login():void {
 
@@ -127,10 +127,10 @@ tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
   // hard code values for dev/local
   if (this.parameters.server_url == null) {
 
-  	//sfdc.protocol = &quot;http&quot;;
-	  sfdc.serverUrl = &quot;http://na5.salesforce.com/services/Soap/u/14.0&quot;;
-	  lr.username = &quot;YOUR_USERNAME&quot;;
-	  lr.password = &quot;YOUR_PASSWORD&amp;YOUR_TOKEN&quot;;
+   //sfdc.protocol = &quot;http&quot;;
+   sfdc.serverUrl = &quot;http://na5.salesforce.com/services/Soap/u/14.0&quot;;
+   lr.username = &quot;YOUR_USERNAME&quot;;
+   lr.password = &quot;YOUR_PASSWORD&amp;YOUR_TOKEN&quot;;
 
   } else {
 
@@ -156,16 +156,16 @@ tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
   private function sfdcFailure(fault:Object):void {
   Alert.show(fault.toString());
   }
-		]]&gt;
-	&lt;/mx:Script&gt;
+  ]]&gt;
+ &lt;/mx:Script&gt;
 
-	&lt;mx:DataGrid left=&quot;5&quot; right=&quot;5&quot; top=&quot;5&quot; bottom=&quot;5&quot; id=&quot;dg&quot; dataProvider=&quot;{contacts}&quot;&gt;
-		&lt;mx:columns&gt;
-			&lt;mx:DataGridColumn headerText=&quot;Id&quot; dataField=&quot;id&quot;/&gt;
-			&lt;mx:DataGridColumn headerText=&quot;Name&quot; dataField=&quot;name&quot;/&gt;
-			&lt;mx:DataGridColumn headerText=&quot;Email&quot; dataField=&quot;email&quot;/&gt;
-		&lt;/mx:columns&gt;
-	&lt;/mx:DataGrid&gt;
+ &lt;mx:DataGrid left=&quot;5&quot; right=&quot;5&quot; top=&quot;5&quot; bottom=&quot;5&quot; id=&quot;dg&quot; dataProvider=&quot;{contacts}&quot;&gt;
+  &lt;mx:columns&gt;
+   &lt;mx:DataGridColumn headerText=&quot;Id&quot; dataField=&quot;id&quot;/&gt;
+   &lt;mx:DataGridColumn headerText=&quot;Name&quot; dataField=&quot;name&quot;/&gt;
+   &lt;mx:DataGridColumn headerText=&quot;Email&quot; dataField=&quot;email&quot;/&gt;
+  &lt;/mx:columns&gt;
+ &lt;/mx:DataGrid&gt;
 
 &lt;/mx:Application&gt;
 
@@ -173,15 +173,15 @@ tags:   ["appirio", "code sample", "salesforce", "visualforce", "flex"]
 <p><strong> Contact Value Object - Contact.as</strong></p>
 {% highlight js %}package
 {
-	public class Contact
-	{
-		public var id:String;
-		public var first:String;
-		public var last:String;
-		public var name:String;
-		public var email:String
+ public class Contact
+ {
+  public var id:String;
+  public var first:String;
+  public var last:String;
+  public var name:String;
+  public var email:String
 
-	}
+ }
 }
 {% endhighlight %}
 <p><strong> Visualforce page - MyPage.page</strong></p>

@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  I'm the new Salesforce Trailhead Developer Advocate
-description: After Labor Day Ill be joining the Salesforce Developer Relations team as the new Trailhead Developer Advocate! Is this a dream job? Yes! Am I super-excited?  Yes!  > If you are not familiar with Trailhead  (shame on you!), its simply the best way to learn Salesforce. Period. New to Salesforce or just want to dive deeper? Weve got a learning trail that’s right for you.  Ive always been a huge fan of sites like Codeacademy and Code School that reinforce teaching by letting you code right in your 
+description: After Labor Day Ill be joining the Salesforce Developer Relations team as the new Trailhead Developer Advocate! Is this a dream job? Yes! Am I super-excited?  Yes!  > If you are not familiar with Trailhead  (shame on you!), its simply the best way to learn Salesforce. Period. New to Salesforce or just want to dive deeper? Weve got a learning trail thats right for you.  Ive always been a huge fan of sites like Codeacademy and Code School that reinforce teaching by letting you code right in your 
 date: 2015-08-27 16:03:00 +0300
 image:  '/images/trailhead-dev-advocate-ak-1.png'
 tags:   ["personal", "salesforce"]
 ---
 <p>After Labor Day I'll be joining the Salesforce Developer Relations team as the new Trailhead Developer Advocate! Is this a dream job? <strong>Yes!</strong> Am I super-excited? <strong>Yes!</strong></p>
 <blockquote>
-<p>If you are not familiar with <a href="https://developer.salesforce.com/trailhead">Trailhead</a> (shame on you!), it's simply the best way to learn Salesforce. Period. New to Salesforce or just want to dive deeper? We've got a learning trail that’s right for you.</p>
+<p>If you are not familiar with <a href="https://developer.salesforce.com/trailhead">Trailhead</a> (shame on you!), it's simply the best way to learn Salesforce. Period. New to Salesforce or just want to dive deeper? We've got a learning trail thats right for you.</p>
 </blockquote>
 <p>I've always been a huge fan of sites like Codeacademy and Code School that reinforce teaching by letting you code right in your browser. I even <a href="/2014/11/03/apex-algorithm-challenges-for-force-com/">started to build my own Apex learning resource</a> shortly before last Dreamforce but I saw the shining light of Trailhead and knew it was a force to be reckoned with.</p>
 <p>So what will I be doing in my new role? Among other things, I'm going to ...</p>

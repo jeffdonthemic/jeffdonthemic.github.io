@@ -25,11 +25,11 @@ tags:   ["salesforce"]
 You may have more than one type of feature license available to assign to the users in your organization. A feature license entitles a user to an additional Salesforce feature, such as Marketing or Connect Offline.
 <p>In Professional, Enterprise, and Unlimited Editions, you can enable additional features:</p>
 <ul>
-	<li>Marketing User</li>
-	<li>Offline User</li>
-	<li>Apex Mobile User</li>
-	<li>Salesforce CRM Content User (only appears if you purchased Salesforce Mobile feature licenses)</li>
-	<li>Salesforce CRM Content User (only appears if you purchased Salesforce CRM Content feature licenses)</li>
+ <li>Marketing User</li>
+ <li>Offline User</li>
+ <li>Apex Mobile User</li>
+ <li>Salesforce CRM Content User (only appears if you purchased Salesforce Mobile feature licenses)</li>
+ <li>Salesforce CRM Content User (only appears if you purchased Salesforce CRM Content feature licenses)</li>
 </ul>
 <h2>Dashboards and Reports</h2>
 Users with a Salesforce Platform user license can only view dashboards if the Running User of the dashboard also has a Salesforce Platform license. They cannot edit or create new dashboards.

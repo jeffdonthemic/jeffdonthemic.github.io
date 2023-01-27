@@ -15,8 +15,8 @@ Our Force.com experts are in high demand and we cannot do the assignment judging
 We do not have the next registration window scheduled. Candidates will be notified when the next window opens.</p>
 <p><strong>Did you postpone for all candidates?</strong><br>
 No. Based on resource availability, we chose to allow customer candidates to complete the assignment.</p>
-<p><strong>What about the exam – are you postponing that too?</strong><br>
-Yes. We will put the exam portion of the Force.com Advanced Developer program on “hold” until we develop our plan for our next window. This will ensure that we do not build a large backlog of candidates and potentially cause frustration that an assignment/essay window is not open. During this time, we will also be completing our annual certification exam-item review so that all exams and the program are re-vamped prior to re-opening.</p>
+<p><strong>What about the exam  are you postponing that too?</strong><br>
+Yes. We will put the exam portion of the Force.com Advanced Developer program on hold until we develop our plan for our next window. This will ensure that we do not build a large backlog of candidates and potentially cause frustration that an assignment/essay window is not open. During this time, we will also be completing our annual certification exam-item review so that all exams and the program are re-vamped prior to re-opening.</p>
 <p><strong>Is this credential going away? Are you replacing it with an exam-only credential?</strong><br>
 No. The Force.com Advanced Developer credential is still an important part of our certification program. We will be giving candidates who have already passed the exam a designation and logo that enables them to demonstrate that they are in the process of earning the Force.com Advanced Developer credential, but this is not a replacement or a new certification credential.</p>
 <p><strong>What should I tell people who are interested in the Force.com Advanced Developer credential?</strong><br>

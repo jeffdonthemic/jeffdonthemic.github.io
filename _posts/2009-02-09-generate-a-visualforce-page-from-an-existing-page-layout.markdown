@@ -17,13 +17,13 @@ tags:   ["code sample", "salesforce", ".net"]
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-	<title>Visualforce Scaffolding Generator</title>
-	<style type="text/css">
-	.style1
-	{
-	  height: 25px;
-	}
-	</style>
+ <title>Visualforce Scaffolding Generator</title>
+ <style type="text/css">
+ .style1
+ {
+   height: 25px;
+ }
+ </style>
 <link rel='stylesheet' id='wpe-common-css' href='http://blog.jeffdouglas.com/wp-content/mu-plugins/wpengine-common/css/wpe-common.css?ver=2.1.9' type='text/css' media='all' />
 <link rel='stylesheet' id='nextgen_gallery_related_images-css' href='http://blog.jeffdouglas.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/nextgen_gallery_related_images.css?ver=3.9' type='text/css' media='all' />
 <link rel='stylesheet' id='open-sans-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=3.9' type='text/css' media='all' />
@@ -31,7 +31,7 @@ tags:   ["code sample", "salesforce", ".net"]
 <link rel='stylesheet' id='admin-bar-css' href='http://blog.jeffdouglas.com/wp-includes/css/admin-bar.min.css?ver=3.9' type='text/css' media='all' />
 </head>
 <body>
-	<form id="form1" runat="server">
+ <form id="form1" runat="server">
 <div>
 <h1>Visualforce Scaffolding Generator</h1>
 <asp:Label ID="Label3" runat="server" Text="This page generates the Visualforce code for a specific object and recordtye. The code inspects the page layout for the recordtype and creates a very similar replica of the sections and field layouts as Visualforce code. You can then take this code and paste it into a Visualforce page with minimal changes."/>
@@ -47,10 +47,10 @@ tags:   ["code sample", "salesforce", ".net"]
 <tr>
 <td class="style1">Page Type</td>
 <td class="style1">
-				<asp:DropDownList ID="ddlMode" runat="server">
-				<asp:ListItem Value="Edit">New/Edit</asp:ListItem>
-				<asp:ListItem>Display</asp:ListItem>
-				</asp:DropDownList></td>
+    <asp:DropDownList ID="ddlMode" runat="server">
+    <asp:ListItem Value="Edit">New/Edit</asp:ListItem>
+    <asp:ListItem>Display</asp:ListItem>
+    </asp:DropDownList></td>
 </tr>
 <tr>
 <td></td>
@@ -60,7 +60,7 @@ tags:   ["code sample", "salesforce", ".net"]
 </div>
 <asp:Literal ID="Code" runat="server"></asp:Literal>
 
-	</form>
+ </form>
 </body>
 </html>
 {% endhighlight %}

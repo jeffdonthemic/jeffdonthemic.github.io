@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  OpportunityAccessLevel Not Writable
-description: I was working on a project the other day where I needed to dynamically add users to an opportunitys Sales Team (OpportunityTeamMember object) so that users who do not normally have access to an opportunity based upon Org-wide security settings can work on the opportunity with other team members. One of the advantages of Sales Teams is that you can specify the level of access that each team member has for the opportunity. Some team members may need read/write access while others may just need rea
+description: I was working on a project the other day where I needed to dynamically add users to an opportunitys Sales Team (OpportunityTeamMember object) so that users who do not normally have access to an opportunity based upon Org-wide security settings can work on the opportunity with other team members. One of the advantages of Sales Teams is thatyou can specify the level of access that each team member has for the opportunity. Some team members may need read/write access while others may just need rea
 date: 2011-03-17 10:40:44 +0300
 image:  '/images/slugs/opportunityaccesslevel-not-writable.jpg'
 tags:   ["code sample", "salesforce", "apex"]
 ---
-<p>I was working on a project the other day where I needed to dynamically add users to an opportunity's Sales Team (OpportunityTeamMember object) so that users who do not normally have access to an opportunity based upon Org-wide security settings can work on the opportunity with other team members. One of the advantages of Sales Teams is that you can specify the level of access that each team member has for the opportunity. Some team members may need read/write access while others may just need read-only access.</p>
+<p>I was working on a project the other day where I needed to dynamically add users to an opportunity's Sales Team (OpportunityTeamMember object) so that users who do not normally have access to an opportunity based upon Org-wide security settings can work on the opportunity with other team members. One of the advantages of Sales Teams is thatyou can specify the level of access that each team member has for the opportunity. Some team members may need read/write access while others may just need read-only access.</p>
 <p>From the opportunity page layout you can add a new team member and specify their access level and role.</p>
 <p><img title="sales-team.png" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1401022422/xfxiglxjvxzoojrztkwu.png" border="0" alt="Sales team" width="500" height="186" /></p>
 <p>However, by default when you create a new team member via Apex, the platform grants them read-only access. So I tried to specify grant "Edit" (read/write) access with the following code.</p>

@@ -10,15 +10,15 @@ tags:   ["cloud foundry", "mongodb", "node.js"]
 <p><img src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327750/chow-finder1_etamho.png" alt="" ></p>
 <p>So I put together a video of the initial process of building the API. It's definitely a work in progress. You can <a href="https://github.com/jeffdonthemic/Chow-Finder-API">clone the code from this repo</a> if you find it useful. It assumes that you have <a href="http://nodejs.org/#download">Node.js</a>, <a href="http://www.mongodb.org/display/DOCS/Quickstart">MongoDB</a>, <a href="http://expressjs.com/guide.html">Express</a> and the Cloud Foundry <a href="http://start.cloudfoundry.com/tools/vmc/installing-vmc.html">Command-Line Interface</a> (vmc) installed.</p>
 <figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/3AKaGShTHpo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure><p>The API has the following methods around two objects: locations and facilities.</p>
-<p>GET	/locations	-- returns a list of locations<br>
-GET	/locations/:id -- returns a location<br>
-POST	/locations	-- creates a location<br>
-GET	/locations/favorites	-- returns list of favorite locations for a user<br>
-POST	/locations/favorites	-- creates a new favorite for a user<br>
-GET	/locations/:id/facilities -- returns a list of facilities for a location<br>
-POST	/locations/:id/facilities -- creates a new facility for a location<br>
-GET	/locations/:id/facilities/:id -- returns a facility<br>
-PUT	/locations/:id/facilities/:id -- updates a facility</p>
+<p>GET /locations -- returns a list of locations<br>
+GET /locations/:id -- returns a location<br>
+POST /locations -- creates a location<br>
+GET /locations/favorites -- returns list of favorite locations for a user<br>
+POST /locations/favorites -- creates a new favorite for a user<br>
+GET /locations/:id/facilities -- returns a list of facilities for a location<br>
+POST /locations/:id/facilities -- creates a new facility for a location<br>
+GET /locations/:id/facilities/:id -- returns a facility<br>
+PUT /locations/:id/facilities/:id -- updates a facility</p>
 <p>You can <a href="https://github.com/jeffdonthemic/Chow-Finder-API/blob/master/app.js">check out code for app.js on github</a>, but most of the interesting stuff is around the connection to MongoDB and the code for the actual methods.</p>
 <p>Once you installed the <a href="https://github.com/christkv/node-mongodb-native">MongoDB native Node.js driver</a>, you just need to create your connection to either your localhost or Mongo running on Cloud Foundry in app.js.</p>
 {% highlight js %}if(process.env.VCAP_SERVICES){

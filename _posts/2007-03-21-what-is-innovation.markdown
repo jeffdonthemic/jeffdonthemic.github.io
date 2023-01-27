@@ -8,9 +8,9 @@ tags:   ["innovation"]
 ---
 <p>Almost every company touts that they are "innovative" or that they produce "innovative" products and/or services. But what exactly is innovation? Googling innovation results in the following definitions:</p>
 <ul>
-	<li>"The creation of new products and/or services."</li>
-	<li>"The conversion of knowledge and ideas into a benefit"</li>
-	<li>"PEOPLE implementing new ideas to create value."</li>
+ <li>"The creation of new products and/or services."</li>
+ <li>"The conversion of knowledge and ideas into a benefit"</li>
+ <li>"PEOPLE implementing new ideas to create value."</li>
 </ul>
 Innovation is the act of introducing something new or the process of making improvements by introducing something new. The term refers to both radical and incremental changes to products, processes or services.
 <p>Radical or "disruptive" innovation changes the market landscape and creates new opportunities and segments. Some examples of radical innovation include DVDs, iPods, flash memory, and Software as a Service (SaaS).</p>

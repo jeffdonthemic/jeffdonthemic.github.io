@@ -11,7 +11,7 @@ tags:   ["salesforce", "nforce", "slds"]
 <blockquote>
 <p>Disclaimer: the Design System is not completely baked but I found most of the standard elements were dev ready. The ones marked with <code>prototype</code> should be treated as alpha.</p>
 </blockquote>
-<p>This is the main reason why I love the new Design System. Salesforce has done all of the hard CSS and design work for me so that my apps look beautiful. With the Design System I can now build custom apps with a look and feel that is consistent with Salesforce Lightning Experience core features — without hacking up their styles!</p>
+<p>This is the main reason why I love the new Design System. Salesforce has done all of the hard CSS and design work for me so that my apps look beautiful. With the Design System I can now build custom apps with a look and feel that is consistent with Salesforce Lightning Experience core features  without hacking up their styles!</p>
 <p><img src="images/node-nforce-demo.png" alt="" ></p>
 <p>The node.js app is using handlebars for logic-less templating so the HTML is really clean. You should be able to port it to your favorite app easily. It also uses <a href="https://github.com/petkaantonov/bluebird">bluebird</a> for Promises so there's a good example of getting an account record along with its contacts and opportunities.</p>
 <p>Demo: <a href="http://node-nforce-demo.herokuapp.com">http://node-nforce-demo.herokuapp.com</a></p>

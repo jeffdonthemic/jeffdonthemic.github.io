@@ -39,9 +39,9 @@ tags:   ["code sample", "salesforce", "visualforce", "apex"]
 
   // handle the action of the commandlink
   public PageReference processLinkClick() {
-  	System.debug('nickName: '+nickName);
-  	// now process the variable by doing something...
-  	return null;
+   System.debug('nickName: '+nickName);
+   // now process the variable by doing something...
+   return null;
   }
 
 }

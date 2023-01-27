@@ -18,17 +18,17 @@ tags:   ["code sample", "salesforce", "visualforce", "apex"]
   private ApexPages.StandardController controller {get; set;}
   // the actual account
   private Account a;
-	// the results from the search. do not init the results or a blank rows show up initially on page load
+ // the results from the search. do not init the results or a blank rows show up initially on page load
   public List<opportunity> searchResults {get;set;}
 
-	// the text in the search box
+ // the text in the search box
   public string searchText {
-  	get {
-  		if (searchText == null) searchText = 'Acme'; // prefill the serach box for ease of use
-  		return searchText;
-  	}
-  	set;
-	}
+   get {
+    if (searchText == null) searchText = 'Acme'; // prefill the serach box for ease of use
+    return searchText;
+   }
+   set;
+ }
 
   public OpportunitySearchController(ApexPages.StandardController controller) {
 
@@ -38,58 +38,58 @@ tags:   ["code sample", "salesforce", "visualforce", "apex"]
 
   }
 
-	// fired when the search button is clicked
-	public PageReference search() {
-		if (searchResults == null) {
-			searchResults = new List<opportunity>(); // init the list if it is null
-		} else {
-			searchResults.clear(); // clear out the current results if they exist
-		}
-		// Note: you could have achieved the same results as above by just using:
-		// searchResults = new List<categoryWrapper>();
+ // fired when the search button is clicked
+ public PageReference search() {
+  if (searchResults == null) {
+   searchResults = new List<opportunity>(); // init the list if it is null
+  } else {
+   searchResults.clear(); // clear out the current results if they exist
+  }
+  // Note: you could have achieved the same results as above by just using:
+  // searchResults = new List<categoryWrapper>();
 
-		// use some dynamic soql to find the related opportunities by name
-		String qry = 'Select o.Id, o.Name, o.StageName, o.CloseDate, o.Amount from Opportunity o Where AccountId = ''+a.Id+'' And o.Name LIKE '%'+searchText+'%' Order By o.Name';
-		searchResults = Database.query(qry);
-		return null;
-	}
+  // use some dynamic soql to find the related opportunities by name
+  String qry = 'Select o.Id, o.Name, o.StageName, o.CloseDate, o.Amount from Opportunity o Where AccountId = ''+a.Id+'' And o.Name LIKE '%'+searchText+'%' Order By o.Name';
+  searchResults = Database.query(qry);
+  return null;
+ }
 
 }
 
 {% endhighlight %}
 <p><strong>Inline_Opportunity_Search</strong></p>
 {% highlight js %}<apex:page standardController="Account" extensions="OpportunitySearchController">
-	<style type="text/css">
-		body {background: #F3F3EC; padding-top: 15px}
-	</style>
+ <style type="text/css">
+  body {background: #F3F3EC; padding-top: 15px}
+ </style>
 
-	<apex:form >
-		<apex:pageBlock title="Search for Opportunities by Keyword" id="block" mode="edit">
-			<apex:pageMessages />
+ <apex:form >
+  <apex:pageBlock title="Search for Opportunities by Keyword" id="block" mode="edit">
+   <apex:pageMessages />
 
-			<apex:pageBlockSection >
-				<apex:pageBlockSectionItem >
-					<apex:outputLabel for="searchText">Keyword</apex:outputLabel>
-					<apex:panelGroup >
-					<apex:inputText id="searchText" value="{!searchText}"/>
-					<apex:commandButton value="Search" action="{!search}" rerender="resultsBlock" status="status"/>
-					</apex:panelGroup>
-				</apex:pageBlockSectionItem>
-			</apex:pageBlockSection>
-			<apex:actionStatus id="status" startText="Searching... please wait..."/>
-			<apex:pageBlockSection id="resultsBlock" columns="1">
-				<apex:pageBlockTable value="{!searchResults}" var="o" rendered="{!NOT(ISNULL(searchResults))}">
-		  <apex:column headerValue="Name">
-		    <apex:outputLink value="/{!o.Id}">{!o.Name}</apex:outputLink>
-		  </apex:column>
-					<apex:column value="{!o.StageName}"/>
-					<apex:column value="{!o.Amount}"/>
-					<apex:column value="{!o.CloseDate}"/>
-				</apex:pageBlockTable>
-			</apex:pageBlockSection>
+   <apex:pageBlockSection >
+    <apex:pageBlockSectionItem >
+     <apex:outputLabel for="searchText">Keyword</apex:outputLabel>
+     <apex:panelGroup >
+     <apex:inputText id="searchText" value="{!searchText}"/>
+     <apex:commandButton value="Search" action="{!search}" rerender="resultsBlock" status="status"/>
+     </apex:panelGroup>
+    </apex:pageBlockSectionItem>
+   </apex:pageBlockSection>
+   <apex:actionStatus id="status" startText="Searching... please wait..."/>
+   <apex:pageBlockSection id="resultsBlock" columns="1">
+    <apex:pageBlockTable value="{!searchResults}" var="o" rendered="{!NOT(ISNULL(searchResults))}">
+    <apex:column headerValue="Name">
+      <apex:outputLink value="/{!o.Id}">{!o.Name}</apex:outputLink>
+    </apex:column>
+     <apex:column value="{!o.StageName}"/>
+     <apex:column value="{!o.Amount}"/>
+     <apex:column value="{!o.CloseDate}"/>
+    </apex:pageBlockTable>
+   </apex:pageBlockSection>
 
-		</apex:pageBlock>
-	</apex:form>
+  </apex:pageBlock>
+ </apex:form>
 </apex:page>
 
 {% endhighlight %}

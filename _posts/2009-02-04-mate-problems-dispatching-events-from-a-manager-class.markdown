@@ -16,13 +16,13 @@ tags:   ["salesforce", "flex"]
 <p>The Manager method would then process the login request based upon some business logic and then dispatch appropriate event:</p>
 {% highlight js %}public function doLogin():void {
 
-    // process some business logic
+ // process some business logic
 
-    // dispatch the sfdc login event
-    var evt:LoginEvent = new LoginEvent(LoginEvent.DO_SFDC_LOGIN);
-    evt.username = "my_username";
-    evt.password = "my_password";
-    dispatchEvent(evt);
+ // dispatch the sfdc login event
+ var evt:LoginEvent = new LoginEvent(LoginEvent.DO_SFDC_LOGIN);
+ evt.username = "my_username";
+ evt.password = "my_password";
+ dispatchEvent(evt);
 
 }
 {% endhighlight %}

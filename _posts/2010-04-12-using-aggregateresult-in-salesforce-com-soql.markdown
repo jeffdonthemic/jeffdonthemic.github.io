@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Using AggregateResult in Salesforce.com SOQL
-description: In Spring ‘10 , Salesforce.com released new Apex functionality for aggregate functions in SOQL. These queries return an AggregateResult object which can be somewhat confusing at first. Ive noticed quite a people searching my blog for this topic so I thought Id throw some examples together. So the functions count(fieldname), count_distinct(), sum(), avg(), min() and max() return an AggregateResult object (if one row is returned from the query) or a List of AggregateResult objects (if multiple row
+description: In Spring 10 , Salesforce.com released new Apex functionality for aggregate functions in SOQL. These queries return an AggregateResult object which can be somewhat confusing at first. Ive noticed quite a people searching my blog for this topic so I thought Id throw some examples together. So the functions count(fieldname), count_distinct(), sum(), avg(), min() and max() return an AggregateResult object (if one row is returned from the query) or a List of AggregateResult objects (if multiple row
 date: 2010-04-12 11:18:52 +0300
 image:  '/images/slugs/using-aggregateresult-in-salesforce-com-soql.jpg'
 tags:   ["code sample", "salesforce", "apex"]

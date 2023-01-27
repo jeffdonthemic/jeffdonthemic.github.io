@@ -10,10 +10,10 @@ tags:   ["google app engine", "salesforce", "python"]
 <p>Devastated, I turned my efforts towards building a Force.com application on Google App Engine with Python. I had written a number of Python applications for Salesforce.com but I had always just called Apex web services when needed. I thought I would take a crack at the <a href="http://developer.force.com/appengine" target="_blank">Python Toolkit</a>. The installation was simple enough and the Toolkit includes a number of examples (unit test) to get you up and running quickly.</p>
 <p>I threw together a <a href="https://jeffdouglas-salesforce1.appspot.com/" target="_blank">small demo app</a> that connects to my Developer Org and provides the following functionality:</p>
 <ol>
-	<li>Create a new Account</li>
-	<li>Search for Accounts by keyword</li>
-	<li>View an Account and all Opportunities for the Account</li>
-	<li>Create a new Opportunity for an Account</li>
+ <li>Create a new Account</li>
+ <li>Search for Accounts by keyword</li>
+ <li>View an Account and all Opportunities for the Account</li>
+ <li>Create a new Opportunity for an Account</li>
 </ol>
 You can find the demo application and source code at <a href="https://jeffdouglas-salesforce1.appspot.com/" target="_blank">https://jeffdouglas-salesforce1.appspot.com</a>.
 <p>During the development process, I started to think of ways to get around the lack of web services functionality in the Java Early Look. Perhaps I could use Python to expose the Force.com platform as REST web services and have the Java Early Look call these services?</p>

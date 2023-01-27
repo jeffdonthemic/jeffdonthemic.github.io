@@ -11,7 +11,7 @@ tags:   ["salesforce", "visualforce"]
 {% highlight js %}<apex:relatedList list="OpportunityLineItems"/>
 <apex:relatedList list="R00NR0000000URnZAGQ"/>
 <apex:relatedList list="OpportunityContactRoles"/>
-<apex:relatedList list="OpportunityTeamMembers"/>  
+<apex:relatedList list="OpportunityTeamMembers"/> 
 <apex:relatedList list="OpenActivities"/>
 {% endhighlight %}
 <p>So let's say you have an custom object named "Opportunity Thing" that has a lookup relationship to Opportunities (called <code>Opportunity__c</code>) and you would like to display this related list on the Opportunity display Visualforce page. To find relationship name, go to the Opportunity Thing custom object, click on Fields and then click your Opportunity field. You will see the lookup options at the bottom right of the screen.</p>

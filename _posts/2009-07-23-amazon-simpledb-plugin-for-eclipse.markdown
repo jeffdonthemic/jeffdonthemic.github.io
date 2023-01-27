@@ -11,7 +11,7 @@ tags:   ["cloud computing", "amazon ec2"]
 <p>The installation/update is pretty painless and you can get started working against your domains after a quick little setup. The video to the left shows a good overview of the functionality.</p>
 <p>Features for the Amazon SimpleDB plugin include:</p>
 <ol>
-	<li>Create, view, and delete domains (databases) for all of your accounts</li>
-	<li>Add, edit, and delete items (records) and their attributes (columns)</li>
-	<li>Write Select queries against your data and view, modify and export the results</li>
+ <li>Create, view, and delete domains (databases) for all of your accounts</li>
+ <li>Add, edit, and delete items (records) and their attributes (columns)</li>
+ <li>Write Select queries against your data and view, modify and export the results</li>
 </ol>

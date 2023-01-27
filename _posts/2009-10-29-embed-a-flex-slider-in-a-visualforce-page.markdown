@@ -12,15 +12,15 @@ tags:   ["code sample", "salesforce", "visualforce", "flex"]
 <p>The Flex component is simply a wrapper around the standard HSlider control. It expects some setup values to be passed into it and then when the users moves the slider, it makes a callback to a JavaScript function in the Visualforce page to update the value in the record. It's loosely coupled so that you can pass in the values, the name of the JavaScript function to call and the ID of the DOM property to update.</p>
 {% highlight js %}&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;mx:Application xmlns:mx=&quot;http://www.adobe.com/2006/mxml&quot;
-	layout=&quot;absolute&quot; alpha=&quot;1.0&quot; backgroundGradientAlphas=&quot;[0,0,0,0]&quot;
-	creationComplete=&quot;init()&quot;&gt;
+ layout=&quot;absolute&quot; alpha=&quot;1.0&quot; backgroundGradientAlphas=&quot;[0,0,0,0]&quot;
+ creationComplete=&quot;init()&quot;&gt;
 
 &lt;mx:Script&gt;
-	&lt;![CDATA[
-		import flash.external.ExternalInterface;
-		import mx.events.SliderEvent;
+ &lt;![CDATA[
+  import flash.external.ExternalInterface;
+  import mx.events.SliderEvent;
 
-		// bind the variables so that can be notified of value updates
+  // bind the variables so that can be notified of value updates
   [Bindable] private var slideInterval:int;
   [Bindable] private var minSliderValue:int;
   [Bindable] private var maxSliderValue:int;
@@ -30,51 +30,51 @@ tags:   ["code sample", "salesforce", "visualforce", "flex"]
   private var startSliderValue:int;
   private var boundDomId:String;
 
-		// method to be called immediately after component is created
-		private function init():void {
+  // method to be called immediately after component is created
+  private function init():void {
 
-			// set some values passed in from the Visualforce page
-			startSliderValue = this.parameters.startSliderValue;
-			minSliderValue = this.parameters.minSliderValue;
-			maxSliderValue = this.parameters.maxSliderValue;
-			slideInterval = this.parameters.slideInterval;
-			// add the min &amp; max as the slider labels
-			sliderLabels.push(minSliderValue,maxSliderValue);
-			// add the min &amp; max as the slider values
-			sliderTickValues.push(minSliderValue,maxSliderValue);
+   // set some values passed in from the Visualforce page
+   startSliderValue = this.parameters.startSliderValue;
+   minSliderValue = this.parameters.minSliderValue;
+   maxSliderValue = this.parameters.maxSliderValue;
+   slideInterval = this.parameters.slideInterval;
+   // add the min &amp; max as the slider labels
+   sliderLabels.push(minSliderValue,maxSliderValue);
+   // add the min &amp; max as the slider values
+   sliderTickValues.push(minSliderValue,maxSliderValue);
 
-			// set name of the callback javascript function
-			callbackFunction = this.parameters.callbackFunction;
-			// set the id of the DOM element attached to the slider so we can reference it
-			boundDomId = this.parameters.boundDomId;
+   // set name of the callback javascript function
+   callbackFunction = this.parameters.callbackFunction;
+   // set the id of the DOM element attached to the slider so we can reference it
+   boundDomId = this.parameters.boundDomId;
 
-			// set the values initially for the component
-			mySlider.tickValues = sliderTickValues;
-			mySlider.labels = sliderLabels;
-			mySlider.value = startSliderValue;
+   // set the values initially for the component
+   mySlider.tickValues = sliderTickValues;
+   mySlider.labels = sliderLabels;
+   mySlider.value = startSliderValue;
 
-			// set the background color of the flex component so it matches the page
-			Application.application.setStyle(&quot;backgroundColor&quot;,this.parameters.bgColor ? this.parameters.bgColor : &quot;#F3F3EC&quot;);
+   // set the background color of the flex component so it matches the page
+   Application.application.setStyle(&quot;backgroundColor&quot;,this.parameters.bgColor ? this.parameters.bgColor : &quot;#F3F3EC&quot;);
 
-		}
+  }
 
-		// notify the external interface that the slider was changed
-		public function handleSliderChange(evt:SliderEvent):void {
-			ExternalInterface.call(this.callbackFunction,evt.currentTarget.value,this.boundDomId);
-		}
-	]]&gt;
+  // notify the external interface that the slider was changed
+  public function handleSliderChange(evt:SliderEvent):void {
+   ExternalInterface.call(this.callbackFunction,evt.currentTarget.value,this.boundDomId);
+  }
+ ]]&gt;
 &lt;/mx:Script&gt;
 
 &lt;mx:HSlider
-	id=&quot;mySlider&quot;
-	minimum=&quot;{minSliderValue}&quot;
-	maximum=&quot;{maxSliderValue}&quot;
-	snapInterval=&quot;{slideInterval}&quot;
-	tickValues=&quot;{sliderTickValues}&quot;
-	labels=&quot;{sliderLabels}&quot;
-	allowTrackClick=&quot;false&quot;
-	liveDragging=&quot;false&quot;
-	change=&quot;handleSliderChange(event)&quot;/&gt;
+ id=&quot;mySlider&quot;
+ minimum=&quot;{minSliderValue}&quot;
+ maximum=&quot;{maxSliderValue}&quot;
+ snapInterval=&quot;{slideInterval}&quot;
+ tickValues=&quot;{sliderTickValues}&quot;
+ labels=&quot;{sliderLabels}&quot;
+ allowTrackClick=&quot;false&quot;
+ liveDragging=&quot;false&quot;
+ change=&quot;handleSliderChange(event)&quot;/&gt;
 
 &lt;/mx:Application&gt;
 

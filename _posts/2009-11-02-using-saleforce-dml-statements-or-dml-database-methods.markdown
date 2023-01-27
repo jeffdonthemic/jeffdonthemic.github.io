@@ -10,8 +10,8 @@ tags:   ["code sample", "salesforce", "apex"]
 <p>The <a href="http://www.salesforce.com/us/developer/docs/apexcode/index.htm" target="_blank">Salesforce documentation</a> is good and extremely detailed but these two approaches overlap in functinality and are sometimes confusing. I've tried to boil the docs down and point out where DML statements and DML database methods are different and yet the same. The choices you make for your code is mostly based upon personal preference but may be dictated depending on the transactions you are performing.</p>
 <p>The main difference is how bulk exceptions are processed:</p>
 <ul>
-	<li><strong>DML statements</strong> - when an exception is thrown during bulk DML processing, processing stops immediately and jumps to your catch block.</li>
-	<li><strong>DML database methods</strong> - allows partial success of bulk DML operations. Records that fail processing can be inspected and possibly resubmitted if necessary.</li>
+ <li><strong>DML statements</strong> - when an exception is thrown during bulk DML processing, processing stops immediately and jumps to your catch block.</li>
+ <li><strong>DML database methods</strong> - allows partial success of bulk DML operations. Records that fail processing can be inspected and possibly resubmitted if necessary.</li>
 </ul>
 Here is an Apex example of inserting records using DML database methods. Notice the SaveResult object returned from the insert function and how it is processed outside of the catch block.
 {% highlight js %}List<Contact> contacts = new List<Contact>();
@@ -40,13 +40,13 @@ try {
 {% endhighlight %}
 <p>DML database methods may also contain two optional parameters:</p>
 <ol>
-	<li><strong>opt_allOrNone</strong> - a Boolean that indicates if the operation should allow partial successes. If false, failing records will not cause subsequent records to fail as well.</li>
-	<li><strong>DMLOptions</strong> - an object that provides extra information that is used during the transaction such as string truncations behavior, assignment rules, email processing and locale information.</li>
+ <li><strong>opt_allOrNone</strong> - a Boolean that indicates if the operation should allow partial successes. If false, failing records will not cause subsequent records to fail as well.</li>
+ <li><strong>DMLOptions</strong> - an object that provides extra information that is used during the transaction such as string truncations behavior, assignment rules, email processing and locale information.</li>
 </ol>
 A couple of methods only support one approach or the other:
 <ul>
-	<li><strong>convertLead</strong> - DML database method only</li>
-	<li><strong>merge</strong> - DML statement only</li>
+ <li><strong>convertLead</strong> - DML database method only</li>
+ <li><strong>merge</strong> - DML statement only</li>
 </ul>
 <h2>Insert Method</h2>
 <p>DML Statement Syntax</p>
@@ -76,8 +76,8 @@ Upsert either creates new sObject records or updates existing sObject records wi
 upsert sObject[] opt_external_id
 {% endhighlight %}
 <p>DML Database Method Syntax</p>
-{% highlight js %}UpsertResult Database.Upsert(sObject recordToUpsert, Schema.SObjectField External_ID_Field, Boolean opt_allOrNone)
-UpsertResult[] Database.Upsert(sObject[] recordsToUpsert, Schema.SObjectField External_ID_Field, Boolean opt_allOrNone)
+{% highlight js %}UpsertResult Database.Upsert(sObject recordToUpsert, Schema.SObjectField External_ID_Field, Booleanopt_allOrNone)
+UpsertResult[] Database.Upsert(sObject[] recordsToUpsert, Schema.SObjectField External_ID_Field, Booleanopt_allOrNone)
 {% endhighlight %}
 <h2>Delete Method</h2>
 <p>DML Statement Syntax</p>
@@ -118,32 +118,32 @@ LeadConvertResult[] Database.convertLead(LeadConvert[] leadsToConvert, Boolean o
 <h2>Setup Object</h2>
 <p>Some sObjects (called setup objects) will not let you perform DML operations with other sObjects in the same transaction. For example, if you try to insert a new user and a new contact in the same transaction, you'll receive the following exception: "<strong>MIXED_DML_OPERATION, DML operation on setup object is not permitted after you have updated a non-setup object</strong>". There is a potential workaround <a href="http://community.salesforce.com/sforce/board/message?board.id=apex&thread.id=5745" target="_blank">posted here</a> but you can also try to use a @future method to perform the processing of the second sObject.</p>
 <ul>
-	<li>Group3</li>
-	<li>GroupMember</li>
-	<li>QueueSObject</li>
-	<li>User4</li>
-	<li>UserRole</li>
-	<li>UserTerritory</li>
-	<li>Territory</li>
+ <li>Group3</li>
+ <li>GroupMember</li>
+ <li>QueueSObject</li>
+ <li>User4</li>
+ <li>UserRole</li>
+ <li>UserTerritory</li>
+ <li>Territory</li>
 </ul>
 <h2>Not DML Supported Objects</h2>
 <p>This catches people once in awhile, but the following sObjects do not support <em>any type</em> of DML operations:</p>
 <ul>
-	<li>AccountTerritoryAssignmentRule</li>
-	<li>AccountTerritoryAssignmentRuleItem</li>
-	<li>ApexComponent</li>
-	<li>ApexPage</li>
-	<li>BusinessHours</li>
-	<li>BusinessProcess</li>
-	<li>CategoryNode</li>
-	<li>CurrencyType</li>
-	<li>DatedConversionRate</li>
-	<li>ProcessInstance</li>
-	<li>Profile</li>
-	<li>RecordType</li>
-	<li>SelfServiceUser</li>
-	<li>StaticResource</li>
-	<li>UserAccountTeamMember</li>
-	<li>UserTerritory</li>
-	<li>WebLink</li>
+ <li>AccountTerritoryAssignmentRule</li>
+ <li>AccountTerritoryAssignmentRuleItem</li>
+ <li>ApexComponent</li>
+ <li>ApexPage</li>
+ <li>BusinessHours</li>
+ <li>BusinessProcess</li>
+ <li>CategoryNode</li>
+ <li>CurrencyType</li>
+ <li>DatedConversionRate</li>
+ <li>ProcessInstance</li>
+ <li>Profile</li>
+ <li>RecordType</li>
+ <li>SelfServiceUser</li>
+ <li>StaticResource</li>
+ <li>UserAccountTeamMember</li>
+ <li>UserTerritory</li>
+ <li>WebLink</li>
 </ul>

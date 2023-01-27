@@ -8,14 +8,14 @@ tags:   ["code sample", "salesforce", "apex"]
 ---
 <p>During the Salesforce.com lead conversion process, you can create an account, contact and opportunity for the lead that is being converted. The process is pretty straightforward and Salesforce.com provides some tools for customizing it:</p>
 <ol>
-	<li>Salesforce.com allows you to automatically map standard and custom lead fields to account, contact, and opportunity fields.</li>
-	<li><span>Apex</span> triggers are fired and universally required custom fields and validation rules are enforced only if <strong>validation and triggers for lead convert</strong> are enabled in your organization.</li>
+ <li>Salesforce.com allows you to automatically map standard and custom lead fields to account, contact, and opportunity fields.</li>
+ <li><span>Apex</span> triggers are fired and universally required custom fields and validation rules are enforced only if <strong>validation and triggers for lead convert</strong> are enabled in your organization.</li>
 </ol>
 However, there may be some instances when a use case requires more complex processing. For instance:
 <ol>
-	<li>Whenever a new contact is created from a lead, a custom object is created that is associated to the contact.</li>
-	<li>Whenever a new account is created, a callout is made to an external webservice.</li>
-	<li>Whenever a new opportunity is created, a number of standard products are added to the opportunity.</li>
+ <li>Whenever a new contact is created from a lead, a custom object is created that is associated to the contact.</li>
+ <li>Whenever a new account is created, a callout is made to an external webservice.</li>
+ <li>Whenever a new opportunity is created, a number of standard products are added to the opportunity.</li>
 </ol>
 Here is a sample trigger that, for simplicity, does not operate for bulk inserts but gives you a good head start. The documentation on the conversion process is <a href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_dml_convertLead.htm" target="_blank">located here</a>.
 {% highlight js %}trigger LeadConvert on Lead (after update) {

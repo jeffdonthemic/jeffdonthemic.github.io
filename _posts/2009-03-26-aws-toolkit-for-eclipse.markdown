@@ -12,11 +12,11 @@ tags:   ["cloud computing", "amazon ec2"]
 <p>I got a change to play around with it yesterday on some of my instances and it certainly makes alot of mundane processes easier.</p>
 <p>Some of the key features include:</p>
 <ul>
-	<li>Remote debugger</li>
-	<li>Reboot or termininate instances</li>
-	<li>Open remote shells</li>
-	<li>Attach elastic block storage volumes</li>
-	<li>Launch new instances</li>
-	<li>Manage serurity groups and permissions</li>
-	<li>Manage your Elastic Block Storage volumes and snapshots</li>
+ <li>Remote debugger</li>
+ <li>Reboot or termininate instances</li>
+ <li>Open remote shells</li>
+ <li>Attach elastic block storage volumes</li>
+ <li>Launch new instances</li>
+ <li>Manage serurity groups and permissions</li>
+ <li>Manage your Elastic Block Storage volumes and snapshots</li>
 </ul>

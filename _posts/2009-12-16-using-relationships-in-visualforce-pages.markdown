@@ -12,11 +12,11 @@ tags:   ["code sample", "salesforce", "visualforce"]
 <p>Originally I was going to display an Opportunity and its LineItems but they are not accessible in Sites so I opted to display an Account and its Contacts. The renderAs attribute specifies that the page is to be generated as a PDF. The account names traverse the parent relationships to display the various names associated with them. We then display all off the associate contacts by iterating over the collection (account.contacts <-- notice the "s").</p>
 {% highlight js %}<apex:page standardController="Account" showHeader="false" renderAs="pdf">
 
-	<img src="{!URLFOR($Resource.AppirioLogo)}" border="0"/><p/>
+ <img src="{!URLFOR($Resource.AppirioLogo)}" border="0"/><p/>
 
-	Name: {!account.name}<br/>
-	Regional Parent: {!account.parent.name}<br/>
-	Corp Parent: {!account.parent.parent.name}<p/>
+ Name: {!account.name}<br/>
+ Regional Parent: {!account.parent.name}<br/>
+ Corp Parent: {!account.parent.parent.name}<p/>
 
   <table width="100%" cellpadding="2" cellspacing="2">
   <tr>
@@ -26,9 +26,9 @@ tags:   ["code sample", "salesforce", "visualforce"]
   </tr>
   <apex:repeat value="{!account.contacts}" var="contact">
   <tr>
-  	<td>{!contact.firstname}</td>
-  	<td>{!contact.lastname}</td>
-  	<td>{!contact.email}</td>
+   <td>{!contact.firstname}</td>
+   <td>{!contact.lastname}</td>
+   <td>{!contact.email}</td>
   </tr>
   </apex:repeat>
   </table>

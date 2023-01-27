@@ -14,7 +14,7 @@ tags:   ["trailhead", "salesforce"]
 <p>I came up with a first draft of the project but wasn't happy with the direction and target audience. We wanted to build something that would be fun for the movie release but also usable down the road for workshop and other training events. Plus it was balancing act of how close our references were to the movie for obvious reasons. For a while I was even contemplating a more cloud computing focused storyline with sections like:</p>
 <ul>
 <li>"From across the galaxy you have just received a distress message from the planet of Onpremsia..."</li>
-<li>"The message ends with the plea, 'Help us Obi-Marc Keynoti, you’re our only hope!'”</li>
+<li>"The message ends with the plea, 'Help us Obi-Marc Keynoti, youre our only hope!'</li>
 <li>"The Council of Safe Harbor begins a furious plan..."</li>
 </ul>
 <p>My partner in crime <a href="https://twitter.com/thechrisduarte">Chris Duarte</a> was awesome as usual. We met a couple of times to brainstorm ideas and anyone listening to our conversation must have thought we'd been drinking. We had <strong>soo</strong> much fun talking about different ideas and scenarios. She's such a Star Wars nerd.</p>

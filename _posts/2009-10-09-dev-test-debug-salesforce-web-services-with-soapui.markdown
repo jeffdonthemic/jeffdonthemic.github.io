@@ -12,9 +12,9 @@ tags:   ["salesforce"]
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399477/soapui_nfftaj.png"><img class="aligncenter size-full wp-image-1468" title="soapUI" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400399477/soapui_nfftaj.png" alt="soapUI" width="544" height="335" /></a></p>
 <p>Some of the main features of the free and commercial versions of soapUI include:</p>
 <ul>
-	<li>Inspect WSDL and REST web services - includes schema and table inspectors, form output editor, SOAP monitor, JSON viewer and HTML generator for documentation.</li>
-	<li>WSDL and REST service invocation - automatically generate requests from associated schemas for multiple endpoints.</li>
-	<li>Development and validation - generates server and client code for some of the most popular Web Service toolkits including JBossWS, JWSDP (JAX-WS/JAX-RPC), Axis 1, Axis 2, CXF, XFire, Oracle, .NET and GSoap.</li>
-	<li>Load testing - stress test your services and export results, statistics, logs, diagram data, etc. for external processing.</li>
-	<li>Simulate web service calls - During your development process you can create mock services and run your processes against them.</li>
+ <li>Inspect WSDL and REST web services - includes schema and table inspectors, form output editor, SOAP monitor, JSON viewer and HTML generator for documentation.</li>
+ <li>WSDL and REST service invocation - automatically generate requests from associated schemas for multiple endpoints.</li>
+ <li>Development and validation - generates server and client code for some of the most popular Web Service toolkits including JBossWS, JWSDP (JAX-WS/JAX-RPC), Axis 1, Axis 2, CXF, XFire, Oracle, .NET and GSoap.</li>
+ <li>Load testing - stress test your services and export results, statistics, logs, diagram data, etc. for external processing.</li>
+ <li>Simulate web service calls - During your development process you can create mock services and run your processes against them.</li>
 </ul>

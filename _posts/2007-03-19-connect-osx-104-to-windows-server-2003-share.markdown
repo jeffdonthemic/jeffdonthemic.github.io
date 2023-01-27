@@ -12,7 +12,7 @@ tags:   ["apple"]
 <p>Then double click on RequireSecuritySignature and set its value to "0" {zero}.</p>
 <p>If your server is also a domain controller, you need to open the Domain Controller Security Policy option from Administrator Tools (Administrative Tools > Domain Controller Security Policy) once there, navigate to Local Policies > Security Options and disable the following two options:</p>
 <ul>
-	<li>Microsoft network server: Digitally sign communications (always)</li>
-	<li>Microsoft network server: Digitally sign communications (if client agrees)</li>
+ <li>Microsoft network server: Digitally sign communications (always)</li>
+ <li>Microsoft network server: Digitally sign communications (if client agrees)</li>
 </ul>
 Rebot your server and you should be all set.

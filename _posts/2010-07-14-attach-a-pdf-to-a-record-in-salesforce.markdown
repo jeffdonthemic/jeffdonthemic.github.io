@@ -62,13 +62,13 @@ tags:   ["code sample", "salesforce", "visualforce", "apex"]
   Blob body;
   
   try {
-  	
+   
   // returns the output of the page as a PDF
-  	body = pdf.getContent();
-  	
-  // need to pass unit test -- current bug	
+   body = pdf.getContent();
+   
+  // need to pass unit test -- current bug 
   } catch (VisualforceException e) {
-  	body = Blob.valueOf('Some Text');
+   body = Blob.valueOf('Some Text');
   }
   
   attach.Body = body;

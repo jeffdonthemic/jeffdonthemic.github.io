@@ -10,18 +10,18 @@ tags:   ["salesforce", "apex"]
 <p>Here is what I came up with but it seems that there must be a better way. The only constant that I could come up with is our Production org ID. So my Apex class holds a reference to this ID and then I have a method that checks the current user's org ID and constructs the URL.</p>
 {% highlight js %}public class MyCustomClass {
 
-    // set the production org id so we can see what system we are on
-    private static final String PRODUCTION_ORG_ID = '00Z990000001ZZZ';
+ // set the production org id so we can see what system we are on
+ private static final String PRODUCTION_ORG_ID = '00Z990000001ZZZ';
 
-    // returns the correct system url for the current org
-    private String orgUrl {
-        get {
-            return UserInfo.getOrganizationId() == PRODUCTION_ORG_ID ? 'http://na5.salesforce.com' : 'http://cs1.salesforce.com';
-        }
-        set;
-    }
+ // returns the correct system url for the current org
+ private String orgUrl {
+  get {
+   return UserInfo.getOrganizationId() == PRODUCTION_ORG_ID ? 'http://na5.salesforce.com' : 'http://cs1.salesforce.com';
+  }
+  set;
+ }
 
-    // write some code that calls orgUrl....
+ // write some code that calls orgUrl....
 
 }
 {% endhighlight %}

@@ -13,7 +13,7 @@ tags:   ["salesforce"]
 <p>This is the component that provides the enhanced list view functionality. It uses the Apex Controller below.</p>
 {% highlight js %}<apex:component controller="ContactListViewController">
  <apex:attribute name="listViewName" type="String" required="true" 
-  description="The name of the listview." assignTo="{!listName}"/>	
+  description="The name of the listview." assignTo="{!listName}"/> 
 
  <apex:enhancedList height="400" rowsPerPage="25" id="ContactList"
   listId="{!listId}" rendered="{!listId != null}" />

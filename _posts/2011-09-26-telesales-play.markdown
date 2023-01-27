@@ -10,7 +10,7 @@ tags:   ["heroku", "salesforce"]
 <p>To get started, check out the <a href="http://blog.heroku.com/archives/2011/8/29/play/">Play! on Heroku blog post</a> as it has everything you need to get started with a simple Hello World app. There's also a <a href="http://devcenter.heroku.com/articles/play">Getting Started with Play! on Heroku/Cedar article</a> for more info.</p>
 <p>Once again, this is a demo Java app running on Heroku using the Play! Framework. It uses the Force.com Web Service Connector (WSC) and the Partner jar to connect to a DE salesforce.com org. It uses the web services API to query for records, retrieve records to display, create new records and update existing ones. It should be good fodder for anyone wanting to start out with Play! and Force.com.</p>
 <p><span style="font-size:x-large"><a href="http://telesales-play.herokuapp.com/">You can run the app for yourself here.</a></span></p>
-<p>All of the <a href="https://github.com/jeffdonthemic/Telesales-Play">code for this app is at github</a> so fork awey. I’ve pulled out some of the more important parts of the app for a quick peek. There's also an overview of one of the important classes to give you something to look at.</p>
+<p>All of the <a href="https://github.com/jeffdonthemic/Telesales-Play">code for this app is at github</a> so fork awey. Ive pulled out some of the more important parts of the app for a quick peek. There's also an overview of one of the important classes to give you something to look at.</p>
 <p><strong>app/controllers/Account.java</strong></p>
 <p>The account controller contains all of the business logic for integration with Force.com and then packages up the returns for the views.</p>
 {% highlight js %}package controllers;

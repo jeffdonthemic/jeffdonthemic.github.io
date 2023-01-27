@@ -32,7 +32,7 @@ tags:   ["salesforce"]
 <li>If you use ConnectApi (Chatter in Apex) there are an <strong>extremely</strong> large number of enhancements to checkout.</li>
 <li>There is a number of new and modified Apex classes and interfaces so see the docs for details.</li>
 <li>API v33.0 has a large number of new and changed objects for you to pore over. The REST API now supports insert/update of BLOB data plus CORS support! Hurrah!!</li>
-<li>The Streaming API now supports generic streaming for events that aren’t tied to Salesforce data changes.</li>
+<li>The Streaming API now supports generic streaming for events that arent tied to Salesforce data changes.</li>
 <li>The Tooling API adds SOSL support and a few new objects and new fields on existing objects.</li>
 <li>For ISV there are also a number of enhancements that will make you happy and your jobs easier.</li>
 </ul>
@@ -49,7 +49,7 @@ tags:   ["salesforce"]
 <h2 id="security">Security</h2>
 <p>It looks like @cmort has been busy as usual for this release as there are tons (literally, not figuratively) of enhancements.</p>
 <ul>
-<li>Monitor Your Users’ Login and Logout Activity</li>
+<li>Monitor Your Users Login and Logout Activity</li>
 <li>Configure a Google Authentication Provider</li>
 <li>Customize SAML Just-in-Time User Provisioning with an Apex Class</li>
 <li>Use Multiple Callback URLs for Connected</li>
@@ -104,7 +104,7 @@ tags:   ["salesforce"]
 <li>Support agents who use Case Feed now can run macros to automagically complete repetitive tasks.</li>
 <li>The Assets Object has ben redesigned as a Standard Object with all kinds of goodies (sharing rules, record types, field history, etc.).</li>
 <li>Agents and Salesforce Knowledge managers can now see a list of cases an article is attached to.</li>
-<li>When using Knowledge One, agents can send an email with an article’s contents embedded in the body of the email (Beta).</li>
+<li>When using Knowledge One, agents can send an email with an articles contents embedded in the body of the email (Beta).</li>
 <li>Salesforce no longer supports Salesforce CTI Toolkit. Long live Open CTI!</li>
 <li>Create cases from questions in Chatter with Question-to-Case.</li>
 <li>Social Customer Service Starter Pack connects FB and Twitter accounts to Salesforce (without a Radian6 contract) allowing you to like, tweet and post all from with the Case feed. There are even Google+ and Sina Weibo Social Customer Service pilots.</li>
@@ -124,7 +124,7 @@ tags:   ["salesforce"]
 <ul>
 <li>The Lightning Component framework is in beta but has a number of new components and events. See <a href="/2014/10/14/tutorial-build-your-first-lightning-component/">this blog post</a> to get started building components.</li>
 <li>Build powerful queries for Wave using Salesforce Analytics Query Language (SAQL) for ad hoc analysis.</li>
-<li>Exchange Sync which syncs your users’ contacts and events between Exchange-based email systems and Salesforce.</li>
-<li>Manage Customer Data with Data Pipelines to leverage the power of custom Apache Pig scripts on Hadoop to process large-scale data that’s stored in Salesforce.</li>
+<li>Exchange Sync which syncs your users contacts and events between Exchange-based email systems and Salesforce.</li>
+<li>Manage Customer Data with Data Pipelines to leverage the power of custom Apache Pig scripts on Hadoop to process large-scale data thats stored in Salesforce.</li>
 </ul>
 

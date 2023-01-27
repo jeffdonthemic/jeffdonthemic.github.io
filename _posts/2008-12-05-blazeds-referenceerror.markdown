@@ -14,33 +14,33 @@ tags:   ["flex", "java"]
 
 public class MyObject {
 
-    private int id;
-    private String name;
+ private int id;
+ private String name;
 
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-    /**
-     * @return the name
-     */
-    public String getName() {
-        return name;
-    }
-    /**
-     * @param name the name to set
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
+ /**
+ * @return the id
+ */
+ public int getId() {
+  return id;
+ }
+ /**
+ * @param id the id to set
+ */
+ public void setId(int id) {
+  this.id = id;
+ }
+ /**
+ * @return the name
+ */
+ public String getName() {
+  return name;
+ }
+ /**
+ * @param name the name to set
+ */
+ public void setName(String name) {
+  this.name = name;
+ }
 
 }
 {% endhighlight %}
@@ -48,13 +48,13 @@ public class MyObject {
 {% highlight js %}package com.jeffdouglas.model
 {
 
-    [Bindable]
-    [RemoteClass(alias="com.jeffdouglas.MyObject")]
-    public class MyObjectTO
-    {
-        public var Id:Number;
-        public var Name:String;
-    }
+ [Bindable]
+ [RemoteClass(alias="com.jeffdouglas.MyObject")]
+ public class MyObjectTO
+ {
+  public var Id:Number;
+  public var Name:String;
+ }
 
 }
 {% endhighlight %}
@@ -62,37 +62,37 @@ public class MyObject {
 {% highlight js %}<?xml version="1.0" encoding="utf-8"?>
 <mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
 
-    <mx:RemoteObject id="blazeRo" destination="myDao"
-        result="resultMyObject(event)"
-        fault="faultHandler(event)"/>               
+ <mx:RemoteObject id="blazeRo" destination="myDao"
+  result="resultMyObject(event)"
+  fault="faultHandler(event)"/>   
 
-    <mx:Script>
-    <![CDATA[
-    import mx.controls.Alert;
-    import mx.rpc.events.FaultEvent;
-    import mx.rpc.events.ResultEvent;
-    import mx.utils.ObjectUtil;
-    import com.jeffdouglas.model.*;
+ <mx:Script>
+ <![CDATA[
+ import mx.controls.Alert;
+ import mx.rpc.events.FaultEvent;
+ import mx.rpc.events.ResultEvent;
+ import mx.utils.ObjectUtil;
+ import com.jeffdouglas.model.*;
 
-    private function myObjectListener():void
-    {
-        blazeRo.getMyObject();
-    }   
+ private function myObjectListener():void
+ {
+  blazeRo.getMyObject();
+ }
 
-    private function resultMyObject(event:ResultEvent):void
-    {
-        var m:MyObjectTO = event.result as MyObjectTO;
-        Alert.show(ObjectUtil.toString(m));
-    }   
+ private function resultMyObject(event:ResultEvent):void
+ {
+  var m:MyObjectTO = event.result as MyObjectTO;
+  Alert.show(ObjectUtil.toString(m));
+ }
 
-    private function faultHandler(event:FaultEvent):void
-    {
-        Alert.show(event.fault.faultString);
-    }
-    ]]>
-    </mx:Script>
+ private function faultHandler(event:FaultEvent):void
+ {
+  Alert.show(event.fault.faultString);
+ }
+ ]]>
+ </mx:Script>
 
-    <mx:Button label="Get MyObject" click="myObjectListener()"/>
+ <mx:Button label="Get MyObject" click="myObjectListener()"/>
 
 </mx:Application>
 {% endhighlight %}
@@ -101,8 +101,8 @@ public class MyObject {
 ReferenceError: Error #1056: Cannot create property name on com.jeffdouglas.model.MyObjectTO.</blockquote>
 Here's how I fixed the problem:
 <ol>
-	<li>I changed the members in my POJO from private to public (not a great solution, but it worked. I am still investigating this.)</li>
-	<li>Made sure the members in both the POJO and TO were in the same order.</li>
-	<li>Made sure the member names in the POJO and TO were the same case. I had used "Name" and "Id" in the TO and "name" and "id" in the POJO.</li>
+ <li>I changed the members in my POJO from private to public (not a great solution, but it worked. I am still investigating this.)</li>
+ <li>Made sure the members in both the POJO and TO were in the same order.</li>
+ <li>Made sure the member names in the POJO and TO were the same case. I had used "Name" and "Id" in the TO and "name" and "id" in the POJO.</li>
 </ol>
 After these changes were made the POC worked like a champ and the development resumed.

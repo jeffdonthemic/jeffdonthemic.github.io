@@ -57,11 +57,11 @@ public class MyPanel extends Composite {
 ```html
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui"
-	xmlns:c="urn:import:com.jeffdouglas.client">
-	<g:HTMLPanel>
-	  <c:SomeWidget/>
-	</g:HTMLPanel>
+ xmlns:g="urn:import:com.google.gwt.user.client.ui"
+ xmlns:c="urn:import:com.jeffdouglas.client">
+ <g:HTMLPanel>
+   <c:SomeWidget/>
+ </g:HTMLPanel>
 </ui:UiBinder>
 ```
 </p><p style="clear: both">The SomeWidget class is pretty simple also. The constructor accepts SomeObject, sets it to the class member, initializes the widget and then sets the text of the displayText UiField to the name value in the SomeObject.</p><p style="clear: both"><strong>SomeWidget.java</strong></p><p style="clear: both">

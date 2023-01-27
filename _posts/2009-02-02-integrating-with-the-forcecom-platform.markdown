@@ -8,11 +8,11 @@ tags:   ["salesforce"]
 ---
 <p>There is a really <a href="http://wiki.apexdevnet.com/index.php/Integrating_with_the_Force.com_Platform">great overview at developer.force.com</a> on the multiple ways to integrate your applications with force.com:</p>
 <ul>
-	<li>Creating and exposing web services using the Apex programming language</li>
-	<li>Invoking external web services from Apex</li>
-	<li>Outbound messaging for invoking external web services when data changes</li>
-	<li>HTTP and REST integration</li>
-	<li>Email integration for inbound and outbound messaging</li>
-	<li>The Force.com Web Services API and associated toolkits, such as the AJAX Toolkit, Java, .NET, PHP and Adobe Flex integrations.</li>
-	<li>Syndication feeds via Force.com Sites</li>
+ <li>Creating and exposing web services using the Apex programming language</li>
+ <li>Invoking external web services from Apex</li>
+ <li>Outbound messaging for invoking external web services when data changes</li>
+ <li>HTTP and REST integration</li>
+ <li>Email integration for inbound and outbound messaging</li>
+ <li>The Force.com Web Services API and associated toolkits, such as the AJAX Toolkit, Java, .NET, PHP and Adobe Flex integrations.</li>
+ <li>Syndication feeds via Force.com Sites</li>
 </ul>

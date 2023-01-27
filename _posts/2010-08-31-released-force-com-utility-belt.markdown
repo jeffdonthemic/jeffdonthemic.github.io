@@ -12,21 +12,21 @@ tags:   ["google", "salesforce", "programming"]
 <a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327940/utilitybelt-1_l32v2u.png"><img class="alignnone size-full wp-image-3192" title="utilitybelt-1" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327940/utilitybelt-1_l32v2u.png" alt="" width="558" height="204" /></a>
 <p>When first activated, the extension display the interface above with the following features and functions:</p>
 <ul>
-	<li>Defaults to the Quick Reference Topics interface</li>
-	<li>Displays links in the upper right for access to the main functionality of the extension (Quick Reference Topics, Search for Stuff and ID Converter)</li>
-	<li>Displays links to open <a href="http://developer.force.com" target="_blank">developer.force.com</a> and the <a href="http://wiki.developerforce.com/index.php/Documentation" target="_blank">Force.com documentation page</a> in a new tab</li>
-	<li>Displays the latest feed content from the Force.com blog in the bottom</li>
+ <li>Defaults to the Quick Reference Topics interface</li>
+ <li>Displays links in the upper right for access to the main functionality of the extension (Quick Reference Topics, Search for Stuff and ID Converter)</li>
+ <li>Displays links to open <a href="http://developer.force.com" target="_blank">developer.force.com</a> and the <a href="http://wiki.developerforce.com/index.php/Documentation" target="_blank">Force.com documentation page</a> in a new tab</li>
+ <li>Displays the latest feed content from the Force.com blog in the bottom</li>
 </ul>
 <h3>Quick Reference Topics</h3>
 <a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327939/utilitybelt-2_h72aix.png"><img class="alignnone size-full wp-image-3198" title="utilitybelt-2" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327939/utilitybelt-2_h72aix.png" alt="" width="561" height="299" /></a>
 <p>The following sections are loaded into the extension with short cuts to topics that I frequently use allowing me quick access to stuff that I typically forget. The sections include:</p>
 <ul>
-	<li>Apex</li>
-	<li>Visualforce</li>
-	<li>Visualforce Components</li>
-	<li>SOQL</li>
-	<li>AJAX Toolkit</li>
-	<li>Web Services API</li>
+ <li>Apex</li>
+ <li>Visualforce</li>
+ <li>Visualforce Components</li>
+ <li>SOQL</li>
+ <li>AJAX Toolkit</li>
+ <li>Web Services API</li>
 </ul>
 Once you choose a section you can drill down into a specific topic, view it in the extension and even open the actual page in a new browser tab.
 <p><a href="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327938/utilitybelt-3_xhc1yb.png"><img class="alignnone size-full wp-image-3200" title="utilitybelt-3" src="http://res.cloudinary.com/blog-jeffdouglas-com/image/upload/v1400327938/utilitybelt-3_xhc1yb.png" alt="" width="560" height="387" /></a></p>

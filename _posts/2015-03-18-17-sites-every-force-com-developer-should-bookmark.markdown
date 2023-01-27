@@ -87,7 +87,7 @@ tags:   ["salesforce"]
  <td><h2><a href="http://coenraets.org/blog/" target="_blank">Christophe Coenraets</a></h2></td>
 </tr>
 </table>
-<p>I’ve followed Christophe for years when he was at Adobe and floored when he announced that was joining Salesforce! Christophe has one of the best tech blogs of all time. Period.</p>
+<p>Ive followed Christophe for years when he was at Adobe and floored when he announced that was joining Salesforce! Christophe has one of the best tech blogs of all time. Period.</p>
 <table style="border:0">
 <tr>
  <td><div class="circular" style="margin-left:50px;margin-right:50px"><img src="https://pbs.twimg.com/profile_images/378800000606902520/0c9b5897d0f28e53f5666639551a7512_400x400.jpeg" alt="" /></div></td>

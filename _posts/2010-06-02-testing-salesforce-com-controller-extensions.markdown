@@ -34,11 +34,11 @@ private class Test_MyControllerExtension {
   insert masterObject;
 
   DetailObject__c d1 = new DetailObject__c(
-		Name='Detail 1',Status__c='Open',MasterObject__c=masterObject.Id);
+  Name='Detail 1',Status__c='Open',MasterObject__c=masterObject.Id);
   DetailObject__c d2 = new DetailObject__c(
-		Name='Detail 2',Status__c='Closed',MasterObject__c=masterObject.Id);
+  Name='Detail 2',Status__c='Closed',MasterObject__c=masterObject.Id);
   DetailObject__c d3 = new DetailObject__c(
-		Name='Detail 3',Status__c='Declined',MasterObject__c=masterObject.Id);
+  Name='Detail 3',Status__c='Declined',MasterObject__c=masterObject.Id);
 
   List<DetailObject__c> children = new List<DetailObject__c>();
   children.add(d1);

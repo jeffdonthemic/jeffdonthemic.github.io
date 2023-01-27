@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  Dependency Management with Play!
-description: Play! has dependency management baked into it . This allows you to express your application’s external dependencies in a single dependencies.yml file. So if your app requires commons-lang or log4j, you can list them in your depencies.yml file and Play! will download them for you and place them in your lib directory. So Im making changes to my Play! demo app for salesforce.com  and am trying to specify the  Force.com Web Service Connector (WSC)  in my dependencies.yml file. However, I think that 
+description: Play! has dependency management baked into it . This allows you to express your applications external dependencies in a single dependencies.yml file. So if your app requires commons-lang or log4j, you can list them in your depencies.yml file and Play! will download them for you and place them in your lib directory. So Im making changes to my Play! demo app for salesforce.com  and am trying to specify the  Force.com Web Service Connector (WSC)  in my dependencies.yml file. However, I think that 
 date: 2011-10-25 10:43:39 +0300
 image:  '/images/slugs/dependency-management-with-play.jpg'
 tags:   ["salesforce", "play!"]
 ---
-<p>Play! has <a href="http://www.playframework.org/documentation/1.2.3/dependency">dependency management baked into it</a>. This allows you to express your application’s external dependencies in a single dependencies.yml file. So if your app requires commons-lang or log4j, you can list them in your depencies.yml file and Play! will download them for you and place them in your lib directory.</p>
+<p>Play! has <a href="http://www.playframework.org/documentation/1.2.3/dependency">dependency management baked into it</a>. This allows you to express your applications external dependencies in a single dependencies.yml file. So if your app requires commons-lang or log4j, you can list them in your depencies.yml file and Play! will download them for you and place them in your lib directory.</p>
 <p>So I'm making changes to my <a href="/2011/09/26/telesales-play/">Play! demo app for salesforce.com</a> and am trying to specify the <a href="http://code.google.com/p/sfdc-wsc/">Force.com Web Service Connector (WSC)</a> in my dependencies.yml file. However, I think that I'm not referencing them correctly as the module is not being found in mavenscentral and downloaded. I've tried different combinations with the artifactId and groupId but nothing seems to work. Here's my dependencies.yml:</p>
 {% highlight js %}require:
   - play

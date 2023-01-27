@@ -28,12 +28,12 @@ tags:   ["code sample", "salesforce", "visualforce", "apex"]
   private Contact contact {get;set;}
   // the variable being set from the commandbutton
   public String nickName {
-  	get;
-  	// *** setter is NOT being called ***
-  	set {
-  		nickName = value;
-  		System.debug('value: '+value);
-  	}
+   get;
+   // *** setter is NOT being called ***
+   set {
+    nickName = value;
+    System.debug('value: '+value);
+   }
   }
 
   // initialize the controller
@@ -48,9 +48,9 @@ tags:   ["code sample", "salesforce", "visualforce", "apex"]
 
   // handle the action of the commandButton
   public PageReference processButtonClick() {
-  	System.debug('nickName: '+nickName);
-  	// now process the variable by doing something...
-  	return null;
+   System.debug('nickName: '+nickName);
+   // now process the variable by doing something...
+   return null;
   }
 
 }

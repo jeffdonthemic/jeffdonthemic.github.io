@@ -15,10 +15,10 @@ import com.google.gwt.user.client.ui.RootPanel;
 
 public class MyEntryPoint implements EntryPoint {
 
-	public void onModuleLoad() {
-		MyPanel p = new MyPanel("Random Text");
-		RootPanel.get().add(p);
-	}
+ public void onModuleLoad() {
+  MyPanel p = new MyPanel("Random Text");
+  RootPanel.get().add(p);
+ }
 
 }
 {% endhighlight %}
@@ -35,19 +35,19 @@ import com.google.gwt.user.client.ui.Widget;
 
 public class MyPanel extends Composite {
 
-	private static MyPanelUiBinder uiBinder = GWT.create(MyPanelUiBinder.class);
+ private static MyPanelUiBinder uiBinder = GWT.create(MyPanelUiBinder.class);
 
-	interface MyPanelUiBinder extends UiBinder<widget, MyPanel> {
-	}
+ interface MyPanelUiBinder extends UiBinder<widget, MyPanel> {
+ }
 
-	@UiField(provided=true)
-	Hidden myField;
+ @UiField(provided=true)
+ Hidden myField;
 
-	public MyPanel(String someText) {
-		Hidden myField = new Hidden();
-		myField.setValue(someText);
-		initWidget(uiBinder.createAndBindUi(this));
-	}
+ public MyPanel(String someText) {
+  Hidden myField = new Hidden();
+  myField.setValue(someText);
+  initWidget(uiBinder.createAndBindUi(this));
+ }
 
 }
 {% endhighlight %}
@@ -55,12 +55,12 @@ public class MyPanel extends Composite {
 <p><strong>MyPanel.ui.xml</strong></p>
 {% highlight js %}<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui"
-	xmlns:c="urn:import:com.jeffdouglas.client">
-	<g:HTMLPanel>
-	  <g:Hidden ui:field="myField"/>
-	  <c:SomeWidget myField="{myField.getValue}"/>
-	</g:HTMLPanel>
+ xmlns:g="urn:import:com.google.gwt.user.client.ui"
+ xmlns:c="urn:import:com.jeffdouglas.client">
+ <g:HTMLPanel>
+   <g:Hidden ui:field="myField"/>
+   <c:SomeWidget myField="{myField.getValue}"/>
+ </g:HTMLPanel>
 </ui:UiBinder>
 {% endhighlight %}
 <p style="clear: both">The SomeWidget owner class is fairly straight forward. There is a setter method for MyField which runs after the constructor, receives the text ("Random Text") and writes it to the <em>displayText</em> field in the UiBinder template.</p>
@@ -76,21 +76,21 @@ import com.google.gwt.user.client.ui.Widget;
 
 public class SomeWidget extends Composite {
 
-	private static SomeWidgetUiBinder uiBinder = GWT
-			.create(SomeWidgetUiBinder.class);
+ private static SomeWidgetUiBinder uiBinder = GWT
+   .create(SomeWidgetUiBinder.class);
 
-	interface SomeWidgetUiBinder extends UiBinder<widget, SomeWidget> {
-	}
+ interface SomeWidgetUiBinder extends UiBinder<widget, SomeWidget> {
+ }
 
-	@UiField Label displayText;
+ @UiField Label displayText;
 
-	public void setMyField(String t) {
-		displayText.setText(t);
-	}
+ public void setMyField(String t) {
+  displayText.setText(t);
+ }
 
-	public SomeWidget() {
-		initWidget(uiBinder.createAndBindUi(this));
-	}
+ public SomeWidget() {
+  initWidget(uiBinder.createAndBindUi(this));
+ }
 
 }
 {% endhighlight %}
@@ -98,10 +98,10 @@ public class SomeWidget extends Composite {
 <p><strong>SomeWidget.ui.xml</strong></p>
 {% highlight js %}<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui">
-	<g:HTMLPanel>
-	  <g:Label ui:field="displayText"/>
-	</g:HTMLPanel>
+ xmlns:g="urn:import:com.google.gwt.user.client.ui">
+ <g:HTMLPanel>
+   <g:Label ui:field="displayText"/>
+ </g:HTMLPanel>
 </ui:UiBinder>
 {% endhighlight %}
 

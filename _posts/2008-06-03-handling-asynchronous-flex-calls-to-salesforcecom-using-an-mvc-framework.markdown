@@ -15,23 +15,23 @@ tags:   ["code sample", "salesforce", "flex"]
 {% highlight js %}[Bindable]
 public function set transactionComplete (value:Boolean):void
 {
-    _transactionComplete = value;
+ _transactionComplete = value;
 }
 
 public function get transactionComplete ():Boolean
-{   
-    if (_transactionComplete == true) {
-        showCanvas();
-    }
-    return _transactionComplete;        
+{
+ if (_transactionComplete == true) {
+  showCanvas();
+ }
+ return _transactionComplete; 
 }
 
 public function showCanvas():void {
-    if (accountController.user.isAdmin) {
-        // do something
-    } else {
-        // do something else
-    }
+ if (accountController.user.isAdmin) {
+  // do something
+ } else {
+  // do something else
+ }
 }
 {% endhighlight %}
 <p>Since my controller does all of the heavy lifting, I added the following line to the responder which notify my application that the results have returned from Salesforce.com (Of course I have to reset my transactionComplete to false before I make the initial call to Salesforce.com):</p>

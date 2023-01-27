@@ -38,13 +38,18 @@ def description(post)
   str.gsub!('”', '')
   str.gsub!('.  ', '. ')
   str.gsub!('   ', ' ')
-  str.gsub!('    ', ' ')  
-  str[0,500]
+  str.gsub!('    ', ' ')
+  str.gsub!('	', ' ')  # invisible tab
+  str[0,500].encode("ASCII", "UTF-8", invalid: :replace, undef: :replace, replace: "")
 end
 
 def html_content(post)
   if post['slug'].eql?('tutorial-build-your-first-lightning-component')
     return file = File.open("./html_snippets/#{post['slug']}.md").read
+  end
+
+  if post['slug'].eql?('easily-search-and-edit-records-with-visualforce')
+    return file = File.open("./html_snippets/easily-search-and-edit-records-with-visualforce.md").read
   end
   
   c = post['html']
@@ -63,6 +68,7 @@ def html_content(post)
   c.gsub!('   ', ' ')
   c.gsub!('&amp;', '&')
   c.gsub!('‘', "'")
+  c.gsub!('	', ' ')  # invisible tab
   
   # fix all of the images
   [1,2,3,4,5,6,7,8,9,10,11,12,'Apr','Aug','Jul','Jun','May','Sept','02','03','04','05','06','07','08','09'].each do |i|
@@ -71,7 +77,7 @@ def html_content(post)
   end
   c.gsub!('href="__GHOST_URL__', 'href="')
 
-  c
+  c.encode("ASCII", "UTF-8", invalid: :replace, undef: :replace, replace: "")
 end
 
 def image(post)
@@ -133,7 +139,7 @@ tagger = Tagger.new(tags, posts_tags)
 
 
 posts.each do |post|
-  if post['type'].eql?('post')# && post['slug'].eql?('tutorial-build-your-first-lightning-component')
+  if post['type'].eql?('post')# && post['slug'].eql?('tutorial-building-lightning-components-with-spring-15')
     puts "--- processing #{post['slug']}"
     write_post(post, tagger) 
   end

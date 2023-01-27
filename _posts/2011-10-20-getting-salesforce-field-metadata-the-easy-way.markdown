@@ -11,13 +11,13 @@ tags:   ["code sample", "salesforce"]
 <p>So here's what I can up with. You pass the method the DescribeFieldResult for an object and a collection of fields that you want metadata for. The method returns a map where the field names are the keys and the values contain the metadata for the corresponding field. It looks pretty hard but that's the great thing about utility methods, they encapsulate and hide the complexity of the implementation.</p>
 {% highlight js %}public static Map<String, Schema.DescribeFieldResult> getFieldMetaData(
  Schema.DescribeSObjectResult dsor, Set<String> fields) {
-	
+ 
  // the map to be returned with the final data
  Map<String,Schema.DescribeFieldResult> finalMap = 
   new Map<String, Schema.DescribeFieldResult>();
  // map of all fields in the object
  Map<String, Schema.SObjectField> objectFields = dsor.fields.getMap();
-		
+  
  // iterate over the requested fields and get the describe info for each one. 
  // add it to a map with field name as key
  for(String field : fields){

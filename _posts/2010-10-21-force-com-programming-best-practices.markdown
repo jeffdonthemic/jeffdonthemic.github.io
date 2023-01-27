@@ -6,8 +6,8 @@ date: 2010-10-21 10:56:18 +0300
 image:  '/images/slugs/force-com-programming-best-practices.jpg'
 tags:   ["salesforce", "salesforce handbook", "visualforce", "apex"]
 ---
-<p> </p>
-<p>﻿Wes and I are adding a few more topics to our <a href="http://salesforcehandbook.wordpress.com/">Salesforce Handbook</a> before we put it to bed and I thought a great topic would be programming best practices. I've never seen a "complete" list of best practices so I thought I would put something together based upon my experiences. I know I've left some out, so if you have any to add, please chime in and we may include them in the book.</p>
+<p></p>
+<p>Wes and I are adding a few more topics to our <a href="http://salesforcehandbook.wordpress.com/">Salesforce Handbook</a> before we put it to bed and I thought a great topic would be programming best practices. I've never seen a "complete" list of best practices so I thought I would put something together based upon my experiences. I know I've left some out, so if you have any to add, please chime in and we may include them in the book.</p>
 <p><strong>Apex</strong></p>
 <ul>
 <li>Since Apex is case insensitive you can write it however you'd like. However, to increase readability, follow Java capitalization standards and use two spaces instead of tabs for indentation.</li>
@@ -23,7 +23,7 @@ tags:   ["salesforce", "salesforce handbook", "visualforce", "apex"]
 <li>No Async (@future) methods inside loops</li>
 <li>Do not use hardcoded IDs</li>
 </ul>
-<p> </p>
+<p></p>
 <p><strong>Triggers</strong></p>
 <ul>
 <li>There should only be one trigger for each object.</li>
@@ -34,7 +34,7 @@ tags:   ["salesforce", "salesforce handbook", "visualforce", "apex"]
 <li>Use Collections in SOQL "WHERE" clauses to retrieve all records back in single query</li>
 <li>Use a consistent naming convention including the object name (e.g., AccountTrigger)</li>
 </ul>
-<p> </p>
+<p></p>
 <p><strong>Visualforce</strong></p>
 <ul>
 <li>Do not hardcode picklists in Visualforce pages; include them in the controller instead.</li>
@@ -44,7 +44,7 @@ tags:   ["salesforce", "salesforce handbook", "visualforce", "apex"]
 <li>Use <apex:repeat> to iterate over large collections.</li>
 <li>Use the cache attribute with the <apex:page> component to take advantage CDN caching when appropriate</li>
 </ul>
-<p> </p>
+<p></p>
 <p><strong>Unit Testing</strong></p>
 <ul>
 <li>Use a consistent naming convention including "Test" and the name of the class being tested (e.g., Test_AccountTrigger)</li>
@@ -59,4 +59,4 @@ tags:   ["salesforce", "salesforce handbook", "visualforce", "apex"]
 <li>Execute tests with the Force.com IDE and not the salesforce.com UI. We've seen misleading code coverage results when running from the salesforce.com UI.</li>
 <li>Run the <a href="http://security.force.com/sourcescanner">Force.com Security Source Scanner</a> to test your Org for a number of security and code quality issues (e.g., Cross Site Scripting, Access Control Issues, Frame Spoofing)</li>
 </ul>
-<p> </p>
+<p></p>

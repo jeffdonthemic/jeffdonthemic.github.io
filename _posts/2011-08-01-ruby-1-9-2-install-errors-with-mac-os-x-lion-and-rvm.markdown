@@ -21,7 +21,7 @@ checking for gcc... /usr/bin/gcc-4.2<br>
 checking whether the C compiler works... no<br>
 configure: error: in <code>/Users/Jeff/.rvm/src/yaml-0.1.4': configure: error: C compiler cannot create executables See </code>config.log' for more details</p>
 <p>Essentially it means that "no acceptable compiler could be found." There are a couple of problems with OS X Lion and Ruby. First, if you read the installation notes for RVM you'll see the following:</p>
-<blockquote>For Lion, Rubies should be built using gcc rather than llvm-gcc. Since /usr/bin/gcc is now linked to /usr/bin/llvm-gcc-4.2, add the following to your shell's start-up file: export CC=gcc-4.2</blockquote>
+<blockquote>For Lion, Rubies should be built using gcc rather than llvm-gcc. Since/usr/bin/gcc is now linked to /usr/bin/llvm-gcc-4.2, add the following toyour shell's start-up file: export CC=gcc-4.2</blockquote>
 Lion sets the default compiler to LLVM so you'll need to change it to gcc for Ruby to compile sucessfully. Open .bash_profile and add:
 <p><strong>export CC=/usr/bin/gcc-4.2</strong></p>
 <p>The second problem seems to be with Xcode. Just becuase I "installed" Xcode 4.1 from the App Store doesn't mean that it actually installed. To get Ruby to compile I had to launch Xcode and actually install Xcode. After that it compiled with no problem.</p>

@@ -15,7 +15,7 @@ tags:   ["salesforce", "visualforce", "apex"]
 </ol>
 <p><img src="images/2_roll.png" alt="" ></p>
 <h3 id="heresthesolution">Here's the Solution!</h3>
-<p>I have some good news and some bad news. For standard page layouts I can't help you. Go vote for <a href="http://success.salesforce.com/ideaView?id=08730000000IYRFAA4">this idea</a> and <a href="http://success.salesforce.com/ideaview?id=08730000000IYB1AAO">this idea</a>. However, for Visualforce page I have a solution to all of these problems with code!</p>
+<p>I have some good news and some bad news. For standard page layouts I can't help you. Go vote for <a href="http://success.salesforce.com/ideaView?id=08730000000IYRFAA4">this idea</a> and <a href="http://success.salesforce.com/ideaview?id=08730000000IYB1AAO">this idea</a>.However, for Visualforce page I have a solution to all of these problems with code!</p>
 <p><img src="images/3_roll.png" alt="" ></p>
 <figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/CGeFt6hdgRY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure><p>Here's the code you need to accomplish this and it's also available <a href="https://gist.github.com/jeffdonthemic/4f2feb55a16b95a37798">on this gist</a>. You need two Visualforce pages (the record you are editing and the popup window) and two Apex controllers (a simple one for the record you are editing and the controller for the search and new record popup).</p>
 <p><strong>MyCustomLookupController</strong></p>
@@ -85,7 +85,7 @@ tags:   ["salesforce", "visualforce", "apex"]
 <apex:sectionHeader title="Demo" subtitle="Custom Lookup" />
 
  <apex:form id="myForm"> 
-  <apex:PageBlock id="PageBlock">		
+  <apex:PageBlock id="PageBlock">  
  <apex:pageBlockSection columns="1" title="Custom Lookup">
   <apex:inputField id="Account" value="{!contact.AccountId}" />
  </apex:pageBlockSection>
@@ -126,7 +126,7 @@ tags:   ["salesforce", "visualforce", "apex"]
 
   String soql = 'select id, name from account';
   if(searchString != '' && searchString != null)
- soql = soql + ' where name LIKE \'%' + searchString +'%\'';
+ soql = soql + ' where name LIKE &#92;'%' + searchString +'%&#92;err!.localizedDescription'';
   soql = soql + ' limit 25';
   System.debug(soql);
   return database.query(soql); 
@@ -154,7 +154,7 @@ tags:   ["salesforce", "visualforce", "apex"]
 }
 {% endhighlight %}
 <p><strong>CustomAccountLookup</strong></p>
-<p>Any finally the Visualforce page for the popup itself. It contains a tabbed interface easily allowing a user to search for records and create new ones. Make sure you look at the code for the second tab for creating a new record. I have better things to do than change the fields on the input form every time a new field is created or something is made required. The solution is to use <a href="http://www.salesforce.com/us/developer/docs/pages/Content/pages_dynamic_vf_field_sets.htm">field sets</a>! So when an administrator makes a change, they can simply update the field set and the popup reflects the change accordingly. Life is good.</p>
+<p>Any finally the Visualforce page for the popup itself. It contains a tabbed interface easily allowing a user to search for records and create new ones. Make sure you look at the code for the second tab for creating a new record. I have better things to do than change the fields on the input form every time a new field is created or something is made required. The solution is to use<a href="http://www.salesforce.com/us/developer/docs/pages/Content/pages_dynamic_vf_field_sets.htm">field sets</a>! So when an administrator makes a change, they can simply update the field set and the popup reflects the change accordingly. Life is good.</p>
 {% highlight js %}<apex:page controller="CustomAccountLookupController"
  title="Search" 
  showHeader="false" 
