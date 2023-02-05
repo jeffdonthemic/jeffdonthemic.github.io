@@ -16,8 +16,8 @@ author:
   author__avatar: '/images/jeffdouglas-1.png'
 
 social:
-
-# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+  {icon: "ion-logo-github", link: "https://github.com/jeffdonthemic"}
+# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
 
 
@@ -25,7 +25,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hey, I'm Jeff Douglas
-  hero__description: I like to make things with 1's and 0's and occassionally wodd and metal. I've been a deverloper since... as long as I can remember. I currently work at Salesforce on the MuleSoft team but before that I spent 7 years building Trailhead as one of the three initial members.
+  hero__description: I like to make things with 1's and 0's and occassionally wood and metal. I've been a deverloper since... as long as I can remember. I currently work at Salesforce on the MuleSoft team but before that I spent 7 years building Trailhead as one of the three initial members.
   hero__image: '/images/jeffdouglas-2.jpg'
 
 
@@ -95,7 +95,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
 
-paginate: 15
+paginate: 12
 paginate_path: "/page/:num"
 
 # Pages Path
