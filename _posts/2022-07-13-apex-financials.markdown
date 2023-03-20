@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  Apex Financial Calculations for Salesforce
-description: 
+description: An Apex implementation of RATE, PV, PMT, FV, IPMT & PPMT Excel functions.
 date: 2022-07-13 13:56:12 +0300
 image:  '/images/apex-financials.jpg'
-tags:   []
+tags:   ["apex"]
 ---
 [Apex Financial Calculations for Salesforce](https://github.com/jeffdonthemic/apex-financials) is an open-source project that provides a set of financial Excel functions for use in Salesforce financial applications. The project includes an Apex class with functions and unit tests for calculating financial metrics such as the interest rate per period of an annuity, the present value of a loan or investment, the payment for a loan based on constant payments and interest rate, the future value of an investment based on a constant interest rate, and the interest payment and payment on the principal for a given period.
 
