@@ -4,7 +4,7 @@ title:  Build Salesforce Hyperautomation Solutions with MuleSoft
 description: Streamline business processes and automate manual tasks across your organization by building Salesforce hyperautomation solutions with MuleSoft.
 date: 2023-02-02 11:56:12 +0300
 image:  '/images/hyperautomaton.jpg'
-tags:   ["salesforce", "mulesoft"]
+tags:   ["salesforce", "mulesoft", "starred"]
 ---
 My new 5-day instructor led training course, [Build Salesforce Hyperautomation Solutions with MuleSoft](https://trailheadacademy.salesforce.com/classes/adx350-build-salesforce-hyperautomation-solutions-with-mulesoft), is now live in Trailhead Academy.
 
