@@ -25,7 +25,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hey, I'm Jeff Douglas
-  hero__description: I like to make things with 1's and 0's and occassionally wood and metal. I've been a deverloper since... as long as I can remember. I currently work at Salesforce on the MuleSoft team but before that I spent 7 years building Trailhead as one of the three initial members.
+  hero__description: I like to make things with 1's and 0's and occasionally wood and metal. I've been a developer since... as long as I can remember. I work at Salesforce and for the past 8 years I've been building Trailhead as one of the three initial members.
   hero__image: '/images/jeffdouglas-2.jpg'
 
 
