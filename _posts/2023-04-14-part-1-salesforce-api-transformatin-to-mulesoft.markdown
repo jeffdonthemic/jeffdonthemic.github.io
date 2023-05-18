@@ -12,6 +12,8 @@ This is the first of a three part series on the [Salesforce Developers](https://
 - Part #2 - [Building the API implemtation](https://www.jeffdouglas.com/part-2-salesforce-api-transformatin-to-mulesoft)
 - Part #3 - [Refactoring Apex & Building Flows](https://www.jeffdouglas.com/part-3-salesforce-api-transformatin-to-mulesoft)
 
+See [this repo](https://github.com/jeffdonthemic/flight-finder-salesforce) for all of the code and assets used in the applications.
+
 <p><iframe src="https://www.youtube.com/embed/9P0xWswm6Cc" loading="lazy" frameborder="0" allowfullscreen=""></iframe></p>
 
 The scenario for the demo is that your Salesforce org has an existing application to search for Delta and United flights. It consists of a simple Lighting Web Component, a controller and a service class that makes callouts to a Delta SOAP service and a United REST service.

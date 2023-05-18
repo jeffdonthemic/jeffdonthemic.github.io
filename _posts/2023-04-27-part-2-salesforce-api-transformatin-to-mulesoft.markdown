@@ -21,6 +21,8 @@ In this part we build the implementation of the specification we developed in th
 - Connect to the three airline datasources using SOAP, REST and Database connectors
 - Deploy the application to Anypoint Platform
 
+See [this repo](https://github.com/jeffdonthemic/flight-finder-salesforce) for all of the code and assets used in the applications.
+
 <p><iframe src="https://www.youtube.com/embed/0durd-U827g" loading="lazy" frameborder="0" allowfullscreen=""></iframe></p>
 
 ## Anypoint Studio Implementation

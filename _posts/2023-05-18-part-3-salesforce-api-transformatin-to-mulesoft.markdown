@@ -20,6 +20,8 @@ In this final part we refactor the Apex code to call our API on CloudHub usng Na
 - Create a Permission Set, External Credential and Named Credential for the Apex Callout.
 - Create a screen flow that allows users to look up a flight by code using an HTTP Callout action.
 
+See [this repo](https://github.com/jeffdonthemic/flight-finder-salesforce) for all of the code and assets used in the applications.
+
 <p><iframe src="https://www.youtube.com/embed/DUCXGJS8-A4" loading="lazy" frameborder="0" allowfullscreen=""></iframe></p>
 
 ## Flight Finder Flow
@@ -35,6 +37,8 @@ In this final part we refactor the Apex code to call our API on CloudHub usng Na
 <p><img src="images/codelive-3-code-input.png" alt="Input screen"></p>
 
 <p><img src="images/codelive-3-display.png" alt="Flight display"></p>
+
+
 
 
 
