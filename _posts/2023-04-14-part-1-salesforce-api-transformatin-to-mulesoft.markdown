@@ -1,13 +1,16 @@
 ---
 layout: post
 title:  Salesforce API Transformation to MuleSoft - Part 1
-description: Salesforce Developers codeLive on Youtube building MuleSoft APIs
+description: Designing the API specification
 date: 2023-04-14 11:56:12 +0300
 image:  '/images/codelive-1.png'
-tags:   ["salesforce"]
+tags:   ["salesforce","mulesoft"]
 ---
 
 This is the first of a three part series on the [Salesforce Developers](https://www.youtube.com/@SalesforceDevs) codeLive channel where we walk through a lift and shift of functionality from Salesfore Apex to MuleSoft Anypoint Platform.
+
+- Part #2 - [Building the API implemtation](https://www.jeffdouglas.com/part-2-salesforce-api-transformatin-to-mulesoft)
+- Part #3 - [Refactoring Apex & Building Flows](https://www.jeffdouglas.com/part-3-salesforce-api-transformatin-to-mulesoft)
 
 <p><iframe src="https://www.youtube.com/embed/9P0xWswm6Cc" loading="lazy" frameborder="0" allowfullscreen=""></iframe></p>
 
