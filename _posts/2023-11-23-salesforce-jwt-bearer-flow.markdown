@@ -7,7 +7,7 @@ image:  '/images/jwt-bearer.png'
 tags:   ["salesforce"]
 ---
 
-Setting up a Connected App with the JWT Bearer Token flow can we be a challenge as we you have to create server keys, congfigure the Connected App with the keys and correct permissions and finally construct the encrypted JWT token to pass during the OAuth dance. 
+Setting up a Connected App with the JWT Bearer Token flow can we be a challenge as you have to create server keys, congfigure the Connected App with the keys and correct permissions and finally construct the encrypted JWT token to pass during the OAuth dance. 
 
 This video walks through the entire process to get you up and running quickly. 
 
